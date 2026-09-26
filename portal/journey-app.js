@@ -27,6 +27,7 @@
   const P = {
     house: 'M3.5 11.5 12 4.5l8.5 7M6 9.8V20h4.5v-5.5h3V20H18V9.8',
     grid: 'M4.5 4.5h6v6h-6zM13.5 4.5h6v6h-6zM4.5 13.5h6v6h-6zM13.5 13.5h6v6h-6z',
+    map: 'M3.5 6.5 9 4l6 2.5 5.5-2.5v13.5L15 20l-6-2.5-5.5 2.5zM9 4v13.5M15 6.5V20',
     bookmark: 'M6.5 3.5h11v17L12 16.6l-5.5 3.9z',
     search: 'M10.5 4a6.5 6.5 0 1 1 0 13 6.5 6.5 0 0 1 0-13zM15.4 15.4 20 20',
     person: 'M12 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM4.5 20.5c1-3.8 4-5.5 7.5-5.5s6.5 1.7 7.5 5.5',
@@ -487,8 +488,8 @@
   })();
 
   // ───────── การนำทาง ─────────
-  const TABS = [['home', 'เริ่มต้น', 'house', '#/'], ['rooms', 'ห้อง', 'grid', '#/rooms'], ['saved', 'บันทึก', 'bookmark', '#/saved'], ['search', 'ค้นหา', 'search', '#/search']];
-  const ROOTS = new Set(TABS.map(t => t[3]));
+  const TABS = [['home', 'เริ่มต้น', 'house', '#/'], ['rooms', 'ห้อง', 'grid', '#/rooms'], ['map', 'แผนที่', 'map', 'ecosystem.html'], ['saved', 'บันทึก', 'bookmark', '#/saved'], ['search', 'ค้นหา', 'search', '#/search']];
+  const ROOTS = new Set(TABS.map(t => t[3]).filter(href => href.startsWith('#'))); // แท็บแผนที่เป็นหน้าแยก (ecosystem.html)
   const PARENT = { room: '#/rooms', you: '#/' };
   let current = { base: null, title: '', tab: 'home' };
   let stack = [];

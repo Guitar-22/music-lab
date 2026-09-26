@@ -1,41 +1,65 @@
 <!doctype html>
 <html lang="th">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="description" content="แผนที่ระบบนิเวศดนตรีกรุงเทพฯ รายเขต: ที่เรียน ร้านอุปกรณ์ ห้องซ้อม สตูดิโอ เวที ร้านแผ่นเสียง และธุรกิจดนตรี พร้อมแหล่งข้อมูลและวันที่ตรวจ">
-  <title>แผนที่ Ecosystem ดนตรีกรุงเทพฯ · Music Industry Lap</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@400;500;600;700;800;900&family=Noto+Serif+Thai:wght@400;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
-  <link rel="stylesheet" href="ecosystem.css">
-  <script src="places-data.js" defer></script>
-  <script src="ecosystem-app.js" defer></script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#f2f2f7" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Music Lap">
+<meta name="format-detection" content="telephone=no">
+<title>แผนที่ · Music Industry Lap</title>
+<meta name="description" content="แผนที่ระบบนิเวศดนตรีกรุงเทพฯ 50 เขต: ที่เรียน ร้านอุปกรณ์ ห้องซ้อม สตูดิโอ เวที ร้านแผ่นเสียง และธุรกิจดนตรี พร้อมแหล่งข้อมูลและวันที่ตรวจ">
+<link rel="stylesheet" href="journey.css">
+<link rel="stylesheet" href="ecosystem.css">
+<script src="places-data.js" defer></script>
+<script src="ecosystem-app.js" defer></script>
 </head>
 <body>
-  <header class="top"><a class="brand brand-link" href="index.html"><span class="brand-icon">♫</span><span>MUSIC<br><b>INDUSTRY LAP</b></span></a><nav class="top-nav" aria-label="เมนูหลัก"><a href="index.html">เครื่องมือเรียนดนตรี</a><a href="institutions.html">สถาบันและโรงเรียน</a><a href="#map" aria-current="page">แผนที่ Ecosystem</a></nav></header>
-  <main class="eco-page">
-    <section class="eco-hero">
-      <p class="eco-eyebrow">ECOSYSTEM · กรุงเทพฯ รายเขต</p>
-      <h1>ทุกที่ที่ทำให้คนหนึ่งคน<br>เดินจาก “อยากลอง” ไปถึง “ขึ้นเวที”</h1>
-      <p id="eco-summary" class="eco-lead">กำลังโหลดข้อมูล…</p>
+<a class="skip" href="#view">ข้ามไปที่เนื้อหา</a>
+<div class="app">
+  <header class="navbar" id="navbar">
+    <div class="nav-leading"></div>
+    <div class="nav-title" aria-hidden="true">แผนที่</div>
+    <div class="nav-trailing"><button class="bar-btn" type="button" id="progress-btn">ความคืบหน้า</button></div>
+  </header>
+  <main id="view" class="content" tabindex="-1">
+    <div class="large-title-row" id="title-row"><div><span class="eyebrow" id="eyebrow">กรุงเทพฯ · 50 เขต</span><h1 class="t-large">แผนที่</h1></div></div>
+    <p class="section-foot eco-summary" id="summary">กำลังโหลดข้อมูล…</p>
+
+    <div class="search"><label class="search-field"><svg class="sym" viewBox="0 0 24 24" aria-hidden="true"><path d="M10.5 4a6.5 6.5 0 1 1 0 13 6.5 6.5 0 0 1 0-13zM15.4 15.4 20 20"/></svg><span class="sr">ค้นหาสถานที่</span><input id="q" type="search" placeholder="ชื่อ ที่อยู่ หรือบริการ" autocomplete="off"></label></div>
+
+    <section class="section" aria-labelledby="map-h">
+      <div class="section-head"><h2 id="map-h">แผนที่เขต</h2><button class="see-all" type="button" id="clear-district" hidden>ทั้งกรุงเทพฯ</button></div>
+      <div class="map-card"><div id="map"></div></div>
+      <p class="section-foot" id="map-foot">แตะเขตเพื่อซูม · แตะจุดเพื่อดูรายละเอียด</p>
     </section>
-    <section aria-labelledby="layers-title"><h2 id="layers-title" class="eco-h2">6 ชั้นของระบบนิเวศ</h2><div id="eco-layers" class="eco-layers"></div></section>
-    <section id="map" aria-labelledby="map-title">
-      <h2 id="map-title" class="eco-h2">แผนที่</h2>
-      <form id="eco-filter" class="eco-filter">
-        <label>ค้นหา<input name="q" type="search" placeholder="ชื่อ ที่อยู่ บริการ"></label>
-        <label>ชั้น<select name="layer"><option value="">ทั้งหมด</option></select></label>
-        <label>ประเภท<select name="kind"><option value="">ทั้งหมด</option></select></label>
-        <label>เขต<select name="district"><option value="">ทั้งกรุงเทพฯ</option></select></label>
-        <button type="reset">ล้าง</button>
-      </form>
-      <div class="eco-grid"><div class="eco-mapbox"><div id="eco-map"></div><p class="eco-note" id="eco-license"></p></div><aside id="eco-detail" class="eco-detail" aria-live="polite"><p class="eco-muted">คลิกจุดบนแผนที่ เขต หรือรายการ เพื่อดูรายละเอียด</p></aside></div>
-      <div id="eco-list"></div>
+
+    <section class="section" aria-labelledby="layer-h">
+      <div class="section-head"><h2 id="layer-h">ชั้นของระบบนิเวศ</h2></div>
+      <ul class="list icon-inset" id="layers" role="radiogroup" aria-labelledby="layer-h"></ul>
+      <p class="section-foot">เลือกชั้นเพื่อกรองแผนที่และรายการ แตะซ้ำเพื่อดูทั้งหมด</p>
     </section>
-    <section aria-labelledby="progress-title"><h2 id="progress-title" class="eco-h2">ความคืบหน้าการเก็บข้อมูลรายเขต</h2><p class="eco-muted">wave 1 = แกนกลาง 6 เขต · wave 2 = วงใน 20 เขต · wave 3 = วงนอก 24 เขต · "ค้นเว็บแล้ว" = มีทั้ง OpenStreetMap และการตรวจหน้าเจ้าของ/ห้าง</p><div id="eco-progress"></div></section>
-    <p class="eco-note">ข้อมูลเป็นชุดที่ตรวจได้ ไม่ใช่ “ทุกแห่ง” — ธุรกิจที่มีแค่เพจ Facebook ถูกบันทึกเป็นช่องว่างของแต่ละเขต · แอปไม่คัดลอกข้อมูลจาก Google Maps ปุ่ม “ตรวจบน Google Maps” มีไว้ให้ผู้ใช้ตรวจเอง · ตรวจเวลาเปิดกับเจ้าของก่อนเดินทาง</p>
+
+    <section class="section" aria-labelledby="list-h">
+      <div class="section-head"><h2 id="list-h">สถานที่</h2><span class="secondary t-footnote" id="count"></span></div>
+      <div id="results"></div>
+    </section>
+
+    <p class="foot-note" id="license"></p>
+    <p class="foot-note">ข้อมูลคือชุดที่ตรวจได้ ไม่ใช่ทุกแห่ง · ไม่คัดลอกข้อมูลจาก Google Maps ปุ่มเส้นทางมีไว้ให้ตรวจเอง · ตรวจเวลาเปิดกับเจ้าของก่อนเดินทาง</p>
   </main>
+</div>
+<nav class="tabbar glass" aria-label="ส่วนหลักของแอป">
+  <a class="tab" href="journey.html#/"><svg class="sym" viewBox="0 0 24 24" aria-hidden="true"><path d="M3.5 11.5 12 4.5l8.5 7M6 9.8V20h4.5v-5.5h3V20H18V9.8"/></svg><span>เริ่มต้น</span></a>
+  <a class="tab" href="journey.html#/rooms"><svg class="sym" viewBox="0 0 24 24" aria-hidden="true"><path d="M4.5 4.5h6v6h-6zM13.5 4.5h6v6h-6zM4.5 13.5h6v6h-6zM13.5 13.5h6v6h-6z"/></svg><span>ห้อง</span></a>
+  <a class="tab" href="ecosystem.html" aria-current="page" id="map-tab"><svg class="sym" viewBox="0 0 24 24" aria-hidden="true"><path d="M3.5 6.5 9 4l6 2.5 5.5-2.5v13.5L15 20l-6-2.5-5.5 2.5zM9 4v13.5M15 6.5V20"/></svg><span>แผนที่</span></a>
+  <a class="tab" href="journey.html#/saved"><svg class="sym" viewBox="0 0 24 24" aria-hidden="true"><path d="M6.5 3.5h11v17L12 16.6l-5.5 3.9z"/></svg><span>บันทึก</span></a>
+  <a class="tab" href="journey.html#/search"><svg class="sym" viewBox="0 0 24 24" aria-hidden="true"><path d="M10.5 4a6.5 6.5 0 1 1 0 13 6.5 6.5 0 0 1 0-13zM15.4 15.4 20 20"/></svg><span>ค้นหา</span></a>
+</nav>
+<dialog class="sheet" id="sheet" aria-labelledby="sheet-title"></dialog>
+<div class="sr" id="announcer" aria-live="polite"></div>
+<noscript><p style="padding:24px">หน้านี้ต้องเปิด JavaScript</p></noscript>
 </body>
 </html>

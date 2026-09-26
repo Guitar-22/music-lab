@@ -1,38 +1,43 @@
-.eco-page{max-width:1200px;margin:0 auto;padding:28px 20px 70px}
-.eco-hero{background:#18352a;color:#fff;border-radius:26px;padding:40px 36px;margin-bottom:28px}
-.eco-eyebrow{font-size:11px;font-weight:900;letter-spacing:.18em;color:#b9e38f;margin:0}
-.eco-hero h1{font:600 clamp(28px,4vw,48px)/1.2 "Noto Serif Thai",Georgia,serif;margin:12px 0}
-.eco-lead{color:#dbe8d8;font-size:15px;margin:0}
-.eco-h2{font:600 26px "Noto Serif Thai",Georgia,serif;margin:30px 0 12px}
-.eco-layers{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:10px}
-.eco-layer{display:grid;gap:2px;text-align:left;border:1px solid #d9e0d5;background:#fff;border-radius:16px;padding:14px;cursor:pointer;border-top:6px solid var(--c)}
-.eco-layer b{font-size:30px;line-height:1}.eco-layer span{font-weight:800}.eco-layer small{color:#5f6f63;font-size:12px}
-.eco-layer.on{outline:3px solid var(--c);outline-offset:1px}
-.l-learn{--c:#2f7d4f}.l-gear{--c:#b3541e}.l-create{--c:#6a4bb0}.l-perform{--c:#c2185b}.l-listen{--c:#1f6fa8}.l-business{--c:#7a6a00}
-.eco-filter{display:flex;flex-wrap:wrap;gap:10px;align-items:flex-end;margin-bottom:12px}
-.eco-filter label{display:grid;gap:4px;font-size:12px;font-weight:800;color:#4d5f52;flex:1;min-width:140px}
-.eco-filter input,.eco-filter select{font:inherit;font-weight:400;padding:9px 10px;border:1px solid #cfd8cb;border-radius:10px;background:#fff}
-.eco-filter button,.eco-btn{font:inherit;font-weight:800;border:0;border-radius:11px;padding:10px 16px;background:#18352a;color:#fff;cursor:pointer;text-decoration:none;display:inline-block}
-.eco-grid{display:grid;grid-template-columns:minmax(0,1.5fr) minmax(0,1fr);gap:16px;align-items:start}
-.eco-mapbox,.eco-detail{background:#fff;border:1px solid #d9e0d5;border-radius:18px;padding:12px}
-.eco-detail{padding:18px;position:sticky;top:12px}
-#eco-map svg{width:100%;height:auto;max-height:640px;display:block}
-.eco-district{stroke:#fff;stroke-width:1.2;vector-effect:non-scaling-stroke;cursor:pointer}.eco-district:hover{stroke:#18352a}.eco-district.on{stroke:#18352a;stroke-width:2.5}
-.eco-pin{fill:var(--c);stroke:#fff;stroke-width:1;vector-effect:non-scaling-stroke;cursor:pointer}.eco-pin.on{stroke:#000;stroke-width:3}
-.eco-chip{display:inline-block;background:var(--c);color:#fff;font-size:11px;font-weight:800;padding:2px 9px;border-radius:99px}
-.eco-tag{display:inline-block;background:#eef1e9;font-size:12px;font-weight:700;padding:2px 9px;border-radius:99px}
-.eco-detail h3{font-size:22px;margin:10px 0 2px}.eco-detail dl{display:grid;grid-template-columns:78px minmax(0,1fr);gap:6px 10px;font-size:14px;margin:14px 0}
-.eco-detail dt{color:#5f6f63;font-weight:700}.eco-detail dd{margin:0;overflow-wrap:anywhere}
-.eco-fresh,.eco-note,.eco-muted{color:#5f6f63;font-size:13px}.eco-fresh{border-top:1px dashed #d9e0d5;padding-top:8px}
-.eco-group h3{margin:22px 0 8px}.eco-group h3 small{color:#5f6f63;font-weight:500}
-.eco-rows{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:8px}
-.eco-row{display:grid;gap:4px;justify-items:start;text-align:left;font:inherit;background:#fff;border:1px solid #d9e0d5;border-radius:12px;padding:10px 12px;cursor:pointer}
-.eco-row:hover,.eco-row.on{border-color:#18352a;background:#fbfdf6}.eco-row small{color:#5f6f63}
-.eco-empty{background:#fff;border-radius:14px;padding:24px;text-align:center}
-.eco-table-wrap{overflow-x:auto;background:#fff;border:1px solid #d9e0d5;border-radius:16px}
-.eco-table{width:100%;border-collapse:collapse;font-size:13px}.eco-table th,.eco-table td{text-align:left;padding:7px 10px;border-bottom:1px solid #eef1e9}
-.eco-link{font:inherit;font-weight:700;border:0;background:none;padding:0;color:#18352a;text-decoration:underline;cursor:pointer}
-.eco-status{font-size:11px;font-weight:800;padding:2px 8px;border-radius:99px}.s-researched{background:#d8f2a9}.s-osm_only{background:#f3e7b0}.s-not_started{background:#eef1e9}
-button:focus-visible,a:focus-visible,select:focus-visible,input:focus-visible{outline:3px solid #75a966;outline-offset:2px}
-@media (max-width:900px){.eco-layers{grid-template-columns:repeat(3,minmax(0,1fr))}.eco-grid{grid-template-columns:minmax(0,1fr)}.eco-detail{position:static}}
-@media (max-width:520px){.eco-hero{padding:28px 20px}.eco-layers{grid-template-columns:repeat(2,minmax(0,1fr))}.eco-rows{grid-template-columns:minmax(0,1fr)}}
+/* แท็บ "แผนที่" — ต่อยอด journey.css (Apple HIG) ใส่เฉพาะส่วนที่แผนที่ต้องใช้; ดู 30-apple-hig-design-spec.md */
+
+/* สีชั้นของระบบนิเวศ = system colors ของ iOS; ตัว -strong ใช้กับพื้นที่มีตัวอักษรขาว (≥ 4.5:1) */
+.l-learn    { --room: #34c759; --room-strong: #008932; }
+.l-gear     { --room: #ff8d28; --room-strong: #c55300; }
+.l-create   { --room: #6155f5; --room-strong: #564ade; }
+.l-perform  { --room: #ff2d55; --room-strong: #e7124d; }
+.l-listen   { --room: #0088ff; --room-strong: #0a5ad4; }
+.l-business { --room: #ac7f5e; --room-strong: #956d51; }
+@media (prefers-color-scheme: dark) {
+  .l-learn { --room: #30d158; } .l-gear { --room: #ff9230; } .l-create { --room: #6d7cff; }
+  .l-perform { --room: #ff375f; } .l-listen { --room: #4aa8ff; } .l-business { --room: #b78a66; }
+}
+
+.eco-summary { padding: 0 4px 4px; }
+
+/* แผนที่อยู่บนการ์ดทึบ (เนื้อหา ไม่ใช่ชั้นควบคุม — ไม่ใช้กระจก) */
+.map-card { background: var(--bg-elevated); border-radius: 12px; padding: 8px; overflow: hidden; }
+#map svg { display: block; width: 100%; height: auto; max-height: 62vh; touch-action: manipulation; }
+.district { fill: var(--fill-2); stroke: var(--bg-elevated); stroke-width: 1.2; vector-effect: non-scaling-stroke; cursor: pointer; transition: fill .15s ease; }
+.district.has { fill: var(--tint); } /* ความเข้มตามจำนวนสถานที่ตั้งผ่าน fill-opacity ใน JS */
+.district:hover { stroke: var(--label-2); }
+.district.on { stroke: var(--tint); stroke-width: 2.5; }
+.pin { fill: var(--room-strong); stroke: var(--bg-elevated); stroke-width: 1; vector-effect: non-scaling-stroke; cursor: pointer; }
+.pin.on { stroke: var(--label); stroke-width: 3; }
+
+/* แถวชั้น: badge สีของชั้น + จำนวน + ✓ ของตัวเลือก */
+.layer-count { color: var(--label-2); font-variant-numeric: tabular-nums; }
+
+/* แถวสถานที่ */
+.place-row .row-title { font-weight: 400; }
+.dot { flex: none; width: 10px; height: 10px; border-radius: 50%; background: var(--room-strong); }
+.place-group + .place-group { margin-top: 22px; }
+.nopin { color: var(--label-2); }
+
+/* sheet รายละเอียดสถานที่ */
+.place-head { display: flex; gap: 14px; align-items: center; padding: 0 4px; }
+.place-head h1 { font-size: var(--title2-size); line-height: var(--title2-leading); font-weight: 400; }
+.primary-action { display: flex; gap: 10px; margin: 18px 4px 0; }
+.primary-action .get { background: var(--tint-solid); color: #fff; min-height: 44px; flex: 1; font-size: var(--body-size); line-height: var(--body-leading); }
+.sheet .list { margin-top: 20px; }
+.sheet .list-header { margin-top: 22px; }
+.value-wrap { overflow-wrap: anywhere; }
