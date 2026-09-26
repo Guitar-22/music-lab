@@ -1,0 +1,148 @@
+{
+  "district": "ป้อมปราบศัตรูพ่าย",
+  "researchedAt": "2026-09-26",
+  "places": [
+    {
+      "id": "cur:hong-seng-music-worachak",
+      "name": "ฮงเส็ง มิวสิค สาขาวรจักร",
+      "name_en": "Hong Seng Music (Worachak branch)",
+      "kind": "instrument_store",
+      "address": "195/1 ถนนวรจักร แขวงวัดเทพศิรินทร์ เขตป้อมปราบศัตรูพ่าย กรุงเทพฯ",
+      "geocode": "195/1 ถนนวรจักร",
+      "lat": null,
+      "lon": null,
+      "phone": "02-226-4229, 02-226-4230",
+      "website": "https://www.hongsengmusic.com/",
+      "social": [],
+      "hours": "จันทร์-เสาร์ 08.30-17.30",
+      "offer": [
+        "กีตาร์/เบส",
+        "แอมป์",
+        "กลองและเพอร์คัชชัน",
+        "อุปกรณ์เสริม (สาย เคส เอฟเฟกต์)",
+        "ขายส่งและขายปลีก"
+      ],
+      "source_url": "https://www.hongsengmusic.com/contact-us/",
+      "evidence": "หน้าติดต่อของร้านระบุสาขา '195/1 ถนน วรจักร แขวงวัดเทพศิรินทร์ เขตป้อมปราบศัตรูพ่าย' โทร 02-2264229, 02-2264230 และเวลา จ-ส 8.30-17.30 (สำนักงานใหญ่อยู่เพชรบุรีตัดใหม่ ห้วยขวาง) — พิกัดเป็นระดับถนน",
+      "checked": "2026-09-26"
+    },
+    {
+      "id": "cur:note-sound-and-light-charoen-krung",
+      "name": "โน๊ตซาวด์แอนด์ไลท์",
+      "name_en": "Note Sound and Light",
+      "kind": "audio_store",
+      "address": "209 ถนนเจริญกรุง แขวงบ้านบาตร เขตป้อมปราบศัตรูพ่าย กรุงเทพฯ 10100",
+      "geocode": "ห้างแผ่นเสียงคาเธ่ย์",
+      "lat": null,
+      "lon": null,
+      "phone": null,
+      "website": null,
+      "social": [],
+      "hours": null,
+      "offer": [
+        "เครื่องเสียง PA / ระบบเสียงกลางแจ้ง (ตัวแทน Yamaha)"
+      ],
+      "source_url": "https://th.yamaha.com/th/dealers/",
+      "evidence": "ระบบค้นหาตัวแทนจำหน่ายของ Yamaha ประเทศไทย (API /th/api/dealer/dealers/ รหัส SMY0399) ระบุ 'โน๊ตซาวด์แอนด์ไลท์ บจ' 209 ถนนเจริญกรุง แขวงบ้านบาตร เขตป้อมปราบศัตรูพ่าย ประเภทสัญญา PA — เบอร์ที่ให้ไว้เป็นมือถือจึงไม่ใส่; geocode อ้างร้านข้างเคียงบนถนนเดียวกัน (ห้างแผ่นเสียงคาเธ่ย์ 223-231 เจริญกรุง) เพราะ Nominatim หาเลขที่ 209 ไม่ได้",
+      "checked": "2026-09-26"
+    },
+    {
+      "id": "cur:brown-sugar-soi-nana",
+      "name": "Brown Sugar Jazz Pub (ซอยนานา)",
+      "name_en": "Brown Sugar The Jazz Boutique (Soi Nana, Chinatown)",
+      "kind": "venue",
+      "address": "18 ซอยนานา แขวงป้อมปราบ เขตป้อมปราบศัตรูพ่าย กรุงเทพฯ 10100",
+      "geocode": "Brown Sugar, Soi Nana",
+      "lat": null,
+      "lon": null,
+      "phone": "063-794-9895",
+      "website": null,
+      "social": [
+        "https://www.facebook.com/brownsugarbangkok/",
+        "https://www.instagram.com/brownsugarbangkok/"
+      ],
+      "hours": null,
+      "offer": [
+        "แจ๊ส/บลูส์/โซลสดทุกคืน"
+      ],
+      "source_url": "https://www.facebook.com/brownsugarbangkok/",
+      "evidence": "เพจ Facebook 'BROWN SUGAR' (ร้าน Brown Sugar Jazz Pub, ผู้ติดตาม ~76k) ยังเคลื่อนไหว; ที่อยู่ใหม่ 18 ซอยนานา เขตป้อมปราบศัตรูพ่าย เวลา 17:00-01:00 ปิดจันทร์ และเบอร์ 063-794-9895 จาก Time Out Bangkok (lead) — ร้านย้ายจาก ถ.พระสุเมรุ (พระนคร) มาที่นี่; OSM มีจุด amenity=bar 'Brown Sugar' 18 ซอยนานา แต่ไม่อยู่ในชุด OSM ดนตรีของเขต",
+      "checked": "2026-09-26"
+    },
+    {
+      "id": "cur:tep-bar-soi-nana",
+      "name": "เทพบาร์ (TEP BAR)",
+      "name_en": "TEP BAR - Cultural Bar of Thailand",
+      "kind": "venue",
+      "address": "69 ซอยนานา (ถนนไมตรีจิตต์) แขวงป้อมปราบ เขตป้อมปราบศัตรูพ่าย กรุงเทพฯ 10100 (lead)",
+      "geocode": "Tep Bar",
+      "lat": null,
+      "lon": null,
+      "phone": null,
+      "website": "https://www.tepmahanakhon.com/",
+      "social": [
+        "https://www.facebook.com/TEPBARBKK/",
+        "https://www.instagram.com/tep_bar/"
+      ],
+      "hours": null,
+      "offer": [
+        "ดนตรีไทยสดทุกคืน (ปี่พาทย์ เครื่องสาย ลูกทุ่ง อีสานฟิวชัน ซิตี้ป็อป)"
+      ],
+      "source_url": "https://www.tepmahanakhon.com/about-1",
+      "evidence": "หน้า 'Live Bands' ของเว็บร้านระบุ 5 วงประจำ เช่น 'Samniang Tep' (Piphat ensemble) เล่นทุกพฤหัสและอาทิตย์, 'Sam Saw' (เครื่องสายไทย) ทุกศุกร์; ร้านเปิดตั้งแต่ปี 2015; เลขที่ 69 ซอยนานา จาก Time Out/ไกด์ท่องเที่ยว (lead)",
+      "checked": "2026-09-26"
+    },
+    {
+      "id": "cur:bma-wat-sommanat-recreation-centre",
+      "name": "ศูนย์นันทนาการวัดโสมนัส (กรุงเทพมหานคร)",
+      "name_en": "Wat Sommanat Recreation Centre (BMA)",
+      "kind": "school",
+      "address": "622/10 แขวงวัดโสมนัส เขตป้อมปราบศัตรูพ่าย กรุงเทพฯ 10100",
+      "geocode": "วัดโสมนัสราชวรวิหาร",
+      "lat": null,
+      "lon": null,
+      "phone": "02-281-1081",
+      "website": "https://learning.bangkok.go.th/location/loca_0034/",
+      "social": [],
+      "hours": null,
+      "offer": [
+        "ดนตรีสากล (ฟรี)",
+        "คีย์บอร์ด",
+        "ขับร้อง/คาราโอเกะ",
+        "ดนตรีสามวัย (ไทยและสากล)"
+      ],
+      "source_url": "https://learning.bangkok.go.th/course/lc-0141/",
+      "evidence": "Bangkok Learning City (กทม.) คอร์สดนตรีสากล lc-0141 เปิดที่ศูนย์นันทนาการวัดโสมนัส 622/10 แขวงวัดโสมนัส (พ, ศ, ส 16-18 น.); คอร์สคีย์บอร์ด lc-0090 (ศ 13-15 น.), ขับร้อง lc-0077 และ ดนตรีสามวัย lc-0142 (จ, พฤ 13-15 น.) ที่ศูนย์เดียวกัน; หน้าสถานที่ loca_0034 ให้เบอร์ 022811081 — Nominatim ไม่มีจุดศูนย์ จึงใช้วัดโสมนัสราชวรวิหาร (ชื่อศูนย์ตามวัด แขวงเดียวกัน) เป็นพิกัดอ้างอิง",
+      "checked": "2026-09-26"
+    }
+  ],
+  "review": {
+    "osm:n11012201479": {
+      "kind": "record_store",
+      "note": "ห้างแผ่นเสียงคาเธ่ย์ (Cathay Records) ร้านแผ่นเสียง/เทปเก่าแก่ 223-231 ถ.เจริญกรุง แขวงบ้านบาตร ตามทะเบียนนิติบุคคล บจ. ห้างแผ่นเสียงคาเธ่ย์ (1968) (lead) ไม่พบเว็บ/เพจเจ้าของ"
+    },
+    "osm:n11012201480": {
+      "kind": "record_store",
+      "note": "เสียงสยาม ร้านแผ่นเสียง/เทปย่านเจริญกรุง-เวิ้งนาครเขษม ไม่พบหน้าเจ้าของ ต้องยืนยันว่ายังเปิด"
+    },
+    "osm:n11012201485": {
+      "kind": "record_store",
+      "note": "ห้างแผ่นเสียงสากล ย่านเดียวกัน ไม่พบหน้าเจ้าของ ต้องยืนยันว่ายังเปิด"
+    },
+    "osm:n11012201486": {
+      "kind": "record_store",
+      "note": "ห้างแผ่นเสียงตั้งเสียงไทย (Tang Siang Thai) ร้านแผ่นเสียงเก่าแก่ ถ.เจริญกรุง ใกล้ MRT สามยอด; ตำแหน่ง OSM อยู่ฝั่งป้อมปราบศัตรูพ่าย (ไม่ใช่พระนคร) ที่อยู่ 253-255 เจริญกรุง มาจาก BK Magazine (lead) ไม่พบหน้าเจ้าของ"
+    },
+    "osm:n12433430801": {
+      "kind": "record_store",
+      "note": "Brother Mac Vinyl ร้านแผ่นเสียง ค้นไม่พบเว็บ/เพจเจ้าของ คงตาม OSM รอยืนยัน"
+    }
+  },
+  "gaps": [
+    "Wallflowers Cafe (31-33 ซอยนานา): Time Out ระบุมีดนตรีสดชั้นบนบางคืน ยังไม่พบหน้าเจ้าของที่ยืนยันตารางดนตรี",
+    "Independence Bar (ถ.ไมตรีจิตต์): Time Out ระบุเพลงอินดี้/ฮิปฮอป ไม่ชัดว่ามีดนตรีสด",
+    "ร้านเครื่องเสียง/เครื่องดนตรีอื่นบนถนนวรจักร คลองถม และสะพานเหล็ก: ยังไม่พบหน้าเจ้าของที่ระบุเลขที่ในเขตนี้",
+    "ชุมชนนางเลิ้ง/บ้านบาตร: ยังไม่พบบ้านดนตรีไทย สำนักดนตรี หรือช่างทำเครื่องดนตรีที่มีหน้าเจ้าของ",
+    "ข้อสังเกตข้ามเขต: Brown Sugar ในไฟล์ phra-nakhon.json ใช้ที่อยู่เดิม 469 ถ.พระสุเมรุ แต่ร้านย้ายมาซอยนานา (ไฟล์นี้) แล้ว ผู้ประสานงานควรตรวจรายการฝั่งพระนคร"
+  ]
+}

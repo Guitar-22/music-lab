@@ -1,0 +1,883 @@
+{
+ "Mandarin Oriental Bangkok, 48 Oriental Avenue, Bangkok": {
+  "lat": 13.7238854,
+  "lon": 100.5141549,
+  "display": "โรงแรมแมนดาริน โอเรียนเต็ล, 48, เขตบางรัก, กรุงเทพมหานคร, 10500, ประเทศไทย",
+  "osm": "way/134464577",
+  "feature": "leisure/resort",
+  "coarse": false,
+  "matched": "Mandarin Oriental Bangkok, Bangkok",
+  "approximate": true
+ },
+ "Central The Original Store, Charoen Krung Road, Bangkok": {
+  "lat": 13.7244933,
+  "lon": 100.5161961,
+  "display": "เซ็นทรัล: ดิ ออริจินัล สโตร์, 1266, ถนนเจริญกรุง, แขวงบางรัก, เขตบางรัก, กรุงเทพมหานคร, 10500, ประเทศไทย",
+  "osm": "way/1232407770",
+  "feature": "shop/mall",
+  "coarse": false,
+  "matched": "Central The Original Store, Charoen Krung Road, Bangkok",
+  "approximate": false
+ },
+ "Silom Edge, Silom Road, Bangkok": {
+  "lat": 13.7294547,
+  "lon": 100.5358535,
+  "display": "สีลม เอจ, 2, ถนนสีลม, ศาลาแดง, แขวงสีลม, เขตบางรัก, กรุงเทพมหานคร, 10500, ประเทศไทย",
+  "osm": "way/39724262",
+  "feature": "shop/mall",
+  "coarse": false,
+  "matched": "Silom Edge, Silom Road, Bangkok",
+  "approximate": false
+ },
+ "Silom 64 Building, Silom Road, Bangkok": {
+  "lat": 13.7284707,
+  "lon": 100.5311934,
+  "display": "โรงพยาบาลกรุงเทพคริสเตียน, 124, ถนนสีลม, ศาลาแดง, แขวงสีลม, เขตบางรัก, กรุงเทพมหานคร, 10500, ประเทศไทย",
+  "osm": "way/231413622",
+  "feature": "amenity/hospital",
+  "coarse": false,
+  "matched": "Silom Road, Bangkok",
+  "approximate": true
+ },
+ "Soi Piphat, Silom Soi 2, Bangkok": {
+  "lat": 13.7240229,
+  "lon": 100.5307419,
+  "display": "Holiday inn express Bangkok sathron, 51, ซอยนราธิวาสราชนครินทร์ 3, ชุมชนซอยพิพัฒน์ 2, แขวงสีลม, เขตบางรัก, กรุงเทพมหานคร, 10500, ประเทศไทย",
+  "osm": "way/332851143",
+  "feature": "tourism/hotel",
+  "coarse": false,
+  "matched": "Silom Soi 2, Bangkok",
+  "approximate": true
+ },
+ "Siam Paragon, Bangkok": {
+  "lat": 13.7467785,
+  "lon": 100.534954,
+  "display": "สยามพารากอน, 991, ถนนพระรามที่ 1, สยาม, แขวงปทุมวัน, เขตปทุมวัน, กรุงเทพมหานคร, 10330, ประเทศไทย",
+  "osm": "way/781138575",
+  "feature": "shop/mall",
+  "coarse": false,
+  "matched": "Siam Paragon, Bangkok",
+  "approximate": false
+ },
+ "CentralWorld, Bangkok": {
+  "lat": 13.7465769,
+  "lon": 100.5390414,
+  "display": "เซ็นทรัลเวิลด์, 999/9, ถนนราชดำริ, แขวงปทุมวัน, เขตปทุมวัน, กรุงเทพมหานคร, 10330, ประเทศไทย",
+  "osm": "way/157482067",
+  "feature": "shop/mall",
+  "coarse": false,
+  "matched": "CentralWorld, Bangkok",
+  "approximate": false
+ },
+ "MBK Center, Bangkok": {
+  "lat": 13.7447151,
+  "lon": 100.5299165,
+  "display": "เอ็มบีเคเซ็นเตอร์, ถนนพญาไท, จุฬาฯ, แขวงวังใหม่, เขตปทุมวัน, กรุงเทพมหานคร, 10330, ประเทศไทย",
+  "osm": "way/157487610",
+  "feature": "shop/mall",
+  "coarse": false,
+  "matched": "MBK Center, Bangkok",
+  "approximate": false
+ },
+ "Center Point Siam Square": {
+  "lat": 13.7451575,
+  "lon": 100.5332216,
+  "display": "เซ็นเตอร์พอยต์ สยามสแควร์, ถนนคนเดินสยามสแควร์, สยามสแควร์, แขวงปทุมวัน, เขตปทุมวัน, กรุงเทพมหานคร, 10330, ประเทศไทย",
+  "osm": "way/157593033",
+  "feature": "shop/mall",
+  "coarse": false,
+  "matched": "Center Point Siam Square",
+  "approximate": false
+ },
+ "Siam Square, Bangkok": {
+  "lat": 13.7446046,
+  "lon": 100.5331007,
+  "display": "สยามสแควร์, แขวงปทุมวัน, เขตปทุมวัน, กรุงเทพมหานคร, 10330, ประเทศไทย",
+  "osm": "way/31972872",
+  "feature": "landuse/retail",
+  "coarse": false,
+  "matched": "Siam Square, Bangkok",
+  "approximate": false
+ },
+ "ศิลปกรรมศาสตร์ จุฬา": {
+  "lat": 13.7395257,
+  "lon": 100.5328912,
+  "display": "คณะศิลปกรรมศาสตร์, 254, ถนนพญาไท, จุฬาฯ, แขวงวังใหม่, เขตปทุมวัน, กรุงเทพมหานคร, 10330, ประเทศไทย",
+  "osm": "node/444402360",
+  "feature": "amenity/university",
+  "coarse": false,
+  "matched": "ศิลปกรรมศาสตร์ จุฬา",
+  "approximate": false
+ },
+ "Faculty of Education Chulalongkorn": {
+  "lat": 13.7381189,
+  "lon": 100.5294507,
+  "display": "จุฬาฯ (คณะครุศาสตร์), ถนนพญาไท, จุฬาฯ, แขวงวังใหม่, เขตปทุมวัน, กรุงเทพมหานคร, 10330, ประเทศไทย",
+  "osm": "node/5157438012",
+  "feature": "highway/bus_stop",
+  "coarse": true,
+  "matched": "Faculty of Education Chulalongkorn",
+  "approximate": true
+ },
+ "152 Wireless Road": {
+  "lat": 13.7396819,
+  "lon": 100.5467881,
+  "display": "ถนนวิทยุ, วิทยุ, แขวงลุมพินี, เขตปทุมวัน, กรุงเทพมหานคร, 10330, ประเทศไทย",
+  "osm": "way/156985378",
+  "feature": "highway/secondary",
+  "coarse": true,
+  "matched": "152 Wireless Road",
+  "approximate": true
+ },
+ "414 Phaya Thai Road, Wang Mai, Pathum Wan, Bangkok": {
+  "lat": 13.7474538,
+  "lon": 100.5302119,
+  "display": "อาคารสยามปทุมวันเฮ้าส์, 414, ถนนพญาไท, แขวงวังใหม่, เขตปทุมวัน, กรุงเทพมหานคร, 10330, ประเทศไทย",
+  "osm": "way/1159877713",
+  "feature": "building/construction",
+  "coarse": false,
+  "matched": "414 Phaya Thai Road, Wang Mai, Pathum Wan, Bangkok",
+  "approximate": false
+ },
+ "Maneeya Center, Phloen Chit Road, Bangkok": {
+  "lat": 13.7435883,
+  "lon": 100.5419246,
+  "display": "มณียาเซ็นเตอร์, ถนนเพลินจิต, ราชประสงค์, แขวงปทุมวัน, เขตปทุมวัน, กรุงเทพมหานคร, 10330, ประเทศไทย",
+  "osm": "way/25829735",
+  "feature": "building/commercial",
+  "coarse": false,
+  "matched": "Maneeya Center, Phloen Chit Road, Bangkok",
+  "approximate": false
+ },
+ "Conrad Bangkok, Wireless Road, Bangkok": {
+  "lat": 13.7386527,
+  "lon": 100.5483923,
+  "display": "Conrad Bangkok, 87/3, ถนนวิทยุ, วิทยุ, แขวงลุมพินี, เขตปทุมวัน, กรุงเทพมหานคร, 10330, ประเทศไทย",
+  "osm": "way/25829599",
+  "feature": "tourism/hotel",
+  "coarse": false,
+  "matched": "Conrad Bangkok, Wireless Road, Bangkok",
+  "approximate": false
+ },
+ "839 Rama I Road, Wang Mai, Pathum Wan, Bangkok": {
+  "lat": 13.7465795,
+  "lon": 100.5291078,
+  "display": "ถนนพระรามที่ 1, แขวงวังใหม่, เขตปทุมวัน, กรุงเทพมหานคร, 10330, ประเทศไทย",
+  "osm": "way/1414803057",
+  "feature": "highway/primary",
+  "coarse": true,
+  "matched": "839 Rama I Road, Wang Mai, Pathum Wan, Bangkok",
+  "approximate": true
+ },
+ "Samyan Mitrtown, Bangkok": {
+  "lat": 13.7343452,
+  "lon": 100.5282654,
+  "display": "สามย่านมิตรทาวน์, 944, ถนนพระรามที่ 4, สามย่าน, แขวงวังใหม่, เขตปทุมวัน, กรุงเทพมหานคร, 10330, ประเทศไทย",
+  "osm": "way/157591121",
+  "feature": "shop/mall",
+  "coarse": false,
+  "matched": "Samyan Mitrtown, Bangkok",
+  "approximate": false
+ },
+ "179 Charoen Phon 1 Alley, Phaya Thai, Bangkok": {
+  "miss": true,
+  "tried": [
+   "179 Charoen Phon 1 Alley, Phaya Thai, Bangkok",
+   "179 Charoen Phon 1 Alley, Bangkok",
+   "179 Charoen Phon 1 Alley"
+  ]
+ },
+ "404 Phahonyothin Road, Samsen Nai, Phaya Thai, Bangkok": {
+  "lat": 13.7647609,
+  "lon": 100.544064,
+  "display": "แขวงสามเสนใน, เขตพญาไท, กรุงเทพมหานคร, 10400, ประเทศไทย",
+  "osm": "relation/11487349",
+  "feature": "boundary/administrative",
+  "coarse": true,
+  "matched": "Samsen Nai, Bangkok",
+  "approximate": true
+ },
+ "กรมดุริยางค์ทหารบก": {
+  "lat": 13.7702564,
+  "lon": 100.550233,
+  "display": "กรมดุริยางค์ทหารบก, 75, ถนนวิภาวดีรังสิต, ชุมชนบุญชูศรี, แขวงสามเสนใน, เขตพญาไท, กรุงเทพมหานคร, 10400, ประเทศไทย",
+  "osm": "way/676062719",
+  "feature": "military/training_area",
+  "coarse": false,
+  "matched": "กรมดุริยางค์ทหารบก",
+  "approximate": false
+ },
+ "2 Ratchini Road, Phra Nakhon, Bangkok": {
+  "miss": true,
+  "tried": [
+   "2 Ratchini Road, Phra Nakhon, Bangkok",
+   "2 Ratchini Road, Bangkok",
+   "2 Ratchini Road"
+  ]
+ },
+ "National Theatre, Ratchini Road, Bangkok": {
+  "lat": 13.7588119,
+  "lon": 100.4923343,
+  "display": "โรงละครแห่งชาติ, ถนนสมเด็จพระปิ่นเกล้า, ท่าพระจันทร์, แขวงพระบรมมหาราชวัง, เขตพระนคร, กรุงเทพมหานคร, 10200, ประเทศไทย",
+  "osm": "relation/20505833",
+  "feature": "amenity/theatre",
+  "coarse": false,
+  "matched": "National Theatre, Bangkok",
+  "approximate": true
+ },
+ "National Museum Bangkok, Na Phra That Road, Bangkok": {
+  "lat": 13.758177,
+  "lon": 100.4914819,
+  "display": "พิพิธภัณฑสถานแห่งชาติ พระนคร, ถนนหน้าพระธาตุ, ท่าพระจันทร์, แขวงพระบรมมหาราชวัง, เขตพระนคร, กรุงเทพมหานคร, 10200, ประเทศไทย",
+  "osm": "relation/20505832",
+  "feature": "tourism/museum",
+  "coarse": false,
+  "matched": "National Museum Bangkok, Na Phra That Road, Bangkok",
+  "approximate": false
+ },
+ "Wat Sam Phraya, Bangkok": {
+  "lat": 13.7658186,
+  "lon": 100.499078,
+  "display": "แขวงวัดสามพระยา, เขตพระนคร, กรุงเทพมหานคร, 10200, ประเทศไทย",
+  "osm": "relation/11371491",
+  "feature": "boundary/administrative",
+  "coarse": true,
+  "matched": "Wat Sam Phraya, Bangkok",
+  "approximate": true
+ },
+ "10/5 Atsadang Road, Phra Nakhon, Bangkok": {
+  "lat": 13.7463384,
+  "lon": 100.4964148,
+  "display": "ถนนอัษฎางค์, บ้านหม้อ, แขวงวังบูรพาภิรมย์, เขตพระนคร, กรุงเทพมหานคร, 10200, ประเทศไทย",
+  "osm": "way/157690688",
+  "feature": "highway/tertiary",
+  "coarse": true,
+  "matched": "10/5 Atsadang Road, Phra Nakhon, Bangkok",
+  "approximate": true
+ },
+ "469 Phra Sumen Road, Bangkok": {
+  "lat": 13.7630003,
+  "lon": 100.4970153,
+  "display": "ถนนพระสุเมรุ, บางลำพู, แขวงชนะสงคราม, เขตพระนคร, กรุงเทพมหานคร, 10200, ประเทศไทย",
+  "osm": "way/162365837",
+  "feature": "highway/tertiary",
+  "coarse": true,
+  "matched": "469 Phra Sumen Road, Bangkok",
+  "approximate": true
+ },
+ "13 Samsen Road, Bangkok": {
+  "lat": 13.763067,
+  "lon": 100.4986204,
+  "display": "Adhere the 13th Rules, 13, ถนนสามเสน, วิสุทธิกษัตริย์, แขวงวัดสามพระยา, เขตพระนคร, กรุงเทพมหานคร, 10200, ประเทศไทย",
+  "osm": "way/206198132",
+  "feature": "amenity/bar",
+  "coarse": false,
+  "matched": "13 Samsen Road, Bangkok",
+  "approximate": false
+ },
+ "Buddy Lodge, 265 Khaosan Road, Bangkok": {
+  "lat": 13.7587605,
+  "lon": 100.4986216,
+  "display": "Buddy Lodge, ถนนข้าวสาร, แขวงตลาดยอด, เขตพระนคร, กรุงเทพมหานคร, 10200, ประเทศไทย",
+  "osm": "way/234738699",
+  "feature": "tourism/hotel",
+  "coarse": false,
+  "matched": "Buddy Lodge, 265 Khaosan Road, Bangkok",
+  "approximate": false
+ },
+ "Victory Monument, Bangkok": {
+  "lat": 13.764931,
+  "lon": 100.5382858,
+  "display": "อนุสาวรีย์ชัยสมรภูมิ, วงเวียนอนุสาวรีย์ชัยสมรภูมิ, แขวงทุ่งพญาไท, เขตราชเทวี, กรุงเทพมหานคร, 10400, ประเทศไทย",
+  "osm": "way/158185227",
+  "feature": "historic/monument",
+  "coarse": false,
+  "matched": "Victory Monument, Bangkok",
+  "approximate": false
+ },
+ "Soi Watthanayothin, Ratchathewi, Bangkok": {
+  "miss": true,
+  "tried": [
+   "Soi Watthanayothin, Ratchathewi, Bangkok",
+   "Soi Watthanayothin, Bangkok",
+   "Soi Watthanayothin"
+  ]
+ },
+ "GMM Grammy Place, Sukhumvit 21 (Asok), Bangkok": {
+  "lat": 13.7434895,
+  "lon": 100.5626602,
+  "display": "GMM Grammy Place, ถนนอโศกมนตรี, แขวงคลองเตยเหนือ, วัฒนา, กรุงเทพมหานคร, 10110, ประเทศไทย",
+  "osm": "way/329745940",
+  "feature": "building/yes",
+  "coarse": false,
+  "matched": "GMM Grammy Place, Bangkok",
+  "approximate": true
+ },
+ "EmQuartier, Sukhumvit Road, Bangkok": {
+  "lat": 13.7319633,
+  "lon": 100.5696359,
+  "display": "เอ็มควอเทียร์, 693-695, ถนนสุขุมวิท, ดิ เอ็มดิสทริค, แขวงคลองตัน, เขตคลองเตย, กรุงเทพมหานคร, 10110, ประเทศไทย",
+  "osm": "way/318785712",
+  "feature": "shop/mall",
+  "coarse": false,
+  "matched": "EmQuartier, Sukhumvit Road, Bangkok",
+  "approximate": false
+ },
+ "Srinakharinwirot University Prasarnmit, Sukhumvit 23, Bangkok": {
+  "lat": 13.7448618,
+  "lon": 100.5647517,
+  "display": "มหาวิทยาลัยศรีนครินทรวิโรฒ ประสานมิตร, ซอยสุขุมวิท 23, Asok, แขวงคลองเตยเหนือ, วัฒนา, กรุงเทพมหานคร, 10110, ประเทศไทย",
+  "osm": "way/329745926",
+  "feature": "amenity/university",
+  "coarse": false,
+  "matched": "Srinakharinwirot University Prasarnmit, Sukhumvit 23, Bangkok",
+  "approximate": false
+ },
+ "32 Soi Sukhumvit 39, Bangkok": {
+  "lat": 13.7331713,
+  "lon": 100.5712012,
+  "display": "ซอยสุขุมวิท 39, แขวงคลองตันเหนือ, วัฒนา, กรุงเทพมหานคร, 10110, ประเทศไทย",
+  "osm": "way/156261446",
+  "feature": "highway/tertiary",
+  "coarse": true,
+  "matched": "32 Soi Sukhumvit 39, Bangkok",
+  "approximate": true
+ },
+ "35/1 Soi Sukhumvit 49, Bangkok": {
+  "lat": 13.7409394,
+  "lon": 100.5765712,
+  "display": "ซอยสุขุมวิท 49, แขวงคลองตันเหนือ, วัฒนา, กรุงเทพมหานคร, 10110, ประเทศไทย",
+  "osm": "way/156261451",
+  "feature": "highway/residential",
+  "coarse": true,
+  "matched": "35/1 Soi Sukhumvit 49, Bangkok",
+  "approximate": true
+ },
+ "Home Place Office Building, Thonglor, Bangkok": {
+  "lat": 13.7273318,
+  "lon": 100.5805836,
+  "display": "ซอยสุขุมวิท 55, แขวงคลองตันเหนือ, วัฒนา, กรุงเทพมหานคร, 10110, ประเทศไทย",
+  "osm": "way/684694019",
+  "feature": "highway/secondary",
+  "coarse": true,
+  "matched": "Thonglor, Bangkok",
+  "approximate": true
+ },
+ "Soi Sukhumvit 31, Bangkok": {
+  "lat": 13.7353826,
+  "lon": 100.5665849,
+  "display": "ซอยสุขุมวิท 31, Asok, แขวงคลองเตยเหนือ, วัฒนา, กรุงเทพมหานคร, 10110, ประเทศไทย",
+  "osm": "way/1539939420",
+  "feature": "highway/tertiary",
+  "coarse": true,
+  "matched": "Soi Sukhumvit 31, Bangkok",
+  "approximate": true
+ },
+ "Black Amber Building, Sukhumvit Soi 55 (Thonglor), Bangkok": {
+  "lat": 13.7283218,
+  "lon": 100.5803354,
+  "display": "สเตย์บริดจ์ สวีท กรุงเทพฯ ทองหล่อ, ซอยสุขุมวิท 55, แขวงคลองตันเหนือ, วัฒนา, กรุงเทพมหานคร, 10110, ประเทศไทย",
+  "osm": "way/1085859280",
+  "feature": "tourism/hotel",
+  "coarse": false,
+  "matched": "Sukhumvit Soi 55 (Thonglor), Bangkok",
+  "approximate": true
+ },
+ "Seenspace Thonglor, Thonglor Soi 13, Bangkok": {
+  "lat": 13.7334301,
+  "lon": 100.5814596,
+  "display": "WHITENOISE, Seenspace Thonglor 13, 2nd Floor, 251/1, ซอยทองหล่อ 13, แขวงคลองตันเหนือ, วัฒนา, กรุงเทพมหานคร, 10110, ประเทศไทย",
+  "osm": "node/11505713854",
+  "feature": "amenity/bar",
+  "coarse": false,
+  "matched": "Seenspace Thonglor, Bangkok",
+  "approximate": true
+ },
+ "Eight Thonglor, Sukhumvit 55, Bangkok": {
+  "lat": 13.7307437,
+  "lon": 100.5820706,
+  "display": "อาคาร เอททองหล่อ, 88, ซอยสุขุมวิท 55, แขวงคลองตันเหนือ, วัฒนา, กรุงเทพมหานคร, 10110, ประเทศไทย",
+  "osm": "way/318181489",
+  "feature": "building/yes",
+  "coarse": false,
+  "matched": "Eight Thonglor, Sukhumvit 55, Bangkok",
+  "approximate": false
+ },
+ "3/1 Soi Sukhumvit 51, Bangkok": {
+  "lat": 13.7283452,
+  "lon": 100.5765952,
+  "display": "ซอยสุขุมวิท 51, แขวงคลองตันเหนือ, วัฒนา, กรุงเทพมหานคร, 10110, ประเทศไทย",
+  "osm": "way/607897970",
+  "feature": "highway/residential",
+  "coarse": true,
+  "matched": "3/1 Soi Sukhumvit 51, Bangkok",
+  "approximate": true
+ },
+ "Soi Suan Phlu 1, Bangkok": {
+  "lat": 13.7198194,
+  "lon": 100.5362898,
+  "display": "ซอยสวนพลู 1, สวนพลู, แขวงทุ่งมหาเมฆ, เขตสาทร, กรุงเทพมหานคร, 10120, ประเทศไทย",
+  "osm": "way/976736704",
+  "feature": "highway/residential",
+  "coarse": true,
+  "matched": "Soi Suan Phlu 1, Bangkok",
+  "approximate": true
+ },
+ "Banyan Tree Bangkok, South Sathorn Road, Bangkok": {
+  "lat": 13.7235907,
+  "lon": 100.5397921,
+  "display": "โรงแรมบันยันทรี กรุงเทพ, 21, ซอยสวนพลู 6, สวนพลู, แขวงทุ่งมหาเมฆ, เขตสาทร, กรุงเทพมหานคร, 10120, ประเทศไทย",
+  "osm": "node/4420339595",
+  "feature": "tourism/hotel",
+  "coarse": false,
+  "matched": "Banyan Tree Bangkok, Bangkok",
+  "approximate": true
+ },
+ "Goethe-Institut, Soi Goethe, Bangkok": {
+  "lat": 13.7239886,
+  "lon": 100.5457502,
+  "display": "สถาบันเกอเธ่, ซอยเกอเธ่, แขวงทุ่งมหาเมฆ, เขตสาทร, กรุงเทพมหานคร, 10120, ประเทศไทย",
+  "osm": "way/116173028",
+  "feature": "amenity/school",
+  "coarse": false,
+  "matched": "Goethe-Institut, Soi Goethe, Bangkok",
+  "approximate": false
+ },
+ "Soi Chan 16, Bangkok": {
+  "lat": 13.7093119,
+  "lon": 100.5310217,
+  "display": "ซอยจันทน์ 16, ทนุรัตน์, แขวงทุ่งวัดดอน, เขตสาทร, กรุงเทพมหานคร, 10120, ประเทศไทย",
+  "osm": "way/289493867",
+  "feature": "highway/tertiary",
+  "coarse": true,
+  "matched": "Soi Chan 16, Bangkok",
+  "approximate": true
+ },
+ "Soi Sathon 11, Bangkok": {
+  "lat": 13.7171324,
+  "lon": 100.5271505,
+  "display": "ซอยสาทร 11, ชุมชนเซ็นหลุยส์ 3, แขวงยานนาวา, เขตสาทร, กรุงเทพมหานคร, 10120, ประเทศไทย",
+  "osm": "way/668805560",
+  "feature": "highway/tertiary",
+  "coarse": true,
+  "matched": "Soi Sathon 11, Bangkok",
+  "approximate": true
+ },
+ "Banyan Tree Bangkok, Bangkok": {
+  "lat": 13.7235907,
+  "lon": 100.5397921,
+  "display": "โรงแรมบันยันทรี กรุงเทพ, 21, ซอยสวนพลู 6, สวนพลู, แขวงทุ่งมหาเมฆ, เขตสาทร, กรุงเทพมหานคร, 10120, ประเทศไทย",
+  "osm": "node/4420339595",
+  "feature": "tourism/hotel",
+  "coarse": false,
+  "matched": "Banyan Tree Bangkok, Bangkok",
+  "approximate": false
+ },
+ "195/1 ถนนวรจักร": {
+  "lat": 13.7500046,
+  "lon": 100.5078586,
+  "display": "ถนนวรจักร, สวนมะลิ, แขวงวัดเทพศิรินทร์, เขตป้อมปราบศัตรูพ่าย, กรุงเทพมหานคร, 10100, ประเทศไทย",
+  "osm": "way/123951459",
+  "feature": "highway/secondary",
+  "coarse": true,
+  "matched": "195/1 ถนนวรจักร",
+  "approximate": true
+ },
+ "ห้างแผ่นเสียงคาเธ่ย์": {
+  "lat": 13.7464993,
+  "lon": 100.5047308,
+  "display": "ห้างแผ่นเสียงคาเธ่ย์, ถนนเจริญกรุง, เวิ้งนาครเขษม, แขวงสัมพันธวงศ์, เขตสัมพันธวงศ์, กรุงเทพมหานคร, 10100, ประเทศไทย",
+  "osm": "node/11012201479",
+  "feature": "shop/music",
+  "coarse": false,
+  "matched": "ห้างแผ่นเสียงคาเธ่ย์",
+  "approximate": false
+ },
+ "Brown Sugar, Soi Nana": {
+  "lat": 13.7398793,
+  "lon": 100.5139226,
+  "display": "Brown Sugar, 18, ซอยนานา, แขวงป้อมปราบ, เขตป้อมปราบศัตรูพ่าย, กรุงเทพมหานคร, 10100, ประเทศไทย",
+  "osm": "way/1305599202",
+  "feature": "amenity/bar",
+  "coarse": false,
+  "matched": "Brown Sugar, Soi Nana",
+  "approximate": false
+ },
+ "Tep Bar": {
+  "lat": 13.7396043,
+  "lon": 100.5143618,
+  "display": "Tep bar, ตรอกรามไมตรี, แขวงป้อมปราบ, เขตป้อมปราบศัตรูพ่าย, กรุงเทพมหานคร, 10100, ประเทศไทย",
+  "osm": "node/3977891363",
+  "feature": "amenity/bar",
+  "coarse": false,
+  "matched": "Tep Bar",
+  "approximate": false
+ },
+ "Recordoffee": {
+  "lat": 13.7348993,
+  "lon": 100.5154319,
+  "display": "recordoffee., 95/14-15, ซอยโปลิศสภา, ชุมชนโปลิศสภา, แขวงตลาดน้อย, เขตสัมพันธวงศ์, กรุงเทพมหานคร, 10100, ประเทศไทย",
+  "osm": "way/1354138163",
+  "feature": "amenity/cafe",
+  "coarse": false,
+  "matched": "Recordoffee",
+  "approximate": false
+ },
+ "41 ถนนเยาวราช": {
+  "lat": 13.7444035,
+  "lon": 100.5038701,
+  "display": "ถนนเยาวราช, สำเพ็ง, แขวงจักรวรรดิ, เขตสัมพันธวงศ์, กรุงเทพมหานคร, 10100, ประเทศไทย",
+  "osm": "way/242165656",
+  "feature": "highway/primary",
+  "coarse": true,
+  "matched": "41 ถนนเยาวราช",
+  "approximate": true
+ },
+ "Emporium Tower, Bangkok": {
+  "miss": true,
+  "tried": [
+   "Emporium Tower, Bangkok",
+   "Emporium Tower"
+  ]
+ },
+ "Gateway Ekamai, Bangkok": {
+  "lat": 13.7187411,
+  "lon": 100.5858805,
+  "display": "จุดบริการแท็กซี่ เกตเวย์ เอกมัย, ถนนสุขุมวิท, แขวงพระโขนง, เขตคลองเตย, กรุงเทพมหานคร, 10110, ประเทศไทย",
+  "osm": "node/9553521790",
+  "feature": "amenity/taxi",
+  "coarse": false,
+  "matched": "Gateway Ekamai, Bangkok",
+  "approximate": false
+ },
+ "K Village, Sukhumvit 26, Bangkok": {
+  "lat": 13.7206188,
+  "lon": 100.5693445,
+  "display": "เค วิลเลจ, แขวงคลองตัน, เขตคลองเตย, กรุงเทพมหานคร, ประเทศไทย",
+  "osm": "way/157071135",
+  "feature": "landuse/retail",
+  "coarse": false,
+  "matched": "K Village, Bangkok",
+  "approximate": true
+ },
+ "Soi Sukhumvit 26, Bangkok": {
+  "lat": 13.7272898,
+  "lon": 100.57006,
+  "display": "ซอยสุขุมวิท 26, แขวงคลองตัน, เขตคลองเตย, กรุงเทพมหานคร, 10110, ประเทศไทย",
+  "osm": "way/156261434",
+  "feature": "highway/tertiary",
+  "coarse": true,
+  "matched": "Soi Sukhumvit 26, Bangkok",
+  "approximate": true
+ },
+ "Peterson, Sukhumvit Road, Bangkok": {
+  "lat": 13.728923,
+  "lon": 100.5715716,
+  "display": "Peterson, ถนนสุขุมวิท, แขวงคลองตัน, เขตคลองเตย, กรุงเทพมหานคร, 10110, ประเทศไทย",
+  "osm": "node/3963975825",
+  "feature": "shop/musical_instrument",
+  "coarse": false,
+  "matched": "Peterson, Sukhumvit Road, Bangkok",
+  "approximate": false
+ },
+ "Soi Sukhumvit 22, Bangkok": {
+  "lat": 13.7269631,
+  "lon": 100.5651185,
+  "display": "ซอยสุขุมวิท 22, สุขุมวิท, แขวงคลองเตย, เขตคลองเตย, กรุงเทพมหานคร, 10110, ประเทศไทย",
+  "osm": "way/156261422",
+  "feature": "highway/unclassified",
+  "coarse": true,
+  "matched": "Soi Sukhumvit 22, Bangkok",
+  "approximate": true
+ },
+ "Sheraton Grande Sukhumvit, Bangkok": {
+  "lat": 13.7373793,
+  "lon": 100.5590877,
+  "display": "เชอราตัน แกรนด์ สุขุมวิท, 250, ถนนสุขุมวิท, สมาหาร, แขวงคลองเตย, เขตคลองเตย, กรุงเทพมหานคร, 10110, ประเทศไทย",
+  "osm": "way/1359344749",
+  "feature": "tourism/hotel",
+  "coarse": false,
+  "matched": "Sheraton Grande Sukhumvit, Bangkok",
+  "approximate": false
+ },
+ "EmSphere, Bangkok": {
+  "lat": 13.7325129,
+  "lon": 100.5660757,
+  "display": "เอ็มสเฟียร์, 628, ถนนสุขุมวิท, ดิ เอ็มดิสทริค, แขวงคลองตัน, เขตคลองเตย, กรุงเทพมหานคร, 10110, ประเทศไทย",
+  "osm": "way/405853851",
+  "feature": "shop/mall",
+  "coarse": false,
+  "matched": "EmSphere, Bangkok",
+  "approximate": false
+ },
+ "Queen Sirikit National Convention Center, Bangkok": {
+  "lat": 13.7242403,
+  "lon": 100.558736,
+  "display": "ศูนย์การประชุมแห่งชาติสิริกิติ์, 60, ถนนรัชดาภิเษก, ชุมชนเจริญสุข, แขวงคลองเตย, เขตคลองเตย, กรุงเทพมหานคร, 10110, ประเทศไทย",
+  "osm": "way/1085353819",
+  "feature": "amenity/conference_centre",
+  "coarse": false,
+  "matched": "Queen Sirikit National Convention Center, Bangkok",
+  "approximate": false
+ },
+ "The PARQ, Ratchadaphisek Road, Bangkok": {
+  "lat": 13.7213017,
+  "lon": 100.5577305,
+  "display": "The Parq, 88, ถนนรัชดาภิเษก, ชุมชนเจริญสุข, แขวงคลองเตย, เขตคลองเตย, กรุงเทพมหานคร, 10110, ประเทศไทย",
+  "osm": "way/863518753",
+  "feature": "building/commercial",
+  "coarse": false,
+  "matched": "The PARQ, Ratchadaphisek Road, Bangkok",
+  "approximate": false
+ },
+ "Eastern Bus Terminal Ekkamai, Bangkok": {
+  "lat": 13.7190948,
+  "lon": 100.5840025,
+  "display": "สถานีขนส่งผู้โดยสารกรุงเทพ (เอกมัย), ถนนสุขุมวิท, แขวงพระโขนง, เขตคลองเตย, กรุงเทพมหานคร, 10110, ประเทศไทย",
+  "osm": "relation/20443105",
+  "feature": "amenity/bus_station",
+  "coarse": false,
+  "matched": "Eastern Bus Terminal Ekkamai, Bangkok",
+  "approximate": false
+ },
+ "Emporium, Sukhumvit Road, Bangkok": {
+  "lat": 13.730199,
+  "lon": 100.5688922,
+  "display": "เอ็มโพเรียม, 622, ถนนสุขุมวิท, ดิ เอ็มดิสทริค, แขวงคลองตัน, เขตคลองเตย, กรุงเทพมหานคร, 10110, ประเทศไทย",
+  "osm": "way/25505429",
+  "feature": "shop/mall",
+  "coarse": false,
+  "matched": "Emporium, Sukhumvit Road, Bangkok",
+  "approximate": false
+ },
+ "K Village, Bangkok": {
+  "lat": 13.7206188,
+  "lon": 100.5693445,
+  "display": "เค วิลเลจ, แขวงคลองตัน, เขตคลองเตย, กรุงเทพมหานคร, ประเทศไทย",
+  "osm": "way/157071135",
+  "feature": "landuse/retail",
+  "coarse": false,
+  "matched": "K Village, Bangkok",
+  "approximate": false
+ },
+ "ซอยโชคดี, Bangkok": {
+  "lat": 13.7199762,
+  "lon": 100.5642358,
+  "display": "ซอยโชคดี, ชุมชนเทพประทาน, แขวงคลองเตย, เขตคลองเตย, กรุงเทพมหานคร, 10110, ประเทศไทย",
+  "osm": "way/156261354",
+  "feature": "highway/residential",
+  "coarse": true,
+  "matched": "ซอยโชคดี, Bangkok",
+  "approximate": true
+ },
+ "มหาวิทยาลัยราชภัฏสวนสุนันทา": {
+  "lat": 13.775426,
+  "lon": 100.5082666,
+  "display": "มหาวิทยาลัยราชภัฏสวนสุนันทา, 1, ถนนอู่ทองนอก, แขวงดุสิต, เขตดุสิต, กรุงเทพมหานคร, 10300, ประเทศไทย",
+  "osm": "way/347571185",
+  "feature": "amenity/university",
+  "coarse": false,
+  "matched": "มหาวิทยาลัยราชภัฏสวนสุนันทา",
+  "approximate": false
+ },
+ "ถนนทหาร, Bangkok": {
+  "lat": 13.7979973,
+  "lon": 100.5193913,
+  "display": "ถนนทหาร, เกียกกาย, แขวงถนนนครไชยศรี, เขตดุสิต, กรุงเทพมหานคร, 10300, ประเทศไทย",
+  "osm": "way/27279308",
+  "feature": "highway/unclassified",
+  "coarse": true,
+  "matched": "ถนนทหาร, Bangkok",
+  "approximate": true
+ },
+ "ศูนย์นันทนาการสวนอ้อย": {
+  "lat": 13.7802808,
+  "lon": 100.5115001,
+  "display": "ศูนย์นันทนาการสวนอ้อย, ถนนสุโขทัย, ชุมชนสวนอ้อย, แขวงดุสิต, เขตดุสิต, กรุงเทพมหานคร, 10300, ประเทศไทย",
+  "osm": "way/1414563965",
+  "feature": "amenity/community_centre",
+  "coarse": false,
+  "matched": "ศูนย์นันทนาการสวนอ้อย",
+  "approximate": false
+ },
+ "วัดโสมนัสราชวรวิหาร": {
+  "lat": 13.7603881,
+  "lon": 100.510448,
+  "display": "วัดโสมนัสราชวรวิหาร, ซอยนครสวรรค์ 2, ชุมชนศุภมิตร 2, แขวงวัดโสมนัส, เขตป้อมปราบศัตรูพ่าย, กรุงเทพมหานคร, 10100, ประเทศไทย",
+  "osm": "way/333223519",
+  "feature": "amenity/place_of_worship",
+  "coarse": false,
+  "matched": "วัดโสมนัสราชวรวิหาร",
+  "approximate": false
+ },
+ "Central Rama 9, Bangkok": {
+  "lat": 13.7585683,
+  "lon": 100.5660647,
+  "display": "เซ็นทรัล พระราม 9, 9/9, ถนนพระราม 9, แขวงห้วยขวาง, เขตห้วยขวาง, กรุงเทพมหานคร, 10320, ประเทศไทย",
+  "osm": "way/176298728",
+  "feature": "shop/mall",
+  "coarse": false,
+  "matched": "Central Rama 9, Bangkok",
+  "approximate": false
+ },
+ "M Theatre, Bangkok": {
+  "lat": 13.7435505,
+  "lon": 100.5868667,
+  "display": "M Theatre, ถนนเพชรบุรี, แขวงบางกะปิ, เขตห้วยขวาง, กรุงเทพมหานคร, 10310, ประเทศไทย",
+  "osm": "node/3488544730",
+  "feature": "amenity/theatre",
+  "coarse": false,
+  "matched": "M Theatre, Bangkok",
+  "approximate": false
+ },
+ "TC Green, Rama 9 Road, Bangkok": {
+  "lat": 13.7546761,
+  "lon": 100.5754954,
+  "display": "TC Green (A), ถนนพระราม 9, แขวงห้วยขวาง, เขตห้วยขวาง, กรุงเทพมหานคร, 10310, ประเทศไทย",
+  "osm": "way/1270574838",
+  "feature": "building/apartments",
+  "coarse": false,
+  "matched": "TC Green, Rama 9 Road, Bangkok",
+  "approximate": false
+ },
+ "Royal City Avenue, Bangkok": {
+  "lat": 13.7511319,
+  "lon": 100.5758157,
+  "display": "อาร์ซีเอ, แขวงบางกะปิ, เขตห้วยขวาง, กรุงเทพมหานคร, 10310, ประเทศไทย",
+  "osm": "way/1189935040",
+  "feature": "landuse/retail",
+  "coarse": false,
+  "matched": "Royal City Avenue, Bangkok",
+  "approximate": false
+ },
+ "Show DC, Bangkok": {
+  "lat": 13.7505129,
+  "lon": 100.5724754,
+  "display": "SHOW DC, ถนนจตุรทิศ, แขวงบางกะปิ, เขตห้วยขวาง, กรุงเทพมหานคร, 10310, ประเทศไทย",
+  "osm": "node/4809929722",
+  "feature": "shop/department_store",
+  "coarse": false,
+  "matched": "Show DC, Bangkok",
+  "approximate": false
+ },
+ "ซอย 20 มิถุนา, Bangkok": {
+  "lat": 13.7861341,
+  "lon": 100.5832559,
+  "display": "ซอย 20 มิถุนา, แขวงสามเสนนอก, เขตห้วยขวาง, กรุงเทพมหานคร, 10310, ประเทศไทย",
+  "osm": "way/25944781",
+  "feature": "highway/tertiary",
+  "coarse": true,
+  "matched": "ซอย 20 มิถุนา, Bangkok",
+  "approximate": true
+ },
+ "Fortune Town, Bangkok": {
+  "lat": 13.7587407,
+  "lon": 100.5651044,
+  "display": "ฟอร์จูนทาวน์, ถนนรัชดาภิเษก, แขวงดินแดง, เขตดินแดง, กรุงเทพมหานคร, 10400, ประเทศไทย",
+  "osm": "way/176298735",
+  "feature": "shop/mall",
+  "coarse": false,
+  "matched": "Fortune Town, Bangkok",
+  "approximate": false
+ },
+ "Esplanade Ratchadapisek, Bangkok": {
+  "lat": 13.7664596,
+  "lon": 100.5694672,
+  "display": "เอสพละนาด รัชดาภิเษก, ถนนรัชดาภิเษก, แขวงดินแดง, เขตดินแดง, กรุงเทพมหานคร, 10400, ประเทศไทย",
+  "osm": "way/160080887",
+  "feature": "shop/department_store",
+  "coarse": false,
+  "matched": "Esplanade Ratchadapisek, Bangkok",
+  "approximate": false
+ },
+ "Pracha Songkhro Road, Bangkok": {
+  "lat": 13.7635477,
+  "lon": 100.5561335,
+  "display": "ถนนประชาสงเคราะห์, แขวงดินแดง, เขตดินแดง, กรุงเทพมหานคร, 10400, ประเทศไทย",
+  "osm": "way/25933535",
+  "feature": "highway/tertiary",
+  "coarse": true,
+  "matched": "Pracha Songkhro Road, Bangkok",
+  "approximate": true
+ },
+ "Asok-Din Daeng Road, Bangkok": {
+  "lat": 13.7578008,
+  "lon": 100.5571755,
+  "display": "ถนนอโศก-ดินแดง, แขวงดินแดง, เขตดินแดง, กรุงเทพมหานคร, 10400, ประเทศไทย",
+  "osm": "way/975332465",
+  "feature": "highway/primary",
+  "coarse": true,
+  "matched": "Asok-Din Daeng Road, Bangkok",
+  "approximate": true
+ },
+ "ซอยประชาสงเคราะห์ 12, Bangkok": {
+  "lat": 13.7686673,
+  "lon": 100.5593228,
+  "display": "ซอยประชาสงเคราะห์ 12, พุฒิโพธิ์, แขวงดินแดง, เขตดินแดง, กรุงเทพมหานคร, 10400, ประเทศไทย",
+  "osm": "way/157085109",
+  "feature": "highway/residential",
+  "coarse": true,
+  "matched": "ซอยประชาสงเคราะห์ 12, Bangkok",
+  "approximate": true
+ },
+ "Central Ladprao": {
+  "lat": 13.8168385,
+  "lon": 100.5613613,
+  "display": "เซ็นทรัล ลาดพร้าว, 1693, ถนนพหลโยธิน, แขวงจตุจักร, เขตจตุจักร, กรุงเทพมหานคร, 10900, ประเทศไทย",
+  "osm": "way/157668553",
+  "feature": "shop/mall",
+  "coarse": false,
+  "matched": "Central Ladprao",
+  "approximate": false
+ },
+ "Big C, Lat Phrao Road": {
+  "lat": 13.8105132,
+  "lon": 100.5690209,
+  "display": "บิ๊กซี, ถนนลาดพร้าว, แขวงจอมพล, เขตจตุจักร, กรุงเทพมหานคร, 10900, ประเทศไทย",
+  "osm": "way/176304632",
+  "feature": "shop/supermarket",
+  "coarse": false,
+  "matched": "Big C, Lat Phrao Road",
+  "approximate": false
+ },
+ "ซอยพหลโยธิน 18/1": {
+  "lat": 13.8027238,
+  "lon": 100.5562697,
+  "display": "ซอยพหลโยธิน 18/1, แขวงจอมพล, เขตจตุจักร, กรุงเทพมหานคร, 10900, ประเทศไทย",
+  "osm": "way/78050069",
+  "feature": "highway/residential",
+  "coarse": true,
+  "matched": "ซอยพหลโยธิน 18/1",
+  "approximate": true
+ },
+ "ซอยวิภาวดีรังสิต 32": {
+  "lat": 13.8256003,
+  "lon": 100.5591813,
+  "display": "ซอยวิภาวดีรังสิต 32, แขวงจตุจักร, เขตจตุจักร, กรุงเทพมหานคร, 10900, ประเทศไทย",
+  "osm": "way/693633420",
+  "feature": "highway/residential",
+  "coarse": true,
+  "matched": "ซอยวิภาวดีรังสิต 32",
+  "approximate": true
+ },
+ "อาคารจุฬาภรณ์พิศาลศิลป์": {
+  "lat": 13.8482021,
+  "lon": 100.5692949,
+  "display": "อาคารจุฬาภรณ์พิศาลศิลป์, ถนนชูชาติกำภู, แขวงลาดยาว, เขตจตุจักร, กรุงเทพมหานคร, 10900, ประเทศไทย",
+  "osm": "way/258852791",
+  "feature": "building/yes",
+  "coarse": false,
+  "matched": "อาคารจุฬาภรณ์พิศาลศิลป์",
+  "approximate": false
+ },
+ "ซอยลาดพร้าว 35": {
+  "lat": 13.807913,
+  "lon": 100.5812112,
+  "display": "ซอยลาดพร้าว 35, แขวงจันทรเกษม, เขตจตุจักร, กรุงเทพมหานคร, 10900, ประเทศไทย",
+  "osm": "way/44192437",
+  "feature": "highway/residential",
+  "coarse": true,
+  "matched": "ซอยลาดพร้าว 35",
+  "approximate": true
+ }
+}

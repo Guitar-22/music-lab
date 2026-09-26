@@ -1,0 +1,3917 @@
+{
+ "source": "https://th.yamaha.com/th/api/dealer/dealers/",
+ "owner": "Siam Music Yamaha (ตัวแทนจำหน่ายทางการ)",
+ "fetchedAt": "2026-09-26T02:56:59.124Z",
+ "dealers": [
+  {
+   "accountCode": "SMY0335",
+   "name": "ออลอะเบาท์ มิวสิค",
+   "company": "บริษัท สาวิทธการ จำกัด",
+   "address": "199, 199/1, 199/2 ศูนย์การค้าเซ็นทรัลพลาซา เวสต์เกต ชั้น 3 หมู่ที่ 6 ถนนรัตนาธิเบศร์ ตำบลเสาธงหิน อำเภอบางใหญ่ จังหวัดนนทบุรี",
+   "phone": "971719263",
+   "url": "https://www.facebook.com/yamaha.music.instruments",
+   "lat": 13.87706915388898,
+   "lon": 100.41135383397295,
+   "products": [
+    "PA",
+    "DGX_P",
+    "Arius",
+    "GT",
+    "KB",
+    "KB_RECOMMEND",
+    "BO",
+    "ME"
+   ]
+  },
+  {
+   "accountCode": "SMY0336",
+   "name": "อนันต์ซาวด์",
+   "company": "อนันต์ซาวด์",
+   "address": "150 ถนน สุรนารี ตำบลในเมือง อำเภอเมืองนครราชสีมา นครราชสีมา 30000",
+   "phone": "044-246-638",
+   "url": null,
+   "lat": 14.97703138,
+   "lon": 102.0928483,
+   "products": [
+    "PA"
+   ]
+  },
+  {
+   "accountCode": "SMY0337",
+   "name": "เอที โปร กรุ๊ป บจ.",
+   "company": "เอที โปร กรุ๊ป บจ.",
+   "address": "263 14 หมู่ที่ 8 ตำบล ท่าโพธิ์ อำเภอเมืองพิษณุโลก พิษณุโลก 65000",
+   "phone": "098-785-5549",
+   "url": "https://www.facebook.com/atprosound",
+   "lat": 16.74761965,
+   "lon": 100.2076211,
+   "products": [
+    "PA"
+   ]
+  },
+  {
+   "accountCode": "SMY0338",
+   "name": "บริษัท ออดิโอซิตี้ จำกัด",
+   "company": "บริษัท ออดิโอซิตี้ จำกัด",
+   "address": "1448/9 อาคาร K3 CDC ห้องเลขที่ 109,111 ซ.ลาดพร้าว 87 (จันทราสุข) ถ.ประดิษฐ์มนูธรรม แขวงคลองจั่น เขตบางกะปิ กรุงเทพฯ 10240",
+   "phone": "02-991-8600",
+   "url": "https://web.facebook.com/audiocityCDC/",
+   "lat": 13.80280879,
+   "lon": 100.6187121,
+   "products": [
+    "PA"
+   ]
+  },
+  {
+   "accountCode": "SMY0339",
+   "name": "Beatspot Central Udonthani",
+   "company": "หจก.สมานเสียง",
+   "address": "โรงเรียนดนตรียามาฮ่า เซ็นทรัลอุดรธานี",
+   "phone": "0883397799",
+   "url": null,
+   "lat": 17.40617735,
+   "lon": 102.8003345,
+   "products": [
+    "BO",
+    "ME"
+   ]
+  },
+  {
+   "accountCode": "SMY0340",
+   "name": "ร้าน บีเอ็นจี มิวสิค สาขา เดอะมอลล์บางแค",
+   "company": "บริษัท วิช แอนด์ ริช จำกัด",
+   "address": "BNG MUSIC เดอะมอลล์ บางแค ชั้น 2 ภายในแผนกเครื่องเขียนของเดอะมอลล์ บี-เทรนด์ (BE-TREND)",
+   "phone": "0818086655",
+   "url": "https://www.facebook.com/BNG-MUSIC-%E0%B9%80%E0%B8%94%E0%B8%AD%E0%B8%B0%E0%B8%A1%E0%B8%AD%E0%B8%A5%E0%B8%A5%E0%B9%8C-%E0%B8%9A%E0%B8%B2%E0%B8%87%E0%B9%81%E0%B8%84-1663598560613783/",
+   "lat": 13.71326,
+   "lon": 100.40804,
+   "products": [
+    "Arius",
+    "DGX_P",
+    "GT",
+    "KB",
+    "KB_RECOMMEND"
+   ]
+  },
+  {
+   "accountCode": "SMY0341",
+   "name": "ร้าน บีเอ็นจีมิวสิค สาขา เดอะมอลล์โคราช",
+   "company": "บริษัท วิช แอนด์ ริช จำกัด",
+   "address": "BNG MUSIC เดอะมอลล์ โคราช ชั้น 2 ภายในแผนกเครื่องเขียนของเดอะมอลล์  บี-เทรนด์ (BE-TREND)",
+   "phone": "0818086655",
+   "url": "https://www.facebook.com/BNGMUSICKORAT/",
+   "lat": 14.98066,
+   "lon": 102.07594,
+   "products": [
+    "Arius",
+    "DGX_P",
+    "GT",
+    "KB",
+    "KB_RECOMMEND"
+   ]
+  },
+  {
+   "accountCode": "SMY0342",
+   "name": "ร้าน บีเอ็นจีมิวสิค สาขา เดอะมอลล์ท่าพระ",
+   "company": "บริษัท วิช แอนด์ ริช จำกัด",
+   "address": "BNG MUSIC เดอะมอลล์ ท่าพระ ชั้น 4 ภายในแผนกเครื่องเขียนของเดอะมอลล์ บี-เทรนด์ (BE-TREND)",
+   "phone": "0818086655",
+   "url": "https://www.facebook.com/bngmusicthapra/",
+   "lat": 13.71373,
+   "lon": 100.48011,
+   "products": [
+    "Arius",
+    "DGX_P",
+    "GT",
+    "KB",
+    "KB_RECOMMEND"
+   ]
+  },
+  {
+   "accountCode": "SMY0343",
+   "name": "เซนทรัลซาวด์",
+   "company": "เซนทรัลซาวด์",
+   "address": "86 4-5 ซ. จันทอุดม ตำบลเชิงเนิน อำเภอเมืองระยอง ระยอง 21000",
+   "phone": "081-410-0061",
+   "url": "https://www.facebook.com/centralsoundrayong/?_rdc=2&_rdr",
+   "lat": 12.69066689,
+   "lon": 101.2741394,
+   "products": [
+    "PA"
+   ]
+  },
+  {
+   "accountCode": "SMY0344",
+   "name": "บริษัท เชียงรายมิวสิค จํากัด",
+   "company": "บริษัท เชียงรายมิวสิค จํากัด",
+   "address": "209-210 หมู่ที่ 18 ถ.ประสพสุข ตําบลเวียง อําเภอเมืองเชียงราย จังหวัดเชียงราย",
+   "phone": "0972649299",
+   "url": "https://www.facebook.com/chiangraimusic",
+   "lat": 19.90465076,
+   "lon": 99.83559977,
+   "products": [
+    "BO",
+    "DGX_P",
+    "Arius",
+    "PA",
+    "ME",
+    "GT",
+    "KB",
+    "KB_RECOMMEND"
+   ]
+  },
+  {
+   "accountCode": "SMY0345",
+   "name": "ร้านโครโมโซม21",
+   "company": "ร้านโครโมโซม21",
+   "address": "301 ถ.ผังเมือง4 ต.สะเตง อ.เมือง จ.ยะลา",
+   "phone": "980922717",
+   "url": "https://www.facebook.com/Chromosome21-Music-Shop-Yala-1805760693008671/",
+   "lat": 6.53433626,
+   "lon": 101.2859441,
+   "products": [
+    "Arius",
+    "DGX_P",
+    "PA",
+    "GT",
+    "KB",
+    "KB_RECOMMEND"
+   ]
+  },
+  {
+   "accountCode": "SMY0346",
+   "name": "ชุมพล อิเล็คโทรนิคส์ บจ. (บ้านสวน)",
+   "company": "บ้านสวน อิเล็คโทรนิคส์ บจ.",
+   "address": "617/1 ถนน พิชัยสงคราม ตำบล ในเมือง อำเภอเมืองพิษณุโลก พิษณุโลก 65000",
+   "phone": "087-092-1202",
+   "url": "https://www.facebook.com/pages/%E0%B8%A3%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B8%8A%E0%B8%B8%E0%B8%A1%E0%B8%9E%E0%B8%A5%E0%B8%AD%E0%B8%B4%E0%B9%80%E0%B8%A5%E0%B9%87%E0%B8%84%E0%B9%82%E0%B8%97%E0%B8%A3%E0%B8%99%E0%B8%B4%E0%B8%84%E0%B8%AA%E0%B9%8C/133943020111275/",
+   "lat": 16.81521466,
+   "lon": 100.2764842,
+   "products": [
+    "PA"
+   ]
+  },
+  {
+   "accountCode": "SMY0347",
+   "name": "ร้าน ซีที มิวสิค",
+   "company": "บริษัท ซีที มิวสิค จำกัด",
+   "address": "72/1-6 ซ.สุขุมวิท 40 แขวงพระโขนง เขตคลองเตย กทม. 10110",
+   "phone": "089-786-6306",
+   "url": "https://www.facebook.com/chordtab/",
+   "lat": 13.71820431,
+   "lon": 100.5800974,
+   "products": [
+    "Arius",
+    "DGX_P",
+    "PA",
+    "GT",
+    "KB",
+    "KB_RECOMMEND"
+   ]
+  },
+  {
+   "accountCode": "SMY0348",
+   "name": "บริษัท ซีทีซี มิวสิคเฮ้าส์ จำกัด",
+   "company": "บริษัท ซีทีซี มิวสิคเฮ้าส์ จำกัด",
+   "address": "2,252,252/1 ห้องเลขที่ 359/1 ถ.มหิดล,วัวลาย ต.หายยา อ.เมือง จ.เชียงใหม่",
+   "phone": "0816038136",
+   "url": "https://www.facebook.com/Beat-Spot-Chiangmai-Central-Airport-212708452090106/",
+   "lat": 18.76952102,
+   "lon": 98.9751039,
+   "products": [
+    "Arius",
+    "DGX_P",
+    "GT",
+    "KB",
+    "KB_RECOMMEND"
+   ]
+  },
+  {
+   "accountCode": "SMY0349",
+   "name": "บริษัท ซีทีซี มิวสิคเฮ้าส์ จำกัด",
+   "company": "บริษัท ซีทีซี มิวสิคเฮ้าส์ จำกัด",
+   "address": "99, 99/1,99/2 ถนน ซุปเปอร์ไฮเวย์ เชียงใหม่-ลำปาง ตำบล ฟ้าฮ่าม อำเภอเมืองเชียงใหม่ เชียงใหม่",
+   "phone": "081-6038136 / 088-1410078",
+   "url": "https://www.facebook.com/thexound/",
+   "lat": 18.80726542,
+   "lon": 99.0181883,
+   "products": [
+    "BO",
+    "DGX_P",
+    "Arius",
+    "PA",
+    "ME",
+    "GT",
+    "KB",
+    "KB_RECOMMEND"
+   ]
+  },
+  {
+   "accountCode": "SMY0350",
+   "name": "ดีดีมิวสิคเพชรบูรณ์",
+   "company": "ดีดีมิวสิคซาว์ดแอนด์ไลท์",
+   "address": "69/27 ถนนกลางเมืองพัฒนา ต.ในเมือง อ.เมือง จ.เพชรบูรณ์ 67000",
+   "phone": "087-196-9174 , 089-722-8212",
+   "url": null,
+   "lat": 16.40859265,
+   "lon": 101.1621935,
+   "products": [
+    "Arius",
+    "PA",
+    "DGX_P",
+    "GT",
+    "KB",
+    "KB_RECOMMEND"
+   ]
+  },
+  {
+   "accountCode": "SMY0351",
+   "name": "โดเรมี การดนตรี",
+   "company": "โดเรมี การดนตรี",
+   "address": "123/22 ถนน ทัศนปทุม ต.ในเมือง อ.เมือง จ.นครพนม 48000",
+   "phone": "063-826-0799",
+   "url": "https://www.facebook.com/doremithailand",
+   "lat": 16.95632166,
+   "lon": 104.7238643,
+   "products": [
+    "Arius",
+    "PA",
+    "DGX_P",
+    "GT",
+    "KB",
+    "KB_RECOMMEND"
+   ]
+  },
+  {
+   "accountCode": "SMY0352",
+   "name": "กีตาร์รูม",
+   "company": "หจก.มิวสิคไลน์ (สาขา 1)",
+   "address": "ศูนย์การค้า เควิลเลจ ห้องเลขที่ B102/1 ซอยสุขุมวิท 26 ถนนสุขุมวิท แขวงคลองตัน เขตคลองเตย กทม",
+   "phone": "+66 2 6656375",
+   "url": "https://www.facebook.com/GuitarRoomkvillage",
+   "lat": 13.721,
+   "lon": 100.5689,
+   "products": [
+    "Arius",
+    "PA",
+    "DGX_P",
+    "GT",
+    "KB",
+    "KB_RECOMMEND"
+   ]
+  },
+  {
+   "accountCode": "SMY0353",
+   "name": "ไฮซีมิวสิค",
+   "company": "บริษัท ไฮซี มิวสิค จำกัด",
+   "address": "576/8-9 ถ.สุขุมวิทนครระยอง20 ต.เนินพระ อ.เมือง จ.ระยอง",
+   "phone": "098-305-2934",
+   "url": "https://www.facebook.com/noriginal.drum",
+   "lat": 12.6828723,
+   "lon": 101.2488088,
+   "products": [
+    "Arius",
+    "DGX_P",
+    "GT",
+    "KB",
+    "KB_RECOMMEND"
+   ]
+  },
+  {
+   "accountCode": "SMY0354",
+   "name": "ไอกีตาร์ มิวสิค",
+   "company": "บริษัท ไอกีตาร์ จำกัด",
+   "address": "อาคารฟอร์จูนทาวน์รัชดา ชั้น 3 ห้อง 3065-3066 ถนน.รัชดาภิเษก แขวง/เขตดินแดง  กทม.",
+   "phone": "+6626411882",
+   "url": "https://www.facebook.com/iguitarthailand",
+   "lat": 13.76003294,
+   "lon": 100.5649013,
+   "products": [
+    "BO",
+    "DGX_P",
+    "Arius",
+    "ME",
+    "GT",
+    "KB",
+    "KB_RECOMMEND"
+   ]
+  },
+  {
+   "accountCode": "SMY0355",
+   "name": "บริษัท อินไซด์ มิวสิค จำกัด",
+   "company": "บริษัท อินไซด์ มิวสิค จำกัด",
+   "address": "4236/245-246 ซอยเจริญราษฎร์ 7 แยก 13 แขวงบางโคล่ เขตบางคอแหลม กทม 10120",
+   "phone": "0873517442",
+   "url": "https://www.facebook.com/Inside-Music-400838687358000/",
+   "lat": 13.69193843,
+   "lon": 100.5160121,
+   "products": [
+    "BO",
+    "DGX_P",
+    "Arius",
+    "ME",
+    "GT",
+    "KB",
+    "KB_RECOMMEND"
+   ]
+  },
+  {
+   "accountCode": "SMY0356",
+   "name": "เจียวพานิช",
+   "company": "หจก. เจียวพานิช",
+   "address": "381 ถนน ฉัตรไชย ตำบล สบตุ๋ย อำเภอเมืองลำปาง ลำปาง 52100",
+   "phone": "088-589-4209",
+   "url": "https://www.facebook.com/jeophanit",
+   "lat": 18.28114701,
+   "lon": 99.48152015,
+   "products": [
+    "PA"
+   ]
+  },
+  {
+   "accountCode": "SMY0357",
+   "name": "ไก่มิวสิค แอนด์ ซัพพลาย",
+   "company": "หจก. ไก่มิวสิค แอนด์ ซัพพลาย",
+   "address": "132/1 ถนน สุรนารี ตำบลในเมือง อำเภอเมืองนครราชสีมา นครราชสีมา 30000",
+   "phone": "089-581-4000",
+   "url": "https://www.facebook.com/%E0%B9%84%E0%B8%81%E0%B9%88-%E0%B8%A1%E0%B8%B4%E0%B8%A7%E0%B8%AA%E0%B8%B4%E0%B8%84-%E0%B9%81%E0%B8%AD%E0%B8%99%E0%B8%94%E0%B9%8C-%E0%B8%8B%E0%B8%B1%E0%B8%9E%E0%B8%9E%E0%B8%A5%E0%B8%B2%E0%B8%A2-%E0%B8%AB%E0%B8%88%E0%B8%81-1800418963610161/?_rdc=1&_rdr",
+   "lat": 14.97717216,
+   "lon": 102.0933295,
+   "products": [
+    "PA"
+   ]
+  },
+  {
+   "accountCode": "SMY0358",
+   "name": "กิตติการ​ดนตรี​",
+   "company": "กิตติ​การ​ดนตรี​",
+   "address": "473​/11​ถ.ราเม​ศวร์​ ต.คูหา​สวรรค์​ ​อ.เมือง​จ.พัทลุง​",
+   "phone": "083 1839422​",
+   "url": "https://www.facebook.com/kittimusicshop/",
+   "lat": 7.61319,
+   "lon": 100.06625,
+   "products": [
+    "Arius",
+    "DGX_P",
+    "GT",
+    "KB",
+    "KB_RECOMMEND"
+   ]
+  },
+  {
+   "accountCode": "SMY0359",
+   "name": "ร้านโคราชมิวสิคเซ็นเตอร์",
+   "company": "-",
+   "address": "748/3-4 ถนนโพธิ์กลาง ต.ในเมือง อ.เมือง จ.นครราชสีมา 30000",
+   "phone": "044-205165",
+   "url": "https://m.facebook.com/koratmusiccenter/",
+   "lat": 14.97527,
+   "lon": 102.08585,
+   "products": [
+    "PA",
+    "DGX_P",
+    "Arius",
+    "GT",
+    "KB",
+    "KB_RECOMMEND",
+    "BO",
+    "ME"
+   ]
+  },
+  {
+   "accountCode": "SMY0360",
+   "name": "ลักกี้บายมิวสิค สาขาเขาวัง",
+   "company": "บริษัท ลักกี้รูมสโตร์ จำกัด",
+   "address": "680/15 ม.5 ต.บ้านหม้อ อ.เมือง จ.เพชรบุรี",
+   "phone": "081-763-9943",
+   "url": null,
+   "lat": 13.10731248,
+   "lon": 99.94552914,
+   "products": [
+    "Arius",
+    "PA",
+    "DGX_P",
+    "GT",
+    "KB",
+    "KB_RECOMMEND"
+   ]
+  },
+  {
+   "accountCode": "SMY0361",
+   "name": "ลักกี้บายมิวสิค สาขาท่ายาง",
+   "company": "บริษัท ลักกี้รูมสโตร์ จำกัด",
+   "address": "292/5 ม.1 ต.ท่ายาง อ.ท่ายาง จ.เพชรบุรี",
+   "phone": "081-763-9943",
+   "url": null,
+   "lat": 12.97264281,
+   "lon": 99.89279176,
+   "products": [
+    "Arius",
+    "PA",
+    "DGX_P",
+    "GT",
+    "KB",
+    "KB_RECOMMEND"
+   ]
+  },
+  {
+   "accountCode": "SMY0362",
+   "name": "ขอนแก่นมาราธอน",
+   "company": "หจก.ขอนแก่นมาราธอน",
+   "address": "80/12 ถ.เทพารักษ์ ต.ในเมือง อ.เมือง จ.ขอนแก่น 40000 โทร043237002",
+   "phone": "043237002",
+   "url": "https://www.facebook.com/kkmarathonmusic/",
+   "lat": 16.43359026,
+   "lon": 102.8293877,
+   "products": [
+    "Arius",
+    "ME",
+    "PA",
+    "DGX_P",
+    "BO",
+    "GT",
+    "KB",
+    "KB_RECOMMEND"
+   ]
+  },
+  {
+   "accountCode": "SMY0363",
+   "name": "มาร์คาโต้ มิวสิค",
+   "company": "บริษัท มาร์คาโต้ มิวสิค จำกัด",
+   "address": "49 ซ.พระรามเก้า 29 หัวหมาก บางกะปิ กรุงเทพฯ",
+   "phone": "0867990077",
+   "url": "https://www.facebook.com/MarcatoMusicTH",
+   "lat": 13.74739181,
+   "lon": 100.6083045,
+   "products": [
+    "Arius",
+    "PA",
+    "ME",
+    "DGX_P",
+    "BO",
+    "GT",
+    "KB",
+    "KB_RECOMMEND"
+   ]
+  },
+  {
+   "accountCode": "SMY0365",
+   "name": "หกจ.มณเฑียร วอเตอร์ แอนด์ ซาวด์ซิสเต็ม",
+   "company": "หกจ.มณเฑียร วอเตอร์ แอนด์ ซาวด์ซิสเต็ม",
+   "address": "222 หมู่ 4 ถนน มทส.(ประตู 2), ไปรษณีย์ ตำบลไชยมงคล อำเภอเมืองนครราชสีมา นครราชสีมา 30000",
+   "phone": "898460766",
+   "url": "https://www.facebook.com/%E0%B8%A1%E0%B8%93%E0%B9%80%E0%B8%91%E0%B8%B5%E0%B8%A2%E0%B8%A3%E0%B8%8B%E0%B8%B2%E0%B8%A7%E0%B8%94%E0%B9%8C-234649193938126?_rdc=1&_rdr",
+   "lat": 14.86320663,
+   "lon": 102.0516555,
+   "products": [
+    "PA"
+   ]
+  },
+  {
+   "accountCode": "SMY0366",
+   "name": "มิวสิค อาร์ม",
+   "company": "บริษัท เอ็ม เอ ดิสทริบิวชั่น จำกัด",
+   "address": "ซีคอน สแควร์ ศรีนครินทร์ ชั้น2 โซน MUNx2",
+   "phone": "082-786-3337",
+   "url": "https://www.facebook.com/MusicArmss",
+   "lat": 13.69549139,
+   "lon": 100.6488347,
+   "products": [
+    "Arius",
+    "PA",
+    "DGX_P",
+    "GT",
+    "KB",
+    "KB_RECOMMEND"
+   ]
+  },
+  {
+   "accountCode": "SMY0367",
+   "name": "มิวสิค อาร์ม",
+   "company": "บริษัท เอ็ม เอ ดิสทริบิวชั่น จำกัด",
+   "address": "อิมพีเรียลเวิลด์ สำโรง ชั้น3 โซนหน้าห้าง",
+   "phone": "082-786-3336",
+   "url": "https://www.facebook.com/MusicArmss",
+   "lat": 13.65054898,
+   "lon": 100.5951479,
+   "products": [
+    "Arius",
+    "PA",
+    "DGX_P",
+    "GT",
+    "KB",
+    "KB_RECOMMEND"
+   ]
+  },
+  {
+   "accountCode": "SMY0368",
+   "name": "มิวสิค อาร์ม",
+   "company": "บริษัท เอ็ม เอ ดิสทริบิวชั่น จำกัด",
+   "address": "เดอะมอลล์ บางแค ชั้น G โซนหน้าห้าง",
+   "phone": "084-977-9994",
+   "url": "https://www.facebook.com/MusicArmss",
+   "lat": 13.71369614,
+   "lon": 100.4081501,
+   "products": [
+    "Arius",
+    "PA",
+    "DGX_P",
+    "GT",
+    "KB",
+    "KB_RECOMMEND"
+   ]
+  },
+  {
+   "accountCode": "SMY0369",
+   "name": "มิวสิค อาร์ม",
+   "company": "บริษัท เอ็ม เอ ดิสทริบิวชั่น จำกัด",
+   "address": "เดอะมอลล์ งามวงศ์วาน ชั้น3",
+   "phone": "082-786-7744",
+   "url": "https://www.facebook.com/MusicArmss",
+   "lat": 13.85599188,
+   "lon": 100.5422044,
+   "products": [
+    "Arius",
+    "PA",
+    "DGX_P",
+    "GT",
+    "KB",
+    "KB_RECOMMEND"
+   ]
+  },
+  {
+   "accountCode": "SMY0370",
+   "name": "มิวสิค อาร์ม",
+   "company": "บริษัท เอ็ม เอ ดิสทริบิวชั่น จำกัด",
+   "address": "เดอะมอลล์ โคราช ชั้น2",
+   "phone": "044-393-586",
+   "url": "https://www.facebook.com/MusicArmss",
+   "lat": 14.98097176,
+   "lon": 102.0762877,
+   "products": [
+    "Arius",
+    "PA",
+    "DGX_P",
+    "GT",
+    "KB",
+    "KB_RECOMMEND"
+   ]
+  },
+  {
+   "accountCode": "SMY0371",
+   "name": "มิวสิค อาร์ม",
+   "company": "บริษัท เอ็ม เอ ดิสทริบิวชั่น จำกัด",
+   "address": "ฟิวเจอร์พาร์ค รังสิต ชั้น2 โซนโรบินสัน",
+   "phone": "082-786-3559",
+   "url": "https://www.facebook.com/MusicArmss",
+   "lat": 13.98995043,
+   "lon": 100.6169036,
+   "products": [
+    "Arius",
+    "PA",
+    "DGX_P",
+    "GT",
+    "KB",
+    "KB_RECOMMEND"
+   ]
+  },
+  {
+   "accountCode": "SMY0372",
+   "name": "มิวสิคเอฟเวนิว หาดใหญ่",
+   "company": "หจก.มิวสิคเอฟเวนิว",
+   "address": "ห้อง 338/2 ชั้น 3 ศูนย์การค้าเซ็นทรัลเฟสติวัล หาดใหญ่ ถ.กาญจนวนิช อ.หาดใหญ่ จ.สงขลา",
+   "phone": "074-801-488",
+   "url": null,
+   "lat": 6.991544071,
+   "lon": 100.4830535,
+   "products": [
+    "Arius",
+    "PA",
+    "DGX_P",
+    "GT",
+    "KB",
+    "KB_RECOMMEND"
+   ]
+  },
+  {
+   "accountCode": "SMY0373",
+   "name": "มิวสิคเอฟเวนิว หาดใหญ่",
+   "company": "หจก.มิวสิคเอฟเวนิว",
+   "address": "ห้อง 338/2 ชั้น 3 ศูนย์การค้าเซ็นทรัลเฟสติวัล หาดใหญ่ ถ.กาญจนวนิช อ.หาดใหญ่ จ.สงขลา",
+   "phone": "074-801488",
+   "url": null,
+   "lat": 6.99148,
+   "lon": 100.4831,
+   "products": [
+    "Arius",
+    "PA",
+    "DGX_P",
+    "GT",
+    "KB",
+    "KB_RECOMMEND"
+   ]
+  },
+  {
+   "accountCode": "SMY0374",
+   "name": "มิวสิคคอลเลคชั่น",
+   "company": "มิวสิคคอลเลคชั่น สาขาขอนแก่น",
+   "address": "99, 1 ถ. มิตรภาพ ตำบลในเมือง อำเภอเมืองขอนแก่น ขอนแก่น 40000",
+   "phone": "043-000-786",
+   "url": "https://www.facebook.com/MusicCollectionKhonkean",
+   "lat": 16.43314441,
+   "lon": 102.8257997,
+   "products": [
+    "Arius",
+    "PA",
+    "DGX_P",
+    "GT",
+    "KB",
+    "KB_RECOMMEND"
+   ]
+  },
+  {
+   "accountCode": "SMY0375",
+   "name": "มิวสิคคอลเลคชั่น",
+   "company": "เอส เอฟ มิวสิค",
+   "address": "99 99/9 ถ. แจ้งวัฒนะ ตำบลบางตลาด อำเภอปากเกร็ด นนทบุรี 11120",
+   "phone": "02-193-8488",
+   "url": "https://www.facebook.com/MusicCollectionChaengwattana",
+   "lat": 13.90514763,
+   "lon": 100.5277036,
+   "products": [
+    "Arius",
+    "PA",
+    "DGX_P",
+    "GT",
+    "KB",
+    "KB_RECOMMEND"
+   ]
+  },
+  {
+   "accountCode": "SMY0376",
+   "name": "มิวสิคคอลเลคชั่น",
+   "company": "เอสซี มิวสิค",
+   "address": "หมู่ที่ 6 199/3 Kanchanaphisek Rd, Sao Thong Hin, Bang Yai District, Nonthaburi 11140",
+   "phone": "02-108-0488",
+   "url": "https://www.facebook.com/MusicCollectionWestgate",
+   "lat": 13.87675837,
+   "lon": 100.4115451,
+   "products": [
+    "Arius",
+    "PA",
+    "DGX_P",
+    "GT",
+    "KB",
+    "KB_RECOMMEND"
+   ]
+  },
+  {
+   "accountCode": "SMY0377",
+   "name": "มิวสิคคอลเลคชั่น",
+   "company": "ซอล แอนด์ ฟา มิวสิค",
+   "address": "1693 ถ. พหลโยธิน แขวง จตุจักร เขตจตุจักร กรุงเทพมหานคร 10900",
+   "phone": "02-937-2013",
+   "url": "https://www.facebook.com/MusicCollectionLadprao",
+   "lat": 13.81746989,
+   "lon": 100.5609282,
+   "products": [
+    "Arius",
+    "PA",
+    "DGX_P",
+    "GT",
+    "KB",
+    "KB_RECOMMEND"
+   ]
+  },
+  {
+   "accountCode": "SMY0378",
+   "name": "มิวสิคคอลเลคชั่น สาขา สยามพารากอน",
+   "company": "หจก.มิวสิคไลน์ (สำนักงานใหญ่)",
+   "address": "ชั้น 2 (ฝั่ง North) ศูนย์การค้าสยามพารากอน ถนนพระรามที่ 1 ปทุมวัน กทม",
+   "phone": "02-129-4460",
+   "url": null,
+   "lat": 13.7473,
+   "lon": 100.53451,
+   "products": [
+    "Arius",
+    "PA",
+    "DGX_P",
+    "GT",
+    "KB",
+    "KB_RECOMMEND"
+   ]
+  },
+  {
+   "accountCode": "SMY0379",
+   "name": "มิวสิคคอลเลคชั้น หลังกระทรวง (ถ.อัษฎางค์)",
+   "company": "ห้างหุ้นส่วนจำกัด กีต้าร์โปร 2020",
+   "address": "10/5 ถนน อัษฎางค์ แขวง ศาลเจ้าพ่อเสือ เขต พระนคร กรุงเทพฯ",
+   "phone": "022241640",
+   "url": "https://www.facebook.com/MusicCollectionklongload/",
+   "lat": 13.75537003,
+   "lon": 100.4956227,
+   "products": [
+    "Arius",
+    "DGX_P",
+    "GT",
+    "KB",
+    "KB_RECOMMEND"
+   ]
+  },
+  {
+   "accountCode": "SMY0380",
+   "name": "มิวสิคคอลเลคชั่น สาขาเซ็นทรัลบางนา",
+   "company": "มิวสิคมาโน",
+   "address": "เซ็นทรัล บางนา ชั้น 3",
+   "phone": "083-979-8594",
+   "url": null,
+   "lat": 13.66994876,
+   "lon": 100.6347112,
+   "products": [
+    "Arius",
+    "PA",
+    "DGX_P",
+    "GT",
+    "KB",
+    "KB_RECOMMEND"
+   ]
+  },
+  {
+   "accountCode": "SMY0381",
+   "name": "มิวสิคคอลเลคชั่น เซ็นทรัลปิ่นเกล้า",
+   "company": "ห้างหุ้นส่วนจำกัด ทริโอ มิวสิค",
+   "address": "7/1 ถนนบรมราชชนนี แขวงอรุณอมรินทร์ เขต​บางกอกน้อย กรุงเทพฯ",
+   "phone": "028849354",
+   "url": "https://www.facebook.com/Musiccollectionpinklao",
+   "lat": 13.77923357,
+   "lon": 100.475939,
+   "products": [
+    "Arius",
+    "DGX_P",
+    "GT",
+    "KB",
+    "KB_RECOMMEND"
+   ]
+  },
+  {
+   "accountCode": "SMY0382",
+   "name": "มิวสิคคอลเลคชั่น สาขาเอสพลาหนาด รัชดา",
+   "company": "หจก.มิวสิคเอสพลานาด",
+   "address": "เอสพลาหนาด รัชดา ชั้น G",
+   "phone": "02-642-3774",
+   "url": null,
+   "lat": 13.76622727,
+   "lon": 100.5694891,
+   "products": [
+    "Arius",
+    "PA",
+    "DGX_P",
+    "GT",
+    "KB",
+    "KB_RECOMMEND"
+   ]
+  },
+  {
+   "accountCode": "SMY0383",
+   "name": "มิวสิคคอลเลคชั่น สาขาเดอะมอลบางกะปิ",
+   "company": "หจก มิวสิค 1994",
+   "address": "เดอะมอลล์ บางกะปิ ชั้น 2",
+   "phone": "088-661-7972",
+   "url": null,
+   "lat": 13.76618083816639,
+   "lon": 100.64249189727245,
+   "products": [
+    "Arius",
+    "PA",
+    "DGX_P",
+    "GT",
+    "KB",
+    "KB_RECOMMEND"
+   ]
+  },
+  {
+   "accountCode": "SMY0384",
+   "name": "มิวสิคคัสต้อม",
+   "company": "มิวสิคคัสต้อม",
+   "address": "299/21 ม.3 ต.บ่อวิน อ.ศรีราชา จ.ชลบุรี",
+   "phone": "0945693217  0959526697",
+   "url": "https://www.facebook.com/MUSIC-CUSTOM-%E0%B8%AA%E0%B8%B2%E0%B8%82%E0%B8%B2%E0%B8%9A%E0%B9%88%E0%B8%AD%E0%B8%A7%E0%B8%B4%E0%B8%99-485421151539488/?ref=pages_you_manage",
+   "lat": 13.04019687934049,
+   "lon": 101.08066473253629,
+   "products": [
+    "Arius",
+    "DGX_P",
+    "GT",
+    "KB",
+    "KB_RECOMMEND"
+   ]
+  },
+  {
+   "accountCode": "SMY0385",
+   "name": "มิวสิค ไอ-สไตล์ ช็อป",
+   "company": "บ.ไอ-สไตล์ ดิสทริบิวชั่น จำกัด",
+   "address": "148/885 ถ.รามคำแหง 190 แขวงมีนบุรี เขตมีนบุรี กรุงเทพมหานคร",
+   "phone": "095-163-4638, 02-077-9681",
+   "url": "https://www.facebook.com/MusiciStyleShop/",
+   "lat": 13.803307,
+   "lon": 100.72605,
+   "products": [
+    "Arius",
+    "PA",
+    "DGX_P",
+    "GT",
+    "KB",
+    "KB_RECOMMEND"
+   ]
+  },
+  {
+   "accountCode": "SMY0386",
+   "name": "มิวสิค เลเจนด์",
+   "company": "บริษัท คีน วิสดอม จำกัด",
+   "address": "3109 อาคารโลตัสบางกะปิ, Khlong Chan, Bang Kapi District, Bangkok 10240",
+   "phone": "929089955",
+   "url": "https://www.facebook.com/musiclegendshop/",
+   "lat": 13.76765866,
+   "lon": 100.6440802,
+   "products": [
+    "Arius",
+    "PA",
+    "DGX_P",
+    "GT",
+    "KB",
+    "KB_RECOMMEND"
+   ]
+  },
+  {
+   "accountCode": "SMY0387",
+   "name": "ร้าน มิวสิคไลฟ์ เดอะมอลล์บางกะปิ",
+   "company": "บริษัท วิช แอนด์ ริช จำกัด",
+   "address": "MUSIC LIFE เดอะมอลล์ บางกะปิ ชั้น 2  โซนหลังห้าง ตรงข้ามสปอร์ตมอล์ล บูธรองเท้าคอนเวิร์ส",
+   "phone": "0818086655",
+   "url": "https://www.facebook.com/MUSIC-LIFE-%E0%B9%80%E0%B8%94%E0%B8%AD%E0%B8%B0%E0%B8%A1%E0%B8%AD%E0%B8%A5%E0%B8%A5%E0%B9%8C-%E0%B8%9A%E0%B8%B2%E0%B8%87%E0%B8%81%E0%B8%B0%E0%B8%9B%E0%B8%B4-100266621465953/",
+   "lat": 13.76684,
+   "lon": 100.64276,
+   "products": [
+    "DGX_P",
+    "Arius",
+    "GT",
+    "KB",
+    "KB_RECOMMEND"
+   ]
+  },
+  {
+   "accountCode": "SMY0388",
+   "name": "มิวสิค มาเนีย",
+   "company": "บริษัท มิวสิค มาเนีย แบนด์ แอกเซซเซอรีส์ แอนด์ พาร์ทส จำกัด",
+   "address": "1/52 ถ.จิระนคร ต.หาดใหญ่ อ.หาดใหญ่ จ.สงขลา 90110",
+   "phone": "063-536-5366",
+   "url": "https://www.facebook.com/MusicManiaTH/?_rdc=2&_rdr",
+   "lat": 7.015611323,
+   "lon": 100.4761227,
+   "products": [
+    "PA",
+    "BO",
+    "ME"
+   ]
+  },
+  {
+   "accountCode": "SMY0389",
+   "name": "มิวสิคโมเดิร์น",
+   "company": "มิวสิคโมเดิร์น",
+   "address": "มิวสิคโมเดิร์น 58/3-9 ห้อง 4/1 ชั้น 4 อาคาร ภัตตาคาร แกรนด์ เชียงการีล่า ( ธนิยะ ) ถนนสีลม แขวง สุริยวงศ์ เขต บางรัก กรุงเทพฯ 10500",
+   "phone": "088-1234562 , 088-1234532",
+   "url": "https://www.facebook.com/musicmodern.bkk",
+   "lat": 13.7295,
+   "lon": 100.5344,
+   "products": [
+    "BO",
+    "ME"
+   ]
+  },
+  {
+   "accountCode": "SMY0390",
+   "name": "มิวสิค มอนสเตอร์",
+   "company": "บริษัท มิวสิค มอนสเตอร์ จำกัด",
+   "address": "44/5  ถ.ราชมรรคาใน ต.พระปฐมเจดีย์ อ.เมือง จ.นครปฐม",
+   "phone": "0982789004",
+   "url": "https://www.facebook.com/Music-Monster-108864437341773",
+   "lat": 13.81482392,
+   "lon": 100.0453769,
+   "products": [
+    "Arius",
+    "PA",
+    "DGX_P",
+    "GT",
+    "KB",
+    "KB_RECOMMEND"
+   ]
+  },
+  {
+   "accountCode": "SMY0391",
+   "name": "มิวสิคสโตร์",
+   "company": "บริษัท ผดุงกิจ เทรดดิ้ง จำกัด",
+   "address": "เมกาบางนา ชั้น 2 ถนนบางนา-ตราด บางแก้ว บางพลี สมุทรปราการ",
+   "phone": "021051457",
+   "url": "https://www.facebook.com/musicstore.megabangna",
+   "lat": 13.65669573,
+   "lon": 100.6795354,
+   "products": [
+    "Arius",
+    "ME",
+    "DGX_P",
+    "BO",
+    "GT",
+    "KB",
+    "KB_RECOMMEND"
+   ]
+  },
+  {
+   "accountCode": "SMY0392",
+   "name": "นิวห้างกีฬามิวสิค",
+   "company": "นิวห้างกีฬามิวสิค",
+   "address": "445/5 ถ.โกสีย์ ต.ปากน้ำโพ อ.เมืองนครสวรรค์ จ.นครสวรรค์ 60000",
+   "phone": "0815636600",
+   "url": "https://www.facebook.com/waneekeera/",
+   "lat": 15.702202,
+   "lon": 100.138456,
+   "products": [
+    "Arius",
+    "PA",
+    "ME",
+    "DGX_P",
+    "BO",
+    "GT",
+    "KB",
+    "KB_RECOMMEND"
+   ]
+  },
+  {
+   "accountCode": "SMY0393",
+   "name": "บริษัท นิยมพานิช เชียงใหม่",
+   "company": "บริษัท นิยมพานิช เชียงใหม่",
+   "address": "62 ถนนมหิดล ตำบลสุเทพ อำเภอเมือง เชียงใหม่ 50100",
+   "phone": "086-428-2447",
+   "url": "https://www.facebook.com/NiyomPhanichCM/?_rdc=1&_rdr",
+   "lat": 18.77489014,
+   "lon": 98.97570445,
+   "products": [
+    "PA"
+   ]
+  },
+  {
+   "accountCode": "SMY0394",
+   "name": "บริษัท นิยมศิลป์ไฮไฟ แอนด์ สตูดิโอ จำกัด",
+   "company": "บริษัท นิยมศิลป์ไฮไฟ แอนด์ สตูดิโอ จำกัด",
+   "address": "28 ถนน กรมพระราชวังบวร ตำบล บ้านเหนือ อำเภอเมืองกาญจนบุรี กาญจนบุรี 71000",
+   "phone": "034-620-503-4",
+   "url": "https://www.facebook.com/niyomsilphifi",
+   "lat": 14.02310559,
+   "lon": 99.53145903,
+   "products": [
+    "PA"
+   ]
+  },
+  {
+   "accountCode": "SMY0395",
+   "name": "นิยมศิลป์ มิวสิค",
+   "company": "บริษัท นิยมศิลป์ มิวสิค จำกัด",
+   "address": "38-40 ถ.กรมพระราชวังบวร ต.บ้านเหนือ อ.เมือง จ.กาญจนบุรี",
+   "phone": "034-515355 ,081-1789177",
+   "url": "https://www.facebook.com/niyomsilp/",
+   "lat": 14.02325969,
+   "lon": 99.53130403,
+   "products": [
+    "Arius",
+    "PA",
+    "DGX_P",
+    "GT",
+    "KB",
+    "KB_RECOMMEND"
+   ]
+  },
+  {
+   "accountCode": "SMY0396",
+   "name": "เอ็นเคเอสมิสสิคเอ็กตร้า",
+   "company": "บริษัท เอ็นเคเอสมิวสิค จำกัด",
+   "address": "89/191-193 ถนนพัฒนาการคูขวาง ตำบลคลัง อำเภอเมืองนครศรีธรรมราช จังหวัดนครศรีธรรมราช",
+   "phone": "075-341866 , 091-5247784",
+   "url": "https://www.facebook.com/NksMusic/",
+   "lat": 8.437539537,
+   "lon": 99.96694945,
+   "products": [
+    "Arius",
+    "PA",
+    "ME",
+    "DGX_P",
+    "BO",
+    "GT",
+    "KB",
+    "KB_RECOMMEND"
+   ]
+  },
+  {
+   "accountCode": "SMY0397",
+   "name": "เอ็น เอ็น อิเล็คทริค",
+   "company": "เอ็น เอ็น อิเล็คทริค",
+   "address": "108 วอลเล็ท 56-59 ถนน ศรีรองเมือง ตำบลวัดใหม่ เมือง จันทบุรี 22000",
+   "phone": "039-312-849",
+   "url": "https://www.facebook.com/NNE.Chanthaburi?_rdc=1&_rdr",
+   "lat": 12.60896231,
+   "lon": 102.1106002,
+   "products": [
+    "PA"
+   ]
+  },
+  {
+   "accountCode": "SMY0398",
+   "name": "นอร์ทเทิร์นเอวี",
+   "company": "พิงค์ธาร เทคโนโลยี บจ.",
+   "address": "234 ตำบล สันผีเสื้อ เมือง เชียงใหม่ 50300",
+   "phone": "062-798-0222",
+   "url": "https://www.facebook.com/NorthernAVi",
+   "lat": 18.84136304,
+   "lon": 98.99776771,
+   "products": [
+    "PA"
+   ]
+  },
+  {
+   "accountCode": "SMY0399",
+   "name": "โน๊ตซาวด์แอนด์ไลท์ บจ",
+   "company": "โน๊ตซาวด์แอนด์ไลท์ บจ",
+   "address": "209 ถนน เจริญกรุง แขวง บ้านบาตร เขตป้อมปราบศัตรูพ่าย กรุงเทพมหานคร 10100",
+   "phone": "081-304-1004",
+   "url": null,
+   "lat": 13.74697679,
+   "lon": 100.5061762,
+   "products": [
+    "PA"
+   ]
+  },
+  {
+   "accountCode": "SMY0400",
+   "name": "โอเอซิส มิวสิค ไลน์",
+   "company": "บริษัท โอเอซิส เมทเทค จำกัด",
+   "address": "35/7 ถ.เพชรเกษม ต.ประจวบฯ อ.เมืองฯ จ.ประจวบคีรีขันธ์ 77000",
+   "phone": "094-982-5636",
+   "url": "https://www.facebook.com/Oasismusicline.pj?_rdc=2&_rdr",
+   "lat": 11.80476404,
+   "lon": 99.77739797,
+   "products": [
+    "Arius",
+    "PA",
+    "ME",
+    "DGX_P",
+    "BO",
+    "GT",
+    "KB",
+    "KB_RECOMMEND"
+   ]
+  },
+  {
+   "accountCode": "SMY0401",
+   "name": "เพอร์เฟคท์ แบนด์",
+   "company": "บริษัท เพอร์เฟคท์ แบนด์ มิวสิค",
+   "address": "28 ซ.งามวงศ์วาน 24 แยก 2 ถ.งามวงศ์วาน ต.บางเขน อ.เมืองจ.นนทบุรี",
+   "phone": "0822244800",
+   "url": "https://www.facebook.com/Perfectband1988/",
+   "lat": 13.8540989,
+   "lon": 100.5433502,
+   "products": [
+    "Arius",
+    "DGX_P",
+    "GT",
+    "KB",
+    "KB_RECOMMEND"
+   ]
+  },
+  {
+   "accountCode": "SMY0402",
+   "name": "พิมพ์ทองพาณิชย์",
+   "company": "พิมพ์ทองพาณิชย์",
+   "address": "น่าน ทุ่งช้าง ตำบล ปัว อำเภอ ปัว น่าน 55120",
+   "phone": "093-419-1963",
+   "url": "https://www.facebook.com/pimtongpanich/?_rdc=1&_rdr",
+   "lat": 19.17638872,
+   "lon": 100.9129587,
+   "products": [
+    "PA"
+   ]
+  },
+  {
+   "accountCode": "SMY0403",
+   "name": "โชว์รูมปิยะนัส สาขาบางแค",
+   "company": "ปิยะนัส",
+   "address": "919/30 เขตบางแค กรุงเทพมหานคร",
+   "phone": "02-801-2336 , 081-499-8298, 089-145-9445",
+   "url": "https://www.facebook.com/Piyanaselectric",
+   "lat": 13.7107081,
+   "lon": 100.4131509,
+   "products": [
+    "AV"
+   ]
+  },
+  {
+   "accountCode": "SMY0404",
+   "name": "โชว์รูมปิยะนัส สาขาเซ็นทรัลบางนา ชั้น 5 ฝั่งพลาซ่า",
+   "company": "ปิยะนัส",
+   "address": "อาคารเซ็นทรัลซิตี้ สาขาเซ็นทรัลบางนา ซอย บางนา-ตราด 42 แขวง บางนา เขตบางนา กรุงเทพมหานคร",
+   "phone": "02-040-4229, 091-563-5396, 089-469-4224, 096-454-2895",
+   "url": "https://www.facebook.com/Piyanaselectric",
+   "lat": 13.66977249,
+   "lon": 100.634128,
+   "products": [
+    "AV"
+   ]
+  },
+  {
+   "accountCode": "SMY0405",
+   "name": "โชว์รูมปิยะนัส สาขาเซ็นทรัลเวิลด์ ชั้น 5 ฝั่ง Zen",
+   "company": "ปิยะนัส",
+   "address": "999/9 ถนนพระราม1 แขวงปทุมวัน เขตปทุมวัน กทม.",
+   "phone": "02-103-1289,  094-497-8058, 086-992-9652",
+   "url": "https://www.facebook.com/Piyanaselectric",
+   "lat": 13.74596216,
+   "lon": 100.5392942,
+   "products": [
+    "AV"
+   ]
+  },
+  {
+   "accountCode": "SMY0406",
+   "name": "โชว์รูมปิยะนัส สาขาศูนย์การค้าฟอร์จูนทาวน์ ชั้น 3",
+   "company": "ปิยะนัส",
+   "address": "1,3,5 7 ถนน อโศก - ดินแดง แขวง ดินแดง เขตดินแดง กรุงเทพมหานคร",
+   "phone": "026-420-228, 085-295-9183",
+   "url": "https://www.facebook.com/Piyanaselectric",
+   "lat": 13.75752471,
+   "lon": 100.5647094,
+   "products": [
+    "AV"
+   ]
+  },
+  {
+   "accountCode": "SMY0407",
+   "name": "โชว์รูมปิยะนัส สาขาพัทยา",
+   "company": "ปิยะนัส",
+   "address": "ถนน พัทยากลาง เมืองพัทยา อำเภอบางละมุง ชลบุรี",
+   "phone": "038-415-514 , 038-415-524, 099-907-0468",
+   "url": "https://www.facebook.com/Piyanaselectric",
+   "lat": 12.93410024,
+   "lon": 100.8952713,
+   "products": [
+    "AV"
+   ]
+  },
+  {
+   "accountCode": "SMY0408",
+   "name": "โชว์รูมปิยะนัส สำนักงานใหญ่ สุขุมวิท 101/1",
+   "company": "ปิยะนัส",
+   "address": "1240 12 ถ. สุขุมวิท 101/1 แขวง บางจาก เขตพระโขนง กรุงเทพมหานคร",
+   "phone": "02-746-4511-13 , 02-746-4302-3, 081-565-4159, 084-711-3364",
+   "url": "https://www.facebook.com/Piyanaselectric",
+   "lat": 13.68558432,
+   "lon": 100.6295964,
+   "products": [
+    "AV"
+   ]
+  },
+  {
+   "accountCode": "SMY0409",
+   "name": "โชว์รูมปิยะนัส สาขา The Crystal SB ราชพฤกษ์ ชั้น 2",
+   "company": "ปิยะนัส",
+   "address": "555 ถนน ราชพฤกษ์ ตำบล มหาสวัสดิ์ อำเภอบางกรวย นนทบุรี",
+   "phone": "02-102-3507, 097-925-1959, 089-662-5514, 083-562-4262",
+   "url": "https://www.facebook.com/Piyanaselectric",
+   "lat": 13.80974463,
+   "lon": 100.4483928,
+   "products": [
+    "AV"
+   ]
+  },
+  {
+   "accountCode": "SMY0410",
+   "name": "โชว์รูมปิยะนัส สาขาเซียร์รังสิต ชั้น 2",
+   "company": "ปิยะนัส",
+   "address": "L2,SB071, Zeer Rangit, ถ. พหลโยธิน ลำลูกกา อำเภอลำลูกกา จังหวัดปทุมธานี",
+   "phone": "0-2992- 6816, 098-086-8446",
+   "url": "https://www.facebook.com/Piyanaselectric",
+   "lat": 13.96042431,
+   "lon": 100.6219043,
+   "products": [
+    "AV"
+   ]
+  },
+  {
+   "accountCode": "SMY0411",
+   "name": "พลมิวสิค เชียงใหม่",
+   "company": "พลมิวสิค",
+   "address": "120 ถ.เจริญประเทศ ต.ช้างคลาน อ.เมือง จ.เชียงใหม่ 50100 โทร 0812358845",
+   "phone": "0812358845",
+   "url": null,
+   "lat": 18.78267,
+   "lon": 99.00319,
+   "products": [
+    "PA",
+    "Arius",
+    "DGX_P",
+    "GT",
+    "KB",
+    "KB_RECOMMEND"
+   ]
+  },
+  {
+   "accountCode": "SMY0412",
+   "name": "พลมิวสิค เชียงราย",
+   "company": "พลมิวสิค",
+   "address": "506 ถนน ธนาลัย ตำบลเวียง อำเภอเมืองเชียงราย เชียงราย 57000",
+   "phone": "091-854-6935",
+   "url": "https://www.facebook.com/TEL.0882822941/?_rdc=1&_rdr",
+   "lat": 19.90939665,
+   "lon": 99.83327908,
+   "products": [
+    "BO",
+    "ME",
+    "PA",
+    "Arius",
+    "DGX_P",
+    "GT",
+    "KB",
+    "KB_RECOMMEND"
+   ]
+  },
+  {
+   "accountCode": "SMY0413",
+   "name": "พลมิวสิค ลำปาง",
+   "company": "พลมิวสิค",
+   "address": "242 ถ. บุญวาทย์(ค่ายทหาร) อำเภอเมืองลำปาง ลำปาง 52100",
+   "phone": "097-923-3965",
+   "url": "https://www.facebook.com/%E0%B8%A3%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B8%9E%E0%B8%A5%E0%B8%A1%E0%B8%B4%E0%B8%A7%E0%B8%AA%E0%B8%B4%E0%B8%84%E0%B8%A5%E0%B8%B3%E0%B8%9B%E0%B8%B2%E0%B8%87-211290429446458/?_rdc=1&_rdr",
+   "lat": 18.28927277,
+   "lon": 99.4911292,
+   "products": [
+    "PA",
+    "Arius",
+    "DGX_P",
+    "GT",
+    "KB",
+    "KB_RECOMMEND"
+   ]
+  },
+  {
+   "accountCode": "SMY0414",
+   "name": "พลมิวสิค พิษณุโลก",
+   "company": "หจก.นอร์ทเทิร์น มิวสิค อินทรูเมนต์",
+   "address": "524/21 ถ.มิตรภาพ ต.ในเมือง อ.เมือง จ.พิษณุโลก 65000 โทร 0903293594",
+   "phone": "0903293594",
+   "url": null,
+   "lat": 16.8214,
+   "lon": 100.14849,
+   "products": [
+    "PA",
+    "Arius",
+    "DGX_P",
+    "GT",
+    "KB",
+    "KB_RECOMMEND"
+   ]
+  },
+  {
+   "accountCode": "SMY0415",
+   "name": "พลมิวสิค แพร่",
+   "company": "พลมิวสิค",
+   "address": "400/198 ถนน น้ำทอง-บายพาส ตำบลนาจักร อำเภอเมืองแพร่ แพร่ 54000",
+   "phone": "095-239-2242",
+   "url": null,
+   "lat": 18.1302902,
+   "lon": 100.1485678,
+   "products": [
+    "PA",
+    "Arius",
+    "DGX_P",
+    "GT",
+    "KB",
+    "KB_RECOMMEND"
+   ]
+  },
+  {
+   "accountCode": "SMY0416",
+   "name": "Power Mall สาขา Emporium ชั้น 4",
+   "company": "บจก. โซนิค วิชั่น",
+   "address": "อาคาร Emporium ชั้น 4 ถ. สุขุมวิท แขวง คลองตัน เขตคลองเตย กรุงเทพมหานคร 10110",
+   "phone": "092-494-4074",
+   "url": "https://www.facebook.com/YamahaByZONIC",
+   "lat": 13.73074865,
+   "lon": 100.5689983,
+   "products": [
+    "AV"
+   ]
+  },
+  {
+   "accountCode": "SMY0417",
+   "name": "Power Mall สาขาพารากอน ชั้น 4",
+   "company": "บจก. โซนิค วิชั่น",
+   "address": "991 ถนน พระรามที่ ๑ แขวง ปทุมวัน เขตปทุมวัน กรุงเทพมหานคร 10330",
+   "phone": "087-991-9629, 086-392-4614",
+   "url": "https://www.facebook.com/YamahaByZONIC",
+   "lat": 13.74692921,
+   "lon": 100.5348738,
+   "products": [
+    "AV"
+   ]
+  },
+  {
+   "accountCode": "SMY0418",
+   "name": "Power Mall สาขาเดอะมอลบางแค ชั้น 3",
+   "company": "บจก. โซนิค วิชั่น",
+   "address": "แขวง บางแคเหนือ เขตบางแค กรุงเทพมหานคร 10160",
+   "phone": "094-663-6628, 081-777-8358",
+   "url": "https://www.facebook.com/YamahaByZONIC",
+   "lat": 13.71347593,
+   "lon": 100.4076454,
+   "products": [
+    "AV"
+   ]
+  },
+  {
+   "accountCode": "SMY0419",
+   "name": "Power Mall สาขา เดอะมอลบางกะปิ ชั้น 3",
+   "company": "บจก. โซนิค วิชั่น",
+   "address": "3522 อาคาร เดอะมอลล์บางกะปิ ชั้น 3 ถ. ลาดพร้าว แขวง คลองจั่น เขตบางกะปิ กรุงเทพมหานคร 10240",
+   "phone": "086-651-9239, 094-645-1564",
+   "url": "https://www.facebook.com/YamahaByZONIC",
+   "lat": 13.76736706,
+   "lon": 100.6430986,
+   "products": [
+    "AV"
+   ]
+  },
+  {
+   "accountCode": "SMY0420",
+   "name": "Power Mall สาขาเดอะมอลโคราช ชั้น 3",
+   "company": "บจก. โซนิค วิชั่น",
+   "address": "1242/2 ถ. มิตรภาพ ตำบลในเมือง อำเภอเมืองนครราชสีมา นครราชสีมา 30000",
+   "phone": "090-253-9170",
+   "url": "https://www.facebook.com/YamahaByZONIC",
+   "lat": 14.98087623,
+   "lon": 102.0764554,
+   "products": [
+    "AV"
+   ]
+  },
+  {
+   "accountCode": "SMY0421",
+   "name": "Power Mall สาขาเดอะมอลงามวงศ์วาน ชั้น 4",
+   "company": "บจก. โซนิค วิชั่น",
+   "address": "408,410,412,414,416 ถนน งามวงศ์วาน อำเภอเมืองนนทบุรี นนทบุรี 11000",
+   "phone": "086-575-0034, 090-386-3240",
+   "url": "https://www.facebook.com/YamahaByZONIC",
+   "lat": 13.85627251,
+   "lon": 100.5419556,
+   "products": [
+    "AV"
+   ]
+  },
+  {
+   "accountCode": "SMY0422",
+   "name": "Power Mall สาขาเดอะมอลท่าพระ ชั้น 4",
+   "company": "บจก. โซนิค วิชั่น",
+   "address": "เลขที่ 99 ถนน รัชดาภิเษก แขวง บุคคโล เขตธนบุรี กรุงเทพมหานคร 10600",
+   "phone": "089-794-8773",
+   "url": "https://www.facebook.com/YamahaByZONIC",
+   "lat": 13.71455894,
+   "lon": 100.4802191,
+   "products": [
+    "AV"
+   ]
+  },
+  {
+   "accountCode": "SMY0423",
+   "name": "Powerbuy เซ็นทรัลโคราช",
+   "company": "บจก. โซนิค วิชั่น",
+   "address": "ตำบลในเมือง อำเภอเมืองนครราชสีมา นครราชสีมา 30000",
+   "phone": "087-879-8095",
+   "url": "https://www.facebook.com/YamahaByZONIC",
+   "lat": 14.99634866,
+   "lon": 102.1159986,
+   "products": [
+    "AV"
+   ]
+  },
+  {
+   "accountCode": "SMY0424",
+   "name": "Powerbuy เซ็นทรัลลาดพร้าว",
+   "company": "บจก. โซนิค วิชั่น",
+   "address": "1693 ชั้น 5 เซ็นทรัล ลาดพร้าว ถ. พหลโยธิน แขวง จตุจักร เขตจตุจักร กรุงเทพมหานคร 10900",
+   "phone": "092-974-6289",
+   "url": "https://www.facebook.com/YamahaByZONIC",
+   "lat": 13.81712883,
+   "lon": 100.5610052,
+   "products": [
+    "AV"
+   ]
+  },
+  {
+   "accountCode": "SMY0425",
+   "name": "พัฒนสิน",
+   "company": "พัฒนสิน",
+   "address": "1022/5 ถนนประชาสงเคราะห์ ดินแดง กรุงเทพฯ",
+   "phone": "02-246-6253 / 095-732-7152",
+   "url": "https://www.facebook.com/PSMUSICBANGKOK",
+   "lat": 13.77008288,
+   "lon": 100.5592323,
+   "products": [
+    "PA",
+    "Arius",
+    "DGX_P",
+    "GT",
+    "KB",
+    "KB_RECOMMEND"
+   ]
+  },
+  {
+   "accountCode": "SMY0426",
+   "name": "ราล่ามิวสิค",
+   "company": "ห้างหุ้นส่วนจำกัด ราล่ามิวสิค",
+   "address": "2/19,20,21 ปากซอยพระราม 2 ซอย 6 แขวงจอมทอง เขตจอมทอง กรุงเทพฯ 10150",
+   "phone": "0970077453",
+   "url": "https://www.facebook.com/ralamusic",
+   "lat": 13.6835519,
+   "lon": 100.4818302,
+   "products": [
+    "Arius",
+    "DGX_P",
+    "GT",
+    "KB",
+    "KB_RECOMMEND"
+   ]
+  },
+  {
+   "accountCode": "SMY0427",
+   "name": "ร็อคเคสตร้า มิวสิค",
+   "company": "ร็อคเคสตร้ามิวสิค",
+   "address": "14/5 หมู่3 ถนนพ่อขุนทะเล ตำบลม่ะขามเตี้ย อำเภอเมือง สุราษฏร์ธานี 84000",
+   "phone": "0800399995",
+   "url": "https://www.facebook.com/RockestraSuratthani/",
+   "lat": 9.106335,
+   "lon": 99.3097959,
+   "products": [
+    "BO",
+    "ME",
+    "PA",
+    "Arius",
+    "DGX_P",
+    "GT",
+    "KB",
+    "KB_RECOMMEND"
+   ]
+  },
+  {
+   "accountCode": "SMY0428",
+   "name": "บริษัทสหพานิชเชียงใหม่",
+   "company": "บริษัทสหพานิชเชียงใหม่",
+   "address": "62 ถ. โชตนา ตำบลช้างเผือก อ.เมือง เชียงใหม่ 50300",
+   "phone": "081-386-8284",
+   "url": "https://www.facebook.com/Sahapanichplaza?_rdc=1&_rdr",
+   "lat": 18.81904863,
+   "lon": 98.9824375,
+   "products": [
+    "PA"
+   ]
+  },
+  {
+   "accountCode": "SMY0429",
+   "name": "สหไทยเซลล์แอนด์เซอร์วิส",
+   "company": "บริษัท สหไทยเซลล์แอนด์เซอร์วิส จำกัด",
+   "address": "4/8-9 ถนน กลางเมือง ตำบลในเมือง อำเภอเมืองขอนแก่น ขอนแก่น 40000",
+   "phone": "043-243-140",
+   "url": "https://www.facebook.com/sahathaikhonkaen",
+   "lat": 16.43857038,
+   "lon": 102.8361039,
+   "products": [
+    "PA"
+   ]
+  },
+  {
+   "accountCode": "SMY0430",
+   "name": "หสม.สกุลไทย",
+   "company": "ห้างหุ้นส่วนสามัญ สกุลไทย",
+   "address": "บ.วิน เอ็นดูเทนเม้นท์จำกัด 59-59/1 ถ.ถนนพหลโยธิน ต.สบตุ๋ย อ.เมือง จ.ลำปาง 52100",
+   "phone": "0951357546",
+   "url": null,
+   "lat": 18.27952157,
+   "lon": 99.48078481,
+   "products": [
+    "Arius",
+    "DGX_P",
+    "GT",
+    "KB",
+    "KB_RECOMMEND"
+   ]
+  },
+  {
+   "accountCode": "SMY0431",
+   "name": "สยามมิวสิคแพลนเน็ต",
+   "company": "หจก.สยามมิวสิคแพลนเน็ต",
+   "address": "16/8 ถ.ราษฏร์ยินดี ต.หาดใหญ่ อ.หาดใหญ่ จ.สงขลา",
+   "phone": "074-342-882",
+   "url": null,
+   "lat": 7.015331,
+   "lon": 100.481933,
+   "products": [
+    "PA",
+    "Arius",
+    "DGX_P",
+    "GT",
+    "KB",
+    "KB_RECOMMEND"
+   ]
+  },
+  {
+   "accountCode": "SMY0432",
+   "name": "ซินฮงมิวสิค",
+   "company": "หจก.ดนตรีซินฮง",
+   "address": "102/20-22 ถ.อุดรดุษฎี ต.หมากแข้ง อ.เมือง จ.อุดรธานี 41000",
+   "phone": "042-221-418",
+   "url": "https://www.facebook.com/sinhongmusicstore",
+   "lat": 17.41239144,
+   "lon": 102.7921548,
+   "products": [
+    "PA",
+    "Arius",
+    "DGX_P",
+    "GT",
+    "KB",
+    "KB_RECOMMEND"
+   ]
+  },
+  {
+   "accountCode": "SMY0433",
+   "name": "เอสเคพี มิวสิคช้อป",
+   "company": "หจก.สกลรุ่งเจริญภัณฑ์",
+   "address": "386/15 ถ.คูเมือง ต.ธาตุเชิงชุม อ.เมือง จ.สกลนคร",
+   "phone": "0840272477",
+   "url": "https://www.facebook.com/sakonrung",
+   "lat": 17.15726215,
+   "lon": 104.1480992,
+   "products": [
+    "BO",
+    "ME",
+    "PA",
+    "Arius",
+    "DGX_P",
+    "GT",
+    "KB",
+    "KB_RECOMMEND"
+   ]
+  },
+  {
+   "accountCode": "SMY0434",
+   "name": "สมาร์ท มิวสิค",
+   "company": "สมาร์ท มิวสิค",
+   "address": "1/5 ถ.ท่าเรือ ต.ปากน้ำ อ.เมือง จ.กระบี่ 81000",
+   "phone": "075-622-881",
+   "url": "https://www.facebook.com/1309028075794447/",
+   "lat": 8.063187927,
+   "lon": 98.90881811,
+   "products": [
+    "PA",
+    "Arius",
+    "DGX_P",
+    "GT",
+    "KB",
+    "KB_RECOMMEND"
+   ]
+  },
+  {
+   "accountCode": "SMY0435",
+   "name": "สมใจเครื่องเสียง",
+   "company": "สมใจเครื่องเสียง",
+   "address": "99/9 หมู่ 7 ตำบลทุ่งกระพังโหม อำเภอกำแพงแสน จังหวัดนครปฐม",
+   "phone": "061-238-8710",
+   "url": null,
+   "lat": 13.99695068,
+   "lon": 99.99551024,
+   "products": [
+    "PA",
+    "Arius",
+    "DGX_P",
+    "GT",
+    "KB",
+    "KB_RECOMMEND"
+   ]
+  },
+  {
+   "accountCode": "SMY0436",
+   "name": "ซาวด์แกลเลอรี่ ช็อป",
+   "company": "บริษัท พี.เค.อินเตอร์มิวสิค จำกัด",
+   "address": "158 ถ.เยาวราช ต.ตลาดใหญ่ อ.เมือง จ.ภูเก็ต",
+   "phone": "076-218-884",
+   "url": "https://www.facebook.com/soundgallery2014",
+   "lat": 7.889776019,
+   "lon": 98.38662783,
+   "products": [
+    "PA",
+    "Arius",
+    "DGX_P",
+    "GT",
+    "KB",
+    "KB_RECOMMEND"
+   ]
+  },
+  {
+   "accountCode": "SMY0437",
+   "name": "ร้านซาว์ดเทคนิค หาดใหญ่",
+   "company": "ร้านซาว์ดเทคนิค",
+   "address": "304/8 ถ. เพชรเกษม ตำบล หาดใหญ่ อำเภอหาดใหญ่ สงขลา 90110",
+   "phone": "086-4916630",
+   "url": "https://www.facebook.com/%E0%B8%8B%E0%B8%B2%E0%B8%A7%E0%B8%94%E0%B9%8C%E0%B9%80%E0%B8%97%E0%B8%84%E0%B8%99%E0%B8%B4%E0%B8%84-110862947041674/?_rdc=2&_rdr",
+   "lat": 7.012370969,
+   "lon": 100.4710852,
+   "products": [
+    "PA"
+   ]
+  },
+  {
+   "accountCode": "SMY0438",
+   "name": "ทิพวรรณ์ อีเล็คทรอนิค หจก",
+   "company": "ทิพวรรณ์ อีเล็คทรอนิค หจก",
+   "address": "78/9 หมู่ที่ 6 ถนนกาญจนาภิเษก บางรักพัฒนา บางบัวทอง นนทบุรี 11110",
+   "phone": "02-195-7917-21",
+   "url": null,
+   "lat": 13.89678842,
+   "lon": 100.4082836,
+   "products": [
+    "PA"
+   ]
+  },
+  {
+   "accountCode": "SMY0439",
+   "name": "หจก .เอส อาร์ ซาวด์",
+   "company": "หจก .เอส อาร์ ซาวด์",
+   "address": "ตำบล นครสวรรค์ออก อำเภอเมืองนครสวรรค์ นครสวรรค์ 60000",
+   "phone": "093-319-2380",
+   "url": "https://www.facebook.com/%E0%B9%80%E0%B8%AD%E0%B8%AA-%E0%B8%AD%E0%B8%B2%E0%B8%A3%E0%B9%8C-%E0%B8%8B%E0%B8%B2%E0%B8%A7%E0%B8%94%E0%B9%8C-1153554331349959?_rdc=1&_rdr",
+   "lat": 15.6822306,
+   "lon": 100.1313246,
+   "products": [
+    "PA"
+   ]
+  },
+  {
+   "accountCode": "SMY0440",
+   "name": "ศรีนครสปอร์ตแอนด์มิวสิค",
+   "company": "บจก.ศรีนครสรรพสินค้า",
+   "address": "1-3 ถนนรถไฟ ตำบลพระปฐมเจดีย์ อำเภอเมือง จังหวัดนครปฐม",
+   "phone": "034244202, 0817345010",
+   "url": "https://www.facebook.com/SrinakornMusicShop/?_rdc=1&_rdr",
+   "lat": 13.82205,
+   "lon": 100.05976,
+   "products": [
+    "Arius",
+    "DGX_P",
+    "GT",
+    "KB",
+    "KB_RECOMMEND"
+   ]
+  },
+  {
+   "accountCode": "SMY0441",
+   "name": "สุมาลี มิวสิค แอนด์ สปอร์ต",
+   "company": "ห้างหุ้นส่วนจำกัดสุมาลี มิวสิค แอนด์ สปอร์ต",
+   "address": "100/4-5 ถ.สุรศักดิ์1 ต.ศรีราชา อ.ศรีราชา จ.ชลบุรี",
+   "phone": "0617768517",
+   "url": "https://www.facebook.com/sumaleemusic/",
+   "lat": 13.16521,
+   "lon": 100.92743,
+   "products": [
+    "BO",
+    "ME"
+   ]
+  },
+  {
+   "accountCode": "SMY0442",
+   "name": "ซิมโฟนี มิวสิค ช้อป",
+   "company": "บริษัท ซิมโฟนี มิวสิค ช้อป จำกัด",
+   "address": "บริษัท ซิมโฟนี มิวสิค ช้อป จำกัด 226/23-25 ม.1 ถ.ชนเกษม ต.มะขามเตี้ย อ.เมือง จ.สุราษฎร์ธานี",
+   "phone": "098-686-9880",
+   "url": "https://www.facebook.com/SymphonyMusicShopTH/",
+   "lat": 9.124534859,
+   "lon": 99.3294167,
+   "products": [
+    "PA",
+    "Arius",
+    "DGX_P",
+    "GT",
+    "KB",
+    "KB_RECOMMEND"
+   ]
+  },
+  {
+   "accountCode": "SMY0443",
+   "name": "เต่าแดง มิวสิค ช้อป",
+   "company": "บริษัท เต่าแดง มิวสิค จำกัด",
+   "address": "44/5 ถ.ราชมรรคาใน ต.พระปฐมเจดีย์ อ.เมือง จ.นครปฐม",
+   "phone": "097-017-9500",
+   "url": "https://www.facebook.com/taodang",
+   "lat": 13.81483139,
+   "lon": 100.0453274,
+   "products": [
+    "PA",
+    "Arius",
+    "DGX_P",
+    "GT",
+    "KB",
+    "KB_RECOMMEND"
+   ]
+  },
+  {
+   "accountCode": "SMY0444",
+   "name": "เต่าแดง มิวสิค ช้อป",
+   "company": "บริษัท เต่าแดง มิวสิค จำกัด",
+   "address": "59/26 โครงการสวนหลวงสแควร์ ซอยสวนหลวง 1 แขวงวังใหม่ เขตปทุมวัน กรุงเทพมหานคร",
+   "phone": "091-020-2384",
+   "url": "https://www.facebook.com/taodang",
+   "lat": 13.74303712,
+   "lon": 100.5243898,
+   "products": [
+    "PA",
+    "Arius",
+    "DGX_P",
+    "GT",
+    "KB",
+    "KB_RECOMMEND"
+   ]
+  },
+  {
+   "accountCode": "SMY0445",
+   "name": "เต่าแดง มิวสิค ช้อป",
+   "company": "บริษัท เต่าแดง มิวสิค จำกัด",
+   "address": "1032/76-79 ซอยพหลโยธิน 18 ถนนพหลโยธิน แขวงจอมพล เขตจัตุจักร กทม",
+   "phone": "061-752-6669",
+   "url": "https://www.facebook.com/taodang?_rdc=1&_rdr",
+   "lat": 13.80126966,
+   "lon": 100.5559642,
+   "products": [
+    "PA",
+    "Arius",
+    "DGX_P",
+    "GT",
+    "KB",
+    "KB_RECOMMEND"
+   ]
+  },
+  {
+   "accountCode": "SMY0446",
+   "name": "ทวีสินมิวสิคเซ็นเตอร์",
+   "company": "หจก.ทวีสินมิวสิคเซ็นเตอร์",
+   "address": "416-417 ถ.เพชรเกษม ต.หาดใหญ่ อ.หาดใหญ่ จ.สงขลา",
+   "phone": "063-565-9516",
+   "url": null,
+   "lat": 7.0139,
+   "lon": 100.471681,
+   "products": [
+    "PA",
+    "Arius",
+    "DGX_P",
+    "GT",
+    "KB",
+    "KB_RECOMMEND"
+   ]
+  },
+  {
+   "accountCode": "SMY0447",
+   "name": "บริษัท เทอร์มินอลโซลูชั่น จำกัด",
+   "company": "บริษัท เทอร์มินอลโซลูชั่น จำกัด",
+   "address": "100/85 สายไหมริมชล-1 ซอยสายไหม 85 แขวงสายไหม เขตสายไหม กรุงเทพมหานคร 10220",
+   "phone": "02-991-8600",
+   "url": "https://www.facebook.com/AudioCity2U/?_rdc=1&_rdr",
+   "lat": 13.93153295,
+   "lon": 100.6887825,
+   "products": [
+    "PA"
+   ]
+  },
+  {
+   "accountCode": "SMY0448",
+   "name": "ไทยพานิชมาร์เก็ตติ้ง บจ",
+   "company": "ไทยพานิชมาร์เก็ตติ้ง บจ",
+   "address": "379/6 หมู่ 7, ต.สมอแข อ.เมือง จ.พิษณุโลก, 65000",
+   "phone": "055-378-666",
+   "url": "https://www.facebook.com/thaimartelectronics/?_rdc=1&_rdr",
+   "lat": 16.81765932,
+   "lon": 100.3078952,
+   "products": [
+    "PA"
+   ]
+  },
+  {
+   "accountCode": "SMY0449",
+   "name": "โรงเรียนดนตรีไทยมาร์ทอุตรดิตถ์",
+   "company": "บริษัท สยามนิสสันอุตรดิตถ์ จำกัด",
+   "address": "80/25-7  ถนนสุขเกษม ตำบล ท่าอิฐ อำเภอเมืองอุตรดิตถ์ อุตรดิตถ์ 53000",
+   "phone": "0818874435",
+   "url": null,
+   "lat": 17.62770677,
+   "lon": 100.0999157,
+   "products": [
+    "BO",
+    "ME"
+   ]
+  },
+  {
+   "accountCode": "SMY0450",
+   "name": "บริษัท ธีระมิวสิค จำกัด",
+   "company": "บริษัท ธีระมิวสิค จำกัด",
+   "address": "บริษัท ธีระมิวสิค จำกัด (สำนักงานใหญ่) 77/55 ถนนบรมราชชนนี แขวงอรุณอมรินทร์ เขตบางกอกน้อย กรุงเทพฯ 10700",
+   "phone": "02-4249959",
+   "url": "https://www.facebook.com/TheeraMusic/",
+   "lat": 13.78349945,
+   "lon": 100.4728194,
+   "products": [
+    "BO",
+    "ME"
+   ]
+  },
+  {
+   "accountCode": "SMY0451",
+   "name": "ทิพย์อีเลคโทรนิคส์ เซลล์แอนด์เซอร์วิส บจ",
+   "company": "ทิพย์อีเลคโทรนิคส์ เซลล์แอนด์เซอร์วิส บจ",
+   "address": "82 ถนน เทศา 1 ตำบล ในเมือง อำเภอเมืองกำแพงเพชร กำแพงเพชร 62000",
+   "phone": "081-888-8118",
+   "url": "https://www.facebook.com/tipelectronics/?rf=477977085547236",
+   "lat": 16.47918819,
+   "lon": 99.52618729,
+   "products": [
+    "PA"
+   ]
+  },
+  {
+   "accountCode": "SMY0452",
+   "name": "ตรังสมบูรณ์การไฟฟ้า",
+   "company": "บริษัท ตรังสมบูรณ์การไฟฟ้า จำกัด",
+   "address": "20 55-63 ทางหลวงแผ่นดินหมายเลข 4046 ตำบล ทับเที่ยง อำเภอเมืองตรัง ตรัง 92000",
+   "phone": "6675216822",
+   "url": null,
+   "lat": 7.559950206,
+   "lon": 99.60238375,
+   "products": [
+    "PA"
+   ]
+  },
+  {
+   "accountCode": "SMY0453",
+   "name": "อุบลสายฟ้า บจก",
+   "company": "อุบลสายฟ้า บจก",
+   "address": "เทศบาลนครอุบลราชธานี, ตำบล ในเมือง, อำเภอเมืองอุบลราชธานี อุบลราชธานี 34000",
+   "phone": "045-240-256",
+   "url": "https://www.facebook.com/Ubonsaifar2/?_rdc=2&_rdr",
+   "lat": 15.23846187,
+   "lon": 104.8740846,
+   "products": [
+    "PA"
+   ]
+  },
+  {
+   "accountCode": "SMY0454",
+   "name": "ห้างหุ้นส่วนจำกัด อุบลมิวสิค",
+   "company": "ห้างหุ้นส่วนจำกัด อุบลมิวสิค",
+   "address": "858 ถนนชยางกูร ตำบลในเมือง อำเภอเมือง จังหวัดอุบลราชธานี 34000",
+   "phone": "045-355055",
+   "url": "https://www.facebook.com/yamahamusicschool.ubonratchatani",
+   "lat": 15.27496593,
+   "lon": 104.8418457,
+   "products": [
+    "PA",
+    "Arius",
+    "DGX_P",
+    "GT",
+    "KB",
+    "KB_RECOMMEND"
+   ]
+  },
+  {
+   "accountCode": "SMY0455",
+   "name": "วี.ซี. อีเล็คโทรนิคส์ฯ สาขาบ้านหม้อ",
+   "company": "วี.ซี. อีเล็คโทรนิคส์ฯ บจ.",
+   "address": "17 ซอย พระพิทักษ์ แขวง วังบูรพาภิรมย์ เขตพระนคร กรุงเทพมหานคร 10200",
+   "phone": "26237100",
+   "url": "https://www.facebook.com/%E0%B8%A7%E0%B8%B5%E0%B8%8B%E0%B8%B5%E0%B8%AD%E0%B8%B5%E0%B9%80%E0%B8%A5%E0%B9%87%E0%B8%84%E0%B9%82%E0%B8%97%E0%B8%A3%E0%B8%99%E0%B8%B4%E0%B8%84%E0%B8%AA%E0%B9%8C-327890230818/",
+   "lat": 13.74578537,
+   "lon": 100.4969518,
+   "products": [
+    "PA"
+   ]
+  },
+  {
+   "accountCode": "SMY0456",
+   "name": "วี.ซี. อีเล็คโทรนิคส์ฯ สำนักงานใหญ่ สาทร",
+   "company": "วี.ซี. อีเล็คโทรนิคส์ฯ บจ.",
+   "address": "78-80 ซอยจันทน์16 แยก 8 ถนนจันทน์ แขวงทุ่งวัดดอน เขตสาทร กรุงเทพมหานคร 10120",
+   "phone": "02-675-4721",
+   "url": "https://www.facebook.com/%E0%B8%A7%E0%B8%B5%E0%B8%8B%E0%B8%B5%E0%B8%AD%E0%B8%B5%E0%B9%80%E0%B8%A5%E0%B9%87%E0%B8%84%E0%B9%82%E0%B8%97%E0%B8%A3%E0%B8%99%E0%B8%B4%E0%B8%84%E0%B8%AA%E0%B9%8C-327890230818/",
+   "lat": 13.70972265,
+   "lon": 100.5326989,
+   "products": [
+    "PA"
+   ]
+  },
+  {
+   "accountCode": "SMY0457",
+   "name": "วีมิวสิค",
+   "company": "บริษัท สำเนียงสยาม จำกัด",
+   "address": "ห้างแฟชั่นไอส์แลนด์ ชั้น 3",
+   "phone": "0948958888",
+   "url": "https://www.facebook.com/veemusics",
+   "lat": 13.82608295,
+   "lon": 100.6793293,
+   "products": [
+    "BO",
+    "ME",
+    "PA",
+    "Arius",
+    "DGX_P",
+    "GT",
+    "KB",
+    "KB_RECOMMEND"
+   ]
+  },
+  {
+   "accountCode": "SMY0458",
+   "name": "วีมิวสิค",
+   "company": "บริษัท สำเนียงสยาม จำกัด",
+   "address": "ห้างฟิวเจอร์พาร์ครังสิต ชั้น 3",
+   "phone": "0948958888",
+   "url": "https://www.facebook.com/veemusics",
+   "lat": 13.98862596,
+   "lon": 100.6185714,
+   "products": [
+    "BO",
+    "ME",
+    "PA",
+    "Arius",
+    "DGX_P",
+    "GT",
+    "KB",
+    "KB_RECOMMEND"
+   ]
+  },
+  {
+   "accountCode": "SMY0460",
+   "name": "ยามาฮ่า บีทสปอต พารากอน",
+   "company": "บริษัท สุดาวัลย์ จำกัด",
+   "address": "สยามพารากอน ชั้น4(โซนการศึกษา)",
+   "phone": "02-2970679/064-9645681",
+   "url": "https://www.facebook.com/Yamaha-Beatspot-Paragon-106540221070637/",
+   "lat": 13.74995,
+   "lon": 100.53569,
+   "products": [
+    "PA",
+    "Arius",
+    "DGX_P",
+    "GT",
+    "KB",
+    "KB_RECOMMEND"
+   ]
+  },
+  {
+   "accountCode": "SMY0462",
+   "name": "โรงเรียนดนตรียามาฮ่า อยุธยาซิตี้พาร์ค",
+   "company": "ห้างหุ้นส่วนจำกัด เทนทัช การดนตรี",
+   "address": "ศูนย์การค้าอยุธยาซิตี้พาร์ค ห้อง F30 ชั้น 2 โมบายล์โซน ถ.สายเอเชีย ต.คลองสวนพูล อ.พระนครศรีอยุธยา",
+   "phone": "0819057898",
+   "url": "https://www.facebook.com/YamahaMusicSchool.Ayutthaya/?locale2=th_TH",
+   "lat": 14.2009,
+   "lon": 100.3639,
+   "products": [
+    "AP",
+    "DP",
+    "EL",
+    "Clavinova",
+    "Arius",
+    "DGX_P",
+    "GT",
+    "KB",
+    "KB_RECOMMEND",
+    "MS"
+   ]
+  },
+  {
+   "accountCode": "SMY0463",
+   "name": "โรงเรียนดนตรียามาฮ่า บ่อวิน",
+   "company": "บริษัท วู้ดแลนด์ เอ็ดดูเคชั่น จำกัด",
+   "address": "335/2,3 หมู่ 3 ต.บ่อวิน อ.ศรีราชา จ.ชลบุรี",
+   "phone": "096-715-1696",
+   "url": "https://www.facebook.com/yamahamusicschoolbowin/?_rdc=2&_rdr",
+   "lat": 13.03140129,
+   "lon": 101.0773428,
+   "products": [
+    "AP",
+    "DP",
+    "EL",
+    "Clavinova",
+    "Arius",
+    "GT",
+    "KB",
+    "KB_RECOMMEND",
+    "DGX_P",
+    "MS"
+   ]
+  },
+  {
+   "accountCode": "SMY0464",
+   "name": "โรงเรียนดนตรียามาฮ่า เซ็นทรัลบางนา",
+   "company": "บริษัท สยามบางนาการดนตรี จำกัด",
+   "address": "589/23 ชั้น 6 อาคารเซ็นทรัลซิตี้ทาวเวอร์ ถนนเทพรัตน บางนาเหนือ บางนา กรุงเทพฯ 10260",
+   "phone": "02-7456363-4",
+   "url": "https://www.facebook.com/sbnmusic",
+   "lat": 13.668582,
+   "lon": 100.634015,
+   "products": [
+    "AP",
+    "DP",
+    "EL",
+    "Clavinova",
+    "Arius",
+    "GT",
+    "KB",
+    "KB_RECOMMEND",
+    "DGX_P",
+    "MS"
+   ]
+  },
+  {
+   "accountCode": "SMY0465",
+   "name": "โรงเรียนดนตรียามาฮ่า เซ็นทรัลแจ้งวัฒนะ",
+   "company": "บริษัท ทรี เอ มิวสิค จำกัด",
+   "address": "99/99 ห้อง720 ชั้น 7 ศูนย์การค้าเซ็นทรัลพลาซ่าแจ้งวัฒนะ ถ.แจ้งวัฒนะ บางตลาด ปากเกร็ด นนทบุรี 11120",
+   "phone": "028353224, 028353225",
+   "url": "https://www.facebook.com/siamkolkarncentralchangwathna",
+   "lat": 13.90313,
+   "lon": 100.52911,
+   "products": [
+    "AP",
+    "DP",
+    "EL",
+    "Clavinova",
+    "Arius",
+    "GT",
+    "KB",
+    "KB_RECOMMEND",
+    "DGX_P",
+    "MS"
+   ]
+  },
+  {
+   "accountCode": "SMY0466",
+   "name": "โรงเรียนดนตรียามาฮ่า เซ็นทรัลลาดพร้าว",
+   "company": "บริษัท อินเตอร์เมโลดี จำกัด",
+   "address": "1693 ชั้น 8 อาคารสำนักงาน เซ็นทรัลพลาซาลาดพร้าว ถนนพหลโยธิน จตุจักร กรุงเทพฯ",
+   "phone": "02-9371133-4",
+   "url": "https://www.facebook.com/srmschool",
+   "lat": 13.816214,
+   "lon": 100.56042,
+   "products": [
+    "AP",
+    "DP",
+    "EL",
+    "Clavinova",
+    "Arius",
+    "GT",
+    "KB",
+    "KB_RECOMMEND",
+    "DGX_P",
+    "MS"
+   ]
+  },
+  {
+   "accountCode": "SMY0467",
+   "name": "โรงเรียนดนตรียามาฮ่า เซ็นทรัลปิ่นเกล้า",
+   "company": "บริษัท สาวิทธการ จำกัด",
+   "address": "7/3-7/128 อาคารสำนักงานเซ็นทรัลปิ่นเกล้า ชั้น 8 ทาวเวอร์ บี ถนนบรมราชชนนี แขวงอรุณอมรินทร์ เขตบางกอกน้อย กรุงเทพมหานคร 10700",
+   "phone": "0994396644",
+   "url": "https://www.facebook.com/yamahamusicschool.centralpinklao/",
+   "lat": 13.78221,
+   "lon": 100.40377,
+   "products": [
+    "AP",
+    "DP",
+    "EL",
+    "Clavinova",
+    "Arius",
+    "GT",
+    "KB",
+    "KB_RECOMMEND",
+    "DGX_P",
+    "MS"
+   ]
+  },
+  {
+   "accountCode": "SMY0468",
+   "name": "โรงเรียนดนตรียามาฮ่า เซ็นทรัลพลาซา แกรนด์ พระราม 9",
+   "company": "บริษัท สยามดนตรี รามอินทรา จำกัด",
+   "address": "9/9 ศูนย์การค้าเซ็นทรัลพลาซา แกรนด์ พระราม 9 เลขที่ 1105-1106 ถ.พระราม 9 แขวงห้วยขวาง เขตห้วยขวาง กรุงเทพมหานคร",
+   "phone": "0864688091",
+   "url": "https://www.facebook.com/YamahaRama9/",
+   "lat": 13.6770905,
+   "lon": 100.6191734,
+   "products": [
+    "AP",
+    "DP",
+    "EL",
+    "Clavinova",
+    "Arius",
+    "GT",
+    "KB",
+    "KB_RECOMMEND",
+    "DGX_P",
+    "MS"
+   ]
+  },
+  {
+   "accountCode": "SMY0469",
+   "name": "โรงเรียนดนตรียามาฮ่า เซ็นทรัลพลาซา ศาลายา",
+   "company": "บริษัท สาวิทธการ จำกัด",
+   "address": "99/19-20 หมู่ที่ 2 อาคารเซ็นทรัลพลาซา ศาลายา ชั้น G ถนนบรมราชชนนี ตำบลบางเตย อำเภอสามพราน จังหวัดนครปฐม",
+   "phone": "099-2869270, 02-4296991",
+   "url": "https://www.facebook.com/yamaha.central.salaya",
+   "lat": 13.78697939,
+   "lon": 100.2761368,
+   "products": [
+    "AP",
+    "DP",
+    "EL",
+    "Clavinova",
+    "Arius",
+    "GT",
+    "KB",
+    "KB_RECOMMEND",
+    "DGX_P",
+    "MS"
+   ]
+  },
+  {
+   "accountCode": "SMY0470",
+   "name": "โรงเรียนดนตรียามาฮ่า เซ็นทรัลอุดรธานี",
+   "company": "หจก.สมานเสียง",
+   "address": "ชั้น 4 เซ็นทรัลพลาซ่า อุดรธานี",
+   "phone": "0897119900",
+   "url": "https://www.facebook.com/Yamaha-Music-School-Central-Udonthani-493265900852866",
+   "lat": 17.40573807,
+   "lon": 102.7994939,
+   "products": [
+    "AP",
+    "DP",
+    "EL",
+    "Clavinova",
+    "Arius",
+    "GT",
+    "KB",
+    "KB_RECOMMEND",
+    "DGX_P",
+    "MS"
+   ]
+  },
+  {
+   "accountCode": "SMY0471",
+   "name": "โรงเรียนดนตรียามาฮ่า เซ็นทรัลพลาซา เวสต์เกต",
+   "company": "บริษัทสาวิทธการ จำกัด",
+   "address": "199,199/1,199/2 ศูนย์การค้าเซ็นทรัลพลาซาเวสต์เกต ชั้น 3 เลขที่ 322-323 หมู่ที่ 6 ถนนกาญจนาภิเษก ตำบลเสาธงหิน อำเภอบางใหญ่ จังหวัดนนทบุรี",
+   "phone": "0888742702",
+   "url": "https://www.facebook.com/yamaha.central.westgate",
+   "lat": 13.87636613,
+   "lon": 100.4121428,
+   "products": [
+    "AP",
+    "DP",
+    "EL",
+    "Clavinova",
+    "Arius",
+    "GT",
+    "KB",
+    "KB_RECOMMEND",
+    "DGX_P",
+    "MS"
+   ]
+  },
+  {
+   "accountCode": "SMY0472",
+   "name": "โรงเรียนดนตรียามาฮ่า ฉะเชิงเทรา",
+   "company": "ฉัตรวินทร์การดนตรี",
+   "address": "1249 ถ.เทพคุณากร 13/1 ต.หน้าเมือง อ.เมือง จ.ฉะเชิงเทรา",
+   "phone": "0945641175, 0922295944",
+   "url": "https://www.facebook.com/pg/yamahachachoengsao/community/",
+   "lat": 13.66738649,
+   "lon": 101.0526449,
+   "products": [
+    "AP",
+    "DP",
+    "EL",
+    "Clavinova",
+    "Arius",
+    "GT",
+    "KB",
+    "KB_RECOMMEND",
+    "DGX_P",
+    "MS"
+   ]
+  },
+  {
+   "accountCode": "SMY0473",
+   "name": "โรงเรียนดนตรียามาฮ่า แจ้งวัฒนะ",
+   "company": "บริษัท ทรี เอ มิวสิค จำกัด",
+   "address": "104/41 ถ.แจ้งวัฒนะ แขวงทุ่งสองห้อง เขตหลักสี่ 10210",
+   "phone": "02-990-7711",
+   "url": "https://www.facebook.com/1550914235190825/",
+   "lat": 13.89529,
+   "lon": 100.55784,
+   "products": [
+    "AP",
+    "DP",
+    "EL",
+    "Clavinova",
+    "Arius",
+    "GT",
+    "KB",
+    "KB_RECOMMEND",
+    "DGX_P",
+    "MS"
+   ]
+  },
+  {
+   "accountCode": "SMY0474",
+   "name": "โรงเรียนดนตรีนามาฮ่า เอ็มโพเรี่ยม",
+   "company": "บริษัท พรหมเมตต์ จำกัด",
+   "address": "622 อาคารเอ็มโพเรี่ยมทาวเวอร์ขั้น9 แขวงคลองตัน เขตคลองเตย กรุงเทพฯ",
+   "phone": "081-8041884",
+   "url": "https://www.facebook.com/smy.emporium",
+   "lat": 13.73065,
+   "lon": 100.56967,
+   "products": [
+    "AP",
+    "DP",
+    "EL",
+    "Clavinova",
+    "Arius",
+    "GT",
+    "KB",
+    "KB_RECOMMEND",
+    "DGX_P",
+    "MS"
+   ]
+  },
+  {
+   "accountCode": "SMY0475",
+   "name": "โรงเรียนดนตรียามาฮ่า เอสพละนาด รัตนาธิเบศร์",
+   "company": "บริษัท ศรดนตรีกรุงเทพ จำกัด",
+   "address": "ศูนย์การค้าเอสพละนาดงามวงศ์วาน-แคราย ชั้น 3",
+   "phone": "02-591-2951",
+   "url": "https://www.facebook.com/YamahaEsplanade/?ref=pages_you_manage",
+   "lat": 13.860966,
+   "lon": 100.518344,
+   "products": [
+    "AP",
+    "DP",
+    "EL",
+    "Clavinova",
+    "Arius",
+    "GT",
+    "KB",
+    "KB_RECOMMEND",
+    "DGX_P",
+    "MS"
+   ]
+  },
+  {
+   "accountCode": "SMY0476",
+   "name": "โรงเรียนดนตรียามาฮ่า แฟชั่นไอส์แลนด์",
+   "company": "บริษัท สยามดนตรีรามอินทรา จำกัด",
+   "address": "ศูนย์การค้าแฟชั่นไอส์แลนด์ ชั้น 3 (ฝั่งโรบินสัน)",
+   "phone": "08-6468-8090, 08-1904-7939, 0-2947-5151, 0-2947-5252",
+   "url": "https://www.facebook.com/YamahaFashionIsland/",
+   "lat": 13.82485,
+   "lon": 100.67846,
+   "products": [
+    "AP",
+    "DP",
+    "EL",
+    "Clavinova",
+    "Arius",
+    "GT",
+    "KB",
+    "KB_RECOMMEND",
+    "DGX_P",
+    "BO",
+    "ME",
+    "MS"
+   ]
+  },
+  {
+   "accountCode": "SMY0477",
+   "name": "โรงเรียนดนตรียามาฮ่า หาดใหญ่",
+   "company": "หจก.ทวีสินมิวสิคเซ็นเตอร์",
+   "address": "417 ถ.เพชรเกษม อ.หาดใหญ่ จ.สงขลา",
+   "phone": "063-2295391",
+   "url": null,
+   "lat": 7.0139,
+   "lon": 100.47164,
+   "products": [
+    "AP",
+    "DP",
+    "EL",
+    "Clavinova",
+    "Arius",
+    "GT",
+    "KB",
+    "KB_RECOMMEND",
+    "DGX_P",
+    "MS"
+   ]
+  },
+  {
+   "accountCode": "SMY0478",
+   "name": "โรงเรียนดนตรียามาฮ่า ขอนแก่น",
+   "company": "โรงเรียนดนตรีสยามกลการขอนแก่น",
+   "address": "195/4 ถ.รื่นรมย์ อ.เมือง จ.ขอนแก่น 40000",
+   "phone": "0834192525",
+   "url": "https://www.facebook.com/yamahakhonkaen",
+   "lat": 16.4263,
+   "lon": 102.82942,
+   "products": [
+    "AP",
+    "DP",
+    "EL",
+    "Clavinova",
+    "Arius",
+    "GT",
+    "KB",
+    "KB_RECOMMEND",
+    "DGX_P",
+    "MS"
+   ]
+  },
+  {
+   "accountCode": "SMY0479",
+   "name": "โรงเรียนดนตรียามาฮ่า ลาดพร้าว",
+   "company": "บริษัท เรนโบว์ เมโลดี้ จำกัด",
+   "address": "669 ห้อง 2JA002 ห้างสรรพสินค้าบิ๊กซี เอ็กซ์ตร้า ลาดพร้าว 2 แขวงจอมพล เขตจตุจักร กรุงเทพมหานคร 10900",
+   "phone": "029388555, 0899697047",
+   "url": "https://www.facebook.com/yamahaladprao2",
+   "lat": 13.80999736,
+   "lon": 100.5680172,
+   "products": [
+    "AP",
+    "DP",
+    "EL",
+    "Clavinova",
+    "Arius",
+    "GT",
+    "KB",
+    "KB_RECOMMEND",
+    "DGX_P",
+    "MS"
+   ]
+  },
+  {
+   "accountCode": "SMY0480",
+   "name": "โรงเรียนดนตรียามาฮ่า มหาสารคาม",
+   "company": "บริษัท พรหมเมตต์จำกัด",
+   "address": "76/1_7 ถ.นครสสรรค์ ต.ตลาด อ.เมือง จ.มหาสารคาม",
+   "phone": "043-970606, 043-970775, 092-2236454",
+   "url": "https://www.facebook.com/YamahaMusicSchoolMahasarakham/",
+   "lat": 16.20225219,
+   "lon": 103.2764256,
+   "products": [
+    "AP",
+    "DP",
+    "EL",
+    "Clavinova",
+    "Arius",
+    "GT",
+    "KB",
+    "KB_RECOMMEND",
+    "DGX_P",
+    "MS"
+   ]
+  },
+  {
+   "accountCode": "SMY0481",
+   "name": "โรงเรียนดนตรียามาฮ่า มีนบุรี",
+   "company": "บริษัทภูวนการดนตรี จำกัด",
+   "address": "73 อาคาร โลตัส ชั้น 3 ถ. สุวินทวงศ์ แขวง มีนบุรี เขตมีนบุรี กรุงเทพมหานคร",
+   "phone": "02-918-9691, 086-325-0477, 084-1144-344",
+   "url": "https://www.facebook.com/yms.minburi",
+   "lat": 13.81713867,
+   "lon": 100.7281752,
+   "products": [
+    "AP",
+    "DP",
+    "EL",
+    "Clavinova",
+    "Arius",
+    "GT",
+    "KB",
+    "KB_RECOMMEND",
+    "DGX_P",
+    "MS"
+   ]
+  },
+  {
+   "accountCode": "SMY0482",
+   "name": "โรงเรียนดนตรียามาฮ่า นครแพร่",
+   "company": "ห้างหุ้นส่วน กีต้าร์รีสต์ อิน สตูดิโอ",
+   "address": "408 หมู่.9 ตำบลนาจักร อำเภอเมืองแพร่ จังหวัดแพร่ 54000",
+   "phone": "0919691954",
+   "url": "https://www.facebook.com/Yamaha-music-school-Nakhon-phrae-104981964556966/?ref=pages_you_manage",
+   "lat": 18.12497,
+   "lon": 100.1516,
+   "products": [
+    "AP",
+    "DP",
+    "EL",
+    "Clavinova",
+    "Arius",
+    "GT",
+    "KB",
+    "KB_RECOMMEND",
+    "DGX_P",
+    "MS"
+   ]
+  },
+  {
+   "accountCode": "SMY0483",
+   "name": "โรงเรียนดนตรียามาฮ่า นครสวรรค์",
+   "company": "บจก. สมจินตนาการ",
+   "address": "605/399 ม.10 ถนนรังสิโยทัย (นครสวรรค์-พิษณุโลก) ต.นครสวรรค์ตก อ.เมือง จ.นครสวรรค์",
+   "phone": "0623266235",
+   "url": "https://www.facebook.com/YamahaMusicSchoolNakhonsawan/",
+   "lat": 15.70439,
+   "lon": 100.12044,
+   "products": [
+    "AP",
+    "DP",
+    "EL",
+    "Clavinova",
+    "Arius",
+    "GT",
+    "KB",
+    "KB_RECOMMEND",
+    "DGX_P",
+    "MS"
+   ]
+  },
+  {
+   "accountCode": "SMY0484",
+   "name": "โรงเรียนดนตรียามาฮ่า นครสวรรค์",
+   "company": "บจก. สมจินตนาการ",
+   "address": "605/399 ม.10 ต.นครสวรรค์ตก อ.เมือง จ.นครสวรรค์",
+   "phone": "0623266235",
+   "url": "https://www.facebook.com/YamahaMusicSchoolNakhonsawan/",
+   "lat": 15.70437897,
+   "lon": 100.1204432,
+   "products": [
+    "BO",
+    "ME"
+   ]
+  },
+  {
+   "accountCode": "SMY0485",
+   "name": "โรงเรียนดนตรียามาฮ่า นครปฐม",
+   "company": "บริษัท สาวิทธการ จำกัด",
+   "address": "554/1-4 ถนนราชมรรคา ต.พระปฐมเจดีย์ อ.เมือง จ.นครปฐม",
+   "phone": "0888742703",
+   "url": "https://www.facebook.com/yamaha.nakhonpathom/",
+   "lat": 13.81191763,
+   "lon": 100.0553401,
+   "products": [
+    "AP",
+    "DP",
+    "EL",
+    "Clavinova",
+    "Arius",
+    "GT",
+    "KB",
+    "KB_RECOMMEND",
+    "DGX_P",
+    "MS"
+   ]
+  },
+  {
+   "accountCode": "SMY0487",
+   "name": "โรงเรียนดนตรียามาฮ่า นุชฎา",
+   "company": "บริษัท นุชฎา สีลม จำกัด",
+   "address": "อาคารสีลม 64 ชั้น3 ถนนสีลม แขวงสุริยวงศ์ เขตบางรัก กรุงเทพฯ",
+   "phone": "087-9444163, 02-2333978",
+   "url": "https://www.facebook.com/yamahanuchada",
+   "lat": 13.72858,
+   "lon": 100.53355,
+   "products": [
+    "AP",
+    "DP",
+    "EL",
+    "Clavinova",
+    "Arius",
+    "GT",
+    "KB",
+    "KB_RECOMMEND",
+    "DGX_P",
+    "MS"
+   ]
+  },
+  {
+   "accountCode": "SMY0488",
+   "name": "โรงเรียนดนตรียามาฮ่า นุชฎา",
+   "company": "บริษัท นุชฎา สีลม จำกัด",
+   "address": "ชั้น 3 อาคารสีลม 64 ถนนสีลม แขวงสุริยวงศ์ เขตบางรัก กรุงเทพฯ",
+   "phone": "0879444163",
+   "url": "https://www.facebook.com/yamahanuchada",
+   "lat": 13.72859,
+   "lon": 100.53346,
+   "products": [
+    "BO",
+    "ME"
+   ]
+  },
+  {
+   "accountCode": "SMY0489",
+   "name": "โรงเรียนดนตรียามาฮ่า พัทยา",
+   "company": "บริษัท วู้ดแลนด์ เอ็ดดูเคชั่น จำกัด",
+   "address": "32140-141 หมู่ 6 ต.นาเกลือ อ.บางละมุง จ.ชลบุรี",
+   "phone": "083-113-6090",
+   "url": "https://www.facebook.com/yamahaschoolpattaya/?_rdc=2&_rdr",
+   "lat": 12.94684551,
+   "lon": 100.8961862,
+   "products": [
+    "AP",
+    "DP",
+    "EL",
+    "Clavinova",
+    "Arius",
+    "GT",
+    "KB",
+    "KB_RECOMMEND",
+    "DGX_P",
+    "MS"
+   ]
+  },
+  {
+   "accountCode": "SMY0491",
+   "name": "โรงเรียนดนตรียามาฮ่า พลัสมอลล์ บางใหญ่",
+   "company": "บริษัท สาวิทธการ จำกัด",
+   "address": "90 หมู่ 5  อาคารพลัสมอลล์ บางใหญ่ ชั้น 2 ถนนกาญจนาภิเษก ตำบลบางคูเวียง  อำเภอบางกรวย จังหวัดนนทบุรี",
+   "phone": "081-399-0161, 02-832-5040",
+   "url": "https://www.facebook.com/yamaha.plusmall.bangyai/",
+   "lat": 13.82354741,
+   "lon": 100.40958,
+   "products": [
+    "AP",
+    "DP",
+    "EL",
+    "Clavinova",
+    "Arius",
+    "GT",
+    "KB",
+    "KB_RECOMMEND",
+    "DGX_P",
+    "MS"
+   ]
+  },
+  {
+   "accountCode": "SMY0492",
+   "name": "โรงเรียนดนตรียามาฮ่า รังสิต",
+   "company": "บริษัท พรหมเมตต์จำกัด",
+   "address": "โรงเรียนดนตรียามาฮ่ารังสิต ห้างสรรพสินค้า ฟิวเจอร์พาร์ค รังสิต ชั้น 3 โซนแคมปัส 94 ถนน พหโยธิน. ตําบล ประชาธิปัตย์ อําเภอธัญบุรี ปทุมธานี 12130",
+   "phone": "02-9580542 / 081-7101098",
+   "url": "https://www.facebook.com/yamaharangsitschool",
+   "lat": 13.99045742,
+   "lon": 100.6171277,
+   "products": [
+    "AP",
+    "DP",
+    "EL",
+    "Clavinova",
+    "Arius",
+    "GT",
+    "KB",
+    "KB_RECOMMEND",
+    "DGX_P",
+    "MS"
+   ]
+  },
+  {
+   "accountCode": "SMY0494",
+   "name": "โรงเรียนดนตรียามาฮ่า รัตนาธิเบศร์",
+   "company": "บริษัท ศรดนตรีกรุงเทพ จำกัด",
+   "address": "68/100ศูนย์การค้าเซ็นทรัลพลาซา รัตนาธิเบศร์ ชั้น3 ถนน รัตนาธิเบศร์ ต.บางกระสอ อ.เมืองนนทบุรี จ.นนทบุรี 11000",
+   "phone": "02-526-8863-4",
+   "url": "https://www.facebook.com/rtb.musicschool/",
+   "lat": 13.866171,
+   "lon": 100.496889,
+   "products": [
+    "AP",
+    "DP",
+    "EL",
+    "Clavinova",
+    "Arius",
+    "GT",
+    "KB",
+    "KB_RECOMMEND",
+    "DGX_P",
+    "MS"
+   ]
+  },
+  {
+   "accountCode": "SMY0495",
+   "name": "โรงเรียนดนตรียามาฮ่า ราชบุรี",
+   "company": "บริษัท รักษ์ดนตรี จำกัด",
+   "address": "269/11-13 ถ.ศรีสิรุยวงศ์ ต.หน้าเมือง อ. เมือง จ.ราชบุรี",
+   "phone": "0994191556",
+   "url": null,
+   "lat": 13.53368809,
+   "lon": 99.8123667,
+   "products": [
+    "AP",
+    "DP",
+    "EL",
+    "Clavinova",
+    "Arius",
+    "GT",
+    "KB",
+    "KB_RECOMMEND",
+    "DGX_P",
+    "MS"
+   ]
+  },
+  {
+   "accountCode": "SMY0496",
+   "name": "โรงเรียนดนตรียามาฮ่า รัชดาภิเษก",
+   "company": "บริษัท ศรดนตรีกรุงเทพ จำกัด",
+   "address": "ห้อง X01 ชั้น G ศูนย์การค้าฟอร์จูนทาวน์ เลขที่ 7 ถนนรัชดาภิเษก แขวงดินแดง เขตดินแดง กทม.",
+   "phone": "02-2457717-9",
+   "url": "https://www.facebook.com/yamaharcdmusic",
+   "lat": 13.7600497,
+   "lon": 100.5653865,
+   "products": [
+    "AP",
+    "DP",
+    "EL",
+    "Clavinova",
+    "Arius",
+    "GT",
+    "KB",
+    "KB_RECOMMEND",
+    "DGX_P",
+    "MS"
+   ]
+  },
+  {
+   "accountCode": "SMY0497",
+   "name": "โรงเรียนดนตรียามาฮ่า ซีคอนบางแค",
+   "company": "บริษัท อาภาณัฐ จำกัด",
+   "address": "ศูนย์การค้าซีคอนบางแค เลขที่607 ถนนเพชรเกษม แขวงบางหว้า เขตภาษีเจริญ กทม.",
+   "phone": "0922624269",
+   "url": "https://www.facebook.com/YamahaSeaconBangkaeMusicSchool",
+   "lat": 13.712098,
+   "lon": 100.435001,
+   "products": [
+    "AP",
+    "DP",
+    "EL",
+    "Clavinova",
+    "Arius",
+    "GT",
+    "KB",
+    "KB_RECOMMEND",
+    "DGX_P",
+    "MS"
+   ]
+  },
+  {
+   "accountCode": "SMY0498",
+   "name": "โรงเรียนดนตรียามาฮ่า ซีคอนสแควร์",
+   "company": "บริษัท​ สยามดนตรี​ รามอินทรา​ จำกัด",
+   "address": "55 ศูนย์การค้าซีคอนสแควร์ (โรงเรียนดนตรียามาฮ่าซีคอนสแควร์) ห้อง 3072-3073 ชั้น3 ถ.ศรีนครินทร์ แขวงหนองบอน เขตประเวศ กทม.",
+   "phone": "0864696199",
+   "url": "https://www.facebook.com/Yamaha.SeaconSrinakarin",
+   "lat": 13.69230595,
+   "lon": 100.6486472,
+   "products": [
+    "AP",
+    "DP",
+    "EL",
+    "Clavinova",
+    "Arius",
+    "GT",
+    "KB",
+    "KB_RECOMMEND",
+    "DGX_P",
+    "MS"
+   ]
+  },
+  {
+   "accountCode": "SMY0499",
+   "name": "โรงเรียนดนตรียามาฮ่า สยามพารากอน",
+   "company": "บริษัท สุดาวัลย์ จำกัด",
+   "address": "สยามพารากอน ชั้น 4 (โซนการศึกษา)กรุงเทพมหานคร 10330",
+   "phone": "02-2970679/064-9645681",
+   "url": "https://www.facebook.com/Yamaha-Paragon-138550096167916/",
+   "lat": 13.7474829,
+   "lon": 100.5359807,
+   "products": [
+    "AP",
+    "DP",
+    "EL",
+    "Clavinova",
+    "Arius",
+    "PA",
+    "GT",
+    "KB",
+    "KB_RECOMMEND",
+    "DGX_P",
+    "MS"
+   ]
+  },
+  {
+   "accountCode": "SMY0500",
+   "name": "โรงเรียนดนตรียามาฮ่า ศรีราชา",
+   "company": "บริษัท ศรีราชา มิวสิค จำกัด",
+   "address": "21/2 ถ.สุรศักดิ์ 1  ต.ศรีราชา อ.ศรีราชา จ.ชลบุรี",
+   "phone": "0892449450",
+   "url": "https://www.facebook.com/YamahaSriracha",
+   "lat": 13.16559329,
+   "lon": 100.9264921,
+   "products": [
+    "AP",
+    "DP",
+    "EL",
+    "Clavinova",
+    "Arius",
+    "GT",
+    "KB",
+    "KB_RECOMMEND",
+    "DGX_P",
+    "MS"
+   ]
+  },
+  {
+   "accountCode": "SMY0501",
+   "name": "โรงเรียนดนตรียามาฮ่า สุจินดา ลพบุรี",
+   "company": "บริษัท สุจินดามิวสิค จำกัด",
+   "address": "454/1-4 ถนนนารายณ์มหาราช ตำบลทะเลชุบศร อำเภอเมือง จังหวัดลพบุรี",
+   "phone": "036-412186, 086-4510617",
+   "url": null,
+   "lat": 14.79966472,
+   "lon": 100.632882,
+   "products": [
+    "AP",
+    "DP",
+    "EL",
+    "Clavinova",
+    "Arius",
+    "GT",
+    "KB",
+    "KB_RECOMMEND",
+    "DGX_P",
+    "MS"
+   ]
+  },
+  {
+   "accountCode": "SMY0502",
+   "name": "โรงเรียนดนตรียามาฮ่า สุขุมวิท",
+   "company": "บริษัทพรนิธิศจำกัด",
+   "address": "1521/1 อาคารไทยซินสแควร์ ชั้น 4 ถนน สุขุมวิท แขวงพระโขนงเหนือ เขต วัฒนา กรุงเทพมหานคร 10110",
+   "phone": "091-4049887, 081-3749085",
+   "url": "https://www.facebook.com/yamahasukhumvit",
+   "lat": 13.71620773,
+   "lon": 100.5906028,
+   "products": [
+    "AP",
+    "DP",
+    "EL",
+    "Clavinova",
+    "Arius",
+    "GT",
+    "KB",
+    "KB_RECOMMEND",
+    "DGX_P",
+    "MS"
+   ]
+  },
+  {
+   "accountCode": "SMY0503",
+   "name": "โรงเรียนดนตรียามาฮ่า พอร์โต้ชิโน่ สมุทรสาคร",
+   "company": "บริษัท พณัฐพร จำกัด",
+   "address": "99/121 ห้องเลขที่B212-213 พระราม2 ต.นาดี อ.เมือง จ.สมุทรสาคร",
+   "phone": "083-2683695",
+   "url": "https://www.facebook.com/Yamaha-Samutsakorn-Music-School-Porto-Chino-125544127569233/",
+   "lat": 13.56904125,
+   "lon": 100.2895995,
+   "products": [
+    "AP",
+    "DP",
+    "EL",
+    "Clavinova",
+    "Arius",
+    "GT",
+    "KB",
+    "KB_RECOMMEND",
+    "DGX_P",
+    "MS"
+   ]
+  },
+  {
+   "accountCode": "SMY0504",
+   "name": "โรงเรียนดนตรียามาฮ่า สุพรรณบุรี",
+   "company": "บริษัท เอส.เค.มิวสิค อินโนเวชั่น จำกัด",
+   "address": "249/321-322 หมู่บ้านศิริวัฒน์ (โครงการใหม่) ต.ท่าระหัด อ.เมือง จ.สุพรรณบุรี 72000",
+   "phone": "0645693942",
+   "url": "https://www.facebook.com/YamahaSuphanburi/",
+   "lat": 14.47246243,
+   "lon": 100.129016,
+   "products": [
+    "AP",
+    "DP",
+    "EL",
+    "Clavinova",
+    "Arius",
+    "GT",
+    "KB",
+    "KB_RECOMMEND",
+    "DGX_P",
+    "MS"
+   ]
+  },
+  {
+   "accountCode": "SMY0505",
+   "name": "โรงเรียนดนตรียามาฮ่า สุราษฎร์ธานี",
+   "company": "บริษัท โคลีเซี่ยมเซาท์เทิร์นมูฟวี่ จำกัด",
+   "address": "44/13 ศูนย์การค้าโคลีเซี่ยม สุราษฎร์ธานี ถนนรัฐรังสรรค์ ตำบลตลาด อำเภอเมืองสุราษฎร์ธานี สุราษฎร์ธานี 84000",
+   "phone": "0806934172",
+   "url": "https://www.facebook.com/yamaha.surat/?_rdc=2&_rdr",
+   "lat": 9.146217023,
+   "lon": 99.32704316,
+   "products": [
+    "AP",
+    "DP",
+    "EL",
+    "Clavinova",
+    "Arius",
+    "GT",
+    "KB",
+    "KB_RECOMMEND",
+    "DGX_P",
+    "MS"
+   ]
+  },
+  {
+   "accountCode": "SMY0508",
+   "name": "โรงเรียนดนตรียามาฮ่า เทสโก้ โลตัส ศรีนครินทร์",
+   "company": "บริษัทภูวนการดนตรี จำกัด",
+   "address": "ชั้น 3 อาคาร เทสโก้ โลตัส ศรีนครินทร์ ถ.ศรีนครินทร์ ต.บางเมืองใหม่ อ.เมือง จ.สมุทรปราการ 10270",
+   "phone": "02-7404467, 086-3251177, 084-1144344",
+   "url": "https://www.facebook.com/yms.srinakarin",
+   "lat": 13.62061197,
+   "lon": 100.6206772,
+   "products": [
+    "AP",
+    "DP",
+    "EL",
+    "Clavinova",
+    "Arius",
+    "GT",
+    "KB",
+    "KB_RECOMMEND",
+    "DGX_P",
+    "MS"
+   ]
+  },
+  {
+   "accountCode": "SMY0509",
+   "name": "โรงเรียนดนตรียามาฮ่า เดอะคริสตัล ราชพฤกษ์",
+   "company": "บริษัท สาวิทธการ จำกัด",
+   "address": "555/9  หมู่ 1 ศูนย์การค้า เดอะคริสตัล เอสบี ราชพฤกษ์ ชั้น 3  ถนนราชพฤกษ์  ตำบลบางขนุน  อำเภอบางกรวย  จังหวัดนนทบุรี",
+   "phone": "094-4945205",
+   "url": "https://www.facebook.com/yamaha.thecrystal.ratchapruek/",
+   "lat": 13.81867129,
+   "lon": 100.4457787,
+   "products": [
+    "AP",
+    "DP",
+    "EL",
+    "Clavinova",
+    "Arius",
+    "GT",
+    "KB",
+    "KB_RECOMMEND",
+    "DGX_P",
+    "MS"
+   ]
+  },
+  {
+   "accountCode": "SMY0510",
+   "name": "โรงเรียนดนตรียามาฮ่า เดอะมอลล์บางกะปิ",
+   "company": "บริษัท คอนโซแนนซ์ จำกัด",
+   "address": "โซนการศึกษา ชั้น 4 อาคารเดอะมอลล์บางกะปิ แขวงคลองจั่น เขตบางกะปิ กรุงเทพฯ 10240",
+   "phone": "02-734-3411, 062-517-9636",
+   "url": "https://www.facebook.com/yamahabkp",
+   "lat": 13.76747732,
+   "lon": 100.642073,
+   "products": [
+    "AP",
+    "DP",
+    "EL",
+    "Clavinova",
+    "Arius",
+    "GT",
+    "KB",
+    "KB_RECOMMEND",
+    "DGX_P",
+    "MS"
+   ]
+  },
+  {
+   "accountCode": "SMY0511",
+   "name": "โรงเรียนดนตรียามาฮ่า เดอะมอลล์งามวงศ์วาน",
+   "company": "บ.เบทเทอร์สยามมิวสิคอินเตอร์",
+   "address": "ชั้น 6 เดอะมอลล์งามวงศ์วาน 30/39-50 ถนนงามวงศ์วาน บางเขน เมืองนนทบุรี จ.นนทุบรี",
+   "phone": "0619946661",
+   "url": "https://www.facebook.com/YAMAHA.M6?_rdc=1&_rdr",
+   "lat": 13.8551442,
+   "lon": 100.5421127,
+   "products": [
+    "AP",
+    "DP",
+    "EL",
+    "Clavinova",
+    "Arius",
+    "GT",
+    "KB",
+    "KB_RECOMMEND",
+    "DGX_P",
+    "MS"
+   ]
+  },
+  {
+   "accountCode": "SMY0512",
+   "name": "โรงเรียนดนตรียามาฮ่า เดอะมอลล์ท่าพระ",
+   "company": "บริษัท ซีแอนด์โอ แอดวานซ์ จำกัด",
+   "address": "ชั้น 7  อาคารสำนักงานเดอะมอลล์ท่าพระ ถนนรัชดาภิเษก(ท่าพระ-ตัดใหม่) แขวงบุคคโล เขตธนบุรี กรุงเทพฯ",
+   "phone": "02-4777372-3, 092-2524648",
+   "url": "https://www.facebook.com/Yamaha-Music-School-The-Mall-Thapra-1430222480346225",
+   "lat": 13.7135425,
+   "lon": 100.48068,
+   "products": [
+    "AP",
+    "DP",
+    "EL",
+    "Clavinova",
+    "Arius",
+    "GT",
+    "KB",
+    "KB_RECOMMEND",
+    "DGX_P",
+    "MS"
+   ]
+  },
+  {
+   "accountCode": "SMY0513",
+   "name": "โรงเรียนดนตรียามาฮ่า เดอะมอลล์ ท่าพระ",
+   "company": "บริษัท ซีแอนด์โอ แอดวานซ์ จำกัด",
+   "address": "ชั้น 12 อาคารสำนักงานเดอะมอลล์ท่าพระ  ถนนรัชดาภิเษก(ท่าพระ-ตัดใหม่) แขวงบุคคโล เขตธนบุรี กรุงเทพฯ",
+   "phone": "02-4777373, 092-2524648",
+   "url": "https://www.facebook.com/Yamaha-Music-School-The-Mall-Thapra-1430222480346225",
+   "lat": 13.71381,
+   "lon": 100.48001,
+   "products": [
+    "BO",
+    "ME"
+   ]
+  },
+  {
+   "accountCode": "SMY0514",
+   "name": "โรงเรียนดนตรียามาฮ่า เดอะไนน์",
+   "company": "ครอบครัวดนตรีจำกัด",
+   "address": "999/2 ชั้น3 เดอะไนน์เซ็นเตอร์พระรามเก้า",
+   "phone": "0816869643",
+   "url": null,
+   "lat": 13.74138983,
+   "lon": 100.6251382,
+   "products": [
+    "AP",
+    "DP",
+    "EL",
+    "Clavinova",
+    "Arius",
+    "GT",
+    "KB",
+    "KB_RECOMMEND",
+    "DGX_P",
+    "MS"
+   ]
+  },
+  {
+   "accountCode": "SMY0515",
+   "name": "โรงเรียนดนตรียามาฮ่า เดอะรีเจ้นท์",
+   "company": "เพอร์เฟคฟิฟธ์ จำกัด",
+   "address": "โรงเรียนนานาชาติรีเจ้นท์ (พระราม 9) กรุงเทพ",
+   "phone": "0982655639",
+   "url": "https://www.facebook.com/yamahatheregents",
+   "lat": 13.76766156,
+   "lon": 100.59577,
+   "products": [
+    "AP",
+    "DP",
+    "EL",
+    "Clavinova",
+    "Arius",
+    "GT",
+    "KB",
+    "KB_RECOMMEND",
+    "DGX_P",
+    "MS"
+   ]
+  },
+  {
+   "accountCode": "SMY0516",
+   "name": "โซนมิวสิค จันทบุรี",
+   "company": "โซนมิวสิค",
+   "address": "51/17 ม.8 ซ.วัดโค้ง15 ต.ท่าช้าง อ.เมือง จ.จันทบุรี",
+   "phone": "0910063750",
+   "url": "https://www.facebook.com/zonemusicchan/?ref=bookmarks",
+   "lat": 12.6263638,
+   "lon": 102.0991632,
+   "products": [
+    "BO",
+    "ME"
+   ]
+  },
+  {
+   "accountCode": "SMY0517",
+   "name": "โรงเรียนดนตรียามาฮ่า บิ๊กซี ภูเก็ต",
+   "company": "บริษัท พี.เค.อินเตอร์ มิวสิค จำกัด",
+   "address": "72 หมู่ 5 ต.วิชิต อ.เมือง  จ.ภูเก็ต 83000",
+   "phone": "0805383692",
+   "url": "https://www.facebook.com/yamahamusicschoolphuket",
+   "lat": 7.895815319,
+   "lon": 98.36708694,
+   "products": [
+    "AP",
+    "DP",
+    "EL",
+    "Clavinova",
+    "Arius",
+    "GT",
+    "KB",
+    "DGX_P",
+    "MS"
+   ]
+  },
+  {
+   "accountCode": "SMY0518",
+   "name": "โรงเรียนดนตรียามาฮ่า เซ็นทรัลอีสต์วิลล์",
+   "company": "บริษัท คริสตัล เมโลดี้ จำกัด",
+   "address": "ศูนย์การค้าเซ็นทรัลเฟสติวัล อีสต์วิลล์ ห้องเลขที่ 268 ชั้น2 เลขที่69,69/1,69/2ถนนประดิษฐ์มนูธรรม แขวงลาดพร้าว เขตลาดพร้าว กทม.",
+   "phone": "02-5536268",
+   "url": "https://m.facebook.com/yamahacentraleastville",
+   "lat": 13.8046304,
+   "lon": 100.6139956,
+   "products": [
+    "AP",
+    "DP",
+    "EL",
+    "Clavinova",
+    "Arius",
+    "GT",
+    "KB",
+    "DGX_P",
+    "MS"
+   ]
+  },
+  {
+   "accountCode": "SMY0519",
+   "name": "โรงเรียนดนตรียามาฮ่า เซ็นทรัลพลาซา ชลบุรี",
+   "company": "บริษัท สยามดนตรีรามอินทรา จำกัด",
+   "address": "55/88-89,55/91  ม.1 ถ.สุขุมวิท  ต.เสม็ด  อ.เมือง จ.ชลบุรี",
+   "phone": "0864688089",
+   "url": "https://www.facebook.com/yamahachonburi/",
+   "lat": 13.33601488,
+   "lon": 100.9701871,
+   "products": [
+    "AP",
+    "DP",
+    "EL",
+    "Clavinova",
+    "Arius",
+    "GT",
+    "KB",
+    "DGX_P",
+    "BO",
+    "ME",
+    "MS"
+   ]
+  },
+  {
+   "accountCode": "SMY0520",
+   "name": "โรงเรียนดนตรียามาฮ่า เซ็นทรัล พระราม 3",
+   "company": "บริษัท อรุณกรุ๊ปพัฒนา จำกัด",
+   "address": "เลขที่ 79 ห้อง 628 - 630 ชั้น 6 โซนการศึกษา ห้างสรรพสินค้าเซ็นทรัลพลาซ่า รัชดา พระราม 3 ถนน สาธุประดิษฐ์ แขวงช่องนนทรี เขตยานนาวา กรุงเทพฯ 10120",
+   "phone": "026736233",
+   "url": "https://www.facebook.com/yamaharama3",
+   "lat": 13.69859005,
+   "lon": 100.5380068,
+   "products": [
+    "AP",
+    "DP",
+    "EL",
+    "Clavinova",
+    "Arius",
+    "GT",
+    "KB",
+    "DGX_P",
+    "MS"
+   ]
+  },
+  {
+   "accountCode": "SMY0521",
+   "name": "โรงเรียนดนตรียามาฮ่า เซ็นทรัลเวิลด์",
+   "company": "บริษัท คริสตัล เมโลดี้ จำกัด",
+   "address": "4,4/1-4/2,4/4 ศูนย์การค้าเซ็นทรัลเวิลด์ ชั้น 6 โซน Genius Planet ถนนราชดำริห์ แขวงปทุมวัน เขตปทุมวัน กรุงเทพฯ 10330",
+   "phone": "080-2308308 ,02-2520131-3",
+   "url": "https://web.facebook.com/YamahaMusic.Centralworld/?_rdc=1&_rdr",
+   "lat": 13.74599343,
+   "lon": 100.539659,
+   "products": [
+    "AP",
+    "DP",
+    "EL",
+    "Clavinova",
+    "Arius",
+    "GT",
+    "KB",
+    "DGX_P",
+    "MS"
+   ]
+  },
+  {
+   "accountCode": "SMY0523",
+   "name": "โรงเรียนดนตรียามาฮ่า เมกาบางนา",
+   "company": "บริษัท ทรี เอ วิวาเช จำกัด",
+   "address": "เลขที่ 39 หมู่ที่ 6 ถนนบางนา-ตราด กม.8 ต.บางแก้ว อ.บางพลี สมุทรปราการ",
+   "phone": "081-468-6336 , 02-105-1620",
+   "url": "https://www.facebook.com/YamahaMusicSchoolMegabangna",
+   "lat": 13.64601097,
+   "lon": 100.6790008,
+   "products": [
+    "AP",
+    "DP",
+    "EL",
+    "Clavinova",
+    "Arius",
+    "GT",
+    "KB",
+    "DGX_P",
+    "MS"
+   ]
+  },
+  {
+   "accountCode": "SMY0524",
+   "name": "โรงเรียนดนตรียามาฮ่า นครอุบล",
+   "company": "บริษัท วิชเลิฟมิวสิค จำกัด",
+   "address": "145/1 ถนนจงกลนิธารณ์ ตำบลในเมือง อำเภอเมืองอุบลราชธานี จังหวัดอุบลราชธานี",
+   "phone": "045255677",
+   "url": "https://www.facebook.com/yamahamusicschool.ubonratchatani",
+   "lat": 15.23377,
+   "lon": 104.85143,
+   "products": [
+    "AP",
+    "DP",
+    "EL",
+    "Clavinova",
+    "Arius",
+    "GT",
+    "KB",
+    "DGX_P",
+    "MS"
+   ]
+  },
+  {
+   "accountCode": "SMY0525",
+   "name": "โรงเรียนดนตรียามาฮ่า นครศรีธรรมราช",
+   "company": "บริษัท อายุบวร จำกัด",
+   "address": "1749/16 ถ.วัดคิด ต.ท่าวัง อ.เมือง จ.นครศรีธรรมราช",
+   "phone": "075-357337 , 087-8961010",
+   "url": "https://www.facebook.com/yamahamusicschoolnakhonsrithammarat",
+   "lat": 8.442387626,
+   "lon": 99.96151765,
+   "products": [
+    "AP",
+    "DP",
+    "EL",
+    "Clavinova",
+    "Arius",
+    "GT",
+    "KB",
+    "DGX_P",
+    "MS"
+   ]
+  },
+  {
+   "accountCode": "SMY0526",
+   "name": "โรงเรียนดนตรียามาฮ่า นครภูเก็ต",
+   "company": "บริษัท พี.เค.อินเตอร์ มิวสิค จำกัด",
+   "address": "158 ถ.เยาวราช ต.ตลาดใหญ่ อ.เมือง จ.ภูเก็ต 83000",
+   "phone": "076213644",
+   "url": "https://www.facebook.com/soundgallery2014",
+   "lat": 7.889166107,
+   "lon": 98.38675619,
+   "products": [
+    "AP",
+    "DP",
+    "EL",
+    "Clavinova",
+    "Arius",
+    "GT",
+    "KB",
+    "DGX_P",
+    "MS"
+   ]
+  },
+  {
+   "accountCode": "SMY0529",
+   "name": "โรงเรียนดนตรียามาฮ่า พาราไดซ์ พาร์ค",
+   "company": "ห้างหุ้นส่วนจำกัด ดับเบิ้ล ยู เอส คอมเมอร์เชียล",
+   "address": "61 อาคารพาราไดซ์พาร์ค ชั้น 3 ถนนศรีนครินทร์ แขวงหนองบอน เขตประเวศ",
+   "phone": "0819378931 คุณเก๋/0867030652 คุณจอย",
+   "url": null,
+   "lat": 13.68918642,
+   "lon": 100.6457717,
+   "products": [
+    "AP",
+    "DP",
+    "EL",
+    "Clavinova",
+    "Arius",
+    "GT",
+    "KB",
+    "DGX_P",
+    "MS"
+   ]
+  },
+  {
+   "accountCode": "SMY0530",
+   "name": "โรงเรียนดนตรียามาฮ่า ประชาอุทิศ",
+   "company": "บริษัท อรุณกรุ๊ปพัฒนา จำกัด",
+   "address": "หมู่ที่2 ชั้น 2 เลขที่ 11/15 แมคแวลู่ ถนนประชาอุทิศ, เขตทุ่งครุ, กรุงเทพ 10140",
+   "phone": "024261153",
+   "url": "https://www.facebook.com/yamahaprachauthit.musicshcool",
+   "lat": 13.64013393,
+   "lon": 100.5009352,
+   "products": [
+    "AP",
+    "DP",
+    "EL",
+    "Clavinova",
+    "Arius",
+    "GT",
+    "KB",
+    "DGX_P",
+    "MS"
+   ]
+  },
+  {
+   "accountCode": "SMY0531",
+   "name": "โรงเรียนดนตรียามาฮ่า สามัคคี",
+   "company": "บริษัท เบทเธอร์สยามมิวสิคอินเตอร์ จำกัด",
+   "address": "11 หมู่ 9 วันวันฟู้ดอเวนิว บางตลาด อำเภอปากเกร็ด นนทบุรี 11120",
+   "phone": "0619946662",
+   "url": "https://www.facebook.com/YAF004",
+   "lat": 13.87819965,
+   "lon": 100.5493557,
+   "products": [
+    "AP",
+    "DP",
+    "EL",
+    "Clavinova",
+    "Arius",
+    "GT",
+    "KB",
+    "DGX_P",
+    "MS"
+   ]
+  },
+  {
+   "accountCode": "SMY0532",
+   "name": "โรงเรียนดนตรียามาฮ่า เดอะคริสตัล",
+   "company": "บริษัท คริสตัล เมโลดี จำกัด",
+   "address": "64/98 - 99 ห้องเลขที่ 212 ชั้น 2 โซนเอ อาคารคริสตัล หมู่ที่ 6 ถนนประดิษฐ์มนูธรรม แขวงลาดพร้าว เขตลาดพร้าว กรุงเทพมหานคร",
+   "phone": "083-8248833",
+   "url": "https://m.facebook.com/yamahacentraleastville",
+   "lat": 13.800137,
+   "lon": 100.614667,
+   "products": [
+    "AP",
+    "DP",
+    "EL",
+    "Clavinova",
+    "Arius",
+    "GT",
+    "KB",
+    "DGX_P",
+    "MS",
+    "BO"
+   ]
+  },
+  {
+   "accountCode": "SMY0533",
+   "name": "โรงเรียนดนตรียามาฮ่า เดอะคริสตัล พีทีที ชัยพฤกษ์",
+   "company": "บริษัท เบทเธอร์สยามมิวสิคอินเตอร์ จำกัด",
+   "address": "99/8 หมู่ที่ 5 อาคารศูนย์การค้าเดอะคริสตัล พีทีที ถนนชัยพฤกษ์ ตำบลคลองพระอุดม อ.ปากเกร็ด จ.นนทบุรี  11120",
+   "phone": "061-995-6661",
+   "url": "https://www.facebook.com/YMSC.PTT",
+   "lat": 13.92269497,
+   "lon": 100.4741866,
+   "products": [
+    "AP",
+    "DP",
+    "EL",
+    "Clavinova",
+    "Arius",
+    "GT",
+    "KB",
+    "DGX_P",
+    "MS"
+   ]
+  },
+  {
+   "accountCode": "SMY0534",
+   "name": "โรงเรียนดนตรียามาฮ่า อุบลราชธานี",
+   "company": "ห้างหุ้นส่วนจำกัด อุบลมิวสิค",
+   "address": "858 ถนนชยางกูร ตำบลในเมือง อำเภอเมืองอุบลราชธานี จังหวัดอุบลราชธานี",
+   "phone": "045355055",
+   "url": "https://www.facebook.com/yamahamusicschool.ubonratchatani",
+   "lat": 15.27491,
+   "lon": 104.8427,
+   "products": [
+    "AP",
+    "DP",
+    "EL",
+    "Clavinova",
+    "Arius",
+    "GT",
+    "KB",
+    "DGX_P",
+    "MS"
+   ]
+  },
+  {
+   "accountCode": "SMY0535",
+   "name": "โรงเรียนดนตรียามาฮ่า อุดรสมใจนึก",
+   "company": "บริษัท เอส.บี.มิวสิค จำกัด",
+   "address": "122/6-7  ถนนประจักษ์  ตำบลหมากแข้ง  อำเภอเมือง  จังหวัดอุดรธานี (สี่แยกหอนาฬิกาข้างธนาคารกรุงเทพ)",
+   "phone": "0816332170",
+   "url": "https://web.facebook.com/udonsomchainuk/?_rdc=1&_rdr",
+   "lat": 17.40816281,
+   "lon": 102.7912105,
+   "products": [
+    "AP",
+    "DP",
+    "EL",
+    "Clavinova",
+    "Arius",
+    "GT",
+    "KB",
+    "DGX_P",
+    "MS"
+   ]
+  },
+  {
+   "accountCode": "SMY0536",
+   "name": "โรงเรียนดนตรียามาฮ่า อุดรธานี",
+   "company": "ห้างหุ้นส่วนจำกัด ดนตรีซินฮง",
+   "address": "80/4-5 ถ.ศรีชมชื่น ต.หมากแข้ง อ.เมือง จ.อุดรธานี",
+   "phone": "086-4581730 ,042-328335",
+   "url": "https://m.facebook.com/yamahamusic.udonthani",
+   "lat": 17.40410835,
+   "lon": 102.7830757,
+   "products": [
+    "AP",
+    "DP",
+    "EL",
+    "Clavinova",
+    "Arius",
+    "GT",
+    "KB",
+    "DGX_P",
+    "MS"
+   ]
+  },
+  {
+   "accountCode": "SMY0537",
+   "name": "โรงเรียนดนตรียามาฮ่า เชียงราย",
+   "company": "บริษัท ซีทีซี อินเตอร์เทรด จำกัด",
+   "address": "เลขที่ 393/9 ถ.บรรพปราการ  ต.เวียง  อ.เมือง จ.เชียงราย",
+   "phone": "053-717121 , 095-4512035",
+   "url": "https://www.facebook.com/yamahachiangrai",
+   "lat": 19.90702109,
+   "lon": 99.82559937,
+   "products": [
+    "AP",
+    "DP",
+    "EL",
+    "Clavinova",
+    "Arius",
+    "GT",
+    "KB",
+    "DGX_P",
+    "MS"
+   ]
+  },
+  {
+   "accountCode": "SMY0538",
+   "name": "โรงเรียนดนตรียามาฮ่า ลำปาง",
+   "company": "โรงเรียนดนตรียามาฮ่าลำปาง",
+   "address": "99/54 ถนนพหลโยธิน ต.สวนดอก อ.เมืองลำปาง จ.ลำปาง",
+   "phone": "086-4218596",
+   "url": "https://www.facebook.com/LampangMusicSchool",
+   "lat": 18.28423214,
+   "lon": 99.4911769,
+   "products": [
+    "AP",
+    "DP",
+    "EL",
+    "Clavinova",
+    "Arius",
+    "GT",
+    "KB",
+    "DGX_P",
+    "MS"
+   ]
+  },
+  {
+   "accountCode": "SMY0542",
+   "name": "โรงเรียนดนตรียามาฮ่า คีตรินทร์",
+   "company": "ห้างหุ้นส่วนจำกัด คีตรินทร์",
+   "address": "เลขที่ 70 ปากซอยรามคำแหง 104 ถนนรามคำแหง แขวง/เขตสะพานสูง กทม 10240",
+   "phone": "094-959-2295",
+   "url": "https://www.facebook.com/KitarinMusicSchool/",
+   "lat": 13.77549049,
+   "lon": 100.6716898,
+   "products": [
+    "AP",
+    "DP",
+    "EL",
+    "Clavinova",
+    "Arius",
+    "GT",
+    "KB",
+    "DGX_P",
+    "MS"
+   ]
+  },
+  {
+   "accountCode": "SMY0543",
+   "name": "โรงเรียนดนตรียามาฮ่า พาซิโอ รามคำแหง",
+   "company": "ห้างหุ้นส่วนจำกัด คีตรินทร์",
+   "address": "D301 The Paseo Town (Education Zone, 3rd Floor)  7/2-7 TBN Properties Co.Ltd รามคำแหง 127/3 แขวง/เขตสะพานสูง กทม 10240",
+   "phone": "021113152, 0950494298",
+   "url": "https://www.facebook.com/KitarinMusicSchool/",
+   "lat": 13.77435124,
+   "lon": 100.6668592,
+   "products": [
+    "AP",
+    "DP",
+    "EL",
+    "Clavinova",
+    "Arius",
+    "GT",
+    "KB",
+    "DGX_P",
+    "MS"
+   ]
+  },
+  {
+   "accountCode": "SMY0544",
+   "name": "โรงเรียนดนตรียามาฮ่า ป๊อปปูล่ามิวสิค อยุธยา",
+   "company": "ห้างหุ้นส่วนจำกัด เทนทัช การดนตรี",
+   "address": "123 หมู่ 2 หมู่บ้านรักไทย ต.บ้านกรด อ.บางปะอิน จ.พระนครศรีอยุธยา",
+   "phone": "0849104242",
+   "url": "https://m.facebook.com/YamahaMusicSchool.Ayutthaya/?locale2=th_TH",
+   "lat": 14.3198522,
+   "lon": 100.6043269,
+   "products": [
+    "AP",
+    "DP",
+    "EL",
+    "Clavinova",
+    "Arius",
+    "GT",
+    "KB",
+    "DGX_P",
+    "MS"
+   ]
+  },
+  {
+   "accountCode": "SMY0545",
+   "name": "โรงเรียนดนตรียามาฮ่า เซ็นทรัล พลาซา ขอนแก่น",
+   "company": "ห้างหุ้นส่วนจำกัด ขอนแก่นการดนตรี",
+   "address": "ศูนย์การค้าเซ็นทรัลพลาซ่าขอนแก่น  ชั้น 5",
+   "phone": "061-6928866",
+   "url": "https://www.facebook.com/yamahakhonkaen/",
+   "lat": 16.43296218,
+   "lon": 102.8257361,
+   "products": [
+    "AP",
+    "DP",
+    "EL",
+    "Clavinova",
+    "Arius",
+    "GT",
+    "KB",
+    "DGX_P",
+    "MS"
+   ]
+  },
+  {
+   "accountCode": "SMY0546",
+   "name": "โรงเรียนดนตรียามาฮ่า เซ็นทรัล เฟสติวัล หาดใหญ่",
+   "company": "ห้างหุ้นส่วนจำกัด ทวีสิน มิวสิค เซ็นเตอร์",
+   "address": "1518,1518/1 และ 1518/2 ศูนย์การค้าเซ็นทรัลเฟสติวัลหาดใหญ่ ชั้น 3 ถนนกาญจนวณิชย์ ตำบลหาดใหญ่ อำเภอหาดใหญ่ จังหวัดสงขลา",
+   "phone": "092-3629554",
+   "url": "https://www.facebook.com/โรงเรียนดนตรียามาฮ่า-เซ็นทรัลเฟสติวัล-หาดใหญ่-1443478712541039/",
+   "lat": 6.991497131,
+   "lon": 100.4844824,
+   "products": [
+    "AP",
+    "DP",
+    "EL",
+    "Clavinova",
+    "Arius",
+    "GT",
+    "KB",
+    "DGX_P",
+    "MS"
+   ]
+  },
+  {
+   "accountCode": "SMY0547",
+   "name": "โรงเรียนดนตรียามาฮ่า ป๊อปปูล่า มิวสิค หาดใหญ่",
+   "company": "ห้างหุ้นส่วนจำกัด ทวีสิน มิวสิค เซ็นเตอร์",
+   "address": "16/8 ถนนราษฎร์ยินดี ตำบลหาดใหญ่ อำเภอหาดใหญ่ จังหวัดสงขลา 90110",
+   "phone": "092-362-9554",
+   "url": "https://www.facebook.com/PMShatyai",
+   "lat": 7.00864422,
+   "lon": 100.4811177,
+   "products": [
+    "AP",
+    "DP",
+    "EL",
+    "Clavinova",
+    "Arius",
+    "GT",
+    "KB",
+    "DGX_P",
+    "MS"
+   ]
+  },
+  {
+   "accountCode": "SMY0548",
+   "name": "โรงเรียนดนตรียามาฮ่า สงขลา",
+   "company": "ห้างหุ้นส่วนจำกัด ทวีสิน มิวสิค เซ็นเตอร์",
+   "address": "111 ถนนราชดำเนินนอก ตำบลบ่อยาง อำเภอเมือง จังหวัดสงขลา",
+   "phone": "092-362-9554",
+   "url": null,
+   "lat": 7.1971472,
+   "lon": 100.6020365,
+   "products": [
+    "AP",
+    "DP",
+    "EL",
+    "Clavinova",
+    "Arius",
+    "GT",
+    "KB",
+    "DGX_P",
+    "MS"
+   ]
+  },
+  {
+   "accountCode": "SMY0549",
+   "name": "โรงเรียนดนตรียามาฮ่า พระราม 2",
+   "company": "บริษัท พณัฐพร จำกัด",
+   "address": "59/465-7 แสมดำ บางขุนเทียน กรุงเทพฯ",
+   "phone": "02-8481954",
+   "url": null,
+   "lat": 13.66286282,
+   "lon": 100.4384973,
+   "products": [
+    "AP",
+    "DP",
+    "EL",
+    "Clavinova",
+    "Arius",
+    "GT",
+    "KB",
+    "DGX_P",
+    "MS"
+   ]
+  },
+  {
+   "accountCode": "SMY0550",
+   "name": "โรงเรียนดนตรียามาฮ่า เมืองเอก",
+   "company": "บริษัท พรหมเมตต์ จำกัด",
+   "address": "52/047 หมู่บ้านเมืองเอก ตำบลหลักหก อำเภอเมือง จังหวัดปทุมธานี",
+   "phone": "02-987-7588,088-8981992",
+   "url": null,
+   "lat": 13.96441785,
+   "lon": 100.5917244,
+   "products": [
+    "AP",
+    "DP",
+    "EL",
+    "Clavinova",
+    "Arius",
+    "GT",
+    "KB",
+    "DGX_P",
+    "MS"
+   ]
+  },
+  {
+   "accountCode": "SMY0551",
+   "name": "โรงเรียนดนตรียามาฮ่า สระบุรี",
+   "company": "บริษัท ยุคลธร การดนตรี จำกัด",
+   "address": "152/10 ถ.พิชัยฯ ซ.1 ต.ปากเพรียว อ.เมือง จ.สระบุรี 18000",
+   "phone": "081-994-3715 , 0959480460",
+   "url": "https://www.facebook.com/yamaha.saraburi/",
+   "lat": 14.52739092,
+   "lon": 100.9227202,
+   "products": [
+    "AP",
+    "DP",
+    "EL",
+    "Clavinova",
+    "Arius",
+    "GT",
+    "KB",
+    "DGX_P",
+    "MS"
+   ]
+  },
+  {
+   "accountCode": "SMY0552",
+   "name": "ห้างดนตรี ย่งเส็ง",
+   "company": "บริษัท ย่งเส็งวัฒนาเทรดดิ้ง จำกัด",
+   "address": "22/1-4 ถนน อรุณอมรินทร์ แขวง อรุณอมรินทร์ เขต บางกอกน้อย กทม. 10700",
+   "phone": "02-435-5364",
+   "url": "https://www.facebook.com/yongsengmusic",
+   "lat": 13.76781654,
+   "lon": 100.4842444,
+   "products": [
+    "BO",
+    "ME"
+   ]
+  },
+  {
+   "accountCode": "SMY0553",
+   "name": "เมโลดี้ โซลูชั่น",
+   "company": "บริษัท เมโลดี้ โซลูชั่น จำกัด",
+   "address": "7 ซอยติวานนท์50/2 ต.ท่าทราย อ.เมือง จ.นนทบุรี (สำนักงานใหญ่) นัดหมายก่อนเข้าไปเท่านั้น",
+   "phone": "095-2500-189,064-301-5440,081-835-2235",
+   "url": "https://m.facebook.com/MelodySolutions",
+   "lat": 13.8855721,
+   "lon": 100.5136205,
+   "products": [
+    "BO",
+    "ME"
+   ]
+  },
+  {
+   "accountCode": "SMY0554",
+   "name": "ห้างหุ้นส่วนจำกัด ดนตรีซินฮง",
+   "company": "ห้างหุ้นส่วนจำกัด กนตรีซินฮง",
+   "address": "98/8 ถ. อุดรดุษฎี ต.หมากแข้ง อ.เมือง จ.อุดรธานี 41000",
+   "phone": "818712907",
+   "url": "https://www.facebook.com/sinhongmusicstore",
+   "lat": 17.41195,
+   "lon": 102.7921,
+   "products": [
+    "BO",
+    "ME"
+   ]
+  },
+  {
+   "accountCode": "SMY0555",
+   "name": "บีเอ็นจีมิวสิค",
+   "company": "บริษัท วิช แอนด์ ริช จำกัด",
+   "address": "1018/9-10 ถนนเทอดไท แขวงตลาดพลู เขตธนบุรี กรุงเทพฯ 10600",
+   "phone": "818086655",
+   "url": "https://www.facebook.com/bngmusictaladpluofficial/",
+   "lat": 13.72047485,
+   "lon": 100.4746595,
+   "products": [
+    "BO",
+    "ME"
+   ]
+  },
+  {
+   "accountCode": "SMY0557",
+   "name": "บริษัท ธนพร เซอร์วิส จำกัด",
+   "company": "บริษัท ธนพร เซอร์วิส จำกัด",
+   "address": "143/637 ถนนบรมราชชนนี แขวงอรุณอมรินทร์ เขตบางกอกน้อย กรุงเทพมหานคร",
+   "phone": "954652562",
+   "url": null,
+   "lat": 13.78306124682005,
+   "lon": 100.468973,
+   "products": [
+    "BO",
+    "ME"
+   ]
+  },
+  {
+   "accountCode": "SMY0558",
+   "name": "บริษัท ภรณ์ธนา เซอร์วิส จำกัด",
+   "company": "บริษัท ภรณ์ธนา เซอร์วิส จำกัด",
+   "address": "143/637 ถนนบรมราชชนนี แขวงอรุณอมรินทร์ เขตบางกอกน้อย กรุงเทพมหานคร",
+   "phone": "954652562",
+   "url": null,
+   "lat": 13.78305603687178,
+   "lon": 100.4689944,
+   "products": [
+    "BO",
+    "ME"
+   ]
+  },
+  {
+   "accountCode": "SMY0561",
+   "name": "Landcosport and musical co.ltd",
+   "company": "Tone wizard",
+   "address": "5/1,5/2,5/3Kanchanapisak Rd.Bangbon Bangbon bangkok 10150",
+   "phone": "863415278",
+   "url": "https://www.facebook.com/ToneWizard",
+   "lat": 13.65044683,
+   "lon": 100.4079312,
+   "products": [
+    "BO",
+    "ME"
+   ]
+  },
+  {
+   "accountCode": "SMY0562",
+   "name": "สุมาลี มิวสิค แอนด์ สปอร์ต",
+   "company": "หจก.สุมาลี มิวสิค แอนด์ สปอร์ต",
+   "address": "100/4-5 ถ.สุรศักดิ์1 ต.ศรีราชา อ.ศรีราชา จ.ชลบุรี",
+   "phone": "0617768517",
+   "url": null,
+   "lat": 13.16527483,
+   "lon": 100.9274116,
+   "products": [
+    "DP",
+    "Arius",
+    "Clavinova",
+    "GT",
+    "KB",
+    "DGX_P"
+   ]
+  },
+  {
+   "accountCode": "SMY0563",
+   "name": "โรงเรียนดนตรียามาฮ่า เกทเวย์ แอท บางซื่อ",
+   "company": "บริษัท ออลล์ดิสโม่ จำกัด",
+   "address": "ห้างเกทเวย์ แอท บางซื่อ ห้อง 5026 ชั้น 5 เลขที่ 162/1-2, 168/10 ถนนประชาราษฎร์ 2 แขวงบางซื่อ เขตบางซื่อ กรุงเทพมหานคร",
+   "phone": "0970968110",
+   "url": "https://mustorethailand.com/",
+   "lat": 13.80678356,
+   "lon": 100.5238635,
+   "products": [
+    "AP",
+    "DP",
+    "EL",
+    "Clavinova",
+    "Arius",
+    "GT",
+    "KB",
+    "DGX_P",
+    "BO",
+    "MS"
+   ]
+  },
+  {
+   "accountCode": "SMY0564",
+   "name": "โรงเรียนดนตรียามา​ฮ่า​ ลำลูกกา",
+   "company": "บริษัท​ มิวสิค มิราเคิ้ล​ จำกัด",
+   "address": "39/26 ชั้น 2 ตลาดมารวย ซอย หทัยราษฎร์ 54 ต.บึงตำพร้อย อ.ลำลูกกา จ.ปทุมธานี 12150",
+   "phone": "098-832-9212​",
+   "url": "https://www.facebook.com/ymsl9212/",
+   "lat": 13.92818679,
+   "lon": 100.7123548,
+   "products": [
+    "AP",
+    "DP",
+    "EL",
+    "Clavinova",
+    "Arius",
+    "PA",
+    "GT",
+    "KB",
+    "KB_RECOMMEND",
+    "DGX_P"
+   ]
+  },
+  {
+   "accountCode": "SMY0565",
+   "name": "บริษัท วิน เอ็ดดูเทนเมนท์ จำกัด",
+   "company": "บริษัท วิน เอ็ดดูเทนเมนท์ จำกัด",
+   "address": "282/82-83 ถ.ฉัตรไชย ต.สบตุ๋ย อ.เมือง จ.ลำปาง",
+   "phone": "956736777",
+   "url": "http://winwinlampang.com/",
+   "lat": 18.28504512,
+   "lon": 99.48381335,
+   "products": [
+    "BO"
+   ]
+  },
+  {
+   "accountCode": "SMY0566",
+   "name": "โรงเรียนดนตรียามาฮ่า โกลเด้นเพลซ พระราม 9",
+   "company": "เพอร์เฟคฟิฟธ์ จำกัด",
+   "address": "โครงการ Golden Place พระราม 9 เลขที่ 189/5-6 ถนนประดิษฐ์มนูธรรม ห้อง 5-6",
+   "phone": "966655994",
+   "url": "https://www.facebook.com/yamahaGDP9",
+   "lat": 13.76462538,
+   "lon": 100.5978835,
+   "products": [
+    "AP",
+    "DP",
+    "EL",
+    "Clavinova",
+    "Arius",
+    "GT",
+    "KB",
+    "KB_RECOMMEND",
+    "DGX_P",
+    "MS"
+   ]
+  },
+  {
+   "accountCode": "SMY0567",
+   "name": "เปียโน ยูไนเต็ด",
+   "company": "",
+   "address": "111 46 ตำบล บางกร่าง เมือง นนทบุรี 11000",
+   "phone": "063-419-1111",
+   "url": "https://www.facebook.com/pianounited",
+   "lat": 13.84463,
+   "lon": 100.453731,
+   "products": [
+    "AP",
+    "DP",
+    "EL",
+    "Clavinova",
+    "Arius",
+    "GT",
+    "KB",
+    "DGX_P",
+    "MS"
+   ]
+  }
+ ]
+}

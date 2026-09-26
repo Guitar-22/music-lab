@@ -1,0 +1,66 @@
+{
+ "district": "บางแค",
+ "rel": 2946804,
+ "fetchedAt": "2026-09-26T02:48:53.577Z",
+ "source": "https://overpass-api.de/api/interpreter",
+ "license": "ODbL © OpenStreetMap contributors",
+ "query": "[out:json][timeout:120];area(3602946804)->.a;(\nnwr(area.a)[\"shop\"~\"^(musical_instrument|music|hifi)$\"];\nnwr(area.a)[\"amenity\"~\"^(music_school|music_venue|studio|concert_hall|theatre|arts_centre|karaoke_box)$\"];\nnwr(area.a)[\"craft\"~\"musical_instrument|piano_tuner|luthier\"];\nnwr(area.a)[\"studio\"];\nnwr(area.a)[\"live_music\"=\"yes\"];\nnwr(area.a)[\"name\"~\"ดนตรี|เพลง|music|guitar|กีตาร์|piano|เปียโน|drum|กลอง|violin|ไวโอลิน|jazz|แจ๊ส|ห้องซ้อม|rehearsal|recording|อัดเสียง|ukulele|อูคูเลเล่|saxophone|แซกโซโฟน|ระนาด|ขิม|orchestra|symphony|ดุริยาง\",i];\nnwr(area.a)[\"name:en\"~\"ดนตรี|เพลง|music|guitar|กีตาร์|piano|เปียโน|drum|กลอง|violin|ไวโอลิน|jazz|แจ๊ส|ห้องซ้อม|rehearsal|recording|อัดเสียง|ukulele|อูคูเลเล่|saxophone|แซกโซโฟน|ระนาด|ขิม|orchestra|symphony|ดุริยาง\",i];\n);out center tags;",
+ "elements": [
+  {
+   "type": "node",
+   "id": 4362544587,
+   "lat": 13.688399,
+   "lon": 100.406648,
+   "tags": {
+    "amenity": "school",
+    "name": "โรงเรียนดนตรี ป๊อปอัพ",
+    "name:en": "Pop Up Music School"
+   }
+  },
+  {
+   "type": "node",
+   "id": 13520855898,
+   "lat": 13.6978133,
+   "lon": 100.4082276,
+   "tags": {
+    "addr:district": "บางแค",
+    "addr:housenumber": "10/2",
+    "addr:postcode": "10160",
+    "addr:province": "กรุงเทพฯ",
+    "addr:street": "ซอย กาญจนาภิเษก 0010",
+    "addr:subdistrict": "บางแค",
+    "amenity": "music_school",
+    "education": "music_school",
+    "mobile": "092 541 4645",
+    "name": "Legato Music House"
+   }
+  },
+  {
+   "type": "way",
+   "id": 1482948704,
+   "center": {
+    "lat": 13.7337127,
+    "lon": 100.3896495
+   },
+   "tags": {
+    "amenity": "studio",
+    "building": "yes",
+    "studio": "radio"
+   }
+  },
+  {
+   "type": "way",
+   "id": 1562005646,
+   "center": {
+    "lat": 13.7334046,
+    "lon": 100.3696411
+   },
+   "tags": {
+    "building": "school",
+    "name": "อาคารอเล็กซิล มิวสิค",
+    "name:en": "Alexis Music Building",
+    "name:th": "อาคารอเล็กซิล มิวสิค"
+   }
+  }
+ ]
+}

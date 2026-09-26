@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="th">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Music Industry Lap — Journey Prototype</title>
+  <style>
+    :root{font-family:system-ui,"Noto Sans Thai",sans-serif;color:#142426;background:#eff4ef;font-size:16px}
+    *{box-sizing:border-box} body{margin:0} button{font:inherit;cursor:pointer}
+    .shell{display:grid;grid-template-columns:minmax(0,390px) minmax(260px,440px);gap:28px;max-width:900px;margin:26px auto;padding:0 18px;align-items:start}
+    .phone{background:#fff;min-height:740px;border:1px solid #c9d9d3;border-radius:30px;box-shadow:0 18px 45px #174a3b1f;overflow:hidden;display:flex;flex-direction:column}
+    header{background:#123f37;color:#fff;padding:21px 20px 18px} header .brand{font-size:13px;letter-spacing:.06em;opacity:.78} header h1{font-size:22px;margin:7px 0 0;line-height:1.35}
+    main{padding:20px;flex:1} h2{font-size:22px;line-height:1.3;margin:0 0 10px} h3{font-size:17px;margin:0 0 8px} p{line-height:1.6;margin:0 0 16px} .muted{color:#52635d;font-size:14px}
+    .tag{display:inline-block;background:#e1f5e9;color:#1d5c3e;border-radius:40px;padding:5px 10px;font-size:12px;font-weight:700;margin:0 5px 7px 0}
+    .card{border:1px solid #d8e2dc;border-radius:18px;padding:15px;margin:12px 0;background:#fff}
+    .card.soft{background:#f6f9f6}.card h3{margin-bottom:5px}.card p{margin-bottom:8px}
+    .btn{width:100%;border:0;background:#145944;color:#fff;border-radius:13px;padding:13px 15px;font-weight:700;margin:6px 0;text-align:center}
+    .btn.secondary{background:#e7f1e9;color:#164932}.btn.ghost{background:#fff;color:#164932;border:1px solid #bdd2c4}
+    .row{display:flex;gap:8px}.row .btn{flex:1}.list{padding-left:20px;line-height:1.7}
+    .choice{display:block;width:100%;text-align:left;background:#fff;border:1px solid #ccdcd1;border-radius:14px;padding:12px;margin:9px 0;color:#19392e}
+    .choice.active{border:2px solid #147954;background:#e8f8ed;font-weight:700}
+    nav{border-top:1px solid #e0e8e1;display:flex;gap:2px;padding:8px 7px;background:#fff} nav button{border:0;background:none;color:#537067;flex:1;font-size:12px;padding:8px 2px} nav button.on{color:#08764b;font-weight:800}
+    .panel{background:#fff;border-radius:22px;padding:22px;box-shadow:0 8px 24px #174a3b12}.panel h2{font-size:20px}.panel ol{padding-left:23px;line-height:1.75}.note{background:#fff3d4;border-left:4px solid #d39a16;border-radius:8px;padding:10px 12px;font-size:14px}
+    .progress{height:7px;background:#e8efe8;border-radius:10px;overflow:hidden;margin:12px 0 20px}.progress span{display:block;height:100%;background:#40a978}
+    @media(max-width:720px){.shell{display:block;max-width:430px;margin:0 auto;padding:0}.phone{border-radius:0;min-height:100vh}.panel{margin:18px;border-radius:18px}}
+  </style>
+</head>
+<body>
+<div class="shell">
+  <div class="phone" aria-label="ตัวอย่างหน้าจอแอป">
+    <header><div class="brand">MUSIC INDUSTRY LAP · PROTOTYPE</div><h1 id="screen-title">ดนตรีมีมากกว่าหนึ่งทาง</h1></header>
+    <main id="content"></main>
+    <nav aria-label="เมนูหลัก">
+      <button data-go="home">เริ่มต้น</button><button data-go="explore">สำรวจ</button><button data-go="mission">ทดลอง</button><button data-go="match">หาคนเรียนด้วย</button><button data-go="plan">ทางของฉัน</button>
+    </nav>
+  </div>
+  <aside class="panel">
+    <h2>ต้นแบบ User Journey</h2>
+    <p>กดทดลองสองเส้นทาง: <strong>ยังไม่แน่ใจ</strong> เพื่อทดลองบทบาทก่อน หรือ <strong>รู้แล้ว</strong> เพื่อดูการเปรียบเทียบครูและที่เรียนทันที</p>
+    <ol><li>สำรวจงานดนตรี</li><li>ลองภารกิจที่ไม่ต้องซื้อเครื่อง</li><li>สะท้อนสิ่งที่สนุกและต้องฝึก</li><li>เทียบที่เรียนและคนสอน</li><li>เริ่มแผนฝึก 8 สัปดาห์</li></ol>
+    <p class="note">ข้อมูลครู ราคา เวลา และผลภารกิจในต้นแบบนี้เป็น <strong>ข้อมูลสมมติ</strong> ไม่มีระบบสมัคร จอง หรือส่งข้อมูลออก</p>
+    <p class="muted">อ่านงานวิจัยและบันทึกระดมความคิด 10 รอบในไฟล์ 15–17 ของโครงการ</p>
+  </aside>
+</div>
+<script>
+  const content=document.querySelector('#content'), title=document.querySelector('#screen-title');
+  let page='home', choice='producer', submitted=false;
+  const screens={
+    home:{title:'ดนตรีมีมากกว่าหนึ่งทาง',html:()=>`<span class="tag">ใช้ฟรีช่วงทดลอง</span><span class="tag">เริ่มได้โดยไม่มีเครื่อง</span><h2>วันนี้อยากทำอะไรกับดนตรี?</h2><p>ลองทำงานของคนในวงการจริงแบบสั้น ๆ แล้วค่อยเลือกว่าจะเรียนอะไร ที่ไหน และกับใคร</p><button class="btn" data-go="explore">ยังไม่แน่ใจ — ลองสำรวจ</button><button class="btn secondary" data-go="match">รู้แล้ว — หาครูหรือที่เรียน</button><div class="card soft"><h3>ลองได้ใน 15 นาที</h3><p>เลือกบทบาทหนึ่ง ทำชิ้นงานเล็ก และดูว่าทักษะใดที่อยากฝึกต่อ</p></div><p class="muted">การเรียนกับผู้สอนภายนอกอาจมีค่าใช้จ่าย โปรดตรวจราคาและเงื่อนไขก่อนสมัคร</p>`},
+    explore:{title:'สำรวจบทบาท',html:()=>`<h2>ใครทำอะไรในโลกดนตรี?</h2><p class="muted">เลือกจากงานที่อยากทำ ไม่ต้องรู้ชื่อสาขาก่อน</p><div class="card"><span class="tag">การแสดง</span><h3>ผู้เล่น / นักร้อง</h3><p>ฝึกการฟัง จังหวะ เทคนิค และสื่อสารกับผู้ฟัง</p><button class="btn secondary" data-pick="performer">ลองบทบาทนี้</button></div><div class="card"><span class="tag">สร้างและผลิต</span><h3>โปรดิวเซอร์</h3><p>ออกแบบอารมณ์เพลง เลือกเสียง และแก้งานตาม brief</p><button class="btn secondary" data-pick="producer">ลองบทบาทนี้</button></div><div class="card"><span class="tag">งานสด</span><h3>ผู้จัดเวที</h3><p>จัดเวลา คน งบ และแผนสำรองในวันแสดง</p><button class="btn secondary" data-pick="organizer">ลองบทบาทนี้</button></div><p class="muted">ยังมีครู นักแต่งเพลง ช่างเสียง ร้านเครื่องดนตรี และสายอื่นในฉบับเต็ม</p>`},
+    mission:{title:'ทดลองงานดนตรี',html:()=>{const info={performer:['ผู้เล่น / นักร้อง','ฟังจังหวะ 8 ห้องแล้วเคาะหรือร้องตอบสองรอบ','เสียงจากมือถือ หรือสาธิตสด'],producer:['โปรดิวเซอร์','เรียงเสียงที่สร้างเอง 3 เสียงให้เป็น intro 20 วินาที','เสียงจากมือถือ หรือบัตรลำดับเสียง'],organizer:['ผู้จัดเวที','เรียง 3 วงลงในเวลา 20 นาที แล้วแก้เมื่อวงหนึ่งมาช้า','run sheet หนึ่งหน้า']};const x=info[choice];return `<span class="tag">15 นาที</span><span class="tag">มือถือหรือกระดาษ</span><h2>${x[0]}</h2><p><strong>โจทย์:</strong> ${x[1]}</p><div class="card soft"><h3>สิ่งที่จะได้</h3><p>${x[2]}</p><p class="muted">ต้นแบบนี้จำลองการส่งงาน ยังไม่ได้บันทึกไฟล์หรือเสียง</p></div><h3>เลือกวิธีลงมือ</h3><button class="choice active">ใช้มือถือที่มีอยู่</button><button class="choice">ใช้กระดาษหรือสาธิตสด</button><button class="btn" data-action="finish">ฉันลองทำแล้ว — สะท้อนผล</button>`}},
+    reflect:{title:'ฉันได้รู้อะไร',html:()=>`<div class="progress"><span style="width:65%"></span></div><h2>ลองแล้วหนึ่งบทบาท</h2><p>ผลนี้เป็นคำถามชวนคิด ไม่ใช่คะแนนความถนัด</p><div class="card"><h3>ชอบส่วนไหน?</h3><button class="choice" data-action="like">ได้สร้างไอเดีย</button><button class="choice" data-action="like">ได้แสดงหรือทำกับคน</button><button class="choice" data-action="like">ได้แก้ปัญหา</button></div><div class="card soft"><h3>ทักษะที่ฝึกต่อได้</h3><p>การฟังจังหวะ การตัดสินใจ และการรับ feedback ใช้ได้หลายสาย</p></div><button class="btn" data-go="match">ดูทางเรียนต่อ</button><button class="btn ghost" data-go="explore">ลองอีกบทบาท</button>`},
+    match:{title:'หาครูและที่เรียน',html:()=>`<h2>เลือกให้เข้ากับชีวิตจริง</h2><p class="muted">ตัวอย่างข้อมูลสมมติ — กรองตามเป้าหมาย งบ เวลา พื้นที่ และการมีเครื่องยืม</p><div class="card"><span class="tag">ใกล้บ้าน</span><h3>ครู A · พื้นฐานและการทำเพลง</h3><p>ออนไซต์ · 60 นาที · 600 บาท/ครั้ง<br>มีเครื่องให้ลอง · ว่างเสาร์เช้า</p><p class="muted">ราคาสมมติ · ยังไม่ตรวจยืนยัน</p></div><div class="card"><span class="tag">ออนไลน์</span><h3>ครู B · แต่งเพลงและโปรดักชัน</h3><p>ออนไลน์ · 45 นาที · 450 บาท/ครั้ง<br>ใช้มือถือได้ · ว่างเย็นวันธรรมดา</p><p class="muted">ราคาสมมติ · ยังไม่ตรวจยืนยัน</p></div><div class="card soft"><h3>ก่อนเลือก ตรวจ 4 อย่าง</h3><p>ค่าใช้จ่ายทั้งหมด • วิธี feedback • ทดลองเรียน • เงื่อนไขยกเลิก</p></div><button class="btn" data-go="plan">ดูแผนเริ่มเรียน 8 สัปดาห์</button>`},
+    plan:{title:'ทางของฉัน',html:()=>`<span class="tag">แก้เป้าหมายได้เสมอ</span><h2>แผนทดลอง 8 สัปดาห์</h2><div class="card"><h3>สัปดาห์ 1–2</h3><p>ลองบทบาทที่สนใจสองแบบ เก็บชิ้นงานแรก</p></div><div class="card"><h3>สัปดาห์ 3–4</h3><p>เลือกครู/วง/ทางเรียนหนึ่งทาง ฝึกเป้าหมายเล็ก</p></div><div class="card"><h3>สัปดาห์ 5–8</h3><p>ส่งงาน รับ feedback แก้ และลองทำกับคนอื่น</p></div><p class="muted">ถ้าติดค่าใช้จ่าย เวลา หรือไม่มีเครื่อง ให้ปรับรูปแบบเรียนก่อนตัดสินว่าตัวเองไม่เหมาะ</p><button class="btn secondary" data-go="explore">เปลี่ยนหรือลองสายอื่น</button>`}
+  };
+  function render(next){page=next;const s=screens[page];title.textContent=s.title;content.innerHTML=s.html();document.querySelectorAll('nav button').forEach(b=>b.classList.toggle('on',b.dataset.go===page));content.focus?.();}
+  document.addEventListener('click',e=>{const pick=e.target.closest('[data-pick]');if(pick){choice=pick.dataset.pick;render('mission');return}const action=e.target.closest('[data-action]');if(action){if(action.dataset.action==='finish'){submitted=true;render('reflect')}else if(action.dataset.action==='like'){content.querySelectorAll('.choice').forEach(x=>x.classList.remove('active'));action.classList.add('active')}return}const go=e.target.closest('[data-go]');if(go)render(go.dataset.go)});
+  render('home');
+</script>
+</body>
+</html>

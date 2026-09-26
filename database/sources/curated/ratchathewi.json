@@ -1,0 +1,60 @@
+{
+  "district": "ราชเทวี",
+  "researchedAt": "2026-09-26",
+  "places": [
+    {
+      "id": "cur:white-house-music-victory-monument",
+      "name": "White House Music ห้องซ้อมดนตรีอนุสาวรีย์ชัยสมรภูมิ",
+      "name_en": "White House Music Victory Monument",
+      "kind": "rehearsal",
+      "address": "212/339 อนุสาวรีย์ชัยสมรภูมิ เขตราชเทวี กรุงเทพฯ",
+      "geocode": "Victory Monument, Bangkok",
+      "lat": null, "lon": null,
+      "phone": "088 334 4423",
+      "website": "http://thewhitehousemusic.blogspot.com/",
+      "social": ["https://www.facebook.com/WhiteHouseMusicVictory/"],
+      "hours": "10:00-24:00 ทุกวัน",
+      "offer": ["ห้องซ้อมวง", "ห้องซ้อมเดี่ยว", "เช่าอุปกรณ์", "ขายเครื่องดนตรี"],
+      "source_url": "https://thewhitehousemusic.blogspot.com/",
+      "evidence": "บล็อกของร้านระบุเป็นห้องซ้อมดนตรีและขาย/ให้เช่าเครื่องดนตรี ที่อยู่ 212/339 อนุสาวรีย์ชัยสมรภูมิ เขตราชเทวี เปิด 10:00-24:00 ห้องซ้อมวง 200 บาท/ชม. ห้องเดี่ยว 150 บาท/ชม. โทร 088-334-4423",
+      "note": "บล็อกอาจไม่อัปเดต; บล็อกบอกใกล้ BTS 2 สถานี ~300 ม. ถ้าอยู่ฝั่งถนนพหลโยธินทางเหนือของวงเวียนอาจอยู่ในเขตพญาไท ควรตรวจตำแหน่งจริง",
+      "checked": "2026-09-26"
+    },
+    {
+      "id": "cur:cassette-shop-victory-monument",
+      "name": "Cassette Shop อนุสาวรีย์ชัยฯ",
+      "name_en": "Cassette Shop Victory Monument",
+      "kind": "record_store",
+      "address": "70/1 ซอยวัฒนโยธิน ถนนพญาไท เขตราชเทวี",
+      "geocode": "Soi Watthanayothin, Ratchathewi, Bangkok",
+      "lat": null, "lon": null,
+      "phone": null,
+      "website": null,
+      "social": ["https://www.facebook.com/shop.cassette/"],
+      "hours": null,
+      "offer": ["เทปคาสเซ็ตใหม่และมือสอง", "เครื่องเล่นเทป/วอล์กแมนซ่อมแล้ว", "แผ่นเสียงบางส่วน"],
+      "source_url": "https://www.facebook.com/shop.cassette/posts/welcome-to-cassette-shop-victory-monument-bangkoklooking-for-great-music-in-its-/1185156593744150/",
+      "evidence": "โพสต์เพจของร้าน 'Welcome to Cassette Shop – Victory Monument, Bangkok' (ตรวจจากหัวข้อโพสต์)",
+      "note": "เลขที่ 70/1 ซอยวัฒนโยธิน และเวลาเปิด จ.-ส. 11:00-19:00 มาจาก Time Out Bangkok (ไม่ใช่หน้าเจ้าของ) จึงไม่ลงช่อง hours",
+      "checked": "2026-09-26"
+    }
+  ],
+  "review": {
+    "osm:n2512680832": { "kind": "instrument_store", "note": "'Music Sciety' น่าจะเป็นร้าน Music Society ร้านกีตาร์/เครื่องดนตรีมือสองใกล้ BTS ราชเทวี (มีห้องซ้อมด้วย, เพจ facebook.com/musicsocietythailand) OSM ติดแท็ก amenity=pub และสะกดชื่อผิด" },
+    "osm:w626817132": { "kind": "venue", "note": "Saxophone Pub & Restaurant บาร์ดนตรีสดแจ๊ส/บลูส์ทุกคืนตั้งแต่ปี 1987 ใกล้อนุสาวรีย์ชัยฯ" },
+    "osm:n4411709995": { "kind": "venue", "note": "Sky Train Jazz Bar ยืนยันประเภท; เปิดใหม่หลังปรับปรุงปี 2022 ตามแหล่งรอง ยังไม่พบหน้าเจ้าของ" },
+    "osm:n2512416405": { "kind": "instrument_store", "note": "Music Solution ร้านเครื่องดนตรีตามแท็ก OSM ยังไม่พบหน้าเจ้าของยืนยันว่ายังเปิด" },
+    "osm:n6421035285": { "kind": "performing_arts", "note": "โรงละครอักษรา คิง เพาเวอร์ ยืนยันประเภท" }
+  },
+  "gaps": [
+    "The Rock Pub (Hollywood Street Building 93/26-28 ถ.พญาไท ใต้ BTS ราชเทวี): โดเมน therockpub-bangkok.com กลายเป็นหน้าจอด และ Tripadvisor มีอีกที่อยู่ 1011/3-4 ถ.พหลโยธิน อาจย้ายแล้ว ต้องยืนยันก่อนลง",
+    "Raintree Pub (116/63-64 ซอยรางน้ำ): ยังไม่พบหน้าเจ้าของยืนยันว่าเปิดอยู่ มีเพจ 'raintree จามจุรี (ผับเพื่อชีวิต)' อาจย้าย/มีสาขาใหม่",
+    "Recoroom Vinyl & Vintage Audio เคยอยู่ซอยวัดพระยายัง ถ.เพชรบุรี ราชเทวี ปัจจุบันย้ายไปเอกมัย (คลองเตย) แล้ว ไม่ลง",
+    "ช่างศักดิ์ ประตูน้ำ (Sak'54) ร้านซ่อมกีตาร์: ข้อมูลล่าสุดระบุที่อยู่ วิภาวดี ซอย 32 (จตุจักร) อาจย้ายออกจากประตูน้ำแล้ว",
+    "Music Society (ใกล้ BTS ราชเทวี): มีเพจ facebook.com/musicsocietythailand แต่ยังไม่ได้ที่อยู่เต็มจากหน้าเจ้าของ (ใช้เป็น review ของ OSM n2512680832)",
+    "BAAN by studioroom ห้องอัดเสียง ซอยธรรมสรอรถ ถ.เพชรบุรี (พบในไดเรกทอรีบุคคลที่สาม) ยังไม่พบหน้าเจ้าของ",
+    "ห้าง/อาคารในเขต (King Power รางน้ำ, Pantip Plaza, Platinum, Pratunam Center, Century The Movie Plaza, Victory Point) ยังไม่ได้ไล่ directory รายร้าน",
+    "ยังไม่พบโรงเรียนสอนดนตรีเชิงพาณิชย์หรือหน่วยดนตรีระดับอุดมศึกษาที่ยืนยันได้ในเขตนี้",
+    "ต้องตรวจเขตของ White House Music ว่าอยู่ราชเทวีหรือพญาไท"
+  ]
+}

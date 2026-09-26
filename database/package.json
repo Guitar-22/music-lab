@@ -1,0 +1,13 @@
+{
+  "name": "music-industry-lap-database",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Gated pipeline that consolidates portal data and research documents into one SQLite database",
+  "scripts": {
+    "build": "node --no-warnings build.cjs",
+    "build:strict": "node --no-warnings build.cjs --strict",
+    "query": "node --no-warnings query.cjs",
+    "test": "node --no-warnings --test"
+  },
+  "engines": {"node": ">=22.13"}
+}

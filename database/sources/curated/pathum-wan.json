@@ -1,0 +1,785 @@
+{
+  "district": "ปทุมวัน",
+  "researchedAt": "2026-09-26",
+  "places": [
+    {
+      "id": "cur:music-collection-siam-paragon",
+      "name": "Music Collection สาขาสยามพารากอน",
+      "name_en": "Music Collection Siam Paragon",
+      "kind": "instrument_store",
+      "address": "สยามพารากอน ชั้น 2, 991 ถนนพระราม 1 แขวงปทุมวัน เขตปทุมวัน กรุงเทพฯ 10330",
+      "geocode": "Siam Paragon, Bangkok",
+      "lat": null,
+      "lon": null,
+      "phone": "02 129 4460",
+      "website": "https://www.music.co.th/",
+      "social": [
+        "https://www.facebook.com/musiccollectionthai/"
+      ],
+      "hours": "10:00-21:00 ทุกวัน (หน้าร้าน); directory ห้างระบุ 10:30-20:30",
+      "offer": [
+        "กีตาร์",
+        "เบส",
+        "แอมป์",
+        "เอฟเฟกต์",
+        "เครื่องดนตรีอื่นๆ"
+      ],
+      "source_url": "https://www.music.co.th/en/store-locations-2/",
+      "evidence": "หน้า Store Locations ของ Music Collection ระบุสาขา SIAM PARAGON 2nd FL ที่อยู่ 991 ถ.พระราม 1 เขตปทุมวัน เวลา 10.00-21.00 น. โทร 02-129-4460; directory สยามพารากอน (occupant-808) ระบุชั้น 2F",
+      "checked": "2026-09-26"
+    },
+    {
+      "id": "cur:yamaha-beatspot-siam-paragon",
+      "name": "Yamaha BeatSpot สยามพารากอน",
+      "name_en": "Yamaha BeatSpot Paragon",
+      "kind": "instrument_store",
+      "address": "สยามพารากอน ชั้น 4 (Education zone), ถนนพระราม 1",
+      "geocode": "Siam Paragon, Bangkok",
+      "lat": null,
+      "lon": null,
+      "phone": "02 129 4500",
+      "website": "https://th.yamaha.com/",
+      "social": [
+        "https://www.facebook.com/Yamaha-Beatspot-Paragon-106540221070637/"
+      ],
+      "hours": null,
+      "offer": [
+        "เปียโนดิจิทัล",
+        "คีย์บอร์ด",
+        "กีตาร์",
+        "PA"
+      ],
+      "source_url": "https://th.yamaha.com/th/dealers/",
+      "evidence": "ตัวค้นหาตัวแทนจำหน่ายของ Yamaha Thailand (ข้อมูลจาก /api/dealer/dealers/) ระบุ 'Yamaha BeatSpot Paragon, Siam Paragon 4th floor (Education zone)' หมวด PA/Arius/DGX/GT/KB",
+      "note": "อยู่โซนเดียวกับ Yamaha Music School Paragon และใช้เบอร์เดียวกัน อาจเป็นมุมขายสินค้าของโรงเรียน",
+      "checked": "2026-09-26"
+    },
+    {
+      "id": "cur:yamaha-music-school-siam-paragon",
+      "name": "โรงเรียนดนตรียามาฮ่า สาขาสยามพารากอน",
+      "name_en": "Yamaha Music School Siam Paragon",
+      "kind": "school",
+      "address": "สยามพารากอน ชั้น 4 (Education Zone), 991 ถนนพระราม 1",
+      "geocode": "Siam Paragon, Bangkok",
+      "lat": null,
+      "lon": null,
+      "phone": "02 297 0679",
+      "website": "https://th.yamaha.com/th/education/",
+      "social": [],
+      "hours": "อ.-ศ. 11:00-19:00, ส.-อา. 09:00-19:00",
+      "offer": [
+        "เปียโน",
+        "กีตาร์",
+        "กลอง",
+        "ไวโอลิน",
+        "แซกโซโฟน",
+        "ฟลูต"
+      ],
+      "source_url": "https://www.siamparagon.co.th/directory/store/yamaha-music-school-occupant-880",
+      "evidence": "directory สยามพารากอนระบุ YAMAHA MUSIC SCHOOL ชั้น 4F เวลา Tu-Fr 11:00-19:00; Sa-Su 09:00-19:00 คีย์เวิร์ด Piano/Guitar/drum/violin/sax/flute; ตัวค้นหาโรงเรียนของ Yamaha Thailand ระบุ 'Siam Paragon, 4th Floor (Education Zone)' โทร 022970679",
+      "checked": "2026-09-26"
+    },
+    {
+      "id": "cur:mahidol-college-of-music-siam-paragon",
+      "name": "วิทยาลัยดุริยางคศิลป์ มหาวิทยาลัยมหิดล ศูนย์สยามพารากอน",
+      "name_en": "College of Music, Mahidol University (Siam Paragon)",
+      "kind": "school",
+      "address": "สยามพารากอน ชั้น 4A, 991 ถนนพระราม 1",
+      "geocode": "Siam Paragon, Bangkok",
+      "lat": null,
+      "lon": null,
+      "phone": "02 129 4542-6",
+      "website": null,
+      "social": [],
+      "hours": "จ.-ศ. 10:00-20:00, ส.-อา. 09:00-20:00",
+      "offer": [
+        "ขับร้อง",
+        "เปียโน",
+        "กีตาร์",
+        "ไวโอลิน",
+        "เครื่องเป่า",
+        "กลองชุด",
+        "ดนตรีไทย",
+        "ดนตรีเด็ก (อายุ 3 ปีครึ่งขึ้นไป)"
+      ],
+      "source_url": "https://www.siamparagon.co.th/directory/store/college-of-music-mahidol-university-occupant-908",
+      "evidence": "directory สยามพารากอนระบุ COLLEGE OF MUSIC MAHIDOL UNIVERSITY ชั้น 4A เวลา Mo-Fr 10:00-20:00; Sa-Su 09:00-20:00 คำอธิบายร้านระบุคอร์สขับร้อง เปียโน กีตาร์ ไวโอลิน เครื่องเป่า กลองชุด ดนตรีไทย สำหรับอายุ 3 ปีครึ่งขึ้นไป โทร 02 129 4542-6",
+      "note": "เป็นศูนย์สอนดนตรีภาคพิเศษของวิทยาลัย (คีย์เวิร์ด MCGP) ไม่ใช่วิทยาเขตปริญญา",
+      "checked": "2026-09-26"
+    },
+    {
+      "id": "cur:sound-lab-siam-paragon",
+      "name": "Sound Lab (มหาจักร) สยามพารากอน",
+      "name_en": "Sound Lab by Mahajak, Siam Paragon",
+      "kind": "audio_store",
+      "address": "สยามพารากอน ชั้น 2",
+      "geocode": "Siam Paragon, Bangkok",
+      "lat": null,
+      "lon": null,
+      "phone": null,
+      "website": null,
+      "social": [],
+      "hours": "10:00-22:00 ทุกวัน",
+      "offer": [
+        "เครื่องเสียง"
+      ],
+      "source_url": "https://www.siamparagon.co.th/directory/store/sound-lab-occupant-1355",
+      "evidence": "directory สยามพารากอนระบุ Sound Lab ชั้น 2F เวลา Mo-Su 10:00-22:00 คีย์เวิร์ด 'มหาจักร', 'เครื่องเสียง'",
+      "checked": "2026-09-26"
+    },
+    {
+      "id": "cur:sound-city-siam-paragon",
+      "name": "Sound City (มหาจักร) สยามพารากอน",
+      "name_en": "Sound City by Mahajak, Siam Paragon",
+      "kind": "audio_store",
+      "address": "สยามพารากอน ชั้น 2",
+      "geocode": "Siam Paragon, Bangkok",
+      "lat": null,
+      "lon": null,
+      "phone": null,
+      "website": null,
+      "social": [
+        "https://www.facebook.com/siamparagonshopping/"
+      ],
+      "hours": "10:00-22:00 ทุกวัน",
+      "offer": [
+        "เครื่องเสียง",
+        "ลำโพง",
+        "หูฟัง"
+      ],
+      "source_url": "https://www.siamparagon.co.th/directory/store/sound-city-occupant-791",
+      "evidence": "directory สยามพารากอนระบุ Sound City ชั้น 2F เวลา Mo-Su 10:00-22:00 หมวดอิเล็กทรอนิกส์; โพสต์เพจ Siam Paragon เรียกร้านว่า 'Sound City By Mahajak ชั้น 2'",
+      "checked": "2026-09-26"
+    },
+    {
+      "id": "cur:linn-siam-paragon",
+      "name": "LINN Flagship Store สยามพารากอน",
+      "name_en": "LINN Siam Paragon",
+      "kind": "audio_store",
+      "address": "สยามพารากอน ชั้น 2",
+      "geocode": "Siam Paragon, Bangkok",
+      "lat": null,
+      "lon": null,
+      "phone": null,
+      "website": null,
+      "social": [],
+      "hours": "10:30-19:00 ทุกวัน",
+      "offer": [
+        "เครื่องเสียงไฮไฟ",
+        "เครื่องเล่นแผ่นเสียง Sondek LP12",
+        "สตรีมเมอร์"
+      ],
+      "source_url": "https://www.siamparagon.co.th/directory/store/linn-occupant-790",
+      "evidence": "directory สยามพารากอนระบุ LINN ชั้น 2F เวลา Mo-Su 10:30-19:00 คีย์เวิร์ด hifi, Linn, SondekLP12 และคำอธิบาย 'Linn Flagship Store Siam Paragon'",
+      "checked": "2026-09-26"
+    },
+    {
+      "id": "cur:focal-siam-paragon",
+      "name": "FOCAL สยามพารากอน",
+      "name_en": "FOCAL Siam Paragon",
+      "kind": "audio_store",
+      "address": "สยามพารากอน ชั้น 2",
+      "geocode": "Siam Paragon, Bangkok",
+      "lat": null,
+      "lon": null,
+      "phone": null,
+      "website": null,
+      "social": [],
+      "hours": "10:00-22:00 ทุกวัน",
+      "offer": [
+        "ลำโพง",
+        "หูฟัง",
+        "โฮมเธียเตอร์",
+        "เครื่องเสียงไฮไฟ"
+      ],
+      "source_url": "https://www.siamparagon.co.th/directory/store/focal-occupant-782",
+      "evidence": "directory สยามพารากอนระบุ FOCAL ชั้น 2F เวลา Mo-Su 10:00-22:00 คีย์เวิร์ด หูฟัง ลำโพง ไฮไฟ เครื่องเสียงหรู audiophile",
+      "checked": "2026-09-26"
+    },
+    {
+      "id": "cur:bose-siam-paragon",
+      "name": "BOSE สยามพารากอน",
+      "name_en": "BOSE Siam Paragon",
+      "kind": "audio_store",
+      "address": "สยามพารากอน ชั้น 2",
+      "geocode": "Siam Paragon, Bangkok",
+      "lat": null,
+      "lon": null,
+      "phone": "02 129 4301",
+      "website": null,
+      "social": [],
+      "hours": "10:30-20:30 ทุกวัน",
+      "offer": [
+        "หูฟัง",
+        "ลำโพง",
+        "ระบบเสียง Bose Professional"
+      ],
+      "source_url": "https://www.siamparagon.co.th/directory/store/bose-occupant-783",
+      "evidence": "directory สยามพารากอนระบุ BOSE ชั้น 2F โทร 021294301 เวลา Mo-Su 10:30-20:30 คีย์เวิร์ด หูฟัง ลำโพง BOSE PROFESSIONAL",
+      "note": "ร้านเครื่องเสียงผู้บริโภค ใส่ไว้ในชั้น gear แบบ audio_store",
+      "checked": "2026-09-26"
+    },
+    {
+      "id": "cur:hear-munkong-gadget-siam-paragon",
+      "name": "Hear by Munkong Gadget สยามพารากอน",
+      "name_en": "Hear by Munkong Gadget",
+      "kind": "audio_store",
+      "address": "สยามพารากอน ชั้น 2",
+      "geocode": "Siam Paragon, Bangkok",
+      "lat": null,
+      "lon": null,
+      "phone": null,
+      "website": null,
+      "social": [],
+      "hours": "11:00-20:00 ทุกวัน",
+      "offer": [
+        "หูฟัง",
+        "ลำโพง"
+      ],
+      "source_url": "https://www.siamparagon.co.th/directory/store/hear-by-munkong-gadget-occupant-777",
+      "evidence": "directory สยามพารากอนระบุ Hear by Munkong Gadget ชั้น 2F เวลา Mo-Su 11:00-20:00 คีย์เวิร์ด earphone, headphone, audio, music",
+      "checked": "2026-09-26"
+    },
+    {
+      "id": "cur:beyond-by-boonlapo-siam-paragon",
+      "name": "Beyond by Boonlapo สยามพารากอน",
+      "name_en": "Beyond by Boonlapo",
+      "kind": "audio_store",
+      "address": "สยามพารากอน ชั้น 3 (ฝั่ง North Wing)",
+      "geocode": "Siam Paragon, Bangkok",
+      "lat": null,
+      "lon": null,
+      "phone": null,
+      "website": "https://www.boonlapo.com/",
+      "social": [],
+      "hours": null,
+      "offer": [
+        "ลำโพงไฮเอนด์ Pantheone, Cotodama, Cabasse, Loewe, Bang & Olufsen"
+      ],
+      "source_url": "https://www.boonlapo.com/news/sound-lifestyle/beyond-by-boonlapo-siam-paragon-boutique/",
+      "evidence": "ข่าวของ Boonlapo (4 มี.ค. 2025) ประกาศเปิดร้านลำโพงมัลติแบรนด์ Beyond by Boonlapo ที่สยามพารากอน ชั้น 3 ฝั่ง North Wing",
+      "note": "ไม่พบใน directory ของห้าง ณ วันที่ตรวจ",
+      "checked": "2026-09-26"
+    },
+    {
+      "id": "cur:tmc-live-studio-siam-paragon",
+      "name": "TMC Live Studio (Thailand Music Countdown) สยามพารากอน",
+      "name_en": "Thailand Music Countdown Live Studio",
+      "kind": "broadcast",
+      "address": "สยามพารากอน ชั้น 4",
+      "geocode": "Siam Paragon, Bangkok",
+      "lat": null,
+      "lon": null,
+      "phone": null,
+      "website": null,
+      "social": [
+        "https://x.com/TMCcountdown"
+      ],
+      "hours": "10:00-22:00 ทุกวัน (ตามห้าง)",
+      "offer": [
+        "สตูดิโอถ่ายทอดรายการเพลงช่อง 3",
+        "เวทีโชว์ศิลปินให้ผู้ชมเข้าชม"
+      ],
+      "source_url": "https://www.siamparagon.co.th/directory/store/thailand-music-countdown-occupant-1254",
+      "evidence": "directory สยามพารากอนระบุ Thailand Music Countdown ชั้น 4F เวลา Mo-Su 10:00-22:00; บัญชี X ทางการของรายการระบุ 'TMC LIVE STUDIO ชั้น 4 Siam Paragon'",
+      "checked": "2026-09-26"
+    },
+    {
+      "id": "cur:blu-o-rhythm-bowl-siam-paragon",
+      "name": "Blu-O Rhythm & Bowl สยามพารากอน",
+      "name_en": "Blu-O Rhythm & Bowl Siam Paragon",
+      "kind": "karaoke",
+      "address": "สยามพารากอน ชั้น 5",
+      "geocode": "Siam Paragon, Bangkok",
+      "lat": null,
+      "lon": null,
+      "phone": null,
+      "website": null,
+      "social": [],
+      "hours": "จ.-ศ. 12:00-24:00, ส.-อา. 11:00-24:00",
+      "offer": [
+        "ห้องคาราโอเกะส่วนตัว",
+        "โบว์ลิ่ง"
+      ],
+      "source_url": "https://www.siamparagon.co.th/directory/store/blu-o-rhythm-bowl-occupant-925",
+      "evidence": "directory สยามพารากอนระบุ Blu-O Rhythm & Bowl ชั้น 5F เวลา Mo-Fr 12:00-24:00; Sa-Su 11:00-24:00 คีย์เวิร์ด Bowling, Karaoke, Private room",
+      "checked": "2026-09-26"
+    },
+    {
+      "id": "cur:siam-pavalai-siam-paragon",
+      "name": "สยามภาวลัย รอยัล แกรนด์ เธียเตอร์",
+      "name_en": "Siam Pavalai Royal Grand Theatre",
+      "kind": "performing_arts",
+      "address": "พารากอน ซีนีเพล็กซ์ สยามพารากอน ชั้น 5-6, 991 ถนนพระราม 1",
+      "geocode": "Siam Paragon, Bangkok",
+      "lat": null,
+      "lon": null,
+      "phone": null,
+      "website": "https://www.majorcineplex.com/cinema/paragon-cineplex",
+      "social": [],
+      "hours": null,
+      "offer": [
+        "โรงขนาด 1,096 ที่นั่ง 2 ชั้น",
+        "ใช้จัดคอนเสิร์ต/การแสดงเป็นครั้งคราว"
+      ],
+      "source_url": "https://www.majorcineplex.com/cinema/paragon-cineplex",
+      "evidence": "หน้า Paragon Cineplex ของ Major Cineplex ระบุ 'Siam Pavalai by BDMS โรงภาพยนตร์ขนาดใหญ่ 2 ชั้น จุคนได้ถึง 1,096 ที่นั่ง' ที่ชั้น 5-6 สยามพารากอน",
+      "note": "หน้าเจ้าของเน้นการฉายภาพยนตร์ การใช้เป็นเวทีคอนเสิร์ตยืนยันจาก ThaiTicketMajor (หน้า venue siam-pavalai-theatre) ไม่ใช่เวทีดนตรีประจำ",
+      "checked": "2026-09-26"
+    },
+    {
+      "id": "cur:paragon-hall",
+      "name": "พารากอนฮอลล์",
+      "name_en": "Paragon Hall",
+      "kind": "performing_arts",
+      "address": "สยามพารากอน ชั้น 5",
+      "geocode": "Siam Paragon, Bangkok",
+      "lat": null,
+      "lon": null,
+      "phone": null,
+      "website": null,
+      "social": [],
+      "hours": null,
+      "offer": [
+        "ฮอลล์จัดงานอีเวนต์/คอนเสิร์ต"
+      ],
+      "source_url": "https://www.siamparagon.co.th/directory/store/paragon-hall-occupant-1611",
+      "evidence": "directory สยามพารากอนระบุ Paragon Hall ชั้น 5F คีย์เวิร์ด event, พารากอนฮอล",
+      "note": "ฮอลล์อเนกประสงค์ ไม่ได้เป็นเวทีดนตรีเฉพาะ",
+      "checked": "2026-09-26"
+    },
+    {
+      "id": "cur:yamaha-music-school-centralworld",
+      "name": "โรงเรียนดนตรียามาฮ่า สาขาเซ็นทรัลเวิลด์",
+      "name_en": "Yamaha Music School centralwOrld",
+      "kind": "school",
+      "address": "เซ็นทรัลเวิลด์ ชั้น 6 (Genius Planet) ห้อง KZ10-KZ11, 999/9 ถนนพระราม 1",
+      "geocode": "CentralWorld, Bangkok",
+      "lat": null,
+      "lon": null,
+      "phone": "080 230 8308",
+      "website": "https://th.yamaha.com/th/education/",
+      "social": [
+        "https://www.facebook.com/profile.php?id=100092596781099"
+      ],
+      "hours": null,
+      "offer": [
+        "หลักสูตรดนตรี Yamaha ทุกหลักสูตร"
+      ],
+      "source_url": "https://th.yamaha.com/th/education/school-locator/music-school-new.html",
+      "evidence": "ตัวค้นหาโรงเรียนของ Yamaha Thailand (ข้อมูลจาก /api/dealer/musicschool/) ระบุ 'YAMAHA MUSIC SCHOOL CENTRAL WORLD, Central World, 6th Floor (Genius Planet)' โทร 0802308308 All Courses; ผังร้านของห้าง (map.centralpattana.co.th/mall/CTW) แสดง YAMAHA MUSIC SCHOOL KZ10-KZ11 ชั้น L6",
+      "checked": "2026-09-26"
+    },
+    {
+      "id": "cur:kawai-music-school-centralworld",
+      "name": "โรงเรียนดนตรีคาวาย สาขาเซ็นทรัลเวิลด์",
+      "name_en": "Kawai Music School centralwOrld",
+      "kind": "school",
+      "address": "เซ็นทรัลเวิลด์ ชั้น 6 (Genius Planet) ห้อง KZ01, ถนนราชดำริ",
+      "geocode": "CentralWorld, Bangkok",
+      "lat": null,
+      "lon": null,
+      "phone": "064 226 5945",
+      "website": "https://www.kawai.jp/dealers/lp/th/index.html",
+      "social": [
+        "https://www.facebook.com/p/Kawai-Music-School-CentralwOrld-100063597175247/"
+      ],
+      "hours": null,
+      "offer": [
+        "เปียโน",
+        "หลักสูตรดนตรีเด็ก"
+      ],
+      "source_url": "https://www.kawai.jp/dealers/lp/th/index.html",
+      "evidence": "หน้า KAWAI Music School ประเทศไทยของ Kawai ระบุที่อยู่ 'Floor 6th, Little Wonder Central World Rajadamri Rd., Bangkok' โทร 064 226 5945; ผังร้านของห้างแสดง KAWAI MUSIC SCHOOL KZ01 ชั้น L6",
+      "checked": "2026-09-26"
+    },
+    {
+      "id": "cur:music-concept-centralworld",
+      "name": "Music Concept เซ็นทรัลเวิลด์",
+      "name_en": "Music Concept centralwOrld",
+      "kind": "instrument_store",
+      "address": "เซ็นทรัลเวิลด์ ชั้น 5 ห้อง A516 ถนนราชดำริ เขตปทุมวัน กรุงเทพฯ 10330",
+      "geocode": "CentralWorld, Bangkok",
+      "lat": null,
+      "lon": null,
+      "phone": "02 255 6448",
+      "website": "https://www.musicconcept.co.th/",
+      "social": [],
+      "hours": null,
+      "offer": [
+        "Fender",
+        "Gibson",
+        "KORG",
+        "Music Man",
+        "VOX",
+        "Squier",
+        "Epiphone",
+        "Gretsch",
+        "Paiste"
+      ],
+      "source_url": "https://www.bigtone.in.th/contact/",
+      "evidence": "หน้า Contact ของ BigTone ระบุ 'Central World ชั้น 5, ห้อง A516 ถนนราชดำริ เขตปทุมวัน' Tel 02 255 6448; หน้า About ของ musicconcept.co.th ระบุเปิดสาขาชื่อ Music Concept ที่เซ็นทรัลเวิลด์ตั้งแต่ปี 1990 เป็นตัวแทนจำหน่าย Fender, Gibson, KORG ฯลฯ โทร 02-255-6448/9",
+      "checked": "2026-09-26"
+    },
+    {
+      "id": "cur:rock-planet-centralworld",
+      "name": "Rock Planet เซ็นทรัลเวิลด์",
+      "name_en": "Rock Planet centralwOrld",
+      "kind": "instrument_store",
+      "address": "เซ็นทรัลเวิลด์ ชั้น 5 ห้อง A503",
+      "geocode": "CentralWorld, Bangkok",
+      "lat": null,
+      "lon": null,
+      "phone": null,
+      "website": null,
+      "social": [
+        "https://www.facebook.com/rockplanet.centralworld/",
+        "https://www.instagram.com/rockplanetctw/"
+      ],
+      "hours": null,
+      "offer": [
+        "กีตาร์",
+        "กลอง",
+        "อุปกรณ์ดนตรี"
+      ],
+      "source_url": "https://map.centralpattana.co.th/mall/CTW?location=c05103b9-127b-5dbf-b217-4598c72ce77b",
+      "evidence": "ผังร้านทางการของ Central Pattana ระบุ ROCK PLANET หมวด Entertainment ห้อง A503 ชั้น L5 คำอธิบาย 'Rock Planet: Your ultimate destination for music e...'",
+      "checked": "2026-09-26"
+    },
+    {
+      "id": "cur:maneki-neko-karaoke-mbk",
+      "name": "Maneki Neko Karaoke เอ็มบีเค เซ็นเตอร์",
+      "name_en": "Maneki Neko Karaoke MBK Center",
+      "kind": "karaoke",
+      "address": "เอ็มบีเค เซ็นเตอร์ ชั้น 7 ห้อง 7A-01, 444 ถนนพญาไท แขวงวังใหม่",
+      "geocode": "MBK Center, Bangkok",
+      "lat": null,
+      "lon": null,
+      "phone": null,
+      "website": null,
+      "social": [],
+      "hours": null,
+      "offer": [
+        "ห้องคาราโอเกะครอบครัว",
+        "อาหารและเครื่องดื่ม"
+      ],
+      "source_url": "https://www.mbk-center.co.th/directory/shop/Maneki-Neko-Karaoke/",
+      "evidence": "directory MBK Center ระบุ Maneki Neko Karaoke ชั้น 7 โซน A ห้อง 7A-01 หมวดบันเทิง คำอธิบาย 'ผู้ให้บริการแฟมิลี่คาราโอเกะอันดับหนึ่งจากประเทศญี่ปุ่น'",
+      "checked": "2026-09-26"
+    },
+    {
+      "id": "cur:soundcheck-karaoke-centerpoint-siam",
+      "name": "Soundcheck Karaoke เซ็นเตอร์พ้อยท์ สยามสแควร์",
+      "name_en": "Soundcheck Karaoke Centerpoint Siam Square",
+      "kind": "karaoke",
+      "address": "Centerpoint Siam Square ชั้น 5",
+      "geocode": "Center Point Siam Square",
+      "lat": null,
+      "lon": null,
+      "phone": null,
+      "website": null,
+      "social": [
+        "https://www.facebook.com/SCkaraoke/",
+        "https://www.instagram.com/sckaraoke/"
+      ],
+      "hours": null,
+      "offer": [
+        "ห้องคาราโอเกะส่วนตัว"
+      ],
+      "source_url": "https://www.facebook.com/SCkaraoke/posts/-%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%81%E0%B8%B2%E0%B8%A8-%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%81%E0%B8%B2%E0%B8%A8-soundcheck-karaoke-%E0%B8%AA%E0%B8%B2%E0%B8%82%E0%B8%B2%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88-%E0%B8%AA%E0%B8%B2%E0%B8%82%E0%B8%B2%E0%B9%80%E0%B8%8B%E0%B9%87%E0%B8%99%E0%B9%80%E0%B8%95%E0%B8%AD%E0%B8%A3%E0%B9%8C%E0%B8%9E%E0%B9%89%E0%B8%AD%E0%B8%A2%E0%B8%AA%E0%B8%A2%E0%B8%B2%E0%B8%A1%E0%B8%AA%E0%B9%81%E0%B8%84%E0%B8%A7%E0%B8%A3%E0%B9%8C-%E0%B8%8A%E0%B8%B1%E0%B9%89%E0%B8%99-5-%EF%B8%8F%E0%B8%9E/1029157692346577/",
+      "evidence": "โพสต์ในเพจ SC Karaoke ของเจ้าของประกาศ 'Soundcheck karaoke สาขาใหม่ สาขาเซ็นเตอร์พ้อยสยามสแควร์ ชั้น 5' (ตรวจจากหัวข้อโพสต์; เนื้อหา Facebook เปิดอ่านเต็มไม่ได้โดยไม่ล็อกอิน)",
+      "checked": "2026-09-26"
+    },
+    {
+      "id": "cur:vocal-lab-siam",
+      "name": "Vocal Lab โรงเรียนสอนร้องเพลง สยาม",
+      "name_en": "Vocal Lab Siam",
+      "kind": "school",
+      "address": null,
+      "geocode": "Siam Square, Bangkok",
+      "lat": null,
+      "lon": null,
+      "phone": null,
+      "website": "https://www.vocallabsiam.com/",
+      "social": [],
+      "hours": null,
+      "offer": [
+        "สอนร้องเพลง ตั้งแต่พื้นฐานถึงมืออาชีพ",
+        "รับตั้งแต่อายุ 3 ปี"
+      ],
+      "source_url": "https://www.vocallabsiam.com/",
+      "evidence": "เว็บไซต์ Vocal Lab ระบุเป็นโรงเรียนสอนร้องเพลง 'ใจกลางเมือง สยาม ลิโด้' เดินทางด้วย BTS ติดต่อผ่าน Line @vocallab; ไม่ระบุเลขที่อาคาร",
+      "checked": "2026-09-26"
+    },
+    {
+      "id": "cur:chula-faa-department-of-music",
+      "name": "ภาควิชาดุริยางคศิลป์ คณะศิลปกรรมศาสตร์ จุฬาลงกรณ์มหาวิทยาลัย",
+      "name_en": "Department of Music, Faculty of Fine and Applied Arts, Chulalongkorn University",
+      "kind": "higher_ed",
+      "address": "คณะศิลปกรรมศาสตร์ จุฬาลงกรณ์มหาวิทยาลัย 254 ถนนพญาไท เขตปทุมวัน กรุงเทพฯ 10330",
+      "geocode": "ศิลปกรรมศาสตร์ จุฬา",
+      "lat": null,
+      "lon": null,
+      "phone": "02 218 4583",
+      "website": "https://www.faa.chula.ac.th/",
+      "social": [
+        "https://www.facebook.com/FineAppliedArtsCHULA/"
+      ],
+      "hours": null,
+      "offer": [
+        "ป.ตรี/ป.โท ดุริยางคศิลป์ตะวันตก (การแสดง/การประพันธ์)",
+        "ป.ตรี ดุริยางคศิลป์ไทย"
+      ],
+      "source_url": "https://www.faa.chula.ac.th/subjectmain/index/94",
+      "evidence": "หน้าสาขาวิชาดุริยางคศิลป์ตะวันตก ภาควิชาดุริยางคศิลป์ ระบุหลักสูตร ศป.บ. และ ป.โท ด้านการแสดงดนตรี/การประพันธ์เพลง ติดต่อคณะโทร +662 218 4583; หน้า subjectmain/index/92 เป็นสาขาดุริยางคศิลป์ไทย",
+      "checked": "2026-09-26"
+    },
+    {
+      "id": "cur:chula-edu-music-education-cumex",
+      "name": "สาขาวิชาดนตรีศึกษา คณะครุศาสตร์ จุฬาฯ / ศูนย์ความเป็นเลิศด้านดนตรีศึกษา (CUMEX)",
+      "name_en": "Music Education, Faculty of Education, Chulalongkorn University (CUMEX)",
+      "kind": "higher_ed",
+      "address": "อาคารพระมิ่งขวัญการศึกษาไทย ชั้น 5 คณะครุศาสตร์ จุฬาลงกรณ์มหาวิทยาลัย 254 ถนนพญาไท เขตปทุมวัน 10330",
+      "geocode": "Faculty of Education Chulalongkorn",
+      "lat": null,
+      "lon": null,
+      "phone": null,
+      "website": "https://sites.google.com/chula.ac.th/musicexam/",
+      "social": [
+        "https://www.facebook.com/musiced.chula/"
+      ],
+      "hours": null,
+      "offer": [
+        "หลักสูตรดนตรีศึกษา",
+        "สอบทฤษฎีดนตรีสากล"
+      ],
+      "source_url": "https://sites.google.com/chula.ac.th/musicexam/",
+      "evidence": "เว็บไซต์ CU Music Exam ระบุผู้ดำเนินการคือศูนย์ความเป็นเลิศด้านดนตรีศึกษาแห่งจุฬาฯ (CUMEX) คณะครุศาสตร์ ตั้งที่ชั้น 5 อาคารพระมิ่งขวัญการศึกษาไทย 254 ถ.พญาไท เขตปทุมวัน",
+      "checked": "2026-09-26"
+    },
+    {
+      "id": "cur:rbso-royal-bangkok-symphony-orchestra",
+      "name": "วงดุริยางค์ซิมโฟนีแห่งกรุงเทพ (RBSO)",
+      "name_en": "Royal Bangkok Symphony Orchestra",
+      "kind": "ensemble",
+      "address": "ชั้น 2 อาคารเคียนกวน 3, 152 ถนนวิทยุ แขวงลุมพินี เขตปทุมวัน กรุงเทพฯ 10330",
+      "geocode": "152 Wireless Road",
+      "lat": null,
+      "lon": null,
+      "phone": null,
+      "website": "https://www.rbsothailand.com/",
+      "social": [],
+      "hours": null,
+      "offer": [
+        "วงออร์เคสตราอาชีพ"
+      ],
+      "source_url": "https://www.rbsothailand.com/contact/",
+      "evidence": "หน้า Contact ของ RBSO ระบุ '2nd floor, Kian Gwan III Building, 152 Wireless Road, Lumpini, Pathumwan, Bangkok 10330'",
+      "note": "ข่าว (ไทยโพสต์/บ้านเมือง) รายงานว่า RBSO ย้ายไปอาคาร AUA ถนนราชดำริ ซึ่งอยู่ในเขตปทุมวันเช่นกัน ควรตรวจว่าที่อยู่ใดเป็นปัจจุบัน",
+      "checked": "2026-09-26"
+    },
+    {
+      "id": "cur:siam-music-yamaha-hq",
+      "name": "บริษัท สยามดนตรียามาฮ่า จำกัด (สำนักงานใหญ่)",
+      "name_en": "Siam Music Yamaha Co., Ltd.",
+      "kind": "business",
+      "address": "414 ถนนพญาไท แขวงวังใหม่ เขตปทุมวัน กรุงเทพฯ 10330",
+      "geocode": "414 Phaya Thai Road, Wang Mai, Pathum Wan, Bangkok",
+      "lat": null,
+      "lon": null,
+      "phone": "02 215 2626",
+      "website": "https://th.yamaha.com/",
+      "social": [],
+      "hours": null,
+      "offer": [
+        "ผู้นำเข้า/จัดจำหน่ายเครื่องดนตรีและเครื่องเสียง Yamaha",
+        "ผู้ให้สิทธิ์ระบบการศึกษาดนตรี Yamaha"
+      ],
+      "source_url": "https://www.siammotors.com/en/company/siam-music-yamaha/",
+      "evidence": "หน้าบริษัทในเครือของ Siam Motors Group ระบุ Siam Music Yamaha เป็น 'Authorized importer and distributor of musical instruments, lifestyle audio, and professional audio under Yamaha brand' ที่อยู่ 414 Phayathai Rd, Wangmai, Pathumwan 10330 โทร 0-2215-2626-39",
+      "note": "แหล่งอื่นระบุ 891/1 อาคารสยามกลการ ถ.พระราม 1 (ปทุมวันเช่นกัน)",
+      "checked": "2026-09-26"
+    },
+    {
+      "id": "cur:hard-rock-cafe-bangkok",
+      "name": "ฮาร์ดร็อคคาเฟ่ กรุงเทพฯ",
+      "name_en": "Hard Rock Cafe Bangkok",
+      "kind": "venue",
+      "address": "อาคารมณียา 518/5 ถนนเพลินจิต แขวงลุมพินี เขตปทุมวัน",
+      "geocode": "Maneeya Center, Phloen Chit Road, Bangkok",
+      "lat": null,
+      "lon": null,
+      "phone": "02 254 2594",
+      "website": "https://cafe.hardrock.com/bangkok/",
+      "social": [
+        "https://www.instagram.com/hardrockbangkok/"
+      ],
+      "hours": "11:30-24:00 ทุกวัน; ดนตรีสด 20:00-23:45 ทุกคืน",
+      "offer": [
+        "ดนตรีสดทุกคืน"
+      ],
+      "source_url": "https://cafe.hardrock.com/bangkok/",
+      "evidence": "หน้า Hard Rock Cafe Bangkok ระบุอยู่ย่านราชประสงค์ ใกล้ BTS ชิดลม ทางออก 2 จอดรถที่ Maneeya Center เปิด 11:30-เที่ยงคืน มีดนตรีสดทุกเย็น 20:00-23:45 โทร +6622542594",
+      "note": "เลขที่ 518/5 อาคารมณียา มาจากหน้ากิจกรรมบนเว็บ mysamt.com ที่จัดงานที่ร้าน",
+      "checked": "2026-09-26"
+    },
+    {
+      "id": "cur:diplomat-bar-conrad-bangkok",
+      "name": "ดิโพลแมทบาร์ โรงแรมคอนราด กรุงเทพฯ",
+      "name_en": "Diplomat Bar, Conrad Bangkok",
+      "kind": "venue",
+      "address": "โรงแรมคอนราด กรุงเทพฯ ชั้นล็อบบี้ ถนนวิทยุ",
+      "geocode": "Conrad Bangkok, Wireless Road, Bangkok",
+      "lat": null,
+      "lon": null,
+      "phone": null,
+      "website": "https://www.hilton.com/en/hotels/bkkcici-conrad-bangkok/dining/diplomat-bar/",
+      "social": [],
+      "hours": null,
+      "offer": [
+        "วงดนตรีแจ๊สสด อ.-ส. 19:30-23:15"
+      ],
+      "source_url": "https://www.hilton.com/en/hotels/bkkcici-conrad-bangkok/dining/diplomat-bar/",
+      "evidence": "หน้า Diplomat Bar ของ Hilton/Conrad ระบุอยู่ชั้น Lobby มีวงดนตรีสดวันอังคาร-เสาร์ 19:30-23:15 (ตรวจจากข้อความหน้าเว็บที่แสดงในผลค้นหา; ดึงหน้าตรงได้ HTTP 403)",
+      "checked": "2026-09-26"
+    },
+    {
+      "id": "cur:siam-record-store",
+      "name": "Siam Record Store",
+      "name_en": "Siam Record Store",
+      "kind": "record_store",
+      "address": "839-843 ถนนพระราม 1 แขวงวังใหม่ เขตปทุมวัน",
+      "geocode": "839 Rama I Road, Wang Mai, Pathum Wan, Bangkok",
+      "lat": null,
+      "lon": null,
+      "phone": null,
+      "website": null,
+      "social": [
+        "https://www.facebook.com/siamrecord/"
+      ],
+      "hours": null,
+      "offer": [
+        "แผ่นเสียง",
+        "เครื่องดนตรีมือสอง"
+      ],
+      "source_url": "https://www.facebook.com/siamrecord/",
+      "evidence": "เพจ Facebook ของร้านระบุที่อยู่ 839-843 Rama 1 rd., Wangmai Pathumwan และประเภทแผ่นเสียง/เครื่องดนตรีมือสอง (ตรวจจากข้อมูลเพจที่แสดงในผลค้นหา; เปิดเพจเต็มไม่ได้โดยไม่ล็อกอิน)",
+      "note": "ควรยืนยันว่ายังเปิดอยู่",
+      "checked": "2026-09-26"
+    },
+    {
+      "id": "cur:samyan-mitrtown-hall",
+      "name": "สามย่านมิตรทาวน์ ฮอลล์",
+      "name_en": "Samyan Mitrtown Hall",
+      "kind": "performing_arts",
+      "address": "สามย่านมิตรทาวน์ ชั้น 5, ถนนพระราม 4",
+      "geocode": "Samyan Mitrtown, Bangkok",
+      "lat": null,
+      "lon": null,
+      "phone": null,
+      "website": "https://www.samyan-mitrtownhall.com/en/",
+      "social": [],
+      "hours": null,
+      "offer": [
+        "ฮอลล์อเนกประสงค์แบ่งได้ 2 ห้อง",
+        "ใช้จัดคอนเสิร์ต"
+      ],
+      "source_url": "https://www.samyan-mitrtownhall.com/en/about/",
+      "evidence": "หน้า About ระบุตั้งอยู่ชั้น 5 ศูนย์การค้าสามย่านมิตรทาวน์ ถนนพระราม 4 พื้นที่มากกว่า 3,700 ตร.ม. main hall แบ่งได้ 2 ห้อง เป็น multi-purpose venue",
+      "note": "หน้าเจ้าของไม่ได้กล่าวถึงคอนเสิร์ตโดยตรง การใช้จัดคอนเสิร์ตยืนยันจากหน้า venue ของ ThaiTicketMajor",
+      "checked": "2026-09-26"
+    },
+    {
+      "id": "cur:sony-music-thailand-chamchuri-square",
+      "name": "บริษัท โซนี่ มิวสิค เอนเตอร์เทนเมนท์ โอเปอเรทติ้ง (ประเทศไทย) จามจุรีสแควร์",
+      "name_en": "Sony Music Entertainment Operating (Thailand)",
+      "kind": "business",
+      "address": "อาคารจัตุรัสจามจุรี ชั้น 17 ห้อง 1706-1707, 319 ถนนพญาไท แขวงปทุมวัน เขตปทุมวัน กรุงเทพฯ 10330",
+      "geocode": "Chamchuri Square",
+      "lat": null,
+      "lon": null,
+      "phone": "02 853 9933",
+      "website": "https://www.sonymusic.co.th/",
+      "social": [],
+      "hours": null,
+      "offer": [
+        "ค่ายเพลง",
+        "ลิขสิทธิ์เพลง/Sony Music Publishing",
+        "รับงานแสดง/สปอนเซอร์ศิลปิน"
+      ],
+      "source_url": "https://www.sonymusic.co.th/en/contact-us/",
+      "evidence": "หน้า Contact Us ของ Sony Music Thailand: '319 Phayathai Road, the 17th Floor Chamchuri Square, R1706-R1707, Pathumwan Sub-District, Pathumwan District, Bangkok 10330' General Information +662 853 9933",
+      "note": "ไดเรกทอรีเก่า (Foursquare/ผลค้นหา) ยังระบุที่อยู่เดิมอาคารมาลีนนท์ ถ.พระราม 4 (คลองเตย) ซึ่งล้าสมัย",
+      "checked": "2026-09-26"
+    }
+  ],
+  "review": {
+    "osm:n2874223588": {
+      "kind": "higher_ed",
+      "note": "ห้องดนตรีไทยในพื้นที่จุฬาฯ (ตึก 55) รวมกับหน่วยดนตรีของมหาวิทยาลัย"
+    },
+    "osm:w157284535": {
+      "kind": "higher_ed",
+      "note": "ศาลาดนตรีไทยภายในจุฬาฯ เป็นพื้นที่ซ้อม/แสดงดนตรีไทยของมหาวิทยาลัย"
+    },
+    "osm:n7058244833": {
+      "kind": "ensemble",
+      "note": "ชมรมดนตรีไทยนิสิตจุฬาฯ (club=music) ไม่ใช่โรงเรียนสอนดนตรีเชิงพาณิชย์"
+    },
+    "osm:n7058244832": {
+      "kind": "ensemble",
+      "note": "วงซิมโฟนีออร์เคสตรานิสิตจุฬาฯ ยืนยันประเภทเดิม"
+    },
+    "osm:n11031843585": {
+      "kind": "archive",
+      "note": "หอสมุดดนตรี OSM ติดแท็ก amenity=theatre ผิด ควรเป็นหอสมุด/คลังดนตรี"
+    },
+    "osm:n1756133199": {
+      "kind": "school",
+      "note": "KPN Music Academy สยาม: เว็บ kpnmusic.com ไม่แสดงรายชื่อสาขาแบบอ่านได้ ยังไม่ยืนยันว่าสาขานี้ยังเปิด"
+    },
+    "osm:n2065920181": {
+      "kind": "venue",
+      "note": "Cafe Trio Langsuan บาร์แจ๊ส/แกลเลอรี ผลค้นหาบ่งว่าอาจปิดกิจการแล้ว ต้องตรวจ"
+    },
+    "osm:n2106360383": {
+      "exclude": true,
+      "note": "หอศิลปวิทยนิทรรศน์ จุฬาฯ เป็นหอศิลป์ภาพ ไม่ใช่สถานที่ดนตรี"
+    },
+    "osm:w158060535": {
+      "exclude": true,
+      "note": "หอศิลป์จามจุรี เป็นแกลเลอรีทัศนศิลป์ ไม่ใช่สถานที่ดนตรี"
+    },
+    "osm:w562209094": {
+      "exclude": true,
+      "note": "บ้านแสนแสบ (Yelo House) แกลเลอรี/งานคราฟต์ ไม่เกี่ยวกับดนตรี"
+    },
+    "osm:n10693793813": {
+      "exclude": true,
+      "note": "คลับตลก ไม่เกี่ยวกับดนตรี"
+    },
+    "osm:n12712926160": {
+      "exclude": true,
+      "note": "โชว์รีดพิษงู สถานเสาวภา ไม่เกี่ยวกับดนตรี"
+    },
+    "osm:w1373007654": {
+      "exclude": true,
+      "note": "โชว์งู สถานเสาวภา ไม่เกี่ยวกับดนตรี"
+    }
+  },
+  "gaps": [
+    "Samyan Mitrtown: directory ทางการ (samyan-mitrtown.com/home/directory/floor*) โหลดรายชื่อร้านไม่ขึ้น ยังไม่ได้ไล่ร้านดนตรี/โรงเรียนดนตรีในห้าง",
+    "Siam Center / Siam Discovery / Siam Square One / Chamchuri Square / Central Chidlom / Central Embassy / Gaysorn / Amarin: ยังไม่ได้ไล่ directory รายร้าน (หน้า Siam Discovery ดูเหมือนดึงข้อมูลชุดเดียวกับพารากอน)",
+    "เซ็นทรัลเวิลด์: ค้นใน map.centralpattana.co.th ด้วยคำ music/guitar/piano/audio/sound/karaoke/studio/vinyl พบเพียง 4 ร้านที่ลงแล้ว ควรไล่หมวด Edutainment/Entertainment ทั้งหมดอีกรอบ",
+    "Taodang Music Shop สาขาสวนหลวงสแควร์ (59/26 สวนหลวงสแควร์ แขวงวังใหม่): อยู่ใน dealer locator ของ Yamaha และมีเพจ facebook.com/taodangmusicchula แต่หน้า Stores ของ taodangmusic.com แสดงแค่สาขาจตุจักร อาจปิดแล้ว",
+    "หอประชุมจุฬาลงกรณ์มหาวิทยาลัย (ใช้จัดคอนเสิร์ต) และสำนักบริหารศิลปวัฒนธรรมจุฬาฯ (cuartculture.chula.ac.th): ยังไม่ได้หน้าเจ้าของที่ระบุรายละเอียดสถานที่",
+    "Recordoffee สาขาถนนเพลินจิต (Time Out ระบุ ลุมพินี ปทุมวัน) ยังไม่พบหน้าเจ้าของยืนยันสาขานี้ (สาขาหลักอยู่ตลาดน้อย)",
+    "DJ Siam ร้านแผ่นเสียงสยามสแควร์ (Time Out) ยังไม่ยืนยันว่ายังเปิด",
+    "EX10 Musicpod (MBK ชั้น 7 ห้อง 7C-05/06 หมวดบันเทิง ลิงก์ไปเพจ echogamesth) น่าจะเป็นตู้ร้องเพลงในร้านเกม ยังไม่ยืนยันประเภท",
+    "Goon Studio (OSM n6248868685 จัดเป็น studio) ยังไม่ทราบว่าเป็นสตูดิโอดนตรีหรือสตูดิโอศิลปะ",
+    "KPN Music Academy สยาม: ตัวค้นหาสาขาของ kpnmusic.com โหลดด้วย JS ยังไม่ได้ยืนยัน",
+    "MBK Center: directory ทางการ (1,267 ร้าน) ไม่มีร้านเครื่องดนตรี; ร้านชื่อ Single Audio/Sound Proof Bros/AYA Audio Club เป็นร้านมือถือ-อุปกรณ์ จึงไม่ลง",
+    "บาร์ดนตรีสดในโรงแรมย่านเพลินจิต-วิทยุ-หลังสวน (เช่น Okura, Sindhorn, Hotel Muse, St. Regis) ยังไม่ได้ตรวจ",
+    "ค่ายเพลง/บริษัทลิขสิทธิ์ในเขตนี้ยังไม่พบ (MCT อยู่ห้วยขวาง)"
+  ]
+}

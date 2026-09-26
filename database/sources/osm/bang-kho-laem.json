@@ -1,0 +1,86 @@
+{
+ "district": "บางคอแหลม",
+ "rel": 3147455,
+ "fetchedAt": "2026-09-25T19:38:01.883Z",
+ "source": "https://overpass.kumi.systems/api/interpreter",
+ "license": "ODbL © OpenStreetMap contributors",
+ "query": "[out:json][timeout:120];area(3603147455)->.a;(\nnwr(area.a)[\"shop\"~\"^(musical_instrument|music|hifi)$\"];\nnwr(area.a)[\"amenity\"~\"^(music_school|music_venue|studio|concert_hall|theatre|arts_centre|karaoke_box)$\"];\nnwr(area.a)[\"craft\"~\"musical_instrument|piano_tuner|luthier\"];\nnwr(area.a)[\"studio\"];\nnwr(area.a)[\"live_music\"=\"yes\"];\nnwr(area.a)[\"name\"~\"ดนตรี|เพลง|music|guitar|กีตาร์|piano|เปียโน|drum|กลอง|violin|ไวโอลิน|jazz|แจ๊ส|ห้องซ้อม|rehearsal|recording|อัดเสียง|ukulele|อูคูเลเล่|saxophone|แซกโซโฟน|ระนาด|ขิม|orchestra|symphony|ดุริยาง\",i];\nnwr(area.a)[\"name:en\"~\"ดนตรี|เพลง|music|guitar|กีตาร์|piano|เปียโน|drum|กลอง|violin|ไวโอลิน|jazz|แจ๊ส|ห้องซ้อม|rehearsal|recording|อัดเสียง|ukulele|อูคูเลเล่|saxophone|แซกโซโฟน|ระนาด|ขิม|orchestra|symphony|ดุริยาง\",i];\n);out center tags;",
+ "elements": [
+  {
+   "type": "node",
+   "id": 2108809800,
+   "lat": 13.7045546,
+   "lon": 100.502664,
+   "tags": {
+    "name": "I studio",
+    "shop": "hifi"
+   }
+  },
+  {
+   "type": "node",
+   "id": 2113561736,
+   "lat": 13.7047784,
+   "lon": 100.5030733,
+   "tags": {
+    "amenity": "nightclub",
+    "internet_access": "no",
+    "live_music": "yes",
+    "name": "ลานเบียร์ช้าง",
+    "payment:coins": "yes",
+    "payment:diners_club": "no",
+    "payment:visa": "no"
+   }
+  },
+  {
+   "type": "node",
+   "id": 2113589385,
+   "lat": 13.7045595,
+   "lon": 100.5032754,
+   "tags": {
+    "internet_access": "wlan",
+    "name": "Misic&stuff",
+    "shop": "music"
+   }
+  },
+  {
+   "type": "node",
+   "id": 2156863362,
+   "lat": 13.7041393,
+   "lon": 100.5033962,
+   "tags": {
+    "amenity": "theatre",
+    "name": "Calypso Cabaret",
+    "name:th": "Calypso Cabaret",
+    "website": "https://www.calypsocabaret.com/"
+   }
+  },
+  {
+   "type": "node",
+   "id": 5598909322,
+   "lat": 13.7082109,
+   "lon": 100.5093261,
+   "tags": {
+    "name": "ห้องซ้อมดนตรี Musuc Modulation, ช่างคมซ่อมกีต้าร์",
+    "name:en": "Music Modulation, Music Selector",
+    "shop": "electronics"
+   }
+  },
+  {
+   "type": "way",
+   "id": 199925704,
+   "center": {
+    "lat": 13.7043451,
+    "lon": 100.5036139
+   },
+   "tags": {
+    "amenity": "theatre",
+    "building": "yes",
+    "building:condition": "Not Damaged",
+    "check_date": "2024-03-26",
+    "name": "Siam Fantasy",
+    "name:en": "Warehouse 4",
+    "website": "https://siamfantasy.com/"
+   }
+  }
+ ]
+}

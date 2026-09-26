@@ -1,0 +1,234 @@
+{
+  "district": "พระนคร",
+  "researchedAt": "2026-09-26",
+  "places": [
+    {
+      "id": "cur:bpi-wang-na-graduate",
+      "name": "สถาบันบัณฑิตพัฒนศิลป์ (วังหน้า) โครงการบัณฑิตศึกษา",
+      "name_en": "Bunditpatanasilpa Institute of Fine Arts (Wang Na) - Graduate Programme",
+      "kind": "higher_ed",
+      "address": "เลขที่ 2 ถนนราชินี เขตพระนคร กรุงเทพฯ 10200",
+      "geocode": "2 Ratchini Road, Phra Nakhon, Bangkok",
+      "lat": null,
+      "lon": null,
+      "phone": "02-224-5851",
+      "website": "https://www.bpi.ac.th/",
+      "social": [],
+      "hours": "จันทร์-ศุกร์ 08.30-16.30",
+      "offer": [
+        "บัณฑิตศึกษาด้านนาฏศิลป์และดุริยางคศิลป์ไทย"
+      ],
+      "source_url": "https://www.bpi.ac.th/contact-us",
+      "evidence": "หน้าติดต่อของสถาบันระบุ 'โครงการบัณฑิตศึกษา สถาบันบัณฑิตพัฒนศิลป์ (วังหน้า) เลขที่ 2 ถนนราชินี เขตพระนคร' โทร 02-224-5851 เวลาทำการ จ-ศ 08.30-16.30 (สำนักงานอธิการบดีหลักอยู่ศาลายา)",
+      "checked": "2026-09-26"
+    },
+    {
+      "id": "cur:fad-office-of-performing-arts",
+      "name": "สำนักการสังคีต กรมศิลปากร",
+      "name_en": "Office of Performing Arts, Fine Arts Department",
+      "kind": "ensemble",
+      "address": "เลขที่ 2 ถนนราชินี แขวงพระบรมมหาราชวัง เขตพระนคร กทม. 10200",
+      "geocode": "National Theatre, Ratchini Road, Bangkok",
+      "lat": null,
+      "lon": null,
+      "phone": "02 225 9097, 02 224 1379",
+      "website": "https://www.finearts.go.th/performing",
+      "social": [],
+      "hours": null,
+      "offer": [
+        "วงดุริยางค์และนาฏศิลป์ของรัฐ",
+        "การแสดงในงานพระราชพิธี/รัฐพิธี",
+        "บริหารโรงละครแห่งชาติ"
+      ],
+      "source_url": "https://www.finearts.go.th/performing/contact",
+      "evidence": "หน้าติดต่อของสำนักการสังคีตระบุที่อยู่เลขที่ 2 ถนนราชินี แขวงพระบรมมหาราชวัง เขตพระนคร และโทร 02 225 9097, 02 224 1379; หน่วยงานดูแลนาฏดุริยางคศิลป์และกิจการโรงละครแห่งชาติ (ตัวอาคารโรงละครอยู่ใน OSM แล้ว r20505833 — รายการนี้คือหน่วยงาน/วง ไม่ใช่อาคาร)",
+      "checked": "2026-09-26"
+    },
+    {
+      "id": "cur:national-museum-bangkok",
+      "name": "พิพิธภัณฑสถานแห่งชาติ พระนคร",
+      "name_en": "National Museum Bangkok",
+      "kind": "archive",
+      "address": "4 ถนนหน้าพระธาตุ แขวงพระบรมมหาราชวัง เขตพระนคร กรุงเทพมหานคร 10200",
+      "geocode": "National Museum Bangkok, Na Phra That Road, Bangkok",
+      "lat": null,
+      "lon": null,
+      "phone": "02 224 1402, 02 224 1333",
+      "website": "https://www.finearts.go.th/museumbangkok",
+      "social": [],
+      "hours": null,
+      "offer": [
+        "จัดแสดงเครื่องดนตรีไทยโบราณ",
+        "เครื่องประกอบการเล่นมหรสพ"
+      ],
+      "source_url": "https://www.finearts.go.th/museumbangkok",
+      "evidence": "หน้าเว็บของพิพิธภัณฑ์ (กรมศิลปากร) ระบุที่อยู่ 4 ถนนหน้าพระธาตุ เขตพระนคร และเบอร์ 02 224 1402; ข้อมูลว่าหมู่พระวิมานจัดแสดงเครื่องดนตรีมาจากฐานข้อมูลพิพิธภัณฑ์ของศูนย์มานุษยวิทยาสิรินธร (db.sac.or.th/museum/museum-detail/173) ใช้เป็น lead ประกอบ",
+      "checked": "2026-09-26"
+    },
+    {
+      "id": "cur:phattayakul-school-banglamphu",
+      "name": "โรงเรียนพาทยกุลการดนตรีและนาฏศิลป์ (บางลำพู)",
+      "name_en": "Phattayakul Thai Music and Drama School (Banglamphu)",
+      "kind": "school",
+      "address": "170/5-6 ถนนสามเสน (ตรงข้ามวัดสามพระยา ใกล้แยกบางขุนพรหม) เขตพระนคร กรุงเทพฯ 10200",
+      "geocode": "Wat Sam Phraya, Bangkok",
+      "lat": null,
+      "lon": null,
+      "phone": null,
+      "website": null,
+      "social": [
+        "https://www.facebook.com/phattayakulschool/"
+      ],
+      "hours": null,
+      "offer": [
+        "ดนตรีไทย",
+        "นาฏศิลป์ไทย"
+      ],
+      "source_url": "https://www.facebook.com/phattayakulschool/",
+      "evidence": "เพจ Facebook 'Phattayakul Thai Music and Drama School' ระบุหมวด 'โรงเรียนสอนดนตรีไทย นาฏศิลป์ไทย' ในกรุงเทพฯ; ที่อยู่บนถนนสามเสนมาจาก yellowpages/sanook (lead) — ควรยืนยันกับเพจอีกครั้ง",
+      "checked": "2026-09-26"
+    },
+    {
+      "id": "cur:music-collection-atsadang",
+      "name": "Music Collection สาขาถนนอัษฎางค์",
+      "name_en": "Music Collection Atsadang Road",
+      "kind": "instrument_store",
+      "address": "หลังกระทรวงริมคลองหลอด 10/5 ถนนอัษฎางค์ แขวงศาลเจ้าพ่อเสือ เขตพระนคร กรุงเทพ 10200",
+      "geocode": "10/5 Atsadang Road, Phra Nakhon, Bangkok",
+      "lat": null,
+      "lon": null,
+      "phone": "084-730-0241",
+      "website": "https://www.music.co.th/",
+      "social": [],
+      "hours": "ทุกวัน 09.00-18.00 (หยุดวันอาทิตย์ที่ 2 และ 4 ของเดือน)",
+      "offer": [
+        "กีตาร์",
+        "เครื่องดนตรีสากล"
+      ],
+      "source_url": "https://www.music.co.th/en/store-locations-2/",
+      "evidence": "หน้า Store Locations ของ Music Collection ระบุ 'ATSADANG RD. สาขา ถนนอัษฎางค์ หลังกระทรวงริมคลองหลอด 10/5 ถนนอัษฎางค์ แขวงศาลเจ้าพ่อเสือ เขตพระนคร' เวลา 09.00-18.00 และโทร 084-730-0241",
+      "checked": "2026-09-26"
+    },
+    {
+      "id": "cur:adhere-the-13th-blues-bar",
+      "name": "Adhere the 13th Blues Bar",
+      "name_en": "Adhere the 13th Blues Bar",
+      "kind": "venue",
+      "address": "13 ถนนสามเสน เขตพระนคร กรุงเทพฯ",
+      "geocode": "13 Samsen Road, Bangkok",
+      "lat": null,
+      "lon": null,
+      "phone": null,
+      "website": null,
+      "social": [
+        "https://www.facebook.com/adhere13thbluesbar/"
+      ],
+      "hours": null,
+      "offer": [
+        "บลูส์สด",
+        "วงประจำร้าน"
+      ],
+      "source_url": "https://www.facebook.com/adhere13thbluesbar/",
+      "evidence": "เพจ Facebook 'Adhere 13th blues bar' (หมวดผับ, กรุงเทพฯ) ชื่อระบุเป็นบาร์บลูส์; ที่อยู่ 13 Samsen Rd มาจาก BK Magazine/Lonely Planet (lead)",
+      "checked": "2026-09-26"
+    },
+    {
+      "id": "cur:brick-bar-khaosan",
+      "name": "Brick Bar ข้าวสาร",
+      "name_en": "Brick Bar Khaosan",
+      "kind": "venue",
+      "address": "Buddy Lodge, 265 ถนนข้าวสาร แขวงตลาดยอด เขตพระนคร กรุงเทพฯ 10200",
+      "geocode": "Buddy Lodge, 265 Khaosan Road, Bangkok",
+      "lat": null,
+      "lon": null,
+      "phone": null,
+      "website": "https://www.buddylodge.com/restaurants/",
+      "social": [
+        "https://www.facebook.com/brickbar.khaosan/"
+      ],
+      "hours": null,
+      "offer": [
+        "เร็กเก้/สกาสด",
+        "ป๊อปร็อกไทย"
+      ],
+      "source_url": "https://www.buddylodge.com/restaurants/",
+      "evidence": "หน้าร้านอาหารและบาร์ของ Buddy Lodge (265 Khaosan Road, Taladyod, Pranakorn) ระบุ 'Brick Bar is a legendary, high-energy live music venue on Khao San Road' เล่นเร็กเก้ สกา และป๊อปร็อกไทยทุกคืน (หมายเหตุ: โดเมน brickbarkhaosan.com ถูกเว็บพนันยึด — ไม่ใช้)",
+      "checked": "2026-09-26"
+    },
+    {
+      "id": "cur:mulligans-irish-bar-khaosan",
+      "name": "Mulligans Irish Bar ข้าวสาร",
+      "name_en": "Mulligans Irish Bar Khaosan",
+      "kind": "venue",
+      "address": "Buddy Lodge ชั้น 2, 265 ถนนข้าวสาร แขวงตลาดยอด เขตพระนคร กรุงเทพฯ 10200",
+      "geocode": "Buddy Lodge, 265 Khaosan Road, Bangkok",
+      "lat": null,
+      "lon": null,
+      "phone": null,
+      "website": "https://www.buddylodge.com/restaurants/",
+      "social": [],
+      "hours": null,
+      "offer": [
+        "ดนตรีสด (แจ๊ส/ป๊อป)"
+      ],
+      "source_url": "https://www.buddylodge.com/restaurants/",
+      "evidence": "หน้าร้านอาหารและบาร์ของ Buddy Lodge ระบุ Mulligans Irish Bar อยู่ชั้น 2 ของโรงแรม และมี 'live music (often featuring jazz and pop)'",
+      "checked": "2026-09-26"
+    }
+  ],
+  "review": {
+    "osm:n1097723846": {
+      "kind": "venue",
+      "note": "Jazz Happens ถ.พระอาทิตย์ — เพจ facebook.com/jazZhappens ระบุ 'Jazz & Arts Community'; บาร์แจ๊สสดที่นักศึกษา/ศิษย์เก่าดนตรีเล่น"
+    },
+    "osm:w351091873": {
+      "exclude": true,
+      "note": "ศาลาดนตรีในสวนแก้ว ม.ศิลปากร วังท่าพระ เป็นศาลาประวัติศาสตร์ ปัจจุบันใช้เป็นที่พักผ่อนของนักศึกษา ไม่ใช่หน่วยงานดนตรี (คณะดุริยางคศาสตร์ ม.ศิลปากร อยู่ตลิ่งชัน)"
+    },
+    "osm:w1000481577": {
+      "exclude": true,
+      "note": "ศาลเจ้าพ่อหอกลอง เป็นศาลเจ้า ไม่เกี่ยวกับดนตรี (คำว่า 'กลอง' ทำให้ติดคำค้น)"
+    },
+    "osm:w1533001963": {
+      "exclude": true,
+      "note": "หอกลอง (Drum Tower) เป็นหอกลองบอกเวลาเชิงประวัติศาสตร์/สิ่งปลูกสร้าง ไม่ใช่สถานที่ทางดนตรี"
+    },
+    "osm:n7141437085": {
+      "exclude": true,
+      "note": "เวทีมวยไทย ไม่เกี่ยวกับดนตรี (OSM tag เป็น theatre)"
+    },
+    "osm:n11558924520": {
+      "kind": "record_store",
+      "note": "น่าจะเป็น 'น้อง ท่าพระจันทร์' ร้านเทป/ซีดี/แผ่นเสียงเก่าแก่ — เพจ facebook.com/nongtaprachan ระบุเขตพระนคร 'ที่พบกันของคนรักเสียงเพลง'"
+    },
+    "osm:w1547484184": {
+      "kind": "instrument_store",
+      "note": "กีตาร์เฮ้าส์ ตรอกครุฑ อยู่ในย่านร้านเครื่องดนตรีหลังกระทรวง ชื่อบ่งว่าเป็นร้านกีตาร์ (OSM ติด shop=music จึงถูกจัดเป็น record_store)"
+    },
+    "osm:w1528542129": {
+      "kind": "instrument_store",
+      "note": "ยืนยัน: เว็บ aongguitar.com ระบุ 'ร้านเครื่องดนตรีย่านหลังกระทรวง' ปลีก/ส่ง"
+    },
+    "osm:n13359507464": {
+      "kind": "performing_arts",
+      "note": "ยืนยัน: ศูนย์สังคีตศิลป์ ธนาคารกรุงเทพ (facebook.com/musicalartcentre) จัดคอนเสิร์ตดนตรีไทย/สากลประจำ"
+    },
+    "osm:n10942588805": {
+      "kind": "record_store",
+      "note": "ข้อมูล OSM สอดคล้องกับ BK Magazine/Time Out (lead): tonchabab record shop 10 ถ.บุญศิริ — ยังไม่ได้ตรวจกับเพจเจ้าของ"
+    }
+  },
+  "gaps": [
+    "คณะดุริยางคศาสตร์ ม.ศิลปากร ไม่ได้อยู่วังท่าพระ — อยู่ 22 ถ.บรมราชชนนี ตลิ่งชัน (music.su.ac.th) จึงไม่นับในเขตพระนคร",
+    "วิทยาลัยนาฏศิลป (สถาบันบัณฑิตพัฒนศิลป์) ส่วนกรุงเทพฯ ย้ายไปศาลายา พุทธมณฑล จ.นครปฐม; ที่วังหน้าเหลือโครงการบัณฑิตศึกษา — ควรตรวจว่ามีการสอนดนตรีระดับอื่นที่วังหน้าหรือไม่",
+    "ร้านแผ่นเสียงตั้งเซียงไถ่ (Tang Siang Thai) 253-255 เจริญกรุง ซ.11 ใกล้ MRT สามยอด — มีใน BK Magazine แต่ไม่พบหน้าเจ้าของ และต้องตรวจว่าอยู่ฝั่งพระนครหรือสัมพันธวงศ์",
+    "ร้านเครื่องดนตรีย่านหลังกระทรวง (ถ.อัษฎางค์) ที่ OSM ยังไม่มีชื่อ: เลขที่ 26, 27, 58 และจุด n5304500539 — ต้องหาชื่อจากป้าย/เพจร้าน",
+    "ที่อยู่โรงเรียนพาทยกุล (ถ.สามเสน) มาจากไดเรกทอรี ไม่ใช่เพจเจ้าของ; และสาขาสีลมคอมเพล็กซ์ยังไม่ยืนยันว่ายังเปิด",
+    "Brown Sugar: ยืนยันว่ายังเปิดที่ 469 ถ.พระสุเมรุ (ข้อมูลที่อยู่จาก BK Magazine)",
+    "ร้านขาย/ทำเครื่องดนตรีไทยในบางลำพู-เสาชิงช้า: ไม่พบร้านที่มีหน้าเว็บ/เพจยืนยันที่ตั้งในเขต",
+    "ห้องซ้อม/ห้องอัดในเขตพระนคร: ค้นทั้งไทย-อังกฤษแล้วไม่พบ",
+    "บาร์ดนตรีสดอื่นบนข้าวสาร/รามบุตรี/พระอาทิตย์ (เช่น The Club Khaosan, Center Khaosan) ยังไม่ได้ตรวจกับหน้าเจ้าของ",
+    "หอสมุดดนตรีพระบาทสมเด็จพระเจ้าอยู่หัว ร.9 อยู่หอสมุดแห่งชาติ ท่าวาสุกรี เขตดุสิต — ไม่นับในพระนคร",
+    "Brown Sugar ย้ายจาก 469 ถ.พระสุเมรุ ไปซอยนานา (ป้อมปราบศัตรูพ่าย) แล้ว — ลบออกจากเขตนี้ 26 ก.ย. 2569 (ยืนยันจาก Time Out Bangkok)"
+  ]
+}

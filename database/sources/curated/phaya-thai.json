@@ -1,0 +1,114 @@
+{
+  "district": "พญาไท",
+  "researchedAt": "2026-09-26",
+  "places": [
+    {
+      "id": "cur:format-bkk-ari",
+      "name": "Format BKK อารีย์",
+      "name_en": "Format BKK",
+      "kind": "record_store",
+      "address": "179 ซอยเจริญผล 1 เขตพญาไท กรุงเทพฯ 10400",
+      "geocode": "179 Charoen Phon 1 Alley, Phaya Thai, Bangkok",
+      "lat": null,
+      "lon": null,
+      "phone": "06 6049 8884",
+      "website": "https://www.formatbkk.com/",
+      "social": [],
+      "hours": "11:00-20:00 ทุกวัน",
+      "offer": [
+        "แผ่นเสียง",
+        "เครื่องเล่นแผ่นเสียงและอุปกรณ์",
+        "listening session/อะคูสติกเซสชัน",
+        "เวิร์กช็อป"
+      ],
+      "source_url": "https://www.formatbkk.com/",
+      "evidence": "เว็บไซต์ Format BKK ระบุ 'Music. Lifestyle. Community.' ที่อยู่ 179 Charoen Phon 1, Phaya Thai, BKK 10400 โทร 06-6049-8884 เปิดทุกวัน 11.00-20.00 และมีกิจกรรมฟังแผ่นเสียง/ดนตรีสด (ครบ 1 ปี Format BKK Ari)",
+      "checked": "2026-09-26"
+    },
+    {
+      "id": "cur:saki-studio-ari",
+      "name": "Saki Studio อารีย์",
+      "name_en": "Saki Studio Ari",
+      "kind": "studio",
+      "address": "404 ถนนพหลโยธิน แขวงสามเสนใน เขตพญาไท กรุงเทพฯ 10400",
+      "geocode": "404 Phahonyothin Road, Samsen Nai, Phaya Thai, Bangkok",
+      "lat": null,
+      "lon": null,
+      "phone": "094 924 9929",
+      "website": "https://www.sakiaree.com/",
+      "social": [
+        "https://www.facebook.com/Sakistudioari/",
+        "https://www.instagram.com/sakistudioari/"
+      ],
+      "hours": null,
+      "offer": [
+        "บันทึกเสียงร้อง/เครื่องดนตรี/ไลฟ์เซสชัน",
+        "มิกซ์และมาสเตอร์",
+        "ห้องซ้อมดนตรี/ซ้อมเต้น",
+        "มินิคอนเสิร์ต"
+      ],
+      "source_url": "https://www.sakiaree.com/",
+      "evidence": "เว็บไซต์ Saki Studio ระบุบริการ RECORDING (ร้อง เครื่องดนตรี live session), MIXING & MASTERING, MINI EVENT/CONCERT และ STUDIO RENTAL ที่อยู่ 404 Phahonyothin Rd, Samsen Nai, Phaya Thai 10400 โทร 094-9249929",
+      "note": "ใช้เป็นห้องซ้อมดนตรี/ห้องซ้อมเต้นด้วย (ตามโพสต์ของร้าน ใกล้ BTS อารีย์ ทางออก 4)",
+      "checked": "2026-09-26"
+    },
+    {
+      "id": "cur:royal-thai-army-band-school",
+      "name": "โรงเรียนดุริยางค์ทหารบก",
+      "name_en": "Royal Thai Army Band School",
+      "kind": "school",
+      "address": "ถนนวิภาวดีรังสิต แขวงสามเสนใน เขตพญาไท กรุงเทพฯ 10400",
+      "geocode": "กรมดุริยางค์ทหารบก",
+      "lat": null,
+      "lon": null,
+      "phone": null,
+      "website": "https://musicschool.rta.mi.th/",
+      "social": [
+        "https://www.facebook.com/rtabs.music/"
+      ],
+      "hours": null,
+      "offer": [
+        "หลักสูตรนักเรียนดุริยางค์ทหารบก (นดย.)",
+        "ฝึกศึกษาและปฏิบัติการแสดงดนตรี"
+      ],
+      "source_url": "https://musicschool.rta.mi.th/",
+      "evidence": "เว็บไซต์โรงเรียนดุริยางค์ทหารบกระบุที่ตั้ง ถนนวิภาวดีรังสิต แขวงสามเสนใน เขตพญาไท 10400 ภารกิจการฝึกศึกษา การพัฒนาดนตรี และการแสดงดนตรีของกองทัพบก",
+      "note": "อยู่ในพื้นที่กรมดุริยางค์ทหารบก (OSM w676062719) ลงแยกเพราะเป็นหน่วยสอน",
+      "checked": "2026-09-26"
+    }
+  ],
+  "review": {
+    "osm:n6281369088": {
+      "kind": "venue",
+      "note": "Dumbo Jazz & Vinyl Bar รูฟท็อปบาร์ย่านอารีย์/สะพานควาย มีแจ๊สสดสลับดีเจแผ่นเสียง (เพจ facebook.com/dumbo.bangkok)"
+    },
+    "osm:w676062719": {
+      "kind": "ensemble",
+      "note": "กรมดุริยางค์ทหารบก หน่วยวงดุริยางค์ของกองทัพบก (band.rta.mi.th) โรงเรียนดุริยางค์ทหารบกลงแยกเป็น cur:royal-thai-army-band-school"
+    },
+    "osm:w1370518660": {
+      "exclude": true,
+      "note": "สำนักงาน กสทช. เป็นหน่วยกำกับกิจการ ไม่ใช่สถานีหรือสตูดิโอดนตรี"
+    },
+    "osm:w544025655": {
+      "exclude": true,
+      "note": "สหมงคลฟิล์ม บริษัทภาพยนตร์ (studio=video) ไม่ใช่ธุรกิจดนตรี"
+    },
+    "osm:w1374667400": {
+      "kind": "broadcast",
+      "note": "สถานีวิทยุกระจายเสียงรัฐสภา ยืนยันประเภท"
+    },
+    "osm:w1491869418": {
+      "kind": "karaoke",
+      "note": "R&B Karaoke ยืนยันประเภทตาม OSM"
+    }
+  },
+  "gaps": [
+    "ห้าง/คอมมูนิตี้มอลล์ในเขต (La Villa อารีย์, Big C สะพานควาย, Gump's Ari, IT Square?) ยังไม่ได้ไล่ directory รายร้าน",
+    "ยังไม่พบโรงเรียนสอนดนตรีเชิงพาณิชย์ที่ยืนยันด้วยหน้าเจ้าของในอารีย์/สะพานควาย/ประดิพัทธ์ (ผลค้นพบเพียงครูสอนตัวต่อตัวในแพลตฟอร์ม ซึ่งเป็นข้อมูลบุคคล ไม่ลง)",
+    "ร้าน/ค่ายเพลงอิสระและสตาร์ทอัปดนตรีย่านอารีย์ยังไม่พบหลักฐานที่อยู่จากหน้าเจ้าของ",
+    "บาร์ดนตรีสดอื่นในอารีย์นอกจาก Dumbo ยังไม่พบหน้าเจ้าของยืนยัน",
+    "สถานีวิทยุ/โทรทัศน์กองทัพบก (ช่อง 5 สนามเป้า) และสถานีวิทยุอื่นในเขต ยังไม่ได้ตรวจว่าควรนับเป็น broadcast หรือไม่",
+    "White House Music (ลงในไฟล์ราชเทวี) อาจอยู่ฝั่งพหลโยธินในเขตพญาไท ต้องตรวจตำแหน่ง"
+  ]
+}

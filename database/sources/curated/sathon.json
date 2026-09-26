@@ -1,0 +1,118 @@
+{
+  "district": "สาทร",
+  "researchedAt": "2026-09-26",
+  "places": [
+    {
+      "id": "cur:smalls-bangkok",
+      "name": "Smalls (บาร์แจ๊ส ซอยสวนพลู 1)",
+      "name_en": "Smalls Bangkok",
+      "kind": "venue",
+      "address": "186/3-4 ซอยสวนพลู 1 แขวงทุ่งมหาเมฆ เขตสาทร กรุงเทพฯ 10120",
+      "geocode": "Soi Suan Phlu 1, Bangkok",
+      "lat": null,
+      "lon": null,
+      "phone": null,
+      "website": null,
+      "social": ["https://www.facebook.com/smallsbkk/", "https://www.instagram.com/smallsjazzbangkok/"],
+      "hours": null,
+      "offer": ["ดนตรีแจ๊สสด", "ดีเจ", "บาร์ค็อกเทล"],
+      "source_url": "https://www.facebook.com/smallsbkk/",
+      "evidence": "เพจ Facebook ของร้าน (smallsbkk) และ Instagram 'Smalls Jazz Bar Bangkok'; ที่อยู่ 186/3-4 ซอยสวนพลู 1 เขตสาทร และการมีดนตรีแจ๊สสดจาก Time Out / BK Magazine (lead)",
+      "checked": "2026-09-26"
+    },
+    {
+      "id": "cur:vertigo-too-banyan-tree-bangkok",
+      "name": "Vertigo TOO โรงแรมบันยันทรี กรุงเทพฯ",
+      "name_en": "Vertigo TOO, Banyan Tree Bangkok",
+      "kind": "venue",
+      "address": "โรงแรมบันยันทรี กรุงเทพฯ ชั้น 60, 21/100 ถนนสาทรใต้ แขวงทุ่งมหาเมฆ เขตสาทร",
+      "geocode": "Banyan Tree Bangkok, Bangkok",
+      "lat": null,
+      "lon": null,
+      "phone": null,
+      "website": "https://www.banyantree.com/thailand/bangkok",
+      "social": [],
+      "hours": null,
+      "offer": ["ดนตรีสด (แจ๊ส/เลาจน์)", "บาร์บนตึกสูง"],
+      "source_url": "https://www.banyantree.com/thailand/bangkok/dining/vertigo-too",
+      "evidence": "หน้าเว็บโรงแรมระบุ Vertigo TOO เป็นบาร์ในร่มชั้น 60 'expertly curated live music'; ที่อยู่โรงแรมบนถนนสาทรใต้",
+      "checked": "2026-09-26"
+    },
+    {
+      "id": "cur:goethe-institut-thailand",
+      "name": "สถาบันเกอเธ่ ประเทศไทย (หอประชุม Goethe Saal)",
+      "name_en": "Goethe-Institut Thailand (Goethe Saal)",
+      "kind": "performing_arts",
+      "address": "18/1 ซอยเกอเธ่ (สาทร 1) ถนนสาทรใต้ แขวงทุ่งมหาเมฆ เขตสาทร กรุงเทพฯ 10120",
+      "geocode": "Goethe-Institut, Soi Goethe, Bangkok",
+      "lat": null,
+      "lon": null,
+      "phone": null,
+      "website": "https://www.goethe.de/ins/th/en/index.html",
+      "social": ["https://www.facebook.com/goetheinstitut.thailand/"],
+      "hours": null,
+      "offer": ["คอนเสิร์ตดนตรีคลาสสิก/ร่วมสมัย", "หอประชุม Goethe Saal", "เทศกาลและกิจกรรมศิลปวัฒนธรรม"],
+      "source_url": "https://www.goethe.de/ins/th/en/ver.cfm?event_id=22029488",
+      "evidence": "หน้ากิจกรรมของ goethe.de ประกาศคอนเสิร์ต 'Ode to Beethoven' ที่สถาบัน; เว็บของสถาบันระบุหอประชุม Goethe Saal ที่ 18/1 Soi Goethe, Sathorn 1 ใช้จัดคอนเสิร์ตและกิจกรรมวัฒนธรรม (อ่านจากผลค้นหา หน้าเว็บบล็อกการดึงอัตโนมัติ)",
+      "checked": "2026-09-26"
+    },
+    {
+      "id": "cur:vc-electronics-sathon",
+      "name": "วีซี อิเล็คโทรนิคส์ สาทร",
+      "name_en": "VC. Electronics Sathon",
+      "kind": "audio_store",
+      "address": "78 ซอยจันทน์ 16 แขวงทุ่งวัดดอน เขตสาทร กรุงเทพฯ 10120",
+      "geocode": "Soi Chan 16, Bangkok",
+      "lat": null,
+      "lon": null,
+      "phone": "02-675-4721",
+      "website": null,
+      "social": ["https://www.facebook.com/%E0%B8%A7%E0%B8%B5%E0%B8%8B%E0%B8%B5%E0%B8%AD%E0%B8%B5%E0%B9%80%E0%B8%A5%E0%B9%87%E0%B8%84%E0%B9%82%E0%B8%97%E0%B8%A3%E0%B8%99%E0%B8%B4%E0%B8%84%E0%B8%AA%E0%B9%8C-327890230818/"],
+      "hours": null,
+      "offer": ["เครื่องเสียงอาชีพ (PA) Yamaha", "ขายและบริการซ่อม"],
+      "source_url": "https://th.yamaha.com/th/dealers/",
+      "evidence": "ตัวแทนจำหน่ายในระบบค้นหาของ Yamaha Thailand: 'VC. Electronics Sales and Service CO.,LTD, 78 Soi Chan 16 Khwaeng Thung Wat Don, Khet Sathon' สินค้าหมวด PA โทร 02-675-4721",
+      "checked": "2026-09-26"
+    },
+    {
+      "id": "cur:beazy-studio-sathorn",
+      "name": "BEAZY Studio (สาทร 11)",
+      "name_en": "BEAZY Studio Bangkok",
+      "kind": "studio",
+      "address": "BEAZY Bangkok ซอยสาทร 11 เขตสาทร กรุงเทพฯ",
+      "geocode": "Soi Sathon 11, Bangkok",
+      "lat": null,
+      "lon": null,
+      "phone": null,
+      "website": "https://beazystore.com/",
+      "social": [],
+      "hours": "10:00-04:00 ทุกวัน",
+      "offer": ["ห้องอัดเสียง (อัดเองหรือมีซาวด์เอนจิเนียร์)", "มิกซ์/มาสเตอร์", "ถ่ายมิวสิกวิดีโอ"],
+      "source_url": "https://beazystore.com/journal/recording-studio-bangkok",
+      "evidence": "หน้าเว็บของ BEAZY ระบุ 'BEAZY Studio ... sits inside BEAZY Bangkok at Sathorn 11, a cannabis dispensary and recording studio' เปิดทุกวัน 10am-4am แพ็กเกจเริ่ม 2,500 บาท (สตูดิโออยู่ในร้านจำหน่ายกัญชา)",
+      "checked": "2026-09-26"
+    }
+  ],
+  "review": {
+    "osm:w1313224332": {
+      "kind": "performing_arts",
+      "note": "บ้านปลูกรัก สาทร (ซอยเกอเธ่) OSM ติด theatre:type=concert_hall; มีเพจ facebook.com/baanplookraksathorn แต่ยังไม่พบหน้าเจ้าของยืนยันการจัดดนตรีสม่ำเสมอ คงประเภทไว้รอตรวจ"
+    },
+    "osm:w1218059138": {
+      "exclude": true,
+      "note": "จอยลัคคลับ ฟิล์มเฮาส์ บริษัทผลิตภาพยนตร์/วิดีโอ (studio=video) ไม่ใช่สตูดิโอดนตรีหรือสื่อเพลง"
+    },
+    "osm:w1219293346": {
+      "exclude": true,
+      "note": "SOI SA:M (ซอยสวนพลู 3) พื้นที่สหวิทยาการ/สตูดิโอและคลังงานของ Shone Puipia (แฟชั่น) ไม่พบกิจกรรมดนตรีประจำ"
+    }
+  },
+  "gaps": [
+    "โรงเรียนสอนดนตรีย่านสาทร-ถนนจันทน์-นราธิวาส: ค้นทั้งไทย/อังกฤษและ locator ของ Yamaha ไม่พบสาขาในเขตนี้ ยังไม่ได้ไล่ MelodyPlus/KPN/Kawai/Music Concept (สาขาส่วนใหญ่อยู่ในห้างนอกเขต)",
+    "The ZUK Bar (The Sukhothai Bangkok, 13/3 สาทรใต้): บทความ at-bangkok.com/Klook (lead) ว่ามีแจ๊สสดพฤ-ส. แต่หน้าเว็บโรงแรมไม่กล่าวถึงดนตรีสด ยังไม่ลง",
+    "บาร์โรงแรมอื่นฝั่งสาทรใต้ (เช่น COMO Metropolitan) ยังไม่ได้ตรวจดนตรีสด; โรงแรมฝั่งสาทรเหนือ (W, Sofitel So, Bar Sathorn) อยู่เขตบางรัก",
+    "WeCARE Studio (152 ถนนสาทรเหนือ) น่าจะอยู่เขตบางรัก ไม่ลงในเขตนี้",
+    "ห้องซ้อมดนตรี/ร้านแผ่นเสียงในเขตสาทร: ยังไม่พบหน้าเจ้าของ",
+    "Sony Music Entertainment (Thailand): หน้า contact ปัจจุบันระบุ จามจุรีสแควร์ ชั้น 17 (เขตปทุมวัน) ไม่ใช่เขตนี้ — แจ้งผู้ทำเขตปทุมวัน"
+  ]
+}

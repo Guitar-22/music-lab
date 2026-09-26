@@ -1,0 +1,306 @@
+{
+  "district": "จตุจักร",
+  "researchedAt": "2026-09-26",
+  "places": [
+    {
+      "id": "cur:music-collection-central-ladprao",
+      "name": "Music Collection สาขาเซ็นทรัล ลาดพร้าว",
+      "name_en": "Music Collection Central Ladprao",
+      "kind": "instrument_store",
+      "address": "เซ็นทรัล ลาดพร้าว ชั้น 3, 1691 ถนนพหลโยธิน แขวงจตุจักร เขตจตุจักร กรุงเทพฯ 10900",
+      "geocode": "Central Ladprao",
+      "lat": null,
+      "lon": null,
+      "phone": "02-937-2014",
+      "website": "https://www.music.co.th/",
+      "social": [
+        "https://www.facebook.com/MusicCollectionLadprao"
+      ],
+      "hours": "10.00-21.30 ทุกวัน",
+      "offer": [
+        "กีตาร์/เบส/แอมป์",
+        "เปียโนและคีย์บอร์ด (ตัวแทน Yamaha)",
+        "กลองและอุปกรณ์"
+      ],
+      "source_url": "https://www.music.co.th/th/store-locations/",
+      "evidence": "หน้า Store Locations ของ Music Collection ระบุ 'CENTRAL LADPRAO, 3rd FL ... 1691 ถนนพหลโยธิน แขวงจตุจักร เขตจตุจักร' เปิดทุกวัน 10.00-21.30 โทร 02-937-2014; ระบบตัวแทน Yamaha (SMY0377) ยืนยันสาขาเดียวกัน",
+      "checked": "2026-09-26"
+    },
+    {
+      "id": "cur:yamaha-music-school-central-ladprao",
+      "name": "โรงเรียนดนตรียามาฮ่า เซ็นทรัลลาดพร้าว",
+      "name_en": "Yamaha Music School Central Ladprao",
+      "kind": "school",
+      "address": "ชั้น 8 อาคารสำนักงานเซ็นทรัลพลาซาลาดพร้าว 1693 ถนนพหลโยธิน แขวงจตุจักร เขตจตุจักร กรุงเทพฯ",
+      "geocode": "Central Ladprao",
+      "lat": null,
+      "lon": null,
+      "phone": "02-937-1133",
+      "website": null,
+      "social": [
+        "https://www.facebook.com/srmschool"
+      ],
+      "hours": null,
+      "offer": [
+        "หลักสูตรยามาฮ่า (เปียโน อิเล็กโทน กีตาร์ ฯลฯ)"
+      ],
+      "source_url": "https://th.yamaha.com/th/dealers/",
+      "evidence": "ระบบค้นหาตัวแทนของ Yamaha ประเทศไทย (API /th/api/dealer/dealers/ รหัส SMY0466) ระบุ 'โรงเรียนดนตรียามาฮ่า เซ็นทรัลลาดพร้าว' บจ. อินเตอร์เมโลดี ชั้น 8 อาคารสำนักงานเซ็นทรัลพลาซาลาดพร้าว โทร 02-9371133-4 ประเภท MS (Music School); เพจ Facebook 'Yamaha Central Ladprao Music School' ยังเคลื่อนไหว",
+      "checked": "2026-09-26"
+    },
+    {
+      "id": "cur:yamaha-music-school-ladprao-big-c",
+      "name": "โรงเรียนดนตรียามาฮ่า ลาดพร้าว (บิ๊กซี เอ็กซ์ตร้า ลาดพร้าว 2)",
+      "name_en": "Yamaha Music School Ladprao (Big C Extra Ladprao 2)",
+      "kind": "school",
+      "address": "669 ห้อง 2JA002 ห้างบิ๊กซี เอ็กซ์ตร้า ลาดพร้าว 2 แขวงจอมพล เขตจตุจักร กรุงเทพฯ 10900",
+      "geocode": "Big C, Lat Phrao Road",
+      "lat": null,
+      "lon": null,
+      "phone": "02-938-8555",
+      "website": null,
+      "social": [
+        "https://www.facebook.com/yamahaladprao2"
+      ],
+      "hours": null,
+      "offer": [
+        "หลักสูตรยามาฮ่า (เปียโน อิเล็กโทน กีตาร์ ฯลฯ)"
+      ],
+      "source_url": "https://th.yamaha.com/th/dealers/",
+      "evidence": "ระบบค้นหาตัวแทนของ Yamaha (รหัส SMY0479) ระบุ 'โรงเรียนดนตรียามาฮ่า ลาดพร้าว' บจ. เรนโบว์ เมโลดี้ 669 ห้อง 2JA002 บิ๊กซี เอ็กซ์ตร้า ลาดพร้าว 2 แขวงจอมพล เขตจตุจักร ประเภท MS; เพจ Facebook ของโรงเรียนยังเคลื่อนไหว (เช็กอิน ~500) — geocode ชี้ห้างบิ๊กซีบนถนนลาดพร้าว แขวงจอมพล (ใกล้ซอยลาดพร้าว 5/1 เลขที่ติดกับ ProPlugin 671)",
+      "checked": "2026-09-26"
+    },
+    {
+      "id": "cur:taodang-music-chatuchak",
+      "name": "เต่าแดง มิวสิค ช้อป (สาขา Flagship จตุจักร)",
+      "name_en": "Taodang Music Shop (Chatuchak flagship)",
+      "kind": "instrument_store",
+      "address": "1032/76-79 ซอยพหลโยธิน 18/1 แยก 12 ถนนพหลโยธิน แขวงจอมพล เขตจตุจักร กรุงเทพฯ 10900",
+      "geocode": "ซอยพหลโยธิน 18/1",
+      "lat": null,
+      "lon": null,
+      "phone": null,
+      "website": "https://www.taodangmusic.com/",
+      "social": [
+        "https://www.facebook.com/taodang"
+      ],
+      "hours": null,
+      "offer": [
+        "กีตาร์โปร่ง/ไฟฟ้า/เบส",
+        "กลองชุด",
+        "อูคูเลเล่",
+        "อุปกรณ์อัดเสียง/ไมโครโฟน"
+      ],
+      "source_url": "https://www.taodangmusic.com/stores",
+      "evidence": "หน้า Stores ของเต่าแดงระบุ 'Showroom เต่าแดง สาขา Flagship จตุจักร และ Office บ้านเลขที่ 1032/76-79 ซอยพหลโยธิน 18/1 แยก 12 ... แขวงจอมพล เขตจตุจักร' ใกล้ BTS หมอชิต/MRT จตุจักร; ระบบตัวแทน Yamaha (SMY0445) ยืนยัน — เบอร์บนเว็บเป็นมือถือ จึงไม่ใส่; พิกัดระดับซอย",
+      "checked": "2026-09-26"
+    },
+    {
+      "id": "cur:sak54-guitar-repair-vibhavadi",
+      "name": "Sak'54 ช่างศักดิ์ ซ่อมกีตาร์",
+      "name_en": "Sak'54 Guitar Repair",
+      "kind": "repair_luthier",
+      "address": "4/5 ซอยวิภาวดีรังสิต 32 ถนนวิภาวดีรังสิต เขตจตุจักร กรุงเทพฯ (lead)",
+      "geocode": "ซอยวิภาวดีรังสิต 32",
+      "lat": null,
+      "lon": null,
+      "phone": null,
+      "website": null,
+      "social": [
+        "https://www.facebook.com/sak54msc/",
+        "https://www.instagram.com/sak54guitarrepairshop/"
+      ],
+      "hours": null,
+      "offer": [
+        "ซ่อม/เซ็ตอัพกีตาร์และเบส",
+        "ขายอุปกรณ์ดนตรี"
+      ],
+      "source_url": "https://www.facebook.com/sak54msc/",
+      "evidence": "เพจ Facebook 'Sak'54' ระบุ 'ซ่อมเครื่องดนตรี ขายอุปกรณ์หลากหลายชนิด' (เช็กอิน ~400); ที่อยู่ใหม่ 4/5 ซ.วิภาวดี 32 เขตจตุจักร (ย้ายจากประตูน้ำช่วงโควิด) จากบทความ MGR Online/Urban Creature (lead) — เบอร์ในสื่อเป็นมือถือส่วนตัวของช่าง จึงไม่ใส่; พิกัดระดับซอย",
+      "checked": "2026-09-26"
+    },
+    {
+      "id": "cur:b2s-think-space-central-ladprao",
+      "name": "B2S Think Space ลาดพร้าว (โซนแผ่นเสียง/ซีดี)",
+      "name_en": "B2S Think Space Central Ladprao (music & vinyl section)",
+      "kind": "record_store",
+      "address": "เซ็นทรัล ลาดพร้าว ชั้น G, 1693 ถนนพหลโยธิน แขวงจตุจักร เขตจตุจักร กรุงเทพฯ 10900",
+      "geocode": "Central Ladprao",
+      "lat": null,
+      "lon": null,
+      "phone": null,
+      "website": "https://www.b2s.co.th/",
+      "social": [
+        "https://www.facebook.com/B2Svibes/"
+      ],
+      "hours": null,
+      "offer": [
+        "แผ่นเสียงใหม่/เก่า",
+        "ซีดี/ดีวีดีเพลง"
+      ],
+      "source_url": "https://www.facebook.com/B2Svibes/",
+      "evidence": "เพจ Facebook ของ B2S (B2S Vibes) มีโพสต์ประกาศเปิด 'B2S Think Space ลาดพร้าว' ที่เซ็นทรัลลาดพร้าว; Time Out Bangkok (13 ร้านแผ่นเสียง) ระบุว่าสาขานี้มีโซนแผ่นเสียง และบทความ Wongnai/Marketeer ระบุชั้น G พื้นที่ 1,800 ตร.ม. (lead) — เป็นแผนกหนึ่งในร้านหนังสือ ไม่ใช่ร้านแผ่นเสียงเฉพาะ",
+      "checked": "2026-09-26"
+    },
+    {
+      "id": "cur:ku-humanities-music-dept",
+      "name": "ภาควิชาดนตรี คณะมนุษยศาสตร์ มหาวิทยาลัยเกษตรศาสตร์",
+      "name_en": "Department of Music, Faculty of Humanities, Kasetsart University",
+      "kind": "higher_ed",
+      "address": "อาคารจุฬาภรณ์พิศาลศิลป์ คณะมนุษยศาสตร์ มหาวิทยาลัยเกษตรศาสตร์ 50 ถนนงามวงศ์วาน แขวงลาดยาว เขตจตุจักร กรุงเทพฯ 10900",
+      "geocode": "อาคารจุฬาภรณ์พิศาลศิลป์",
+      "lat": null,
+      "lon": null,
+      "phone": "02-579-9529",
+      "website": "https://music.human.ku.ac.th/",
+      "social": [
+        "https://www.facebook.com/Thai.music.section.KU/"
+      ],
+      "hours": null,
+      "offer": [
+        "ปริญญาตรีสาขาดนตรีตะวันตก",
+        "ปริญญาตรีสาขาดนตรีไทย",
+        "ห้องแสดงดนตรีชั้น 2 อาคารจุฬาภรณ์พิศาลศิลป์"
+      ],
+      "source_url": "https://music.human.ku.ac.th/lecturer.php",
+      "evidence": "เว็บภาควิชาดนตรี มก. ระบุที่อยู่ 50 ถนนงามวงศ์วาน แขวงลาดยาว เขตจตุจักร โทร 02-579-9529 และแบ่งสาขา 'ดนตรีตะวันตก' และ 'ดนตรีไทย'; ภาควิชาตั้งอยู่ในอาคารจุฬาภรณ์พิศาลศิลป์ (ข้อมูลคณะมนุษยศาสตร์ ใช้เป็น geocode)",
+      "checked": "2026-09-26"
+    },
+    {
+      "id": "cur:nat-studio-music-school",
+      "name": "นัท สตูดิโอ โรงเรียนดนตรี (Nat Studio)",
+      "name_en": "Nat Studio Music School",
+      "kind": "school",
+      "address": "158/13 ซอยลาดพร้าว 35 เขตจตุจักร กรุงเทพฯ 10900",
+      "geocode": "ซอยลาดพร้าว 35",
+      "lat": null,
+      "lon": null,
+      "phone": "02-541-8664",
+      "website": "https://www.nat-studio.com/",
+      "social": [
+        "https://www.facebook.com/NATSTUDIOSCHOOL/"
+      ],
+      "hours": "อังคาร-อาทิตย์ 10.00-20.00",
+      "offer": [
+        "เปียโนคลาสสิก",
+        "จัดการประกวด Siam International Piano Competition"
+      ],
+      "source_url": "https://www.nat-studio.com/",
+      "evidence": "เว็บ nat-studio.com ระบุ '158/13 Ladprao 35 Chatuchak Bangkok 10900' โทร (+66)2.541.8664 เปิด อ-อา 10am-8pm; ก่อตั้งโดยครูณัฐ ยนตรรักษ์ (เพจ Facebook ระบุกว่า 41 ปี); หอแสดงของโรงเรียนคือศาลาสุดาสิริโสภา (อยู่ใน OSM แล้ว) — พิกัดระดับซอย",
+      "checked": "2026-09-26"
+    },
+    {
+      "id": "cur:bma-chatuchak-recreation-centre",
+      "name": "ศูนย์นันทนาการจตุจักร (กรุงเทพมหานคร)",
+      "name_en": "Chatuchak Recreation Centre (BMA)",
+      "kind": "school",
+      "address": "111/1 ถนนงามวงศ์วาน แขวงลาดยาว เขตจตุจักร กรุงเทพฯ 10900",
+      "geocode": null,
+      "lat": null,
+      "lon": null,
+      "phone": "02-591-7961",
+      "website": "https://learning.bangkok.go.th/location/loca_0012/",
+      "social": [
+        "https://www.facebook.com/ChatuchakRCC/"
+      ],
+      "hours": null,
+      "offer": [
+        "ดนตรีไทยฟรี (ระนาด ขิม ฆ้องวง จะเข้ ซอ ขลุ่ย ปี่)",
+        "กีตาร์โปร่ง",
+        "ขับร้อง"
+      ],
+      "source_url": "https://learning.bangkok.go.th/course/lc-0137/",
+      "evidence": "Bangkok Learning City (กทม.) คอร์สดนตรีไทย lc-0137 เปิดที่ศูนย์นันทนาการจตุจักร 111/1 ถ.งามวงศ์วาน แขวงลาดยาว จ-ส 10.00-17.00 (ระนาด ขิม ฆ้องวง กลอง โทน รำมะนา จะเข้ ซอด้วง ซออู้ ขลุ่ย ปี่); คอร์สดนตรีสากล lc-0141 เฉพาะกีตาร์โปร่ง ส-อา 15-17 น.; ขับร้อง lc-0077 ส-อา 10-12 น.; ฟรี — Nominatim ไม่มีจุดศูนย์และถนนงามวงศ์วานยาวข้ามเขต จึงไม่ใส่ geocode",
+      "checked": "2026-09-26"
+    },
+    {
+      "id": "cur:rs-group-head-office",
+      "name": "บริษัท อาร์เอส จำกัด (มหาชน) / RS Music",
+      "name_en": "RS Group (RS Music) head office",
+      "kind": "business",
+      "address": "27 อาคารเชษฐโชติ ทาวเวอร์ ถนนประเสริฐมนูกิจ แขวงเสนานิคม เขตจตุจักร กรุงเทพฯ",
+      "geocode": null,
+      "lat": null,
+      "lon": null,
+      "phone": "02-037-8888",
+      "website": "https://www.rs.co.th/th/",
+      "social": [],
+      "hours": null,
+      "offer": [
+        "ค่ายเพลง RS Music",
+        "ลิขสิทธิ์เพลง/ศิลปิน"
+      ],
+      "source_url": "https://www.rs.co.th/th/",
+      "evidence": "เว็บ RS Group ระบุสำนักงานใหญ่ '27 อาคารเชษฐโชติ ทาวเวอร์ ถนนประเสริฐมนูกิจ แขวงเสนานิคม เขตจตุจักร' โทร 02-037-8888 และยังดำเนินธุรกิจ RS Music (โครงการศิลปินใหม่ RS Music X, ร่วมทุนกับ UMG ปี 2023) — Nominatim ไม่มีอาคารนี้ และถนนประเสริฐมนูกิจตัดผ่านหลายเขต จึงไม่ใส่ geocode",
+      "checked": "2026-09-26"
+    }
+  ],
+  "review": {
+    "osm:n891277688": {
+      "exclude": true,
+      "note": "โรงงานต้นแบบอาหารสัตว์น้ำ (มก.) ติดแท็ก amenity=theatre ผิด ไม่เกี่ยวกับดนตรี"
+    },
+    "osm:n1374587127": {
+      "kind": "ensemble",
+      "note": "ชมรมดนตรีคณะประมง มก. เป็นชมรมนิสิต ไม่ใช่ร้าน (OSM ติด shop=music ผิด)"
+    },
+    "osm:n1376600745": {
+      "kind": "ensemble",
+      "note": "KU Band วงดนตรีนิสิตเกษตรศาสตร์ ไม่ใช่ร้าน (OSM ติด shop=music ผิด)"
+    },
+    "osm:n1597515771": {
+      "kind": "instrument_store",
+      "note": "Fusion Music 91 ซ.งามวงศ์วาน 48 ลาดยาว: เว็บ fusionmusic.co.th ระบุร้านกีตาร์มือสอง/นำเข้า hi-end + ห้องบันทึกเสียง + ห้องซ้อม + ซ่อมกีตาร์ โทรห้องอัด 02-941-3892 (ไม่ใช่ร้านแผ่นเสียง)"
+    },
+    "osm:n2072474291": {
+      "kind": "business",
+      "note": "Hitman Jazz เป็นค่ายเพลงแจ๊ส/ผู้จัดงาน (เพจ facebook.com/hitmanjazz, ร่วมจัด International Jazz Day 2024 กับ UNESCO) ไม่ใช่ร้านแผ่นเสียง; ยังไม่ยืนยันว่าจุด OSM คือสำนักงานปัจจุบัน"
+    },
+    "osm:n2753755277": {
+      "kind": "performing_arts",
+      "note": "ศาลาสุดาสิริโสภา หอแสดงดนตรีของ Nat Studio (ลาดพร้าว 41 แยก 7-2 ใกล้ MRT ภาวนา) หอหลัก 180-200 ที่นั่ง ดำเนินการโดย OLive Music — salasudasirisobha.com/about-us"
+    },
+    "osm:n4142560544": {
+      "kind": "audio_store",
+      "note": "ProPlugin สำนักงานใหญ่/โชว์รูม ซ.ลาดพร้าว 5/1 จอมพล: อุปกรณ์สตูดิโอ ไมโครโฟน DJ PA และเครื่องดนตรี โทร 02-105-4474 (proplugin.com/en/head-office) — เน้น pro audio"
+    },
+    "osm:n4802880024": {
+      "kind": "performing_arts",
+      "note": "Playhouse Magical Cabaret โรงแสดงคาบาเรต์ ไม่ใช่สถานที่ดนตรีโดยตรง ยังไม่ยืนยันว่ายังเปิด"
+    },
+    "osm:n4969530724": {
+      "kind": "higher_ed",
+      "note": "อาคารมานิจ ชุมสาย (ตึกดนตรี) ม.ราชภัฏจันทรเกษม 39/1 ถ.รัชดาภิเษก: สาขาดนตรีสากล ดนตรีสากลศึกษา ดนตรีไทยศึกษา (คณะมนุษยศาสตร์ฯ) ตรี-โท-เอก โทร 02-942-5800 ต่อ 1970/1975/3008 (sites.google.com/chandra.ac.th/wtmu, chandra.ac.th)"
+    },
+    "osm:n5036922521": {
+      "exclude": true,
+      "note": "Drum Stick Duck ร้านอาหาร (น่องเป็ด) ไม่เกี่ยวกับดนตรี"
+    },
+    "osm:n6476069891": {
+      "kind": "studio",
+      "note": "Penguin House Studio 339/32 ม.รินทร์วิลเลจ รัชดาภิเษก 32 จันทรเกษม: ห้องซ้อม ห้องบันทึกเสียง โปรดักชัน เช่าเครื่องเสียง/เครื่องดนตรี (เพจ facebook.com/penguinhousestudio) — เบอร์/อีเมลใน OSM เป็นของส่วนตัว ไม่นำมาใช้"
+    },
+    "osm:w259853577": {
+      "exclude": true,
+      "note": "อุทยานพรรณไม้ในเพลงพระราชนิพนธ์ เป็นสวนพฤกษศาสตร์ ไม่ใช่สถานที่ดนตรี"
+    },
+    "osm:w389998803": {
+      "kind": "ensemble",
+      "note": "ชมรมวงดนตรีลูกทุ่งรวมดาวกระจุย ชมรมนิสิตใน มก. บางเขน"
+    },
+    "osm:w1168875153": {
+      "exclude": true,
+      "note": "Rocket Sound ร้านเครื่องเสียงรถยนต์ (rocketsound.co.th) ไม่ใช่เครื่องเสียงดนตรี/Hi-Fi"
+    }
+  },
+  "gaps": [
+    "ตลาดนัดจตุจักร/เจเจมอลล์: ยังไม่พบร้านแผ่นเสียงหรือเครื่องดนตรีที่มีหน้าเจ้าของระบุโครงการ/ซอย; เว็บเต่าแดงบางหน้ากล่าวถึง 'สาขาเจเจมอลล์' แต่หน้า Stores แสดงเฉพาะสาขาพหลโยธิน 18/1",
+    "ยูเนี่ยนมอลล์ และ directory เซ็นทรัลลาดพร้าวทั้งห้าง (map.centralpattana.co.th โหลดแบบ JS): ยังไม่ได้ไล่ร้าน/โรงเรียนดนตรีรายร้าน",
+    "2nd Studio BKK ห้องซ้อม: ไดเรกทอรีระบุ 363/4 ซ.ลาดพร้าว 26 แยก 2-8 (จตุจักร) แต่รีวิวใหม่เรียก '2U Studio รามอินทรา 10' ต้องยืนยันที่ตั้งปัจจุบัน",
+    "Entrance Studio (ห้องซ้อม/ห้องอัด): เพจมีจริงแต่ไม่พบที่อยู่",
+    "RYSH Ratchayothin: บาร์มีวงดนตรีสด+ดีเจ ข้าง BTS รัชโยธิน ทางออก 4 (ข้อมูลจาก bangkokvenues.com, lead) ยังไม่พบหน้าเจ้าของที่ระบุที่อยู่",
+    "Parking Toys: ตรวจแล้วอยู่ ถ.เกษตร-นวมินทร์ แขวงจรเข้บัว เขตลาดพร้าว ไม่ใช่จตุจักร",
+    "ค่ายเพลง/สำนักพิมพ์เพลง/องค์กรจัดเก็บลิขสิทธิ์อื่นในเขต (ย่านวิภาวดี-รัชโยธิน): ยังไม่พบรายที่มีหน้าเจ้าของระบุที่อยู่ในจตุจักร",
+    "วงดนตรี/ชมรมดนตรีไทยอื่นใน มก. และ มรภ.จันทรเกษม: ไม่ได้ลงแยก (ถือเป็นส่วนของหน่วยงานการศึกษา)"
+  ]
+}

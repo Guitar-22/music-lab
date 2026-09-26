@@ -1,0 +1,397 @@
+{
+ "district": "บางขุนเทียน",
+ "rel": 3147313,
+ "fetchedAt": "2026-09-26T02:57:22.051Z",
+ "source": "https://overpass-api.de/api/interpreter",
+ "license": "ODbL © OpenStreetMap contributors",
+ "query": "[out:json][timeout:120];area(3603147313)->.a;(\nnwr(area.a)[\"shop\"~\"^(musical_instrument|music|hifi)$\"];\nnwr(area.a)[\"amenity\"~\"^(music_school|music_venue|studio|concert_hall|theatre|arts_centre|karaoke_box)$\"];\nnwr(area.a)[\"craft\"~\"musical_instrument|piano_tuner|luthier\"];\nnwr(area.a)[\"studio\"];\nnwr(area.a)[\"live_music\"=\"yes\"];\nnwr(area.a)[\"name\"~\"ดนตรี|เพลง|music|guitar|กีตาร์|piano|เปียโน|drum|กลอง|violin|ไวโอลิน|jazz|แจ๊ส|ห้องซ้อม|rehearsal|recording|อัดเสียง|ukulele|อูคูเลเล่|saxophone|แซกโซโฟน|ระนาด|ขิม|orchestra|symphony|ดุริยาง\",i];\nnwr(area.a)[\"name:en\"~\"ดนตรี|เพลง|music|guitar|กีตาร์|piano|เปียโน|drum|กลอง|violin|ไวโอลิน|jazz|แจ๊ส|ห้องซ้อม|rehearsal|recording|อัดเสียง|ukulele|อูคูเลเล่|saxophone|แซกโซโฟน|ระนาด|ขิม|orchestra|symphony|ดุริยาง\",i];\n);out center tags;",
+ "elements": [
+  {
+   "type": "node",
+   "id": 12183174084,
+   "lat": 13.6689288,
+   "lon": 100.4525431,
+   "tags": {
+    "amenity": "music_school",
+    "name": "โรงเรียนสอนดนตรีบางกอกบราโว่",
+    "name:en": "Bangkok Bravo! School Of Music",
+    "name:th": "โรงเรียนสอนดนตรีบางกอกบราโว่",
+    "opening_hours": "Tu-Su 13:30-20:00"
+   }
+  },
+  {
+   "type": "way",
+   "id": 102485743,
+   "center": {
+    "lat": 13.6604691,
+    "lon": 100.4221194
+   },
+   "tags": {
+    "electrified": "no",
+    "gauge": "1000",
+    "maxspeed": "80",
+    "name": "ทางรถไฟสายแม่กลอง",
+    "name:en": "Mae Klong Line",
+    "name:th": "ทางรถไฟสายแม่กลอง",
+    "operator": "การรถไฟแห่งประเทศไทย",
+    "railway": "rail",
+    "ref": "แม่กลอง",
+    "train": "yes",
+    "usage": "main"
+   }
+  },
+  {
+   "type": "way",
+   "id": 102485759,
+   "center": {
+    "lat": 13.6674968,
+    "lon": 100.4300195
+   },
+   "tags": {
+    "bridge": "yes",
+    "electrified": "no",
+    "gauge": "1000",
+    "layer": "1",
+    "maxspeed": "80",
+    "name": "ทางรถไฟสายแม่กลอง",
+    "name:en": "Mae Klong Line",
+    "operator": "การรถไฟแห่งประเทศไทย",
+    "railway": "rail",
+    "ref": "แม่กลอง",
+    "train": "yes",
+    "usage": "main"
+   }
+  },
+  {
+   "type": "way",
+   "id": 471770718,
+   "center": {
+    "lat": 13.645168,
+    "lon": 100.4049442
+   },
+   "tags": {
+    "electrified": "no",
+    "gauge": "1000",
+    "maxspeed": "80",
+    "name": "ทางรถไฟสายแม่กลอง",
+    "name:en": "Mae Klong Line",
+    "operator": "การรถไฟแห่งประเทศไทย",
+    "railway": "rail",
+    "ref": "แม่กลอง",
+    "train": "yes",
+    "usage": "main"
+   }
+  },
+  {
+   "type": "way",
+   "id": 471770719,
+   "center": {
+    "lat": 13.6493028,
+    "lon": 100.4095796
+   },
+   "tags": {
+    "bridge": "yes",
+    "electrified": "no",
+    "gauge": "1000",
+    "maxspeed": "80",
+    "name": "ทางรถไฟสายแม่กลอง",
+    "name:en": "Mae Klong Line",
+    "operator": "การรถไฟแห่งประเทศไทย",
+    "railway": "rail",
+    "ref": "แม่กลอง",
+    "source": "bing",
+    "train": "yes",
+    "usage": "main"
+   }
+  },
+  {
+   "type": "way",
+   "id": 472059450,
+   "center": {
+    "lat": 13.6357608,
+    "lon": 100.3944322
+   },
+   "tags": {
+    "electrified": "no",
+    "gauge": "1000",
+    "maxspeed": "80",
+    "name": "ทางรถไฟสายแม่กลอง",
+    "name:en": "Mae Klong Line",
+    "operator": "การรถไฟแห่งประเทศไทย",
+    "railway": "rail",
+    "ref": "แม่กลอง",
+    "train": "yes",
+    "usage": "main"
+   }
+  },
+  {
+   "type": "way",
+   "id": 472059451,
+   "center": {
+    "lat": 13.6410549,
+    "lon": 100.4003292
+   },
+   "tags": {
+    "bridge": "yes",
+    "electrified": "no",
+    "gauge": "1000",
+    "maxspeed": "80",
+    "name": "ทางรถไฟสายแม่กลอง",
+    "name:en": "Mae Klong Line",
+    "operator": "การรถไฟแห่งประเทศไทย",
+    "railway": "rail",
+    "ref": "แม่กลอง",
+    "train": "yes",
+    "usage": "main"
+   }
+  },
+  {
+   "type": "way",
+   "id": 472059452,
+   "center": {
+    "lat": 13.6174987,
+    "lon": 100.3740785
+   },
+   "tags": {
+    "electrified": "no",
+    "gauge": "1000",
+    "maxspeed": "80",
+    "name": "ทางรถไฟสายแม่กลอง",
+    "name:en": "Mae Klong Line",
+    "operator": "การรถไฟแห่งประเทศไทย",
+    "railway": "rail",
+    "ref": "แม่กลอง",
+    "train": "yes",
+    "usage": "main"
+   }
+  },
+  {
+   "type": "way",
+   "id": 472059453,
+   "center": {
+    "lat": 13.630444,
+    "lon": 100.3885112
+   },
+   "tags": {
+    "bridge": "yes",
+    "electrified": "no",
+    "gauge": "1000",
+    "maxspeed": "80",
+    "name": "ทางรถไฟสายแม่กลอง",
+    "name:en": "Mae Klong Line",
+    "operator": "การรถไฟแห่งประเทศไทย",
+    "railway": "rail",
+    "ref": "แม่กลอง",
+    "source": "bing",
+    "train": "yes",
+    "usage": "main"
+   }
+  },
+  {
+   "type": "way",
+   "id": 835519434,
+   "center": {
+    "lat": 13.6735402,
+    "lon": 100.4367874
+   },
+   "tags": {
+    "electrified": "no",
+    "gauge": "1000",
+    "maxspeed": "80",
+    "name": "ทางรถไฟสายแม่กลอง",
+    "name:en": "Mae Klong Line",
+    "operator": "การรถไฟแห่งประเทศไทย",
+    "railway": "rail",
+    "ref": "แม่กลอง",
+    "train": "yes",
+    "usage": "main"
+   }
+  },
+  {
+   "type": "way",
+   "id": 835519435,
+   "center": {
+    "lat": 13.6825431,
+    "lon": 100.4468208
+   },
+   "tags": {
+    "bridge": "yes",
+    "electrified": "no",
+    "gauge": "1000",
+    "layer": "1",
+    "maxspeed": "80",
+    "name": "ทางรถไฟสายแม่กลอง",
+    "name:en": "Mae Klong Line",
+    "operator": "การรถไฟแห่งประเทศไทย",
+    "railway": "rail",
+    "ref": "แม่กลอง",
+    "train": "yes",
+    "usage": "main"
+   }
+  },
+  {
+   "type": "way",
+   "id": 868346586,
+   "center": {
+    "lat": 13.6513832,
+    "lon": 100.4119114
+   },
+   "tags": {
+    "electrified": "no",
+    "gauge": "1000",
+    "maxspeed": "80",
+    "name": "ทางรถไฟสายแม่กลอง",
+    "name:en": "Mae Klong Line",
+    "name:th": "ทางรถไฟสายแม่กลอง",
+    "operator": "การรถไฟแห่งประเทศไทย",
+    "railway": "rail",
+    "ref": "แม่กลอง",
+    "train": "yes",
+    "usage": "main"
+   }
+  },
+  {
+   "type": "way",
+   "id": 868346587,
+   "center": {
+    "lat": 13.6534524,
+    "lon": 100.4142311
+   },
+   "tags": {
+    "bridge": "yes",
+    "electrified": "no",
+    "gauge": "1000",
+    "layer": "1",
+    "maxspeed": "80",
+    "name": "ทางรถไฟสายแม่กลอง",
+    "name:en": "Mae Klong Line",
+    "name:th": "ทางรถไฟสายแม่กลอง",
+    "operator": "การรถไฟแห่งประเทศไทย",
+    "railway": "rail",
+    "ref": "แม่กลอง",
+    "train": "yes",
+    "usage": "main"
+   }
+  },
+  {
+   "type": "way",
+   "id": 980128246,
+   "center": {
+    "lat": 13.6810501,
+    "lon": 100.4451801
+   },
+   "tags": {
+    "electrified": "no",
+    "gauge": "1000",
+    "maxspeed": "80",
+    "name": "ทางรถไฟสายแม่กลอง",
+    "name:en": "Mae Klong Line",
+    "operator": "การรถไฟแห่งประเทศไทย",
+    "railway": "rail",
+    "ref": "แม่กลอง",
+    "train": "yes",
+    "usage": "main"
+   }
+  },
+  {
+   "type": "way",
+   "id": 980128247,
+   "center": {
+    "lat": 13.6795521,
+    "lon": 100.4435239
+   },
+   "tags": {
+    "bridge": "yes",
+    "electrified": "no",
+    "gauge": "1000",
+    "layer": "1",
+    "maxspeed": "80",
+    "name": "ทางรถไฟสายแม่กลอง",
+    "name:en": "Mae Klong Line",
+    "operator": "การรถไฟแห่งประเทศไทย",
+    "railway": "rail",
+    "ref": "แม่กลอง",
+    "train": "yes",
+    "usage": "main"
+   }
+  },
+  {
+   "type": "way",
+   "id": 980128254,
+   "center": {
+    "lat": 13.6853881,
+    "lon": 100.4503291
+   },
+   "tags": {
+    "abandoned:electrified": "contact_line",
+    "electrified": "no",
+    "gauge": "1000",
+    "maxspeed": "80",
+    "name": "ทางรถไฟสายแม่กลอง",
+    "name:en": "Mae Klong Line",
+    "name:th": "ทางรถไฟสายแม่กลอง",
+    "operator": "การรถไฟแห่งประเทศไทย",
+    "railway": "rail",
+    "ref": "แม่กลอง",
+    "train": "yes",
+    "usage": "main"
+   }
+  },
+  {
+   "type": "way",
+   "id": 1248807034,
+   "center": {
+    "lat": 13.527972,
+    "lon": 100.4221693
+   },
+   "tags": {
+    "addr:district": "บางขุนเทียน",
+    "addr:postcode": "10150",
+    "addr:province": "กรุงเทพมหานคร",
+    "addr:subdistrict": "ท่าข้าม",
+    "amenity": "bicycle_rental",
+    "building": "yes",
+    "name": "Guitar Bike"
+   }
+  },
+  {
+   "type": "way",
+   "id": 1314008651,
+   "center": {
+    "lat": 13.5999139,
+    "lon": 100.4344732
+   },
+   "tags": {
+    "addr:district": "บางขุนเทียน",
+    "addr:postcode": "10150",
+    "addr:province": "กรุงเทพมหานคร",
+    "addr:subdistrict": "ท่าข้าม",
+    "amenity": "studio",
+    "building": "yes",
+    "name": "สถานีวิทยุกระจายเสียงรัฐสภา",
+    "name:th": "สถานีวิทยุกระจายเสียงรัฐสภา",
+    "studio": "radio"
+   }
+  },
+  {
+   "type": "relation",
+   "id": 8425167,
+   "center": {
+    "lat": 13.6352386,
+    "lon": 100.3838464
+   },
+   "tags": {
+    "from": "วงเวียนใหญ่",
+    "name": "ทางรถไฟสายแม่กลอง ช่วงวงเวียนใหญ่ - มหาชัย",
+    "name:en": "Maeklong Railway. Wongwian Yai - Maha Chai Section",
+    "name:th": "ทางรถไฟสายแม่กลอง ช่วงวงเวียนใหญ่ - มหาชัย",
+    "operator": "การรถไฟแห่งประเทศไทย",
+    "ref": "แม่กลอง",
+    "route": "railway",
+    "to": "มหาชัย",
+    "type": "route",
+    "wikidata": "Q117774762"
+   }
+  }
+ ]
+}

@@ -1,0 +1,407 @@
+{
+  "district": "วัฒนา",
+  "researchedAt": "2026-09-26",
+  "places": [
+    {
+      "id": "cur:gmm-grammy-place-hq",
+      "name": "จีเอ็มเอ็ม แกรมมี่ (สำนักงานใหญ่ จีเอ็มเอ็ม แกรมมี่ เพลส)",
+      "name_en": "GMM Grammy PCL (GMM Grammy Place)",
+      "kind": "business",
+      "address": "เลขที่ 50 อาคารจีเอ็มเอ็ม แกรมมี่ เพลส ถนนสุขุมวิท แขวงคลองเตยเหนือ เขตวัฒนา กรุงเทพ 10110",
+      "geocode": "GMM Grammy Place, Sukhumvit 21 (Asok), Bangkok",
+      "lat": null,
+      "lon": null,
+      "phone": "0-2669-9000",
+      "website": "https://www.gmmgrammy.com/",
+      "social": [],
+      "hours": null,
+      "offer": [
+        "ค่ายเพลง",
+        "บริหารศิลปิน",
+        "จัดเก็บค่าลิขสิทธิ์เพลง",
+        "โชว์บิซ"
+      ],
+      "source_url": "https://www.gmmgrammy.com/th/contact.php",
+      "evidence": "หน้าติดต่อของ GMM Grammy ระบุ 'เลขที่ 50 อาคาร จีเอ็มเอ็ม แกรมมี่ เพลส ถนน สุขุมวิท แขวงคลองเตยเหนือ เขต วัฒนา' โทร 0-2669-9000 และมีฝ่ายลิขสิทธิ์รับชำระค่าเผยแพร่ลิขสิทธิ์เพลง",
+      "checked": "2026-09-26"
+    },
+    {
+      "id": "cur:blkgem-gmm-grammy-place",
+      "name": "BLKGEM (เดิม Grammy Vocal Studio) จีเอ็มเอ็ม แกรมมี่ เพลส",
+      "name_en": "BLKGEM The Art of Entertainment Academy (formerly Grammy Vocal Studio)",
+      "kind": "school",
+      "address": "อาคารจีเอ็มเอ็ม แกรมมี่ เพลส ชั้น 22-23 ถนนสุขุมวิท เขตวัฒนา กรุงเทพฯ",
+      "geocode": "GMM Grammy Place, Sukhumvit 21 (Asok), Bangkok",
+      "lat": null,
+      "lon": null,
+      "phone": null,
+      "website": "https://www.grammyvocalstudio.com/",
+      "social": [
+        "https://www.facebook.com/GrammyVocalStudio/"
+      ],
+      "hours": null,
+      "offer": [
+        "ร้องเพลง",
+        "ดนตรี",
+        "เต้น",
+        "การแสดง",
+        "พัฒนาศิลปิน"
+      ],
+      "source_url": "https://www.grammyvocalstudio.com/",
+      "evidence": "เว็บไซต์ระบุ 'BLKGEM THE ART OF ENTERTAINMENT ACADEMY ... OUR PLACE M THEATRE FLOOR 2-3, GMM GRAMMY PLACE FLOOR 22-23'; เพจ Facebook Grammy Vocal Studio แจ้งว่า 'Grammy Vocal เปลี่ยนเป็น BLKGEM' (สาขา M Theatre อยู่เขตห้วยขวาง ไม่นับ)",
+      "checked": "2026-09-26"
+    },
+    {
+      "id": "cur:mahidol-music-academy-emquartier",
+      "name": "Mahidol Music Academy สาขาเอ็มควอเทียร์",
+      "name_en": "Mahidol Music Academy EmQuartier",
+      "kind": "school",
+      "address": "ศูนย์การค้าเอ็มควอเทียร์ ชั้น 2 อาคาร C, 693-695 ถนนสุขุมวิท เขตวัฒนา",
+      "geocode": "EmQuartier, Sukhumvit Road, Bangkok",
+      "lat": null,
+      "lon": null,
+      "phone": null,
+      "website": "https://www.music.mahidol.ac.th/",
+      "social": [
+        "https://www.facebook.com/MahidolMusicAcademy/"
+      ],
+      "hours": null,
+      "offer": [
+        "เปียโน",
+        "ร้องเพลง",
+        "เครื่องดนตรีสากล"
+      ],
+      "source_url": "https://www.emquartier.co.th/directory",
+      "evidence": "ไดเรกทอรีของเอ็มควอเทียร์ระบุ 'Mahidol music academy 2F / Building C' ในหมวด Kids and Family; เพจ Mahidol MUSIC Academy ระบุหลักสูตรเปียโน ร้องเพลง ฯลฯ",
+      "checked": "2026-09-26"
+    },
+    {
+      "id": "cur:playsound-emquartier",
+      "name": "PlaySound สาขาเอ็มควอเทียร์",
+      "name_en": "PlaySound EmQuartier",
+      "kind": "school",
+      "address": "ศูนย์การค้าเอ็มควอเทียร์ ชั้น 2 อาคาร C, 693-695 ถนนสุขุมวิท เขตวัฒนา",
+      "geocode": "EmQuartier, Sukhumvit Road, Bangkok",
+      "lat": null,
+      "lon": null,
+      "phone": null,
+      "website": "https://www.playsoundbkk.com/",
+      "social": [],
+      "hours": null,
+      "offer": [
+        "เปียโนเด็ก (Kid Prodigy Piano)",
+        "ดนตรีสำหรับเด็ก"
+      ],
+      "source_url": "https://www.emquartier.co.th/directory",
+      "evidence": "ไดเรกทอรีของเอ็มควอเทียร์ระบุ 'Playsound 2F / Building C' หมวด Kids and Family; เว็บ playsoundbkk.com ระบุเป็นสถาบันสอนดนตรีสำหรับเด็ก",
+      "checked": "2026-09-26"
+    },
+    {
+      "id": "cur:vocalize-emquartier",
+      "name": "Vocalize Singing Academy สาขาเอ็มควอเทียร์",
+      "name_en": "Vocalize Singing Academy EmQuartier",
+      "kind": "school",
+      "address": "ศูนย์การค้าเอ็มควอเทียร์ ชั้น 2 อาคาร C, 693-695 ถนนสุขุมวิท เขตวัฒนา",
+      "geocode": "EmQuartier, Sukhumvit Road, Bangkok",
+      "lat": null,
+      "lon": null,
+      "phone": null,
+      "website": null,
+      "social": [
+        "https://www.facebook.com/vocalizeacademy/"
+      ],
+      "hours": null,
+      "offer": [
+        "ร้องเพลง"
+      ],
+      "source_url": "https://www.emquartier.co.th/directory",
+      "evidence": "ไดเรกทอรีของเอ็มควอเทียร์ระบุ 'Vocalize 2F / Building C' หมวด Kids and Family; เพจ Facebook 'Vocalize - Singing Academy By Kru Fasai' ระบุเป็นสถาบันสอนร้องเพลง",
+      "checked": "2026-09-26"
+    },
+    {
+      "id": "cur:devialet-deco2000-emquartier",
+      "name": "Devialet by Deco 2000 เอ็มควอเทียร์",
+      "name_en": "Devialet by Deco 2000 EmQuartier",
+      "kind": "audio_store",
+      "address": "ศูนย์การค้าเอ็มควอเทียร์ ชั้น 3 อาคาร A, 693-695 ถนนสุขุมวิท เขตวัฒนา",
+      "geocode": "EmQuartier, Sukhumvit Road, Bangkok",
+      "lat": null,
+      "lon": null,
+      "phone": null,
+      "website": null,
+      "social": [],
+      "hours": null,
+      "offer": [
+        "ลำโพง/เครื่องเสียงไฮเอนด์ Devialet"
+      ],
+      "source_url": "https://www.emquartier.co.th/directory",
+      "evidence": "ไดเรกทอรีของเอ็มควอเทียร์ระบุ 'Devialet by deco 2000 3F / Building A'",
+      "checked": "2026-09-26"
+    },
+    {
+      "id": "cur:swu-fine-arts-music",
+      "name": "คณะศิลปกรรมศาสตร์ มหาวิทยาลัยศรีนครินทรวิโรฒ (ภาควิชาดุริยางคศาสตร์ไทยและเอเชีย / ดุริยางคศาสตร์สากล)",
+      "name_en": "Faculty of Fine Arts, Srinakharinwirot University (Music Departments)",
+      "kind": "higher_ed",
+      "address": "มศว ประสานมิตร 114 ซอยสุขุมวิท 23 แขวงคลองเตยเหนือ เขตวัฒนา กรุงเทพฯ 10110",
+      "geocode": "Srinakharinwirot University Prasarnmit, Sukhumvit 23, Bangkok",
+      "lat": null,
+      "lon": null,
+      "phone": null,
+      "website": "http://fofa.swu.ac.th/",
+      "social": [
+        "https://www.facebook.com/swufofa"
+      ],
+      "hours": null,
+      "offer": [
+        "ดุริยางคศาสตร์ไทยและเอเชีย",
+        "ดุริยางคศาสตร์สากล (รวมดนตรีศึกษา)"
+      ],
+      "source_url": "https://www.facebook.com/swufofa",
+      "evidence": "เพจ Facebook ทางการ 'คณะศิลปกรรมศาสตร์ มศว' (หมวดวิทยาลัยและมหาวิทยาลัย, กรุงเทพฯ) ซึ่งลิงก์จากเว็บคณะ fofa.swu.ac.th (http เท่านั้น) ที่แสดง 'ภาควิชาดุริยางคศาสตร์ไทยและเอเชีย' และ 'ภาควิชาดุริยางคศาสตร์สากล' พร้อมข่าวนิสิตดุริยางคศาสตร์สากล ก.ค. 2569; ที่อยู่ 114 สุขุมวิท 23 มาจากข้อมูลมหาวิทยาลัยในผลค้นหา (swu.ac.th บล็อกบอต)",
+      "checked": "2026-09-26"
+    },
+    {
+      "id": "cur:gecco-studio-complex",
+      "name": "Gecco Studio Complex",
+      "name_en": "Gecco Studio Complex",
+      "kind": "studio",
+      "address": "32 Soi Sukhumvit 39, Khlong Tan Nuea, Watthana District, Bangkok 10110",
+      "geocode": "32 Soi Sukhumvit 39, Bangkok",
+      "lat": null,
+      "lon": null,
+      "phone": "02-662-5120",
+      "website": "https://www.geccostudio.com/",
+      "social": [],
+      "hours": "จันทร์-ศุกร์ 10:00-18:00",
+      "offer": [
+        "บันทึกเสียง",
+        "โพสต์โปรดักชันเสียง",
+        "พากย์/แปลภาษา"
+      ],
+      "source_url": "https://www.geccostudio.com/",
+      "evidence": "เว็บ Gecco Studio ระบุ 'established in 1993' และ 'Address 32 Soi Sukhumvit 39, Khlong Tan Nuea, Watthana District' เวลา Mon-Fri 10am-6pm โทร 02-662-5120",
+      "checked": "2026-09-26"
+    },
+    {
+      "id": "cur:dynamic-recording-studio",
+      "name": "ไดนามิค เรคคอร์ดดิ้ง สตูดิโอ",
+      "name_en": "Dynamic Recording Studio",
+      "kind": "studio",
+      "address": "35/1 ซอยสุขุมวิท 49 ถนนสุขุมวิท แขวงคลองตันเหนือ เขตวัฒนา กรุงเทพมหานคร 10110",
+      "geocode": "35/1 Soi Sukhumvit 49, Bangkok",
+      "lat": null,
+      "lon": null,
+      "phone": "089 8961046",
+      "website": "https://www.dynamicstudiobkk.com/",
+      "social": [],
+      "hours": null,
+      "offer": [
+        "บันทึกเสียง",
+        "มิกซ์",
+        "มาสเตอร์ริง"
+      ],
+      "source_url": "https://www.dynamicstudiobkk.com/contact",
+      "evidence": "หน้าติดต่อระบุ 'บริษัท ไดนามิค เรคคอร์ดดิ้ง สตูดิโอ จำกัด 35/1 ซอยสุขุมวิท 49 ... เขตวัฒนา' โทร 089 8961046 (เบอร์บริษัท); หน้าแรกระบุก่อตั้ง 2002 มี Control Room/Live Room/Vocal Booth",
+      "checked": "2026-09-26"
+    },
+    {
+      "id": "cur:piano-academy-of-bangkok",
+      "name": "สถาบันเปียโนบางกอก",
+      "name_en": "Piano Academy of Bangkok",
+      "kind": "school",
+      "address": "283/90 อาคาร Home Place Office ชั้น 18 ซอยสุขุมวิท 55 (ทองหล่อ) เขตวัฒนา",
+      "geocode": "Home Place Office Building, Thonglor, Bangkok",
+      "lat": null,
+      "lon": null,
+      "phone": null,
+      "website": null,
+      "social": [
+        "https://www.facebook.com/PianoAcademyBKK/"
+      ],
+      "hours": null,
+      "offer": [
+        "เปียโน"
+      ],
+      "source_url": "https://www.facebook.com/PianoAcademyBKK/",
+      "evidence": "เพจ Facebook 'Piano Academy of Bangkok' ระบุ 'สถาบันเปียโนบางกอก สอนและวางแผนการเรียนเปียโน'; ที่อยู่ Home Place Office ทองหล่อ มาจากบทความ expat (lead) — ควรยืนยัน",
+      "checked": "2026-09-26"
+    },
+    {
+      "id": "cur:more-rice-record-store",
+      "name": "More Rice Record Store",
+      "name_en": "More Rice Record Store",
+      "kind": "record_store",
+      "address": "235, 4 ซอยสุขุมวิท 31 แขวงคลองตันเหนือ เขตวัฒนา",
+      "geocode": "Soi Sukhumvit 31, Bangkok",
+      "lat": null,
+      "lon": null,
+      "phone": null,
+      "website": null,
+      "social": [
+        "https://www.facebook.com/morericerecordstore"
+      ],
+      "hours": null,
+      "offer": [
+        "แผ่นเสียงแดนซ์มิวสิก"
+      ],
+      "source_url": "https://www.facebook.com/morericerecordstore",
+      "evidence": "เพจ Facebook 'More Rice Record Store' ระบุ 'Your local friendly neighbourhood dance-music record store'; ที่อยู่สุขุมวิท 31 มาจาก BK Magazine/Time Out (lead)",
+      "checked": "2026-09-26"
+    },
+    {
+      "id": "cur:bungkumhouse-records",
+      "name": "ร้านแผ่นเสียงบึงกุ่มเฮ้าส์",
+      "name_en": "Bungkumhouse Records",
+      "kind": "record_store",
+      "address": null,
+      "geocode": "Black Amber Building, Sukhumvit Soi 55 (Thonglor), Bangkok",
+      "lat": null,
+      "lon": null,
+      "phone": null,
+      "website": null,
+      "social": [
+        "https://www.facebook.com/bungkumhouserecords"
+      ],
+      "hours": null,
+      "offer": [
+        "แผ่นเสียง",
+        "บริตป๊อป/อัลเทอร์เนทีฟ/โซล"
+      ],
+      "source_url": "https://www.facebook.com/bungkumhouserecords",
+      "evidence": "เพจ Facebook 'ร้านแผ่นเสียงบึงกุ่มเฮ้าส์ Bungkumhouse Records' หมวด records store; ตำแหน่งย่านทองหล่อมาจาก BK Magazine (lead) ซึ่งระบุทั้ง 'ชั้น 4 อาคาร Black Amber สุขุมวิท 55' และ 'ซอยทองหล่อ 6' — ที่อยู่แน่นอนยังไม่ยืนยัน (ทั้งสองจุดอยู่ในเขตวัฒนา)",
+      "checked": "2026-09-26"
+    },
+    {
+      "id": "cur:sex-record-shop-seenspace",
+      "name": "Sex Record Shop",
+      "name_en": "Sex Record Shop",
+      "kind": "record_store",
+      "address": "ชั้น 2 Seenspace ทองหล่อ ซอย 13 เขตวัฒนา",
+      "geocode": "Seenspace Thonglor, Thonglor Soi 13, Bangkok",
+      "lat": null,
+      "lon": null,
+      "phone": null,
+      "website": null,
+      "social": [
+        "https://www.facebook.com/sexrecordshop"
+      ],
+      "hours": null,
+      "offer": [
+        "แผ่นเสียง"
+      ],
+      "source_url": "https://www.facebook.com/sexrecordshop",
+      "evidence": "เพจ Facebook 'Sex Record Shop' ระบุ 'All about Sex and Sound! Must-have address for Every Vinyl Collector'; ตำแหน่ง Seenspace ทองหล่อ 13 มาจาก BK Magazine (lead)",
+      "checked": "2026-09-26"
+    },
+    {
+      "id": "cur:8-musique-eight-thonglor",
+      "name": "8 Musique",
+      "name_en": "8 Musique",
+      "kind": "record_store",
+      "address": "Eight Thonglor ชั้น LG ซอยสุขุมวิท 55 (ทองหล่อ) เขตวัฒนา",
+      "geocode": "Eight Thonglor, Sukhumvit 55, Bangkok",
+      "lat": null,
+      "lon": null,
+      "phone": "02-7138366",
+      "website": null,
+      "social": [
+        "https://www.facebook.com/p/8-Musique-100064721437128/"
+      ],
+      "hours": "ทุกวัน 11:00-21:30",
+      "offer": [
+        "แผ่นเสียง",
+        "ซีดี"
+      ],
+      "source_url": "https://www.facebook.com/p/8-Musique-100064721437128/",
+      "evidence": "เพจ Facebook '8 Musique' ระบุ 'at Eight Thonglor, LG floor, BKK, Thailand / Open Every Day 11:00 - 21:30 / 02-7138366'",
+      "checked": "2026-09-26"
+    },
+    {
+      "id": "cur:studio-lam",
+      "name": "Studio Lam",
+      "name_en": "Studio Lam",
+      "kind": "venue",
+      "address": "3/1 ซอยสุขุมวิท 51 เขตวัฒนา",
+      "geocode": "3/1 Soi Sukhumvit 51, Bangkok",
+      "lat": null,
+      "lon": null,
+      "phone": null,
+      "website": null,
+      "social": [
+        "https://www.facebook.com/studiolambangkok"
+      ],
+      "hours": null,
+      "offer": [
+        "ดนตรีสดหมอลำ/เวิลด์มิวสิก",
+        "ดีเจแผ่นเสียง",
+        "แจมไนท์"
+      ],
+      "source_url": "https://www.facebook.com/studiolambangkok",
+      "evidence": "เพจ Facebook 'Studio Lam' ระบุ 'born with the aim of providing a home for creative new music'; ที่อยู่ 3/1 สุขุมวิท 51 (ร้านเครือเดียวกับ ZudRangMa) มาจาก BK Magazine (lead)",
+      "checked": "2026-09-26"
+    },
+    {
+      "id": "cur:alonetogether-bangkok",
+      "name": "Alonetogether Bangkok",
+      "name_en": "Alonetogether Bangkok",
+      "kind": "venue",
+      "address": null,
+      "geocode": "Soi Sukhumvit 31, Bangkok",
+      "lat": null,
+      "lon": null,
+      "phone": null,
+      "website": null,
+      "social": [
+        "https://www.facebook.com/AlonetogetherBKK/"
+      ],
+      "hours": null,
+      "offer": [
+        "แจ๊สบาร์",
+        "ห้องฟัง audiophile",
+        "ร้านแผ่นเสียง"
+      ],
+      "source_url": "https://www.facebook.com/AlonetogetherBKK/",
+      "evidence": "เพจ Facebook 'Alonetogether Bangkok' ระบุ 'Classic Cocktails / Jazz Bar / Audiophile Room / Record Shop'; ตำแหน่งซอยสุขุมวิท 31 (ย่านพร้อมพงษ์ฝั่งเหนือ) มาจากรายการจัดอันดับบาร์แจ๊ส (lead) — เลขที่ยังไม่ยืนยัน",
+      "checked": "2026-09-26"
+    }
+  ],
+  "review": {
+    "osm:n10919481905": {
+      "kind": "venue",
+      "note": "The Iron Fairies — บาร์ดนตรีสด/แจ๊ส; OSM ระบุสุขุมวิท 39 แต่ BK Magazine (lead) ยังใช้ 394 สุขุมวิท 55 — ควรยืนยันที่ตั้งปัจจุบัน (ทั้งสองจุดอยู่เขตวัฒนา)"
+    },
+    "osm:w318213848": {
+      "exclude": true,
+      "note": "Piano Forte (amenity=nightclub) ย่านเอกมัย — เพจที่ชื่อใกล้เคียง 'เปียโน-เอกมัย' ระบุ 'Exclusive Club V.I.P' ไม่พบหลักฐานว่าเป็นเวทีดนตรีสด; ยังไม่ยืนยันว่าเป็นที่เดียวกัน"
+    },
+    "osm:n3301457999": {
+      "exclude": true,
+      "note": "Good Rich Gallery — ชื่อระบุเป็นแกลเลอรีศิลปะ ไม่พบกิจกรรมดนตรี"
+    },
+    "osm:n3354527923": {
+      "exclude": true,
+      "note": "Hof Art Space — พื้นที่ศิลปะทัศนศิลป์ ไม่พบกิจกรรมดนตรี"
+    },
+    "osm:n4781368623": {
+      "kind": "record_store",
+      "note": "ยืนยัน: ZudRangMa Records (facebook.com/Zudrangma) สุขุมวิท 51; ร้านพี่น้องคือ Studio Lam (ใส่ใน places)"
+    }
+  },
+  "gaps": [
+    "ห้างที่อยู่ฝั่งเลขคู่ของสุขุมวิทเป็นเขตคลองเตย ไม่ใช่วัฒนา: Emporium, EmSphere, K Village (มี Music Collection Guitar Room สุขุมวิท 26), Gateway Ekamai — ไม่นับ",
+    "Terminal 21 อโศก (88 สุขุมวิท 19 เขตวัฒนา): ตรวจไดเรกทอรีรายชั้น (terminal21.co.th/asok/shop) แล้วไม่พบร้าน/โรงเรียนดนตรี",
+    "โรงเรียนดนตรีฝั่งสุขุมวิท 26/28 (Bangkok Music & Dance Academy, Rockademy, Peterson Piano Institute) อยู่เขตคลองเตย — ไม่นับ",
+    "Check Inn 99 (สุขุมวิท 33) — เพจระบุปิดถาวร ไม่ใส่",
+    "Havana Social, Apoteka (สุขุมวิท 11) ดนตรีสด — ไม่สามารถดึงหน้าเจ้าของได้",
+    "บาร์ฟังแผ่นเสียง (ไม่มีหลักฐานดนตรีสด): Playroom สุขุมวิท 63, Bar Marco ทองหล่อ 20, Strange Fruit ทองหล่อ 20 — ควรตัดสินว่าจะนับเป็น venue หรือไม่",
+    "Badmotel, Tuba, Wine Bibber, Nowhere Bar, Baan Puen (Ekamai Mall) ย่านเอกมัย — ยังไม่พบหลักฐานดนตรีสดจากหน้าเจ้าของ",
+    "De Commune / Speakerbox (Liberty Plaza ทองหล่อ) และ Unknown Pleasures (Black Amber) — ข้อมูลเก่า อาจปิด/รวมกับ Bungkumhouse",
+    "Track Addict Record (MT&T Building สุขุมวิท 69) — ลิงก์ Facebook ที่พบเป็นโปรไฟล์บุคคล จึงไม่ใส่",
+    "Recoroom vinyl & vintage audio ไม่ได้อยู่เขตวัฒนา (ที่อยู่ที่พบอยู่ราชเทวี/ดินแดง)",
+    "Rongpleng.com สาขาหลักอยู่อ่อนนุช 58 (ไม่ใช่วัฒนา); สาขา The Base สุขุมวิท 77 ยังไม่ยืนยัน",
+    "The Sound of Music (ทองหล่อ) — เว็บ soundofmusic.school ที่ถูกอ้างถึงเป็นโรงเรียนในนิวยอร์ก ยืนยันไม่ได้",
+    "ร้านเครื่องดนตรี/เปียโน และห้องซ้อมในเขตวัฒนา (ทองหล่อ-เอกมัย-พระโขนงเหนือ) ยังไม่พบรายที่มีหน้าเจ้าของยืนยัน",
+    "KPN Music Academy / Yamaha Music School — รายชื่อสาขาที่เข้าถึงได้ไม่มีสาขาในวัฒนา (kpnmusic.com ดึงไม่ได้)"
+  ]
+}

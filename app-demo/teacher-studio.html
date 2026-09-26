@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="th">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ลงบริการสอน — Music Industry Lap Demo</title>
+  <meta name="description" content="ทดลองออกแบบรายการบริการสอนดนตรีของครูใน Music Industry Lap">
+  <link rel="stylesheet" href="teacher-studio.css">
+</head>
+<body>
+  <header class="topbar"><a href="index.html" class="back">← กลับแอปผู้เรียน</a><strong>MUSIC INDUSTRY LAP</strong><span class="demo">TEACHER DEMO</span></header>
+  <main class="layout">
+    <section class="intro"><p class="eyebrow">TEACHER STUDIO / USE CASE T1</p><h1>เปลี่ยนสิ่งที่คุณสอน<br><em>ให้เป็นบริการที่เข้าใจง่าย</em></h1><p>สร้างรายการสอนหนึ่งแบบ เห็นหน้า preview และบันทึกร่างบนเครื่องนี้ ขั้นส่งตรวจเป็นการจำลอง ยังไม่เผยแพร่หรือรับคำขอจริง</p><ol><li>บอกผู้เรียนว่าจะได้ลองทำอะไร</li><li>กำหนดราคา เวลา และอุปกรณ์ให้ครบ</li><li>ดูตัวอย่างก่อนส่งตรวจ</li></ol><div class="note">ช่วงเริ่มต้นตามแนวคิดโครงการ: ครูควบคุมราคา ตาราง และจำนวนผู้เรียนเอง รายการที่แสดงต่อสาธารณะต้องตรวจข้อมูลก่อน</div></section>
+    <section class="work" aria-label="ฟอร์มสร้างบริการสอน">
+      <div class="steps"><span class="active">1 · กรอกบริการ</span><span>2 · ดูตัวอย่าง</span><span>3 · ส่งตรวจ</span></div>
+      <div class="panel"><h2>รายละเอียดบริการ</h2><p class="muted">ฟอร์มนี้ไม่ขอบัตรประชาชน บัญชีธนาคาร หรือข้อมูลผู้เรียน</p>
+        <form id="listing-form">
+          <div class="field"><label for="teacher">ชื่อที่ต้องการแสดง <b>*</b></label><input id="teacher" name="teacher" required maxlength="60" placeholder="เช่น ครูเมย์"></div>
+          <div class="field"><label for="title">ชื่อบริการสอน <b>*</b></label><input id="title" name="title" required maxlength="100" placeholder="เช่น ลองทำเพลงแรกด้วยมือถือใน 4 คาบ"></div>
+          <div class="row"><div class="field"><label for="subject">วิชา/ทักษะ <b>*</b></label><select id="subject" name="subject" required><option value="">เลือกวิชา</option><option>ร้องเพลง</option><option>กีตาร์</option><option>เปียโน</option><option>ดนตรีไทย</option><option>ทำเพลง/โปรดิวซ์</option><option>แต่งเพลง</option><option>งานเวที/เสียงสด</option><option>อื่น ๆ</option></select></div><div class="field"><label for="level">ระดับที่รับ <b>*</b></label><select id="level" name="level" required><option value="">เลือกระดับ</option><option>เริ่มต้น</option><option>ระดับกลาง</option><option>ทุกระดับ</option></select></div></div>
+          <div class="field"><label for="outcome">เมื่อจบ ผู้เรียนจะลองทำอะไรได้ <b>*</b></label><textarea id="outcome" name="outcome" required minlength="12" maxlength="240" rows="3" placeholder="เช่น อัดเดโม 30 วินาทีและอธิบายว่าปรับเสียงตรงไหน"></textarea><small>บอกผลลัพธ์ที่สังเกตได้ แทนคำว่า “เก่งขึ้น”</small></div>
+          <div class="row"><div class="field"><label for="mode">รูปแบบ <b>*</b></label><select id="mode" name="mode" required><option value="">เลือกรูปแบบ</option><option>ออนไลน์</option><option>พบตัว</option><option>ผสม</option></select></div><div class="field"><label for="place">พื้นที่หรือแพลตฟอร์ม <b>*</b></label><input id="place" name="place" required maxlength="80" placeholder="เช่น กรุงเทพฯ เขตจตุจักร / ออนไลน์"></div></div>
+          <div class="row"><div class="field"><label for="duration">นาทีต่อคาบ <b>*</b></label><input id="duration" name="duration" type="number" required min="15" max="240" step="5" value="50"></div><div class="field"><label for="price">ราคาเรียนต่อคาบ (บาท) <b>*</b></label><input id="price" name="price" type="number" required min="0" max="100000" step="1" placeholder="เช่น 500"></div></div>
+          <div class="row"><div class="field"><label for="extra">ค่าเพิ่มต่อเดือนโดยประมาณ (บาท)</label><input id="extra" name="extra" type="number" min="0" max="100000" step="1" value="0"></div><div class="field"><label for="capacity">รับได้กี่คนต่อรอบ <b>*</b></label><input id="capacity" name="capacity" type="number" required min="1" max="50" step="1" value="1"></div></div>
+          <div class="field"><label for="equipment">ผู้เรียนต้องเตรียมอะไร <b>*</b></label><input id="equipment" name="equipment" required maxlength="180" placeholder="เช่น มือถือและหูฟัง; ไม่ต้องมีเครื่องดนตรี"></div>
+          <label class="check"><input type="checkbox" name="loan"><span>มีเครื่องให้ลอง/ยืมระหว่างคาบ</span></label>
+          <div class="field"><label for="slots">ช่วงเวลาที่รับผู้เรียน <b>*</b></label><input id="slots" name="slots" required maxlength="120" placeholder="เช่น เสาร์ 10:00–16:00 น. (นัดเวลาจริงอีกครั้ง)"></div>
+          <div class="field"><label for="method">วิธีสอนและการให้ feedback <b>*</b></label><textarea id="method" name="method" required minlength="12" maxlength="350" rows="3" placeholder="เช่น เริ่มด้วยตัวอย่างสั้น ฝึกทีละช่วง และส่งข้อเสนอแนะหลังคาบ"></textarea></div>
+          <div class="field"><label for="terms">ขอบเขตและกติกาการเลื่อนคาบ <b>*</b></label><textarea id="terms" name="terms" required minlength="12" maxlength="350" rows="3" placeholder="เช่น ราคาไม่รวมค่าเดินทาง; แจ้งเลื่อนล่วงหน้า 24 ชั่วโมง"></textarea></div>
+          <div class="actions"><button type="button" id="save-draft" class="secondary">บันทึกร่าง</button><button type="button" id="preview-button">ดูตัวอย่างประกาศ →</button></div>
+        </form>
+      </div>
+      <div id="status" class="status" role="status" aria-live="polite"></div>
+      <div id="preview" class="panel preview" hidden></div>
+    </section>
+  </main>
+  <script src="teacher-studio.js"></script>
+</body>
+</html>

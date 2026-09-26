@@ -1,0 +1,55 @@
+{
+ "district": "บางซื่อ",
+ "rel": 1639285,
+ "fetchedAt": "2026-09-25T19:30:41.107Z",
+ "source": "https://overpass-api.de/api/interpreter",
+ "license": "ODbL © OpenStreetMap contributors",
+ "query": "[out:json][timeout:120];area(3601639285)->.a;(\nnwr(area.a)[\"shop\"~\"^(musical_instrument|music|hifi)$\"];\nnwr(area.a)[\"amenity\"~\"^(music_school|music_venue|studio|concert_hall|theatre|arts_centre|karaoke_box)$\"];\nnwr(area.a)[\"craft\"~\"musical_instrument|piano_tuner|luthier\"];\nnwr(area.a)[\"studio\"];\nnwr(area.a)[\"live_music\"=\"yes\"];\nnwr(area.a)[\"name\"~\"ดนตรี|เพลง|music|guitar|กีตาร์|piano|เปียโน|drum|กลอง|violin|ไวโอลิน|jazz|แจ๊ส|ห้องซ้อม|rehearsal|recording|อัดเสียง|ukulele|อูคูเลเล่|saxophone|แซกโซโฟน|ระนาด|ขิม|orchestra|symphony|ดุริยาง\",i];\nnwr(area.a)[\"name:en\"~\"ดนตรี|เพลง|music|guitar|กีตาร์|piano|เปียโน|drum|กลอง|violin|ไวโอลิน|jazz|แจ๊ส|ห้องซ้อม|rehearsal|recording|อัดเสียง|ukulele|อูคูเลเล่|saxophone|แซกโซโฟน|ระนาด|ขิม|orchestra|symphony|ดุริยาง\",i];\n);out center tags;",
+ "elements": [
+  {
+   "type": "node",
+   "id": 11235347176,
+   "lat": 13.83727,
+   "lon": 100.534446,
+   "tags": {
+    "addr:city": "แขวงวงศ์สว่าง",
+    "addr:housenumber": "220/110",
+    "addr:postcode": "10800",
+    "addr:street": "ซอยประชานุกูล 1",
+    "name": "Itim Music Publishing Co., Ltd.",
+    "name:th": "บริษัท ไอติม มิวสิค พับลิชชิ่ง จำกัด",
+    "office": "company",
+    "opening_hours": "Mo-Fr 09:00-17:00",
+    "website": "https://www.itim.studio/"
+   }
+  },
+  {
+   "type": "node",
+   "id": 13327531976,
+   "lat": 13.828598,
+   "lon": 100.5301971,
+   "tags": {
+    "addr:district": "Wong Sawang",
+    "addr:housenumber": "2442",
+    "addr:province": "bankok",
+    "addr:street": "ซอยกรุงเทพ-นนทบุรี 50",
+    "addr:subdistrict": "Bang Sue",
+    "amenity": "studio",
+    "check_date": "2025-11-24",
+    "check_date:currency:XBT": "2025-11-24",
+    "contact:facebook": "https://www.facebook.com/keera.suvattanavanich/",
+    "contact:instagram": "https://www.instagram.com/mikengp",
+    "contact:twitter": "https://x.com/mikengp?s=20",
+    "currency:XBT": "yes",
+    "description": "Offering violin lessons from beginner to professional levels.",
+    "email": "arcadian.of.sky@gmail.com",
+    "name": "Keng's Violin Studio",
+    "opening_hours": "Mo-Fr 10:00-20:00",
+    "payment:lightning": "yes",
+    "payment:lightning_contactless": "no",
+    "payment:onchain": "yes",
+    "studio": "audio"
+   }
+  }
+ ]
+}

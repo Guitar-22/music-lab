@@ -1,0 +1,37 @@
+{
+ "district": "บึงกุ่ม",
+ "rel": 2946805,
+ "fetchedAt": "2026-09-26T02:40:04.053Z",
+ "source": "https://overpass.private.coffee/api/interpreter",
+ "license": "ODbL © OpenStreetMap contributors",
+ "query": "[out:json][timeout:120];area(3602946805)->.a;(\nnwr(area.a)[\"shop\"~\"^(musical_instrument|music|hifi)$\"];\nnwr(area.a)[\"amenity\"~\"^(music_school|music_venue|studio|concert_hall|theatre|arts_centre|karaoke_box)$\"];\nnwr(area.a)[\"craft\"~\"musical_instrument|piano_tuner|luthier\"];\nnwr(area.a)[\"studio\"];\nnwr(area.a)[\"live_music\"=\"yes\"];\nnwr(area.a)[\"name\"~\"ดนตรี|เพลง|music|guitar|กีตาร์|piano|เปียโน|drum|กลอง|violin|ไวโอลิน|jazz|แจ๊ส|ห้องซ้อม|rehearsal|recording|อัดเสียง|ukulele|อูคูเลเล่|saxophone|แซกโซโฟน|ระนาด|ขิม|orchestra|symphony|ดุริยาง\",i];\nnwr(area.a)[\"name:en\"~\"ดนตรี|เพลง|music|guitar|กีตาร์|piano|เปียโน|drum|กลอง|violin|ไวโอลิน|jazz|แจ๊ส|ห้องซ้อม|rehearsal|recording|อัดเสียง|ukulele|อูคูเลเล่|saxophone|แซกโซโฟน|ระนาด|ขิม|orchestra|symphony|ดุริยาง\",i];\n);out center tags;",
+ "elements": [
+  {
+   "type": "way",
+   "id": 1125766529,
+   "center": {
+    "lat": 13.8163814,
+    "lon": 100.6519009
+   },
+   "tags": {
+    "amenity": "music_school",
+    "building": "yes",
+    "name": "Nawamin Yamaha Thailand Music Academy"
+   }
+  },
+  {
+   "type": "way",
+   "id": 1474042986,
+   "center": {
+    "lat": 13.8338423,
+    "lon": 100.6523697
+   },
+   "tags": {
+    "landuse": "residential",
+    "name": "เดอะซิมโฟนี่",
+    "name:en": "The Symphony",
+    "name:th": "เดอะซิมโฟนี่"
+   }
+  }
+ ]
+}

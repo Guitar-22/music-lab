@@ -1,0 +1,57 @@
+{
+  "reviewedAt": "2026-09-26",
+  "rule": "ตัวแทนที่ขายเฉพาะสาย AV (เครื่องเสียงบ้าน) เป็นร้านเครื่องใช้ไฟฟ้า ไม่นับเป็นร้านดนตรี — คัดออกอัตโนมัติ",
+  "decisions": {
+    "SMY0347": {
+      "duplicateOf": "osm:n10250107009",
+      "note": "CT Music สุขุมวิท 40"
+    },
+    "SMY0352": {
+      "duplicateOf": "cur:guitar-room-k-village"
+    },
+    "SMY0354": {
+      "duplicateOf": "cur:iguitar-music-fortune-town"
+    },
+    "SMY0377": {
+      "duplicateOf": "cur:music-collection-central-ladprao",
+      "note": "1693 ถ.พหลโยธิน = เซ็นทรัลลาดพร้าว"
+    },
+    "SMY0378": {
+      "duplicateOf": "cur:music-collection-siam-paragon"
+    },
+    "SMY0382": {
+      "duplicateOf": "cur:music-collection-esplanade-ratchada"
+    },
+    "SMY0455": {
+      "keep": true,
+      "note": "วี.ซี. อีเล็คโทรนิคส์ สาขาบ้านหม้อ (Pro audio) คนละร้านกับ Music Collection อัษฎางค์"
+    },
+    "SMY0466": {
+      "duplicateOf": "cur:yamaha-music-school-central-ladprao"
+    },
+    "SMY0474": {
+      "duplicateOf": "cur:yamaha-music-school-emporium",
+      "note": "ชื่อในข้อมูลต้นทางสะกดผิดเป็น 'นามาฮ่า'"
+    },
+    "SMY0479": {
+      "duplicateOf": "cur:yamaha-music-school-ladprao-big-c"
+    },
+    "SMY0496": {
+      "duplicateOf": "cur:yamaha-music-school-ratchadapisek"
+    },
+    "SMY0499": {
+      "duplicateOf": "cur:yamaha-music-school-siam-paragon"
+    },
+    "SMY0521": {
+      "duplicateOf": "cur:yamaha-music-school-centralworld"
+    },
+    "SMY0488": {
+      "duplicateOf": "yamaha:SMY0487",
+      "note": "รหัสสัญญาแยกสำหรับเครื่องเป่า/สื่อการสอน ร้านเดียวกัน"
+    },
+    "SMY0513": {
+      "duplicateOf": "yamaha:SMY0512",
+      "note": "รหัสสัญญาแยกสำหรับเครื่องเป่า/สื่อการสอน ร้านเดียวกัน"
+    }
+  }
+}

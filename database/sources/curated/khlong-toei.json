@@ -1,0 +1,487 @@
+{
+  "district": "คลองเตย",
+  "researchedAt": "2026-09-26",
+  "places": [
+    {
+      "id": "cur:yamaha-music-school-emporium",
+      "name": "โรงเรียนดนตรียามาฮ่า สาขาเอ็มโพเรียม",
+      "name_en": "Yamaha Music School Emporium",
+      "kind": "school",
+      "address": "อาคารเอ็มโพเรียมทาวเวอร์ ชั้น 9, 622 ถนนสุขุมวิท แขวงคลองตัน เขตคลองเตย",
+      "geocode": "Emporium, Sukhumvit Road, Bangkok",
+      "lat": null,
+      "lon": null,
+      "phone": "02-664-8951-53",
+      "website": "https://th.yamaha.com/th/education/index.html",
+      "social": [
+        "https://www.facebook.com/smy.emporium"
+      ],
+      "hours": null,
+      "offer": [
+        "หลักสูตรดนตรียามาฮ่า (ทุกหลักสูตร)",
+        "เปียโน",
+        "อิเล็กโทน",
+        "กีตาร์"
+      ],
+      "source_url": "https://th.yamaha.com/th/education/school-locator/music-school-new.html",
+      "evidence": "ระบบค้นหาโรงเรียนของ Yamaha Thailand: 'YAMAHA MUSIC SCHOOL EMPORIUM — Emporium Tower, 9 Floor' โทร 02-664-8951-53 หลักสูตร All Courses",
+      "checked": "2026-09-26"
+    },
+    {
+      "id": "cur:yamaha-music-school-gateway-ekamai",
+      "name": "โรงเรียนดนตรียามาฮ่า สาขาเกตเวย์ เอกมัย",
+      "name_en": "Yamaha Music School Gateway Ekamai",
+      "kind": "school",
+      "address": "ศูนย์การค้าเกตเวย์ เอกมัย ชั้น 3 (โซนการศึกษา), 982/22 ถนนสุขุมวิท แขวงพระโขนง เขตคลองเตย",
+      "geocode": "Gateway Ekamai, Bangkok",
+      "lat": null,
+      "lon": null,
+      "phone": "096-828-8833",
+      "website": "https://th.yamaha.com/th/education/index.html",
+      "social": [
+        "https://www.facebook.com/p/Yamaha-Gateway-Ekamai-61563601028154"
+      ],
+      "hours": null,
+      "offer": [
+        "หลักสูตรดนตรียามาฮ่า (ทุกหลักสูตร)"
+      ],
+      "source_url": "https://th.yamaha.com/th/education/school-locator/music-school-new.html",
+      "evidence": "ระบบค้นหาโรงเรียนของ Yamaha Thailand: 'YAMAHA MUSIC SCHOOL GATEWAY EKAMAI — Gateway Ekamai, 3rd Floor (Education Zone)' โทร 0968288833",
+      "checked": "2026-09-26"
+    },
+    {
+      "id": "cur:guitar-room-k-village",
+      "name": "Guitar Room (Music Collection) เค วิลเลจ",
+      "name_en": "Guitar Room K Village (Music Collection)",
+      "kind": "instrument_store",
+      "address": "เค วิลเลจ ห้อง B102/1, 93-95 ซอยสุขุมวิท 26 แขวงคลองตัน เขตคลองเตย กรุงเทพฯ 10110",
+      "geocode": "K Village, Bangkok",
+      "lat": null,
+      "lon": null,
+      "phone": "02-665-6375",
+      "website": "https://www.music.co.th/",
+      "social": [
+        "https://www.facebook.com/GuitarRoomkvillage/"
+      ],
+      "hours": "10:30-20:30 ทุกวัน",
+      "offer": [
+        "กีตาร์ Martin/Taylor/PRS",
+        "สายและอุปกรณ์ (Elixir, D'Addario, Zoom)",
+        "เปียโนดิจิทัล/คีย์บอร์ด Yamaha"
+      ],
+      "source_url": "https://kvillagebangkok.com/portfolio-items/guitar-room/",
+      "evidence": "หน้าร้านใน directory ของเค วิลเลจ: 'แหล่งรวมกีต้าร์ Martin, Taylor, PRS...' เปิด 10:30AM-8:30PM โทร 02 665 6375; หน้าสาขาของ music.co.th ระบุ 'K VILLAGE, SUKHUMVIT 26 — GUITAR ROOM, 93 95 ซอยสุขุมวิท 26 แขวงคลองตัน เขตคลองเตย'; ตัวแทน Yamaha ระบุห้อง B102/1",
+      "checked": "2026-09-26"
+    },
+    {
+      "id": "cur:hachi-record-k-village",
+      "name": "Hachi Record เค วิลเลจ",
+      "name_en": "Hachi Records K Village",
+      "kind": "record_store",
+      "address": "เค วิลเลจ ซอยสุขุมวิท 26 แขวงคลองตัน เขตคลองเตย",
+      "geocode": "K Village, Bangkok",
+      "lat": null,
+      "lon": null,
+      "phone": "065-434-4694",
+      "website": null,
+      "social": [],
+      "hours": null,
+      "offer": [
+        "แผ่นเสียงยุค 70 ถึงปัจจุบัน"
+      ],
+      "source_url": "https://kvillagebangkok.com/portfolio-items/hachi-record/",
+      "evidence": "หน้าร้านใน directory ของเค วิลเลจ: 'Hachi Record ... พบกับแผ่นเสียงคุณภาพจากยุค 70's จนถึงปัจจุบัน' โทร 065-434-4694 (Facebook: hachi records, IG: hachi.records)",
+      "checked": "2026-09-26"
+    },
+    {
+      "id": "cur:rockademy-sukhumvit-26",
+      "name": "Rockademy (ซอยสุขุมวิท 26)",
+      "name_en": "Rockademy Thailand",
+      "kind": "school",
+      "address": "A Square, 120/8 ซอยสุขุมวิท 26 (ตรงข้ามเค วิลเลจ) แขวงคลองตัน เขตคลองเตย กรุงเทพฯ 10110",
+      "geocode": "Soi Sukhumvit 26, Bangkok",
+      "lat": null,
+      "lon": null,
+      "phone": "02-261-3833",
+      "website": "https://www.rockademy.world/",
+      "social": [],
+      "hours": "อ.-ศ. 11:00-20:00, ส.-อา. 10:00-20:00 (ปิดวันจันทร์)",
+      "offer": [
+        "กีตาร์",
+        "กลอง",
+        "ร้องเพลง",
+        "วงดนตรี"
+      ],
+      "source_url": "https://www.rockademy.world/",
+      "evidence": "เว็บไซต์ Rockademy: 'Our iconic white building in A Square, Sukhumvit 26' ที่อยู่ 'A Square, 120/8 Sukhumvit Soi 26 (Opposite from K Village and Big C)' โทร 02 261 3833 เปิด อ.-ศ. 11-20 น. ส.-อา. 10-20 น.",
+      "checked": "2026-09-26"
+    },
+    {
+      "id": "cur:peterson-piano-institute",
+      "name": "Peterson Piano Institute (สถาบันดนตรีปีเตอร์สัน สุขุมวิท 26)",
+      "name_en": "Peterson Piano Institute",
+      "kind": "school",
+      "address": "712/1 อาคาร TBI ชั้น 2 ระหว่างซอยสุขุมวิท 26 และ 28 แขวงคลองตัน เขตคลองเตย กรุงเทพฯ 10110",
+      "geocode": "Peterson, Sukhumvit Road, Bangkok",
+      "lat": null,
+      "lon": null,
+      "phone": "02-661-2160",
+      "website": "https://school.peterson.co.th/",
+      "social": [],
+      "hours": null,
+      "offer": [
+        "เปียโน (Prep ถึง Grade 8)",
+        "กีตาร์",
+        "เครื่องเป่าลมไม้",
+        "สอบ ABRSM/Trinity"
+      ],
+      "source_url": "https://school.peterson.co.th/",
+      "evidence": "เว็บไซต์สถาบันระบุ 'Office address 712/1 TBI Building, 2nd floor, Sukhumvit 26 and 28 road'; เว็บ peterson.co.th ระบุโชว์รูม 'PETERSON SUKHUMVIT'26' และศูนย์ลูกค้า +662-6612160 (ตัวโชว์รูมเปียโน/กีตาร์มีใน OSM แล้ว)",
+      "checked": "2026-09-26"
+    },
+    {
+      "id": "cur:queen-bee-sukhumvit-26",
+      "name": "Queen Bee (บาร์ดนตรีสด สุขุมวิท 26)",
+      "name_en": "Queen Bee Bangkok",
+      "kind": "venue",
+      "address": "25/9 ซอยสุขุมวิท 26 แขวงคลองตัน เขตคลองเตย กรุงเทพฯ 10110 (ตรงข้าม DoubleTree by Hilton)",
+      "geocode": "Soi Sukhumvit 26, Bangkok",
+      "lat": null,
+      "lon": null,
+      "phone": "02-661-3017",
+      "website": "https://www.queenbeebangkok.com/",
+      "social": [],
+      "hours": null,
+      "offer": [
+        "ดนตรีสดทุกคืน (ร็อก/บลูส์)",
+        "แจ๊สแจมเซสชันบ่ายวันอาทิตย์",
+        "คอเมดี้คืนวันพฤหัสบดี"
+      ],
+      "source_url": "https://www.queenbeebangkok.com/",
+      "evidence": "เว็บไซต์ร้านระบุที่อยู่ '25/9 Soi Sukumvit 26, Sukumvit Rd. Klongton, Klongtoey' โทรบาร์ 026 613 017 และข้อความเรื่องดนตรีสด; รายละเอียดดนตรีสดทุกคืน/แจมวันอาทิตย์จาก expatsinbangkok (lead)",
+      "checked": "2026-09-26"
+    },
+    {
+      "id": "cur:otto-bar-sukhumvit-22",
+      "name": "Otto Bar (สุขุมวิท 22)",
+      "name_en": "Otto Bar Sukhumvit 22",
+      "kind": "venue",
+      "address": "หัวมุมซอยสุขุมวิท 22 แขวงคลองตัน เขตคลองเตย",
+      "geocode": "Soi Sukhumvit 22, Bangkok",
+      "lat": null,
+      "lon": null,
+      "phone": null,
+      "website": null,
+      "social": [
+        "https://www.facebook.com/p/Otto-Bar-Its-All-About-Of-Rock-Roll-Live-Place-At-Sukhumvit-22-100064957904540/"
+      ],
+      "hours": null,
+      "offer": [
+        "วงร็อกสด (house band) ทุกคืน"
+      ],
+      "source_url": "https://www.facebook.com/p/Otto-Bar-Its-All-About-Of-Rock-Roll-Live-Place-At-Sukhumvit-22-100064957904540/",
+      "evidence": "เพจ Facebook ของร้านชื่อ 'Otto Bar It's All About Of Rock & Roll Live Place At Sukhumvit 22' (หมวด Klong Toey) มีวิดีโอดนตรีสด; เวลาเล่นราว 21:00-01:00 จาก touristbangkok (lead)",
+      "checked": "2026-09-26"
+    },
+    {
+      "id": "cur:the-living-room-sheraton-grande-sukhumvit",
+      "name": "The Living Room โรงแรมเชอราตัน แกรนด์ สุขุมวิท",
+      "name_en": "The Living Room, Sheraton Grande Sukhumvit",
+      "kind": "venue",
+      "address": "โรงแรมเชอราตัน แกรนด์ สุขุมวิท ชั้น 1, 250 ถนนสุขุมวิท แขวงคลองเตย เขตคลองเตย",
+      "geocode": "Sheraton Grande Sukhumvit, Bangkok",
+      "lat": null,
+      "lon": null,
+      "phone": null,
+      "website": "https://www.marriott.com/en-us/hotels/bkklc-sheraton-grande-sukhumvit-a-luxury-collection-hotel-bangkok/dining/",
+      "social": [],
+      "hours": "แจ๊สสด อ.-ส. 20:00-22:45; เปียโน จ. 18:45-22:30; อา. 18:45-21:30",
+      "offer": [
+        "แจ๊สสดนักดนตรีนานาชาติ",
+        "Sunday Jazzy Brunch"
+      ],
+      "source_url": "https://www.marriott.com/en-us/dining/restaurant-bar/bkklc-sheraton-grande-sukhumvit-a-luxury-collection-hotel-bangkok/6072682-the-living-room.mi",
+      "evidence": "หน้า Marriott ของร้านระบุ 'Bangkok's premier live jazz lounge' แจ๊สสดวันอังคาร-เสาร์ 20:00-22:45 เปียโนวันจันทร์ 18:45-22:30 วันอาทิตย์ 18:45-21:30",
+      "checked": "2026-09-26"
+    },
+    {
+      "id": "cur:vinyl-and-wine-emsphere",
+      "name": "VINYL & WINE เอ็มสเฟียร์",
+      "name_en": "Vinyl & Wine EmSphere",
+      "kind": "venue",
+      "address": "เอ็มสเฟียร์ ชั้น 5 (Em Wonder) ถนนสุขุมวิท แขวงคลองตัน เขตคลองเตย",
+      "geocode": "EmSphere, Bangkok",
+      "lat": null,
+      "lon": null,
+      "phone": null,
+      "website": "https://emsphere.co.th/",
+      "social": [],
+      "hours": null,
+      "offer": [
+        "ดีเจเปิดแผ่นเสียง",
+        "วงดนตรีสด แจ๊ส/ป๊อปแจ๊ส/โซล/ฟังก์",
+        "ไวน์บาร์"
+      ],
+      "source_url": "https://emsphere.co.th/emwonder/vinyl-wine/",
+      "evidence": "หน้า directory ของเอ็มสเฟียร์: 'VINYL & WINE 5 floor ... Enjoy DJs spinning vinyl records and live bands playing Jazz, Pop Jazz, Soul, and Funk'",
+      "checked": "2026-09-26"
+    },
+    {
+      "id": "cur:uob-live-emsphere",
+      "name": "UOB LIVE เอ็มสเฟียร์",
+      "name_en": "UOB LIVE (EmSphere)",
+      "kind": "performing_arts",
+      "address": "เอ็มสเฟียร์ ชั้น 6 ถนนสุขุมวิท แขวงคลองตัน เขตคลองเตย กรุงเทพฯ 10110",
+      "geocode": "EmSphere, Bangkok",
+      "lat": null,
+      "lon": null,
+      "phone": null,
+      "website": "https://www.uoblive.asia/",
+      "social": [
+        "https://www.facebook.com/UOBLIVEBangkok/"
+      ],
+      "hours": null,
+      "offer": [
+        "ฮอลล์คอนเสิร์ต ความจุ 6,000 คน",
+        "คอนเสิร์ตศิลปินไทยและต่างประเทศ"
+      ],
+      "source_url": "https://www.uoblive.asia/event-hall/",
+      "evidence": "เว็บไซต์ UOB LIVE: '6th Floor EMSPHERE Sukhumvit Rd. Bangkok 10110' หมวด Concert ความจุ '6,000 Capacity'; ข่าว UOB ระบุเปิดด้วยคอนเสิร์ต Ed Sheeran (2024)",
+      "checked": "2026-09-26"
+    },
+    {
+      "id": "cur:qsncc-plenary-hall",
+      "name": "ศูนย์การประชุมแห่งชาติสิริกิติ์ (ฮอลล์ Plenary Hall)",
+      "name_en": "Queen Sirikit National Convention Center (Plenary Hall)",
+      "kind": "performing_arts",
+      "address": "60 ถนนรัชดาภิเษก แขวงคลองเตย เขตคลองเตย กรุงเทพฯ 10110",
+      "geocode": "Queen Sirikit National Convention Center, Bangkok",
+      "lat": null,
+      "lon": null,
+      "phone": null,
+      "website": "https://www.qsncc.com/",
+      "social": [],
+      "hours": null,
+      "offer": [
+        "Plenary Hall 1-4 (โรงละครความจุราว 6,000 ที่)",
+        "คอนเสิร์ตและการแสดงขนาดใหญ่"
+      ],
+      "source_url": "https://www.qsncc.com/en/visit/venue-guide/level-1/",
+      "evidence": "หน้า venue guide ของ QSNCC แสดง 'Plenary Hall 1-4' ที่ '60 ... Ratchadaphisek Road, Khlong Toei Sub-district, Khlong Toei District'; ThaiTicketMajor มีหน้า venue 'Plenary Hall (QSNCC)' สำหรับขายบัตรคอนเสิร์ต (lead)",
+      "checked": "2026-09-26"
+    },
+    {
+      "id": "cur:warner-music-thailand",
+      "name": "วอร์เนอร์ มิวสิค (ประเทศไทย) (อาคาร The PARQ)",
+      "name_en": "Warner Music (Thailand) Ltd.",
+      "kind": "business",
+      "address": "88 อาคาร The PARQ ชั้น 4 ยูนิต 8-11 ถนนรัชดาภิเษก แขวงคลองเตย เขตคลองเตย กรุงเทพฯ 10110",
+      "geocode": "The PARQ, Ratchadaphisek Road, Bangkok",
+      "lat": null,
+      "lon": null,
+      "phone": null,
+      "website": "https://www.wminewmedia.com/privacy/th-en/",
+      "social": [],
+      "hours": null,
+      "offer": [
+        "ค่ายเพลงสากล/ไทย",
+        "ลิขสิทธิ์และจัดจำหน่ายเพลง"
+      ],
+      "source_url": "https://www.wminewmedia.com/privacy/th-en/",
+      "evidence": "นโยบายความเป็นส่วนตัวของ Warner Music สำหรับประเทศไทย: 'Warner Music (Thailand) Ltd. ... company address is 88, The PARQ Building, 4th Floor, Unit 8-11, Ratchadaphisek Road, Khlong Toei'",
+      "checked": "2026-09-26"
+    },
+    {
+      "id": "cur:recoroom-vinyl-vintage-audio",
+      "name": "Recoroom vinyl & vintage audio",
+      "name_en": "Recoroom Vinyl & Vintage Audio",
+      "kind": "record_store",
+      "address": "อาคารด้านหน้าสถานีขนส่งเอกมัย ถนนสุขุมวิท แขวงพระโขนง เขตคลองเตย กรุงเทพฯ 10110",
+      "geocode": "Eastern Bus Terminal Ekkamai, Bangkok",
+      "lat": null,
+      "lon": null,
+      "phone": null,
+      "website": null,
+      "social": [
+        "https://www.facebook.com/recoroomjazz/",
+        "https://www.instagram.com/recoroom/"
+      ],
+      "hours": null,
+      "offer": [
+        "แผ่นเสียง โซล/ฟังก์/บลูส์/ร็อก",
+        "เครื่องเล่นแผ่นเสียงและเครื่องเสียงวินเทจ"
+      ],
+      "source_url": "https://www.facebook.com/recoroomjazz/",
+      "evidence": "เพจ Facebook ของร้าน 'Recoroom vinyl & vintage audio'; ที่ตั้ง 'ตึกด้านหน้า สถานีขนส่งเอกมัย แขวงพระโขนง เขตคลองเตย' จาก Time Out / The Vinyl Factory (lead)",
+      "checked": "2026-09-26"
+    },
+    {
+      "id": "cur:bang-olufsen-emporium",
+      "name": "Bang & Olufsen เอ็มโพเรียม",
+      "name_en": "Bang & Olufsen Emporium",
+      "kind": "audio_store",
+      "address": "ศูนย์การค้าเอ็มโพเรียม ชั้น 1, 622 ถนนสุขุมวิท แขวงคลองตัน เขตคลองเตย",
+      "geocode": "Emporium, Sukhumvit Road, Bangkok",
+      "lat": null,
+      "lon": null,
+      "phone": null,
+      "website": "https://www.emporium.co.th/",
+      "social": [],
+      "hours": null,
+      "offer": [
+        "ลำโพง/เครื่องเสียงไฮเอนด์",
+        "หูฟัง"
+      ],
+      "source_url": "https://www.emporium.co.th/directory/",
+      "evidence": "directory ของเอ็มโพเรียม หมวด lifestyle-and-technology: 'BANG&OLUFSEN 1F'",
+      "checked": "2026-09-26"
+    },
+    {
+      "id": "cur:bose-emporium",
+      "name": "Bose เอ็มโพเรียม",
+      "name_en": "Bose Emporium",
+      "kind": "audio_store",
+      "address": "ศูนย์การค้าเอ็มโพเรียม ชั้น 3, 622 ถนนสุขุมวิท แขวงคลองตัน เขตคลองเตย",
+      "geocode": "Emporium, Sukhumvit Road, Bangkok",
+      "lat": null,
+      "lon": null,
+      "phone": null,
+      "website": "https://www.emporium.co.th/",
+      "social": [],
+      "hours": null,
+      "offer": [
+        "ลำโพง",
+        "หูฟัง",
+        "ซาวด์บาร์"
+      ],
+      "source_url": "https://www.emporium.co.th/directory/",
+      "evidence": "directory ของเอ็มโพเรียม หมวด lifestyle-and-technology: 'BOSE 3F'",
+      "checked": "2026-09-26"
+    },
+    {
+      "id": "cur:devialet-emporium",
+      "name": "Devialet เอ็มโพเรียม",
+      "name_en": "Devialet Emporium",
+      "kind": "audio_store",
+      "address": "ศูนย์การค้าเอ็มโพเรียม ชั้น 3, 622 ถนนสุขุมวิท แขวงคลองตัน เขตคลองเตย",
+      "geocode": "Emporium, Sukhumvit Road, Bangkok",
+      "lat": null,
+      "lon": null,
+      "phone": null,
+      "website": "https://www.emporium.co.th/",
+      "social": [],
+      "hours": null,
+      "offer": [
+        "ลำโพงไฮเอนด์"
+      ],
+      "source_url": "https://www.emporium.co.th/directory/",
+      "evidence": "directory ของเอ็มโพเรียม หมวด lifestyle-and-technology: 'Devialet 3F'",
+      "checked": "2026-09-26"
+    },
+    {
+      "id": "cur:jbl-emporium",
+      "name": "JBL เอ็มโพเรียม",
+      "name_en": "JBL Emporium",
+      "kind": "audio_store",
+      "address": "ศูนย์การค้าเอ็มโพเรียม ชั้น 3, 622 ถนนสุขุมวิท แขวงคลองตัน เขตคลองเตย",
+      "geocode": "Emporium, Sukhumvit Road, Bangkok",
+      "lat": null,
+      "lon": null,
+      "phone": null,
+      "website": "https://www.emporium.co.th/",
+      "social": [],
+      "hours": null,
+      "offer": [
+        "ลำโพง",
+        "หูฟัง"
+      ],
+      "source_url": "https://www.emporium.co.th/directory/",
+      "evidence": "directory ของเอ็มโพเรียม หมวด lifestyle-and-technology: 'JBL 3F'",
+      "checked": "2026-09-26"
+    },
+    {
+      "id": "cur:marshall-emporium",
+      "name": "Marshall เอ็มโพเรียม",
+      "name_en": "Marshall Emporium",
+      "kind": "audio_store",
+      "address": "ศูนย์การค้าเอ็มโพเรียม ชั้น 3, 622 ถนนสุขุมวิท แขวงคลองตัน เขตคลองเตย",
+      "geocode": "Emporium, Sukhumvit Road, Bangkok",
+      "lat": null,
+      "lon": null,
+      "phone": null,
+      "website": "https://www.emporium.co.th/",
+      "social": [],
+      "hours": null,
+      "offer": [
+        "ลำโพง",
+        "หูฟัง"
+      ],
+      "source_url": "https://www.emporium.co.th/directory/",
+      "evidence": "directory ของเอ็มโพเรียม หมวด lifestyle-and-technology: 'Marshall 3F' (ร้านลำโพง/หูฟัง ไม่ยืนยันว่ามีแอมป์เครื่องดนตรี)",
+      "checked": "2026-09-26"
+    },
+    {
+      "id": "cur:eq-studio-soi-chokdee",
+      "name": "ห้องซ้อมดนตรี E.Q.Studio (ซอยโชคดี)",
+      "name_en": "E.Q. Studio Rehearsal Room",
+      "kind": "rehearsal",
+      "address": "2755/2 ซอยโชคดี ถนนพระราม 4 แขวงคลองเตย เขตคลองเตย กรุงเทพฯ 10110",
+      "geocode": "ซอยโชคดี, Bangkok",
+      "lat": null,
+      "lon": null,
+      "phone": "088-887-2880",
+      "website": null,
+      "social": [
+        "https://www.facebook.com/eqstudiothailand/",
+        "https://www.youtube.com/c/eqstudiomusicroom"
+      ],
+      "hours": "10:00-21:00 ทุกวัน (ต้องจองล่วงหน้า)",
+      "offer": [
+        "ห้องซ้อมดนตรี 3 ห้อง",
+        "บริการบันทึกเสียง"
+      ],
+      "source_url": "https://www.facebook.com/eqstudiothailand/",
+      "evidence": "เพจ Facebook ของร้าน 'ห้องซ้อมดนตรี E.Q.Studio' และ LINE OA; ที่อยู่ 2755/2 ซอยโชคดี ถ.พระราม 4 คลองเตย เวลา 10:00-21:00 ห้องซ้อม 3 ห้องและบริการอัดเสียง จาก salehere.co.th และ asiafirms (lead)",
+      "checked": "2026-09-26"
+    }
+  ],
+  "review": {
+    "osm:n10250107009": {
+      "kind": "instrument_store",
+      "note": "CT Music Shop (ซีที มิวสิค) ร้านเครื่องดนตรี 72/1-6 ซอยสุขุมวิท 40 แขวงพระโขนง: ยืนยันจาก dealer locator ของ Yamaha (CT MUSIC CO., LTD.) และเว็บ ctmusicshop.com (กีตาร์ แอมป์ กลอง เปียโน อุปกรณ์บันทึกเสียง) เปิด 10:00-18:30"
+    },
+    "osm:n3963975825": {
+      "kind": "instrument_store",
+      "note": "Peterson โชว์รูมเปียโนและ Peterson Guitar Gallery สุขุมวิท 26 (peterson.co.th, โทร 02-661-2160); สถาบันสอนดนตรีของ Peterson ลงแยกใน places"
+    },
+    "osm:n3923496223": {
+      "kind": "audio_store",
+      "note": "Jet Live Audio (Exchange Tower ชั้น 2 ถ.สุขุมวิท) ร้านหูฟัง/เครื่องเสียง; Foursquare ระบุ 'Now Closed' และเว็บ jetliveaudio.com ไม่ตอบ อาจปิดแล้ว ต้องตรวจ"
+    },
+    "osm:n11343059784": {
+      "kind": "karaoke",
+      "note": "Hisho (秘しょ) คาราโอเกะ/บาร์ญี่ปุ่นย่านพร้อมพงษ์ ยืนยันประเภทเดิม ไม่ได้ตรวจหน้าเจ้าของ"
+    },
+    "osm:w1087817582": {
+      "kind": "performing_arts",
+      "note": "ลานอัฒจันทร์กลางแจ้งไม่มีชื่อในสวนป่าเบญจกิติ (theatre:type=amphi) ไม่พบหลักฐานว่าใช้จัดดนตรีประจำ"
+    },
+    "osm:w1087817583": {
+      "kind": "performing_arts",
+      "note": "ลานอัฒจันทร์กลางแจ้งไม่มีชื่อในสวนป่าเบญจกิติ (theatre:type=amphi) ไม่พบหลักฐานว่าใช้จัดดนตรีประจำ"
+    },
+    "osm:w1155681726": {
+      "kind": "performing_arts",
+      "note": "ลานอัฒจันทร์กลางแจ้งไม่มีชื่อในสวนเบญจกิติ ฝั่งถนนรัชดาภิเษก/สุขุมวิท (theatre:type=amphi) ไม่พบหลักฐานว่าใช้จัดดนตรีประจำ"
+    }
+  },
+  "gaps": [
+    "Bangkok Music & Dance Academy (BMDA) ซอยอรรถกวี 1 สุขุมวิท 26: โดเมน musicdance.academy หมดอายุแล้ว (redirect ไป expireddomains) และบางแหล่งระบุย้ายไปสุขุมวิท 21 ยังไม่ยืนยันว่ายังเปิด",
+    "Gateway Ekamai: เว็บ gatewayekamai.com ไม่ตอบ ยังไม่ได้ไล่ directory หาร้านดนตรีอื่นนอกจาก Yamaha",
+    "Power Mall เอ็มโพเรียม (Zonic Vision) เป็นตัวแทน Yamaha หมวด AV ในห้างสรรพสินค้า ไม่ได้ลงเป็นร้านแยก",
+    "บาร์ดนตรีสดสุขุมวิท 24 (ห้องเดิม Highroll) และร้านย่านนานา/สุขุมวิท 4-22 ยังไม่ได้ตรวจหน้าเจ้าของ",
+    "มหาวิทยาลัยกรุงเทพ วิทยาเขตกล้วยน้ำไท (ถ.พระราม 4): ยังไม่ได้ตรวจว่ามีหน่วยงาน/หลักสูตรดนตรีในวิทยาเขตนี้",
+    "Sugar Ray (สุขุมวิท 24) บาร์ไวนิลตาม BK Magazine (lead) ไม่ชัดว่าเน้นดนตรี ไม่ลง",
+    "EmSphere: directory ไม่มีร้านเครื่องดนตรี/โรงเรียนดนตรี (ณ วันที่ตรวจ)"
+  ]
+}

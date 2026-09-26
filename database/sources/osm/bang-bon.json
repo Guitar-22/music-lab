@@ -1,0 +1,91 @@
+{
+ "district": "บางบอน",
+ "rel": 3147312,
+ "fetchedAt": "2026-09-26T02:57:13.841Z",
+ "source": "https://overpass.kumi.systems/api/interpreter",
+ "license": "ODbL © OpenStreetMap contributors",
+ "query": "[out:json][timeout:120];area(3603147312)->.a;(\nnwr(area.a)[\"shop\"~\"^(musical_instrument|music|hifi)$\"];\nnwr(area.a)[\"amenity\"~\"^(music_school|music_venue|studio|concert_hall|theatre|arts_centre|karaoke_box)$\"];\nnwr(area.a)[\"craft\"~\"musical_instrument|piano_tuner|luthier\"];\nnwr(area.a)[\"studio\"];\nnwr(area.a)[\"live_music\"=\"yes\"];\nnwr(area.a)[\"name\"~\"ดนตรี|เพลง|music|guitar|กีตาร์|piano|เปียโน|drum|กลอง|violin|ไวโอลิน|jazz|แจ๊ส|ห้องซ้อม|rehearsal|recording|อัดเสียง|ukulele|อูคูเลเล่|saxophone|แซกโซโฟน|ระนาด|ขิม|orchestra|symphony|ดุริยาง\",i];\nnwr(area.a)[\"name:en\"~\"ดนตรี|เพลง|music|guitar|กีตาร์|piano|เปียโน|drum|กลอง|violin|ไวโอลิน|jazz|แจ๊ส|ห้องซ้อม|rehearsal|recording|อัดเสียง|ukulele|อูคูเลเล่|saxophone|แซกโซโฟน|ระนาด|ขิม|orchestra|symphony|ดุริยาง\",i];\n);out center tags;",
+ "elements": [
+  {
+   "type": "node",
+   "id": 3036599950,
+   "lat": 13.6844286,
+   "lon": 100.4450164,
+   "tags": {
+    "name": "เส้นเสียง",
+    "shop": "musical_instrument"
+   }
+  },
+  {
+   "type": "node",
+   "id": 13346801932,
+   "lat": 13.6880171,
+   "lon": 100.4358462,
+   "tags": {
+    "addr:district": "เขตบางบอน",
+    "addr:housenumber": "55/19",
+    "addr:postcode": "10150",
+    "addr:province": "กรุงเทพมหานคร",
+    "addr:street": "ซฮยกำนันแม้น 13",
+    "addr:subdistrict": "แขวงคลองบางพราน",
+    "amenity": "studio",
+    "name": "LOLLIPOP Studio",
+    "studio": "audio"
+   }
+  },
+  {
+   "type": "way",
+   "id": 1370480467,
+   "center": {
+    "lat": 13.6514791,
+    "lon": 100.3978077
+   },
+   "tags": {
+    "amenity": "theatre",
+    "name": "อัฒจันทร์ริมน้ำ",
+    "name:th": "อัฒจันทร์ริมน้ำ",
+    "theatre:type": "amphi"
+   }
+  },
+  {
+   "type": "way",
+   "id": 1370480476,
+   "center": {
+    "lat": 13.651448,
+    "lon": 100.3963533
+   },
+   "tags": {
+    "amenity": "theatre",
+    "name": "อัฒจันทร์เนินที่ 5",
+    "name:th": "อัฒจันทร์เนินที่ 5",
+    "theatre:type": "amphi"
+   }
+  },
+  {
+   "type": "way",
+   "id": 1370480483,
+   "center": {
+    "lat": 13.6501982,
+    "lon": 100.3966621
+   },
+   "tags": {
+    "amenity": "theatre",
+    "name": "อัฒจันทร์ริมน้ำ",
+    "name:th": "อัฒจันทร์ริมน้ำ",
+    "theatre:type": "amphi"
+   }
+  },
+  {
+   "type": "way",
+   "id": 1371214873,
+   "center": {
+    "lat": 13.6501265,
+    "lon": 100.3946618
+   },
+   "tags": {
+    "amenity": "theatre",
+    "theatre:type": "amphi"
+   }
+  }
+ ]
+}
