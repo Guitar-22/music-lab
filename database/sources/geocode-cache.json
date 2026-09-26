@@ -946,5 +946,79 @@
   "coarse": false,
   "matched": "Millennium Hilton Bangkok",
   "approximate": false
+ },
+ "วัดเวฬุราชิณ": {
+  "lat": 13.7257576,
+  "lon": 100.4855098,
+  "display": "วัดเวฬุราชิณ, ถนนเทอดไท, ชุมชนตากสินสัมพันธ์, แขวงบางยี่เรือ, เขตธนบุรี, กรุงเทพมหานคร, 10600, ประเทศไทย",
+  "osm": "way/352819382",
+  "feature": "amenity/place_of_worship",
+  "coarse": false,
+  "matched": "วัดเวฬุราชิณ",
+  "approximate": false
+ },
+ "วัดกัลยาณมิตร": {
+  "lat": 13.7400878,
+  "lon": 100.4912378,
+  "display": "วัดกัลยาณมิตรวรมหาวิหาร, ซอยอรุณอมรินทร์ 8, แขวงวัดอรุณ, เขตบางกอกใหญ่, กรุงเทพมหานคร, 10600, ประเทศไทย",
+  "osm": "way/342355805",
+  "feature": "amenity/place_of_worship",
+  "coarse": false,
+  "matched": "วัดกัลยาณมิตร",
+  "approximate": false
+ },
+ "เดอะมอลล์ ท่าพระ": {
+  "lat": 13.7136031,
+  "lon": 100.4799788,
+  "display": "เดอะมอลล์ ท่าพระ, ถนนรัชดาภิเษก, แขวงดาวคะนอง, เขตธนบุรี, กรุงเทพมหานคร, 10600, ประเทศไทย",
+  "osm": "way/30754265",
+  "feature": "shop/mall",
+  "coarse": false,
+  "matched": "เดอะมอลล์ ท่าพระ",
+  "approximate": false
+ },
+ "Central Pinklao": {
+  "lat": 13.777641,
+  "lon": 100.4759646,
+  "display": "เซ็นทรัล ปิ่นเกล้า, 7/1, ถนนบรมราชชนนี, แขวงอรุณอมรินทร์, เขตบางกอกน้อย, กรุงเทพมหานคร, 10700, ประเทศไทย",
+  "osm": "way/229875823",
+  "feature": "shop/mall",
+  "coarse": false,
+  "matched": "Central Pinklao",
+  "approximate": false
+ },
+ "Terminal 21 Rama 3, Bangkok": {
+  "lat": 13.6886251,
+  "lon": 100.5053719,
+  "display": "เทอร์มินอล 21 พระราม 3, ถนนพระรามที่ 3, แขวงบางโคล่, เขตบางคอแหลม, กรุงเทพมหานคร, 10120, ประเทศไทย",
+  "osm": "way/1113078832",
+  "feature": "shop/mall",
+  "coarse": false,
+  "matched": "Terminal 21 Rama 3, Bangkok",
+  "approximate": false
+ },
+ "ซอยจรัญสนิทวงศ์ 2, Bangkok": {
+  "lat": 13.7314879,
+  "lon": 100.4742927,
+  "display": "ซอยจรัญสนิทวงศ์ 2, อำนวยสุข, แขวงวัดท่าพระ, เขตบางกอกใหญ่, กรุงเทพมหานคร, 10600, ประเทศไทย",
+  "osm": "way/628228246",
+  "feature": "highway/residential",
+  "coarse": true,
+  "matched": "ซอยจรัญสนิทวงศ์ 2, Bangkok",
+  "approximate": true
+ },
+ "Lotus's Rama 3, Bangkok": {
+  "miss": true,
+  "tried": [
+   "Lotus's Rama 3, Bangkok",
+   "Lotus's Rama 3"
+  ]
+ },
+ "Tesco Lotus Rama 3": {
+  "miss": true,
+  "tried": [
+   "Tesco Lotus Rama 3",
+   "Tesco Lotus Rama 3, Bangkok"
+  ]
  }
 }

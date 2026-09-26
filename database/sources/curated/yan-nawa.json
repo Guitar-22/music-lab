@@ -1,0 +1,67 @@
+{
+  "district": "ยานนาวา",
+  "researchedAt": "2026-09-26",
+  "places": [
+    {
+      "id": "cur:melodyplus-lotus-rama-3",
+      "name": "โรงเรียนดนตรีเมโลดี้พลัส สาขาโลตัส พระราม 3",
+      "name_en": "MelodyPlus Music School Lotus Rama 3",
+      "kind": "school",
+      "address": "โลตัส พระราม 3 ชั้น 3 (ฝั่งศูนย์อาหาร), 172 ถนนนราธิวาสราชนครินทร์ แขวงช่องนนทรี เขตยานนาวา",
+      "geocode": null,
+      "lat": null,
+      "lon": null,
+      "phone": null,
+      "website": "https://www.melodyplusmusic.com/",
+      "social": [],
+      "hours": null,
+      "offer": [
+        "เปียโน",
+        "กีตาร์",
+        "ร้องเพลง"
+      ],
+      "source_url": "https://melodyplusmusic.com/index.php/contact-us",
+      "evidence": "หน้าติดต่อ (เวอร์ชันเก่า) ของ MelodyPlus ระบุสาขา Lotus Express Rama 3 ชั้น 3 ฝั่ง Food Court 172 ถ.นราธิวาสฯ แขวงช่องนนทรี เขตยานนาวา; หน้าแรกปัจจุบันแสดง 5 สาขาซึ่งไม่มีสาขานี้ — อาจปิดแล้ว (lead)",
+      "checked": "2026-09-26"
+    }
+  ],
+  "review": {
+    "osm:w1286776053": {
+      "kind": "school",
+      "note": "DEMUS - Dalcroze Eurhythmics and Music School มีในไดเรกทอรีสถาบันของ Steinway Thailand"
+    },
+    "osm:w1332842774": {
+      "kind": "school",
+      "note": "Amstutz Music School มีเพจ Facebook ของเจ้าของ (facebook.com/AmstutzMusicSchool) ซอยประสาทสุข"
+    },
+    "osm:w1353945562": {
+      "exclude": true,
+      "note": "โหนดอัฒจันทร์ (theatre:type=amphi) ไม่มีชื่อ 5 จุดติดกัน อยู่ในบริเวณโรงเรียนใกล้ห้องวงดุริยางค์ — เป็นที่นั่งลานโรงเรียน ไม่ใช่หอแสดง"
+    },
+    "osm:w1353945563": {
+      "exclude": true,
+      "note": "อัฒจันทร์ไม่มีชื่อ (ดู w1353945562)"
+    },
+    "osm:w1353945564": {
+      "exclude": true,
+      "note": "อัฒจันทร์ไม่มีชื่อ (ดู w1353945562)"
+    },
+    "osm:w1353945565": {
+      "exclude": true,
+      "note": "อัฒจันทร์ไม่มีชื่อ (ดู w1353945562)"
+    },
+    "osm:w1353945566": {
+      "exclude": true,
+      "note": "อัฒจันทร์ไม่มีชื่อ (ดู w1353945562)"
+    },
+    "osm:w1353945588": {
+      "kind": "ensemble",
+      "note": "ห้องวงดุริยางค์ของโรงเรียน (building=school) ใกล้กลุ่มอัฒจันทร์ — ห้องซ้อมวงโรงเรียน ยังไม่ยืนยันชื่อโรงเรียน (lead)"
+    }
+  },
+  "gaps": [
+    "Central Rama 3: พบเพียงโรงเรียนดนตรียามาฮ่า ชั้น 6 (มีแล้วจาก yamaha:SMY0520) และเพจ SCR3P&EShop (ร้าน Yamaha piano ชั้น 6) ซึ่งน่าจะเป็นส่วนเดียวกันของโรงเรียน — ไม่เพิ่มแยก",
+    "ไม่พบสาขา Music Collection ใน Central Rama 3 (หน้า store-locations ของ music.co.th เปิดไม่ได้ ใบรับรอง SSL มีปัญหา)",
+    "สาขา MelodyPlus Lotus Rama 3 ต้องยืนยันว่ายังเปิดอยู่"
+  ]
+}

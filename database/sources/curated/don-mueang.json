@@ -1,0 +1,45 @@
+{
+  "district": "ดอนเมือง",
+  "researchedAt": "2026-09-26",
+  "places": [
+    {
+      "id": "cur:rtaf-band-don-mueang",
+      "name": "กองดุริยางค์ทหารอากาศ",
+      "name_en": "Royal Thai Air Force Band",
+      "kind": "ensemble",
+      "address": "11 ถนนเดชะตุงคะ แขวงสีกัน เขตดอนเมือง กรุงเทพฯ 10210",
+      "geocode": "กองดุริยางค์ทหารอากาศ",
+      "lat": null, "lon": null,
+      "phone": "02-534-8890",
+      "website": "https://rtafband.rtaf.mi.th/",
+      "social": [],
+      "hours": null,
+      "offer": ["วงดุริยางค์ทหารอากาศ"],
+      "source_url": "https://rtafband.rtaf.mi.th/contactus",
+      "evidence": "หน้าติดต่อของหน่วย: 11 ถนน เดชะตุงคะ แขวงสีกัน เขตดอนเมือง โทร 02-534-8890",
+      "checked": "2026-09-26"
+    },
+    {
+      "id": "cur:moai-studio-don-mueang",
+      "name": "Moai Studio ห้องอัดเสียง ห้องซ้อมดนตรี ดอนเมือง",
+      "name_en": "Moai Studio",
+      "kind": "studio",
+      "address": "หมู่บ้านธนินทร เขตดอนเมือง",
+      "geocode": null,
+      "lat": null, "lon": null,
+      "phone": null,
+      "website": "https://rompband.wixsite.com/moaistudio",
+      "social": ["https://www.facebook.com/moai8studio/"],
+      "hours": null,
+      "offer": ["ห้องอัดเสียง", "ห้องซ้อมดนตรี", "ทำเพลง/เสียงโฆษณา"],
+      "source_url": "https://www.facebook.com/moai8studio/",
+      "evidence": "เพจ Facebook ของสตูดิโอ: ห้องซ้อมดนตรีย่านดอนเมือง อยู่ในหมู่บ้านธนินทร ชั่วโมงละ 250 บาท รับอัดเสียงและทำเพลง; เว็บสตูดิโอยืนยันบริการ",
+      "checked": "2026-09-26"
+    }
+  ],
+  "review": {},
+  "gaps": [
+    "ห้องซ้อมที่พบแค่ชื่อเพจ: ห้องซ้อมพี่ต้อม แสงไพทูรย์ (facebook.com/Peetomsound), Yuki Freedom Studio (ดอนเมือง-รังสิต), Take Me Fly Studio สาขาดอนเมือง ยังไม่มีที่อยู่ยืนยัน",
+    "ไม่มีรายการ OSM ด้านดนตรีในเขต"
+  ]
+}

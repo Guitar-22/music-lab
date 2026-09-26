@@ -1,0 +1,34 @@
+{
+  "district": "บางคอแหลม",
+  "researchedAt": "2026-09-26",
+  "places": [
+    {
+      "id": "cur:melodyplus-terminal21-rama-3",
+      "name": "โรงเรียนดนตรีเมโลดี้พลัส สาขาเทอร์มินอล 21 พระราม 3",
+      "name_en": "MelodyPlus Music School Terminal 21 Rama 3",
+      "kind": "school",
+      "address": "เทอร์มินอล 21 พระราม 3, 356 ถนนพระราม 3 แขวงบางคอแหลม เขตบางคอแหลม",
+      "geocode": "Terminal 21 Rama 3, Bangkok",
+      "lat": null, "lon": null,
+      "phone": null,
+      "website": "https://www.melodyplusmusic.com/",
+      "social": [],
+      "hours": null,
+      "offer": ["เปียโน (Trinity/ABRSM)", "ไวโอลิน", "กีตาร์/เบส/อูคูเลเล่", "ร้องเพลง", "กลอง", "แซกโซโฟน", "ทฤษฎีดนตรี", "ดนตรีไทย", "บัลเลต์"],
+      "source_url": "https://www.melodyplusmusic.com/teachers/rama3/index.html",
+      "evidence": "เว็บไซต์ MelodyPlus แสดงสาขา Terminal 21 Rama 3 (1 ใน 5 สาขา) พร้อมวิชาที่สอน; หน้าติดต่อระบุที่อยู่ 356 ถ.พระราม 3 แขวง/เขตบางคอแหลม",
+      "checked": "2026-09-26"
+    }
+  ],
+  "review": {
+    "osm:n2156863362": { "kind": "performing_arts", "note": "Calypso Cabaret ที่ Asiatique (Warehouse 3) โชว์คาบาเรต์ใช้ดนตรีประกอบ — คงไว้เป็นหอแสดง" },
+    "osm:w199925704": { "kind": "performing_arts", "note": "Siam Fantasy (Warehouse 4) Asiatique โรงแสดงโชว์" },
+    "osm:n5598909322": { "kind": "rehearsal", "note": "ห้องซ้อม + ช่างซ่อมกีตาร์ ในรายการเดียว; ไม่พบหน้าเจ้าของ" }
+  },
+  "gaps": [
+    "Asiatique: เวทีดนตรีสด/บาร์แจ๊สในโครงการ (เช่นที่รีวิวอ้างถึง) ยังไม่พบหน้าเจ้าของยืนยันว่ายังเปิด",
+    "Joe Louis Thai Puppet Theatre: ไม่แน่ใจว่ายังแสดงที่ Asiatique — ไม่ใส่",
+    "Terminal 21 Rama 3: directory ของห้างโหลดแบบไดนามิก ไม่พบร้านเครื่องดนตรีอื่น",
+    "yamaha:SMY0355 บริษัท อินไซด์ มิวสิค (ซ.เจริญราษฎร์ 7) — ที่อยู่แขวงบางโคล่ อยู่ในเขตจริง ไม่ได้ตรวจเพิ่ม"
+  ]
+}

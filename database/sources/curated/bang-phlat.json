@@ -1,0 +1,38 @@
+{
+  "district": "บางพลัด",
+  "researchedAt": "2026-09-26",
+  "places": [
+    {
+      "id": "cur:kamonwan-music-school-bang-phlat",
+      "name": "โรงเรียนดนตรีกมลวรรณ",
+      "name_en": "Kamonwan Music School",
+      "kind": "school",
+      "address": "ถนนสิรินธร เยื้องตั้งฮั่วเส็งธนบุรี เขตบางพลัด (lead)",
+      "geocode": null,
+      "lat": null, "lon": null,
+      "phone": null,
+      "website": null,
+      "social": ["https://www.facebook.com/kamonwanmusicschool/"],
+      "hours": null,
+      "offer": null,
+      "source_url": "https://www.facebook.com/kamonwanmusicschool/",
+      "evidence": "เพจ Facebook ของโรงเรียน; ที่ตั้ง บางพลัด ถนนสิรินธร เยื้องตั้งฮั่วเส็งธนบุรี มาจากไดเรกทอรี (lead) ยังไม่ยืนยันจากเพจ",
+      "checked": "2026-09-26"
+    }
+  ],
+  "review": {
+    "osm:n12820001765": { "exclude": true, "note": "ชุมชนวัดเพลง: ชื่อชุมชน ไม่เกี่ยวกับดนตรี" },
+    "osm:w376863075": { "exclude": true, "note": "วัดเพลง: วัด ไม่เกี่ยวกับดนตรี" },
+    "osm:w830801793": { "exclude": true, "note": "คลองวัดเพลง: คลอง" },
+    "osm:w1350308448": { "kind": "higher_ed", "note": "สถาบันดนตรีกัลยาณิวัฒนา (PGVIM) สถาบันอุดมศึกษาดนตรี (pgvim.ac.th)" },
+    "osm:w1135380268": { "note": "กลุ่มอาคาร amenity=theatre 4 หลัง (อาเหนก ป้าสง / ช่างเชื่อม / Spectrum Hall) ยังระบุเจ้าของไม่ได้" },
+    "osm:w1135380270": { "note": "ดู w1135380268; tag theatre:genre=musical" },
+    "osm:w1135410435": { "note": "Spectrum Hall: ดู w1135380268" }
+  },
+  "gaps": [
+    "yamaha:SMY0450 บริษัท ธีระมิวสิค: ที่อยู่ในรายการ Yamaha คือ 77/55 ถ.บรมราชชนนี แขวงอรุณอมรินทร์ เขตบางกอกน้อย แต่พิกัดตกในบางพลัด ควรตรวจ/ย้ายเขต",
+    "Central Pinklao (Music Collection, Yamaha school) อยู่เขตบางกอกน้อย ไม่ใช่บางพลัด; yamaha:SMY0467 (Yamaha Central Pinklao) พิกัดผิดไปทวีวัฒนา",
+    "เจ้าของกลุ่มโรงละคร OSM ใกล้ 13.789,100.470 ยังไม่พบ",
+    "ห้องซ้อม/สตูดิโอฝั่งบางพลัดยังไม่พบหน้าเจ้าของ"
+  ]
+}

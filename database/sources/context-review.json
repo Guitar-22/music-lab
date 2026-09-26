@@ -2,13 +2,101 @@
   "reviewedAt": "2026-09-26",
   "rule": "ผลตัดสินของขั้นตรวจบริบท (lib/context.cjs) สำหรับรายการ OSM ในเขตที่ยังไม่มีไฟล์ curated — ชื่อที่มีคำดนตรีต้องมี tag/หลักฐานที่สอดคล้องจึงแสดงใน portal; ถ้าเขตนั้นมีไฟล์ curated แล้ว ให้ย้ายผลตัดสินไปไว้ใน review ของเขตนั้น",
   "decisions": {
-    "osm:n11235347176": { "kind": "business", "note": "Itim Music Publishing — office=company เป็นบริษัทจัดพิมพ์/ลิขสิทธิ์เพลง ไม่ใช่เวที (เดิมจัดผิดเพราะคำว่า Publishing มี 'pub')" },
-    "osm:n13327531976": { "kind": "school", "note": "Keng's Violin Studio — description ใน OSM ระบุสอนไวโอลินตั้งแต่ระดับเริ่มต้น ไม่ใช่สตูดิโออัดเสียง" },
-    "osm:n5598909322": { "kind": "rehearsal", "note": "ชื่อระบุห้องซ้อมดนตรีและช่างซ่อมกีตาร์ แม้ tag เป็น shop=electronics — ยังไม่ยืนยันจากหน้าเจ้าของ" },
-    "osm:n2156863362": { "kind": "performing_arts", "note": "Calypso Cabaret มีเว็บไซต์ของโรงละคร — เป็นโชว์คาบาเรต์ ไม่ใช่เวทีดนตรีสด" },
-    "osm:w605773027": { "exclude": true, "note": "Montessori Academy Bangkok — โรงเรียนแนวมอนเตสซอรี tag amenity=music_school ขัดกับชื่อ ไม่พบสัญญาณว่าเป็นโรงเรียนดนตรี" },
-    "osm:w1370480467": { "exclude": true, "note": "อัฒจันทร์ริมน้ำ (theatre:type=amphi) อัฒจันทร์ในพื้นที่สาธารณะ ไม่ใช่เวทีดนตรีประจำ" },
-    "osm:w1370480476": { "exclude": true, "note": "อัฒจันทร์เนินที่ 5 (theatre:type=amphi) อัฒจันทร์ในพื้นที่สาธารณะ ไม่ใช่เวทีดนตรีประจำ" },
-    "osm:w1370480483": { "exclude": true, "note": "อัฒจันทร์ริมน้ำ (theatre:type=amphi) อัฒจันทร์ในพื้นที่สาธารณะ ไม่ใช่เวทีดนตรีประจำ" }
+    "osm:n11235347176": {
+      "kind": "business",
+      "note": "Itim Music Publishing — office=company เป็นบริษัทจัดพิมพ์/ลิขสิทธิ์เพลง ไม่ใช่เวที (เดิมจัดผิดเพราะคำว่า Publishing มี 'pub')"
+    },
+    "osm:n13327531976": {
+      "kind": "school",
+      "note": "Keng's Violin Studio — description ใน OSM ระบุสอนไวโอลินตั้งแต่ระดับเริ่มต้น ไม่ใช่สตูดิโออัดเสียง"
+    },
+    "osm:n5598909322": {
+      "kind": "rehearsal",
+      "note": "ชื่อระบุห้องซ้อมดนตรีและช่างซ่อมกีตาร์ แม้ tag เป็น shop=electronics — ยังไม่ยืนยันจากหน้าเจ้าของ"
+    },
+    "osm:n2156863362": {
+      "kind": "performing_arts",
+      "note": "Calypso Cabaret มีเว็บไซต์ของโรงละคร — เป็นโชว์คาบาเรต์ ไม่ใช่เวทีดนตรีสด"
+    },
+    "osm:w605773027": {
+      "exclude": true,
+      "note": "Montessori Academy Bangkok — โรงเรียนแนวมอนเตสซอรี tag amenity=music_school ขัดกับชื่อ ไม่พบสัญญาณว่าเป็นโรงเรียนดนตรี"
+    },
+    "osm:w1370480467": {
+      "exclude": true,
+      "note": "อัฒจันทร์ริมน้ำ (theatre:type=amphi) อัฒจันทร์ในพื้นที่สาธารณะ ไม่ใช่เวทีดนตรีประจำ"
+    },
+    "osm:w1370480476": {
+      "exclude": true,
+      "note": "อัฒจันทร์เนินที่ 5 (theatre:type=amphi) อัฒจันทร์ในพื้นที่สาธารณะ ไม่ใช่เวทีดนตรีประจำ"
+    },
+    "osm:w1370480483": {
+      "exclude": true,
+      "note": "อัฒจันทร์ริมน้ำ (theatre:type=amphi) อัฒจันทร์ในพื้นที่สาธารณะ ไม่ใช่เวทีดนตรีประจำ"
+    },
+    "osm:n3915727336": {
+      "kind": "performing_arts",
+      "note": "หอประชุม Alliance Française — จัดคอนเสิร์ตและการแสดงเป็นประจำ"
+    },
+    "osm:n6248868685": {
+      "exclude": true,
+      "note": "Goon Studio — ไม่พบหลักฐานว่าเป็นสตูดิโอดนตรี"
+    },
+    "osm:n10581612348": {
+      "kind": "school",
+      "note": "โรงเรียนดนตรีของวง RBSO ใกล้สวนลุมพินี (มีในทะเบียนกลุ่มโรงเรียน)"
+    },
+    "osm:n12092067233": {
+      "kind": "performing_arts",
+      "note": "โรงละครเคแบงก์สยามพิฆเนศ — จัดละครเพลงและคอนเสิร์ต"
+    },
+    "osm:w48966995": {
+      "kind": "performing_arts",
+      "note": "หอศิลปฯ กรุงเทพ (BACC) — มีเวทีและกิจกรรมดนตรีสม่ำเสมอ"
+    },
+    "osm:w1292979514": {
+      "exclude": true,
+      "note": "อัฒจันทร์กลางแจ้งในจุฬาฯ ไม่ใช่เวทีดนตรีประจำ"
+    },
+    "osm:n6570646185": {
+      "kind": "performing_arts",
+      "note": "โรงละครศาลหลักเมือง — การแสดงละคร/ลิเกพร้อมวงปี่พาทย์"
+    },
+    "osm:w134106789": {
+      "kind": "performing_arts",
+      "note": "โรงละครวังหน้า — ใช้แสดงนาฏศิลป์และดนตรีไทย"
+    },
+    "osm:w1265994092": {
+      "kind": "performing_arts",
+      "note": "ศาลาเฉลิมกรุง — จัดโขนและคอนเสิร์ต"
+    },
+    "osm:w1434802192": {
+      "exclude": true,
+      "note": "หอศิลป์ร่วมสมัยราชดำเนิน — หอศิลป์ภาพ ไม่ใช่เวทีดนตรี"
+    },
+    "osm:r20505833": {
+      "kind": "performing_arts",
+      "note": "โรงละครแห่งชาติ — การแสดงดนตรีไทยและนาฏศิลป์"
+    },
+    "osm:n3928970138": {
+      "exclude": true,
+      "note": "SOL arts centre — ไม่พบหลักฐานกิจกรรมดนตรี"
+    },
+    "osm:w1273631793": {
+      "exclude": true,
+      "note": "PPTV — สถานีโทรทัศน์ ไม่ใช่สถานที่ดนตรี"
+    },
+    "osm:w542916936": {
+      "exclude": true,
+      "note": "Thongmuan Studio — สตูดิโอวิดีโอ"
+    },
+    "osm:n2833603609": {
+      "kind": "school",
+      "note": "KPN Music Academy สาขา Pickadaily (เครือข่ายโรงเรียนดนตรี KPN)"
+    },
+    "osm:w1353945588": {
+      "exclude": true,
+      "note": "ห้องวงดุริยางค์ภายในโรงเรียน ไม่เปิดให้บุคคลภายนอก"
+    }
   }
 }

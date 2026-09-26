@@ -1,0 +1,68 @@
+{
+  "district": "บางกอกน้อย",
+  "researchedAt": "2026-09-26",
+  "places": [
+    {
+      "id": "cur:yamaha-music-school-central-pinklao",
+      "name": "โรงเรียนดนตรียามาฮ่า เซ็นทรัลปิ่นเกล้า",
+      "name_en": "Yamaha Music School Central Pinklao",
+      "kind": "school",
+      "address": "เซ็นทรัลปิ่นเกล้า อาคารสำนักงาน ทาวเวอร์ บี ชั้น 8, 7/222 ถ.บรมราชชนนี แขวงอรุณอมรินทร์ เขตบางกอกน้อย กรุงเทพฯ 10700",
+      "geocode": "Central Pinklao",
+      "lat": null, "lon": null,
+      "phone": "099-439-6644",
+      "website": "https://th.yamaha.com/th/education/index.html",
+      "social": ["https://www.facebook.com/yamahamusicschool.centralpinklao"],
+      "hours": null,
+      "offer": ["หลักสูตรดนตรียามาฮ่า (ทุกหลักสูตร)"],
+      "source_url": "https://th.yamaha.com/th/education/school-locator/music-school-new.html",
+      "evidence": "ระบบค้นหาโรงเรียนของ Yamaha Thailand (API musicschool, SMY0006): 'โรงเรียนดนตรียามาฮ่า เซ็นทรัลปิ่นเกล้า — เซ็นทรัลปิ่นเกล้า (อาคารสำนักงาน ทาวเวอร์ บี) ชั้น 8' โทร 0994396644, All Courses",
+      "checked": "2026-09-26"
+    },
+    {
+      "id": "cur:melodyplus-central-pinklao",
+      "name": "MelodyPlus โรงเรียนดนตรีเมโลดี้พลัส สาขาเซ็นทรัลปิ่นเกล้า",
+      "name_en": "MelodyPlus Music School Central Pinklao",
+      "kind": "school",
+      "address": "อาคารสำนักงานเซ็นทรัลปิ่นเกล้า ห้อง 2202 ชั้น 22 (และชั้น 16), ถ.บรมราชชนนี แขวงอรุณอมรินทร์ เขตบางกอกน้อย กรุงเทพฯ 10700",
+      "geocode": "Central Pinklao",
+      "lat": null, "lon": null,
+      "phone": null,
+      "website": "https://www.melodyplusmusic.com/",
+      "social": ["https://www.facebook.com/Melodyplusmusicschool/"],
+      "hours": null,
+      "offer": ["เปียโน", "ขับร้อง", "กีตาร์", "ไวโอลิน", "กลอง"],
+      "source_url": "https://www.melodyplusmusic.com/",
+      "evidence": "หน้าแรก melodyplusmusic.com ระบุสาขา Central Pinklao; หน้า contact-us (อ่านจากผลค้นหา หน้าตอบ 404 ขณะตรวจ) ระบุ 'ห้อง 2202 ชั้น 22 อาคารสำนักงานเซ็นทรัลปิ่นเกล้า' แขวงอรุณอมรินทร์ เขตบางกอกน้อย",
+      "checked": "2026-09-26"
+    },
+    {
+      "id": "cur:bma-amphawa-recreation-centre",
+      "name": "ศูนย์นันทนาการอัมพวา (กรุงเทพมหานคร)",
+      "name_en": "Amphawa Recreation Centre (BMA)",
+      "kind": "school",
+      "address": "111 ซอยจรัญสนิทวงศ์ แขวงบ้านช่างหล่อ เขตบางกอกน้อย กรุงเทพฯ 10700",
+      "geocode": null,
+      "lat": null, "lon": null,
+      "phone": "02-412-0712",
+      "website": "https://learning.bangkok.go.th/location/loca_0041/",
+      "social": [],
+      "hours": null,
+      "offer": ["ดนตรีไทย (ขิม) ฟรี", "ขับร้อง"],
+      "source_url": "https://learning.bangkok.go.th/course/lc-0133/",
+      "evidence": "Bangkok Learning City (กทม.): lc-0133 ดนตรีไทย (ขิม) ส. 10-12 น.; lc-0077 ขับร้อง จ.-อ. และ ศ. 11-15 น.; ที่อยู่ 111 ซอยจรัญสนิทวงศ์ แขวงบ้านช่างหล่อ โทร 024120712 — ที่อยู่ไม่ระบุเลขซอย จึงไม่ปักหมุด",
+      "checked": "2026-09-26"
+    }
+  ],
+  "review": {
+    "osm:n12820346646": { "exclude": true, "note": "ชุมชนวัดเพลงวิปัสสนา ชื่อชุมชน ไม่เกี่ยวกับดนตรี" },
+    "osm:w376296694": { "exclude": true, "note": "วัดเพลงวิปัสสนา เป็นวัด ไม่ใช่สถานที่ดนตรี" }
+  },
+  "gaps": [
+    "Art School Music เซ็นทรัลปิ่นเกล้า ทาวเวอร์ B ชั้น 6: ข้อมูลจาก artbangkok.com (lead) ยังไม่พบหน้าเจ้าของ",
+    "ห้องซ้อมดนตรี/ห้องซ้อมเต้น Charisma ปิ่นเกล้า: มีเพจ Facebook แต่อ่านที่อยู่ไม่ได้",
+    "yamaha:SMY0557 ธนพร เซอร์วิส และ yamaha:SMY0558 ภรณ์ธนา เซอร์วิส: ที่อยู่/เบอร์เดียวกัน (143/637 ถ.บรมราชชนนี) น่าจะเป็นนิติบุคคลคู่กันจุดเดียว ไม่มีเว็บ ยังไม่ยืนยันว่าเป็นหน้าร้าน",
+    "ย่านศิริราช/วังหลัง/บ้านบุ: ยังไม่พบบ้านดนตรีไทยหรือร้านซ่อมที่มีหน้าเจ้าของระบุที่อยู่",
+    "KPN / สถาบันดนตรีอื่นในเซ็นทรัลปิ่นเกล้า (กระทู้ Pantip กล่าวถึง) ยังไม่ยืนยันว่ายังเปิด"
+  ]
+}

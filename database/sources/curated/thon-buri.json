@@ -1,0 +1,84 @@
+{
+  "district": "ธนบุรี",
+  "researchedAt": "2026-09-26",
+  "places": [
+    {
+      "id": "cur:music-collection-thapra-flagship",
+      "name": "Music Collection ท่าพระ แฟล็กชิป สโตร์",
+      "name_en": "Music Collection Thapra Flagship Store",
+      "kind": "instrument_store",
+      "address": "95 ถ.รัชดาภิเษก (ท่าพระ-ตัดใหม่) แขวงบุคคโล เขตธนบุรี กรุงเทพฯ 10600",
+      "geocode": "เดอะมอลล์ ท่าพระ",
+      "lat": null, "lon": null,
+      "phone": "090-928-4334",
+      "website": "https://www.music.co.th/th/",
+      "social": ["https://www.facebook.com/musiccollectionthai"],
+      "hours": "10:00-20:00 ทุกวัน",
+      "offer": ["กีตาร์", "เบส", "กลอง", "คีย์บอร์ด/เปียโน", "เครื่องเสียง"],
+      "source_url": "https://www.music.co.th/th/store-locations/",
+      "evidence": "หน้า Store Locations ของ Music Collection: 'MUSIC COLLECTION THAPRA FLAGSHIP STORE 95 ถนนรัชดาภิเษก (ท่าพระตัดใหม่) แขวงบุคคโล เขตธนบุรี' ทุกวัน 10.00-20.00 โทร 090-928-4334 — geocode ใช้ห้างเดอะมอลล์ท่าพระที่อยู่ติดกัน (ประมาณ)",
+      "checked": "2026-09-26"
+    },
+    {
+      "id": "cur:music-collection-head-office",
+      "name": "บริษัท มิวสิค คอลเลคชั่น (สำนักงานใหญ่)",
+      "name_en": "Music Collection Head Office",
+      "kind": "business",
+      "address": "87, 89 ถ.รัชดาภิเษก (ท่าพระ-ตากสิน) แขวงบุคคโล เขตธนบุรี กรุงเทพฯ 10600",
+      "geocode": "เดอะมอลล์ ท่าพระ",
+      "lat": null, "lon": null,
+      "phone": "02-477-8601",
+      "website": "https://www.music.co.th/th/",
+      "social": ["https://www.facebook.com/musiccollectionthai"],
+      "hours": null,
+      "offer": ["สำนักงานใหญ่ผู้ค้าปลีก/นำเข้าเครื่องดนตรี"],
+      "source_url": "https://www.music.co.th/th/store-locations/",
+      "evidence": "หน้า Store Locations: 'สำนักงานใหญ่ 87,89 ถนนรัชดาภิเษก (ท่าพระ-ตากสิน) แขวงบุคคโล เขตธนบุรี' โทร 02-477-8601 — geocode ประมาณที่ห้างเดอะมอลล์ท่าพระ",
+      "checked": "2026-09-26"
+    },
+    {
+      "id": "cur:bma-wat-weluratchin-recreation-centre",
+      "name": "ศูนย์นันทนาการวัดเวฬุราชิณ (กรุงเทพมหานคร)",
+      "name_en": "Wat Weluratchin Recreation Centre (BMA)",
+      "kind": "school",
+      "address": "154/1 ซอยเทอดไท 2 แขวงบางยี่เรือ เขตธนบุรี กรุงเทพฯ",
+      "geocode": "วัดเวฬุราชิณ",
+      "lat": null, "lon": null,
+      "phone": "02-465-5138",
+      "website": "https://learning.bangkok.go.th/location/loca_0033/",
+      "social": [],
+      "hours": null,
+      "offer": ["ดนตรีไทย (ขิม ซอ ขลุ่ย จะเข้) ฟรี", "ดนตรีสากล (คีย์บอร์ด กีตาร์ กลอง)", "ขับร้อง"],
+      "source_url": "https://learning.bangkok.go.th/course/lc-0137/",
+      "evidence": "Bangkok Learning City (กทม.): lc-0137 ดนตรีไทย 'เช่น ขิม ซอ ขลุ่ย จะเข้' ส. 10-12 น.; lc-0141 ดนตรีสากล 'คีย์บอร์ด กีตาร์ กลอง' พฤ.-ส. 13-15 น.; lc-0133 ขิม; lc-0077 ขับร้อง พฤ.-ส. 15-17 น.; ที่อยู่ 154/1 ซ.เทอดไท 2 แขวงบางยี่เรือ โทร 024655138",
+      "checked": "2026-09-26"
+    },
+    {
+      "id": "cur:baan-phatayakosol",
+      "name": "บ้านพาทยโกศล",
+      "name_en": "Baan Phatayakosol (Thai classical music house)",
+      "kind": "school",
+      "address": "หลังวัดกัลยาณมิตร แขวงวัดกัลยาณ์ เขตธนบุรี กรุงเทพฯ",
+      "geocode": "วัดกัลยาณมิตร",
+      "lat": null, "lon": null,
+      "phone": null,
+      "website": null,
+      "social": ["https://www.facebook.com/Parttayakason/"],
+      "hours": null,
+      "offer": ["บ้านดนตรีไทย สำนักปี่พาทย์ตระกูลพาทยโกศล", "สอน/สืบทอดดนตรีไทย"],
+      "source_url": "https://www.facebook.com/Parttayakason/",
+      "evidence": "เพจบ้านพาทยโกศล; ห้องสมุดดนตรีสมเด็จพระเทพรัตน์ (ม.มหิดล) ระบุบ้านพาทยโกศลอยู่หลังวัดกัลยาณมิตร ฝั่งธนบุรี เป็นสำนักดนตรีไทยของจางวางทั่ว พาทยโกศล — ยังไม่พบตารางสอนปัจจุบัน; geocode ประมาณที่วัด",
+      "checked": "2026-09-26"
+    }
+  ],
+  "review": {
+    "osm:w139367966": { "kind": "higher_ed", "note": "อาคารดนตรีอนุสรณ์ ใน มรภ.บ้านสมเด็จเจ้าพระยา (ถ.อิสรภาพ) — วิทยาลัยการดนตรี มรภ.บ้านสมเด็จฯ: ดนตรีตะวันตก ดนตรีไทย เทคโนโลยีการผลิตดนตรี (music.bsru.ac.th; เพจ facebook.com/bsrumusic2558)" },
+    "osm:n7069190385": { "exclude": true, "note": "OSM 'Music shop' ติด shop=gift ไม่มีชื่อร้าน/หน้าเจ้าของ ตรวจสอบไม่ได้ว่าเป็นร้านเครื่องดนตรี" }
+  },
+  "gaps": [
+    "yamaha:SMY0342 BNG Music เดอะมอลล์ท่าพระ: dealer list ระบุ 'ภายในแผนกเครื่องเขียน B-Trend' ชั้น 4 ยังไม่ยืนยันกับหน้าห้าง",
+    "เดอะมอลล์ท่าพระ: ยังไม่ได้ไล่ directory ห้างหาร้าน/โรงเรียนดนตรีอื่น",
+    "ร้านเครื่องดนตรี/ห้องซ้อม/ห้องอัดย่านวงเวียนใหญ่-ตลาดพลู-อิสรภาพ: ไม่พบรายที่มีหน้าเจ้าของระบุที่อยู่",
+    "วงดนตรี/ชมรมใน มรภ.บ้านสมเด็จฯ ไม่ได้ลงแยก"
+  ]
+}
