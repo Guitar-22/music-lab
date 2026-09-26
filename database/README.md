@@ -15,6 +15,7 @@ npm run query -- summary
 |---|---|---|---|
 | 1. Extract | `lib/extract.cjs` | **A-source** | ฟิลด์ขาด, ลิงก์ไม่ใช่ HTTPS, id ซ้ำ, หมวด/ranking/preview อ้าง resource ที่ไม่มี, จำนวนต่ำกว่าที่เอกสารระบุ (35 แหล่ง, 25 สถาบัน, 11 กลุ่มโรงเรียน, 50 เขต, 24 เอกสารขึ้นไป) |
 | 1b. สถานที่รายเขต | `lib/places.cjs` (OSM + ค้นเว็บ + review) | **D-places** | ชื่อ/ประเภทผิด, พิกัดนอกกรุงเทพฯ หรือตกคนละเขต (> 300 ม.), ใช้ Google Maps เป็นแหล่ง, ชื่อซ้ำในระยะ 150 ม., เขตที่ค้นเว็บแล้วแต่ยังมีรายการไม่จัดประเภท |
+| 1c. ตรวจบริบท | `lib/context.cjs`, `sources/context-review.json` | **D-places** | ชื่อมีคำดนตรีแต่ tag/ที่อยู่บอกเป็นอย่างอื่น (วัด ร้านจักรยาน อัฒจันทร์ในสวน), เขตในที่อยู่/ห้างขัดกับพิกัด, ร้านเดียวกันจากคนละแหล่ง — `name_only/generic/conflict` ไม่แสดงใน portal จนกว่าจะตรวจ |
 | 2. Load | `schema.sql`, `lib/load.cjs` | **B-database** | จำนวนแถวทุกตารางไม่ตรงต้นทาง, foreign key ขาด, integrity_check ไม่ผ่าน |
 | 3. Export | `build.cjs` | **C-audit-drift** | เทียบ `audit/*.csv` กับข้อมูลปัจจุบัน — เป็น warning (ใช้ `npm run build:strict` ให้ล้ม) |
 

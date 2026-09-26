@@ -52,6 +52,30 @@
     "SMY0513": {
       "duplicateOf": "yamaha:SMY0512",
       "note": "รหัสสัญญาแยกสำหรับเครื่องเป่า/สื่อการสอน ร้านเดียวกัน"
+    },
+    "SMY0379": {
+      "duplicateOf": "cur:music-collection-atsadang",
+      "note": "ขั้นตรวจบริบท: Music Collection สาขาอัษฎางค์มีสาขาเดียว พิกัดตัวแทนคลาด ~1 กม."
+    },
+    "SMY0399": {
+      "duplicateOf": "cur:note-sound-and-light-charoen-krung",
+      "note": "ขั้นตรวจบริบท: ร้านเดียวกัน ห่าง 165 ม."
+    },
+    "SMY0445": {
+      "duplicateOf": "cur:taodang-music-chatuchak",
+      "note": "ขั้นตรวจบริบท: สาขา Flagship จตุจักร ห่าง 165 ม."
+    },
+    "SMY0456": {
+      "duplicateOf": "cur:vc-electronics-sathon",
+      "note": "ขั้นตรวจบริบท: สำนักงานใหญ่ สาทร ห่าง 187 ม."
+    },
+    "SMY0460": {
+      "duplicateOf": "cur:yamaha-beatspot-siam-paragon",
+      "note": "ขั้นตรวจบริบท: อยู่สยามพารากอน (ปทุมวัน) พิกัดต้นทางตกเขตราชเทวี"
+    },
+    "SMY0558": {
+      "duplicateOf": "yamaha:SMY0557",
+      "note": "ขั้นตรวจบริบท: ที่อยู่เดียวกัน 143/637 ถ.บรมราชชนนี รหัสสัญญาแยก"
     }
   }
 }

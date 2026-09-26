@@ -211,7 +211,7 @@
   });
   dialog.addEventListener('click', event => { if (event.target === dialog) dialog.close(); });
   const nav = el('nav', 'top-nav');
-  nav.append(link('สถาบันและแผนที่โรงเรียน', 'institutions.html'), link('แผนที่ Ecosystem', 'ecosystem.html'), link('Ranking มืออาชีพ', '#pro'), link('เครื่องมือทั้งหมด', '#explore'));
+  nav.append(link('สำรวจตัวตนทางดนตรี', 'journey.html'), link('สถาบันและแผนที่โรงเรียน', 'institutions.html'), link('แผนที่ Ecosystem', 'ecosystem.html'), link('Ranking มืออาชีพ', '#pro'), link('เครื่องมือทั้งหมด', '#explore'));
   for (const anchor of nav.querySelectorAll('a')) { anchor.target = '_self'; anchor.removeAttribute('rel'); }
   document.querySelector('.top').appendChild(nav);
   renderRankings();

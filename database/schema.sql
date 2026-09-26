@@ -216,7 +216,10 @@ CREATE TABLE places (
   license     TEXT,
   evidence    TEXT,
   checked     TEXT,
-  review_note TEXT
+  review_note TEXT,
+  -- ขั้นตรวจบริบท (lib/context.cjs): verified/reviewed/tagged/lead แสดงได้; name_only/generic/conflict รอคนตรวจ
+  context     TEXT NOT NULL CHECK (context IN ('verified','reviewed','tagged','lead','name_only','generic','conflict')),
+  context_note TEXT
 );
 
 CREATE TABLE place_social (
