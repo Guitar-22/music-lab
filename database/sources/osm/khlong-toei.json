@@ -1,0 +1,93 @@
+{
+ "district": "คลองเตย",
+ "rel": 2938033,
+ "fetchedAt": "2026-09-25T18:58:35.026Z",
+ "source": "https://overpass-api.de/api/interpreter",
+ "license": "ODbL © OpenStreetMap contributors",
+ "query": "[out:json][timeout:120];area(3602938033)->.a;(\nnwr(area.a)[\"shop\"~\"^(musical_instrument|music|hifi)$\"];\nnwr(area.a)[\"amenity\"~\"^(music_school|music_venue|studio|concert_hall|theatre|arts_centre|karaoke_box)$\"];\nnwr(area.a)[\"craft\"~\"musical_instrument|piano_tuner|luthier\"];\nnwr(area.a)[\"studio\"];\nnwr(area.a)[\"live_music\"=\"yes\"];\nnwr(area.a)[\"name\"~\"ดนตรี|เพลง|music|guitar|กีตาร์|piano|เปียโน|drum|กลอง|violin|ไวโอลิน|jazz|แจ๊ส|ห้องซ้อม|rehearsal|recording|อัดเสียง|ukulele|อูคูเลเล่|saxophone|แซกโซโฟน|ระนาด|ขิม|orchestra|symphony|ดุริยาง\",i];\nnwr(area.a)[\"name:en\"~\"ดนตรี|เพลง|music|guitar|กีตาร์|piano|เปียโน|drum|กลอง|violin|ไวโอลิน|jazz|แจ๊ส|ห้องซ้อม|rehearsal|recording|อัดเสียง|ukulele|อูคูเลเล่|saxophone|แซกโซโฟน|ระนาด|ขิม|orchestra|symphony|ดุริยาง\",i];\n);out center tags;",
+ "elements": [
+  {
+   "type": "node",
+   "id": 3923496223,
+   "lat": 13.7354702,
+   "lon": 100.5616412,
+   "tags": {
+    "level": "2",
+    "name": "Jet Live Audio",
+    "shop": "hifi",
+    "website": "http://www.jetliveaudio.com/"
+   }
+  },
+  {
+   "type": "node",
+   "id": 3963975825,
+   "lat": 13.728923,
+   "lon": 100.5715716,
+   "tags": {
+    "name": "Peterson",
+    "shop": "musical_instrument"
+   }
+  },
+  {
+   "type": "node",
+   "id": 10250107009,
+   "lat": 13.7181978,
+   "lon": 100.5801663,
+   "tags": {
+    "name:en": "CT music shop",
+    "name:ru": "CT music shop",
+    "office": "company",
+    "opening_hours": "Mo-Su 10:00-18:30",
+    "website": "https://ctmusicshop.com/"
+   }
+  },
+  {
+   "type": "node",
+   "id": 11343059784,
+   "lat": 13.7289878,
+   "lon": 100.5707641,
+   "tags": {
+    "amenity": "karaoke_box",
+    "name:en": "Hisho",
+    "name:ja": "秘しょ",
+    "phone": "+6622596467"
+   }
+  },
+  {
+   "type": "way",
+   "id": 1087817582,
+   "center": {
+    "lat": 13.7282136,
+    "lon": 100.5535621
+   },
+   "tags": {
+    "amenity": "theatre",
+    "theatre:type": "amphi"
+   }
+  },
+  {
+   "type": "way",
+   "id": 1087817583,
+   "center": {
+    "lat": 13.7287983,
+    "lon": 100.5535579
+   },
+   "tags": {
+    "amenity": "theatre",
+    "theatre:type": "amphi"
+   }
+  },
+  {
+   "type": "way",
+   "id": 1155681726,
+   "center": {
+    "lat": 13.7325718,
+    "lon": 100.557801
+   },
+   "tags": {
+    "amenity": "theatre",
+    "theatre:type": "amphi"
+   }
+  }
+ ]
+}

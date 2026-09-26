@@ -1,0 +1,289 @@
+{
+ "district": "ธนบุรี",
+ "rel": 3147281,
+ "fetchedAt": "2026-09-25T19:28:06.955Z",
+ "source": "https://overpass-api.de/api/interpreter",
+ "license": "ODbL © OpenStreetMap contributors",
+ "query": "[out:json][timeout:120];area(3603147281)->.a;(\nnwr(area.a)[\"shop\"~\"^(musical_instrument|music|hifi)$\"];\nnwr(area.a)[\"amenity\"~\"^(music_school|music_venue|studio|concert_hall|theatre|arts_centre|karaoke_box)$\"];\nnwr(area.a)[\"craft\"~\"musical_instrument|piano_tuner|luthier\"];\nnwr(area.a)[\"studio\"];\nnwr(area.a)[\"live_music\"=\"yes\"];\nnwr(area.a)[\"name\"~\"ดนตรี|เพลง|music|guitar|กีตาร์|piano|เปียโน|drum|กลอง|violin|ไวโอลิน|jazz|แจ๊ส|ห้องซ้อม|rehearsal|recording|อัดเสียง|ukulele|อูคูเลเล่|saxophone|แซกโซโฟน|ระนาด|ขิม|orchestra|symphony|ดุริยาง\",i];\nnwr(area.a)[\"name:en\"~\"ดนตรี|เพลง|music|guitar|กีตาร์|piano|เปียโน|drum|กลอง|violin|ไวโอลิน|jazz|แจ๊ส|ห้องซ้อม|rehearsal|recording|อัดเสียง|ukulele|อูคูเลเล่|saxophone|แซกโซโฟน|ระนาด|ขิม|orchestra|symphony|ดุริยาง\",i];\n);out center tags;",
+ "elements": [
+  {
+   "type": "node",
+   "id": 7069190385,
+   "lat": 13.7252467,
+   "lon": 100.4925531,
+   "tags": {
+    "name:en": "Music shop",
+    "shop": "gift"
+   }
+  },
+  {
+   "type": "way",
+   "id": 139367966,
+   "center": {
+    "lat": 13.7313479,
+    "lon": 100.4879763
+   },
+   "tags": {
+    "building": "university",
+    "name": "อาคารดนตรีอนุสรณ์"
+   }
+  },
+  {
+   "type": "way",
+   "id": 154774098,
+   "center": {
+    "lat": 13.7192476,
+    "lon": 100.4768821
+   },
+   "tags": {
+    "abandoned:electrified": "contact_line",
+    "electrified": "no",
+    "gauge": "1000",
+    "maxspeed": "80",
+    "name": "ทางรถไฟสายแม่กลอง",
+    "name:en": "Mae Klong Line",
+    "name:th": "ทางรถไฟสายแม่กลอง",
+    "operator": "การรถไฟแห่งประเทศไทย",
+    "railway": "rail",
+    "ref": "แม่กลอง",
+    "train": "yes",
+    "usage": "main"
+   }
+  },
+  {
+   "type": "way",
+   "id": 159045816,
+   "center": {
+    "lat": 13.71256,
+    "lon": 100.4726548
+   },
+   "tags": {
+    "abandoned:electrified": "contact_line",
+    "electrified": "no",
+    "gauge": "1000",
+    "maxspeed": "80",
+    "name": "ทางรถไฟสายแม่กลอง",
+    "name:en": "Mae Klong Line",
+    "name:th": "ทางรถไฟสายแม่กลอง",
+    "operator": "การรถไฟแห่งประเทศไทย",
+    "railway": "rail",
+    "ref": "แม่กลอง",
+    "source": "Yahoo! aerial imagery",
+    "train": "yes",
+    "usage": "main"
+   }
+  },
+  {
+   "type": "way",
+   "id": 159045822,
+   "center": {
+    "lat": 13.7235482,
+    "lon": 100.4880592
+   },
+   "tags": {
+    "abandoned:electrified": "contact_line",
+    "electrified": "no",
+    "gauge": "1000",
+    "maxspeed": "80",
+    "name": "ทางรถไฟสายแม่กลอง",
+    "name:en": "Mae Klong Line",
+    "name:th": "ทางรถไฟสายแม่กลอง",
+    "operator": "การรถไฟแห่งประเทศไทย",
+    "railway": "rail",
+    "ref": "แม่กลอง",
+    "train": "yes",
+    "usage": "main"
+   }
+  },
+  {
+   "type": "way",
+   "id": 980128238,
+   "center": {
+    "lat": 13.7215379,
+    "lon": 100.480642
+   },
+   "tags": {
+    "abandoned:electrified": "contact_line",
+    "electrified": "no",
+    "gauge": "1000",
+    "maxspeed": "80",
+    "name": "ทางรถไฟสายแม่กลอง",
+    "name:en": "Mae Klong Line",
+    "name:th": "ทางรถไฟสายแม่กลอง",
+    "operator": "การรถไฟแห่งประเทศไทย",
+    "railway": "rail",
+    "ref": "แม่กลอง",
+    "train": "yes",
+    "usage": "main"
+   }
+  },
+  {
+   "type": "way",
+   "id": 980128239,
+   "center": {
+    "lat": 13.7220268,
+    "lon": 100.4823772
+   },
+   "tags": {
+    "abandoned:electrified": "contact_line",
+    "bridge": "yes",
+    "electrified": "no",
+    "gauge": "1000",
+    "layer": "1",
+    "maxspeed": "80",
+    "name": "ทางรถไฟสายแม่กลอง",
+    "name:en": "Mae Klong Line",
+    "name:th": "ทางรถไฟสายแม่กลอง",
+    "operator": "การรถไฟแห่งประเทศไทย",
+    "railway": "rail",
+    "ref": "แม่กลอง",
+    "train": "yes",
+    "usage": "main"
+   }
+  },
+  {
+   "type": "way",
+   "id": 980128241,
+   "center": {
+    "lat": 13.7174078,
+    "lon": 100.4749398
+   },
+   "tags": {
+    "abandoned:electrified": "contact_line",
+    "bridge": "yes",
+    "electrified": "no",
+    "gauge": "1000",
+    "layer": "1",
+    "maxspeed": "80",
+    "name": "ทางรถไฟสายแม่กลอง",
+    "name:en": "Mae Klong Line",
+    "name:th": "ทางรถไฟสายแม่กลอง",
+    "operator": "การรถไฟแห่งประเทศไทย",
+    "railway": "rail",
+    "ref": "แม่กลอง",
+    "train": "yes",
+    "usage": "main"
+   }
+  },
+  {
+   "type": "way",
+   "id": 980128248,
+   "center": {
+    "lat": 13.7223511,
+    "lon": 100.4835187
+   },
+   "tags": {
+    "abandoned:electrified": "contact_line",
+    "electrified": "no",
+    "gauge": "1000",
+    "maxspeed": "80",
+    "name": "ทางรถไฟสายแม่กลอง",
+    "name:en": "Mae Klong Line",
+    "name:th": "ทางรถไฟสายแม่กลอง",
+    "operator": "การรถไฟแห่งประเทศไทย",
+    "railway": "rail",
+    "ref": "แม่กลอง",
+    "train": "yes",
+    "usage": "main"
+   }
+  },
+  {
+   "type": "way",
+   "id": 980128249,
+   "center": {
+    "lat": 13.7226628,
+    "lon": 100.4846151
+   },
+   "tags": {
+    "abandoned:electrified": "contact_line",
+    "bridge": "yes",
+    "electrified": "no",
+    "gauge": "1000",
+    "layer": "1",
+    "maxspeed": "80",
+    "name": "ทางรถไฟสายแม่กลอง",
+    "name:en": "Mae Klong Line",
+    "name:th": "ทางรถไฟสายแม่กลอง",
+    "operator": "การรถไฟแห่งประเทศไทย",
+    "railway": "rail",
+    "ref": "แม่กลอง",
+    "train": "yes",
+    "usage": "main"
+   }
+  },
+  {
+   "type": "way",
+   "id": 980128253,
+   "center": {
+    "lat": 13.7210433,
+    "lon": 100.4788865
+   },
+   "tags": {
+    "abandoned:electrified": "contact_line",
+    "bridge": "yes",
+    "electrified": "no",
+    "gauge": "1000",
+    "layer": "1",
+    "maxspeed": "80",
+    "name": "ทางรถไฟสายแม่กลอง",
+    "name:en": "Mae Klong Line",
+    "name:th": "ทางรถไฟสายแม่กลอง",
+    "operator": "การรถไฟแห่งประเทศไทย",
+    "railway": "rail",
+    "ref": "แม่กลอง",
+    "train": "yes",
+    "usage": "main"
+   }
+  },
+  {
+   "type": "way",
+   "id": 1242417646,
+   "center": {
+    "lat": 13.7245683,
+    "lon": 100.4920499
+   },
+   "tags": {
+    "name": "ทางรถไฟสายแม่กลองเก่า",
+    "name:en": "Old Mae Klong Line",
+    "name:th": "ทางรถไฟสายแม่กลองเก่า",
+    "railway": "abandoned"
+   }
+  },
+  {
+   "type": "relation",
+   "id": 8425167,
+   "center": {
+    "lat": 13.6352386,
+    "lon": 100.3838464
+   },
+   "tags": {
+    "from": "วงเวียนใหญ่",
+    "name": "ทางรถไฟสายแม่กลอง ช่วงวงเวียนใหญ่ - มหาชัย",
+    "name:en": "Maeklong Railway. Wongwian Yai - Maha Chai Section",
+    "name:th": "ทางรถไฟสายแม่กลอง ช่วงวงเวียนใหญ่ - มหาชัย",
+    "operator": "การรถไฟแห่งประเทศไทย",
+    "ref": "แม่กลอง",
+    "route": "railway",
+    "to": "มหาชัย",
+    "type": "route",
+    "wikidata": "Q117774762"
+   }
+  },
+  {
+   "type": "relation",
+   "id": 17072818,
+   "center": {
+    "lat": 13.7267886,
+    "lon": 100.5012235
+   },
+   "tags": {
+    "name": "ทางรถไฟสายแม่กลองเก่า",
+    "name:en": "Old Mae Klong Line",
+    "name:th": "ทางรถไฟสายแม่กลองเก่า",
+    "railway": "abandoned",
+    "route": "railway",
+    "type": "route"
+   }
+  }
+ ]
+}

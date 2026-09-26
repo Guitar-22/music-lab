@@ -1,0 +1,126 @@
+{
+ "district": "พญาไท",
+ "rel": 92068,
+ "fetchedAt": "2026-09-25T18:35:51.137Z",
+ "source": "https://overpass-api.de/api/interpreter",
+ "license": "ODbL © OpenStreetMap contributors",
+ "query": "[out:json][timeout:120];area(3600092068)->.a;(\nnwr(area.a)[\"shop\"~\"^(musical_instrument|music|hifi)$\"];\nnwr(area.a)[\"amenity\"~\"^(music_school|music_venue|studio|concert_hall|theatre|arts_centre|karaoke_box)$\"];\nnwr(area.a)[\"craft\"~\"musical_instrument|piano_tuner|luthier\"];\nnwr(area.a)[\"studio\"];\nnwr(area.a)[\"live_music\"=\"yes\"];\nnwr(area.a)[\"name\"~\"ดนตรี|เพลง|music|guitar|กีตาร์|piano|เปียโน|drum|กลอง|violin|ไวโอลิน|jazz|แจ๊ส|ห้องซ้อม|rehearsal|recording|อัดเสียง|ukulele|อูคูเลเล่|saxophone|แซกโซโฟน|ระนาด|ขิม|orchestra|symphony|ดุริยาง\",i];\nnwr(area.a)[\"name:en\"~\"ดนตรี|เพลง|music|guitar|กีตาร์|piano|เปียโน|drum|กลอง|violin|ไวโอลิน|jazz|แจ๊ส|ห้องซ้อม|rehearsal|recording|อัดเสียง|ukulele|อูคูเลเล่|saxophone|แซกโซโฟน|ระนาด|ขิม|orchestra|symphony|ดุริยาง\",i];\n);out center tags;",
+ "elements": [
+  {
+   "type": "node",
+   "id": 6281369088,
+   "lat": 13.7887242,
+   "lon": 100.5481379,
+   "tags": {
+    "amenity": "bar",
+    "name:en": "Dumbo Jazz & Vinyl Bar"
+   }
+  },
+  {
+   "type": "way",
+   "id": 544025655,
+   "center": {
+    "lat": 13.7795734,
+    "lon": 100.547274
+   },
+   "tags": {
+    "addr:district": "พญาไท",
+    "addr:housenumber": "55/5",
+    "addr:postcode": "10400",
+    "addr:province": "กรุงเทพมหานคร",
+    "addr:street": "พหลโยธิน ซอย 2",
+    "addr:subdistrict": "สามเสนใน",
+    "amenity": "studio",
+    "building": "yes",
+    "building:levels": "6",
+    "name": "บริษัท สหมงคลฟิล์ม อินเตอร์เนชั่นแนล จำกัด",
+    "name:en": "Sahamongkol Film International Co. Ltd.",
+    "name:th": "บริษัท สหมงคลฟิล์ม อินเตอร์เนชั่นแนล จำกัด",
+    "studio": "video",
+    "wikidata": "Q1040910",
+    "wikipedia": "th:สหมงคลฟิล์ม อินเตอร์เนชั่นแนล"
+   }
+  },
+  {
+   "type": "way",
+   "id": 676062719,
+   "center": {
+    "lat": 13.7702494,
+    "lon": 100.5501969
+   },
+   "tags": {
+    "addr:housenumber": "75",
+    "addr:postcode": "10400",
+    "addr:province": "กรุงเทพมหานคร",
+    "addr:street": "ถนนวิภาวดีรังสิต",
+    "government": "music",
+    "landuse": "military",
+    "layer": "1",
+    "military": "training_area",
+    "name": "กรมดุริยางค์ทหารบก",
+    "name:en": "Royal Thai Army Band Department",
+    "name:th": "กรมดุริยางค์ทหารบก",
+    "website": "https://rta-band.com/"
+   }
+  },
+  {
+   "type": "way",
+   "id": 1370518660,
+   "center": {
+    "lat": 13.7829026,
+    "lon": 100.5504854
+   },
+   "tags": {
+    "landuse": "commercial",
+    "name": "คณะกรรมการกิจการกระจายเสียง กิจการโทรทัศน์ และกิจการโทรคมนาคมแห่งชาติ",
+    "name:en": "The National Broadcasting and Telecommunication Commission",
+    "name:th": "คณะกรรมการกิจการกระจายเสียง กิจการโทรทัศน์ และกิจการโทรคมนาคมแห่งชาติ",
+    "short_name": "กสทช.",
+    "short_name:en": "NBTC",
+    "short_name:th": "กสทช.",
+    "studio": "television",
+    "wikidata": "Q16305838",
+    "wikipedia": "en:National Broadcasting and Telecommunications Commission"
+   }
+  },
+  {
+   "type": "way",
+   "id": 1374667400,
+   "center": {
+    "lat": 13.782677,
+    "lon": 100.5395125
+   },
+   "tags": {
+    "addr:district": "พญาไท",
+    "addr:postcode": "10400",
+    "addr:province": "กรุงเทพมหานคร",
+    "addr:subdistrict": "พญาไท",
+    "amenity": "studio",
+    "building": "yes",
+    "name": "สถานีวิทยุกระจายเสียงรัฐสภา",
+    "name:th": "สถานีวิทยุกระจายเสียงรัฐสภา",
+    "studio": "radio"
+   }
+  },
+  {
+   "type": "way",
+   "id": 1491869418,
+   "center": {
+    "lat": 13.7800438,
+    "lon": 100.5359954
+   },
+   "tags": {
+    "addr:district": "พญาไท",
+    "addr:housenumber": "78",
+    "addr:postcode": "10400",
+    "addr:province": "กรุงเทพมหานคร",
+    "addr:street": "ซอยพระรามที่ 6 ซอย 30",
+    "addr:subdistrict": "พญาไท",
+    "amenity": "karaoke_box",
+    "building": "house",
+    "building:levels": "4",
+    "name": "R&B Karaoke"
+   }
+  }
+ ]
+}

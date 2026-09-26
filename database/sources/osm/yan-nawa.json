@@ -1,0 +1,139 @@
+{
+ "district": "ยานนาวา",
+ "rel": 3147456,
+ "fetchedAt": "2026-09-25T19:32:46.317Z",
+ "source": "https://overpass-api.de/api/interpreter",
+ "license": "ODbL © OpenStreetMap contributors",
+ "query": "[out:json][timeout:120];area(3603147456)->.a;(\nnwr(area.a)[\"shop\"~\"^(musical_instrument|music|hifi)$\"];\nnwr(area.a)[\"amenity\"~\"^(music_school|music_venue|studio|concert_hall|theatre|arts_centre|karaoke_box)$\"];\nnwr(area.a)[\"craft\"~\"musical_instrument|piano_tuner|luthier\"];\nnwr(area.a)[\"studio\"];\nnwr(area.a)[\"live_music\"=\"yes\"];\nnwr(area.a)[\"name\"~\"ดนตรี|เพลง|music|guitar|กีตาร์|piano|เปียโน|drum|กลอง|violin|ไวโอลิน|jazz|แจ๊ส|ห้องซ้อม|rehearsal|recording|อัดเสียง|ukulele|อูคูเลเล่|saxophone|แซกโซโฟน|ระนาด|ขิม|orchestra|symphony|ดุริยาง\",i];\nnwr(area.a)[\"name:en\"~\"ดนตรี|เพลง|music|guitar|กีตาร์|piano|เปียโน|drum|กลอง|violin|ไวโอลิน|jazz|แจ๊ส|ห้องซ้อม|rehearsal|recording|อัดเสียง|ukulele|อูคูเลเล่|saxophone|แซกโซโฟน|ระนาด|ขิม|orchestra|symphony|ดุริยาง\",i];\n);out center tags;",
+ "elements": [
+  {
+   "type": "way",
+   "id": 1286776053,
+   "center": {
+    "lat": 13.7114331,
+    "lon": 100.5474892
+   },
+   "tags": {
+    "addr:district": "ยานนาวา",
+    "addr:postcode": "10120",
+    "addr:province": "กรุงเทพมหานคร",
+    "addr:subdistrict": "ช่องนนทรี",
+    "amenity": "music_school",
+    "building": "yes",
+    "name": "Demus"
+   }
+  },
+  {
+   "type": "way",
+   "id": 1332842774,
+   "center": {
+    "lat": 13.7162288,
+    "lon": 100.5481068
+   },
+   "tags": {
+    "addr:district": "ยานนาวา",
+    "addr:postcode": "10120",
+    "addr:province": "กรุงเทพมหานคร",
+    "addr:subdistrict": "ช่องนนทรี",
+    "amenity": "music_school",
+    "building": "yes",
+    "building:levels": "5",
+    "name": "โรงเรียนดนตรีอัมสตุทช์",
+    "name:en": "Amstutz Music School",
+    "name:th": "โรงเรียนดนตรีอัมสตุทช์"
+   }
+  },
+  {
+   "type": "way",
+   "id": 1340495126,
+   "center": {
+    "lat": 13.7176489,
+    "lon": 100.5516032
+   },
+   "tags": {
+    "addr:district": "ยานนาวา",
+    "addr:postcode": "10120",
+    "addr:province": "กรุงเทพมหานคร",
+    "addr:subdistrict": "ช่องนนทรี",
+    "amenity": "studio",
+    "building": "yes",
+    "name": "กิจการวิทยุเสียงทหารเรือ ทุ่งมหาเมฆ",
+    "name:th": "กิจการวิทยุเสียงทหารเรือ ทุ่งมหาเมฆ",
+    "studio": "radio"
+   }
+  },
+  {
+   "type": "way",
+   "id": 1353945562,
+   "center": {
+    "lat": 13.6736121,
+    "lon": 100.5360453
+   },
+   "tags": {
+    "amenity": "theatre",
+    "theatre:type": "amphi"
+   }
+  },
+  {
+   "type": "way",
+   "id": 1353945563,
+   "center": {
+    "lat": 13.6735763,
+    "lon": 100.5361322
+   },
+   "tags": {
+    "amenity": "theatre",
+    "theatre:type": "amphi"
+   }
+  },
+  {
+   "type": "way",
+   "id": 1353945564,
+   "center": {
+    "lat": 13.6735454,
+    "lon": 100.5362164
+   },
+   "tags": {
+    "amenity": "theatre",
+    "theatre:type": "amphi"
+   }
+  },
+  {
+   "type": "way",
+   "id": 1353945565,
+   "center": {
+    "lat": 13.6733973,
+    "lon": 100.5362646
+   },
+   "tags": {
+    "amenity": "theatre",
+    "theatre:type": "amphi"
+   }
+  },
+  {
+   "type": "way",
+   "id": 1353945566,
+   "center": {
+    "lat": 13.6732685,
+    "lon": 100.5362044
+   },
+   "tags": {
+    "amenity": "theatre",
+    "theatre:type": "amphi"
+   }
+  },
+  {
+   "type": "way",
+   "id": 1353945588,
+   "center": {
+    "lat": 13.6720455,
+    "lon": 100.5353812
+   },
+   "tags": {
+    "building": "school",
+    "name": "ห้องวงดุริยางค์",
+    "name:th": "ห้องวงดุริยางค์"
+   }
+  }
+ ]
+}

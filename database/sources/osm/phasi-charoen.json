@@ -1,0 +1,54 @@
+{
+ "district": "ภาษีเจริญ",
+ "rel": 2946807,
+ "fetchedAt": "2026-09-26T02:48:47.048Z",
+ "source": "https://overpass.kumi.systems/api/interpreter",
+ "license": "ODbL © OpenStreetMap contributors",
+ "query": "[out:json][timeout:120];area(3602946807)->.a;(\nnwr(area.a)[\"shop\"~\"^(musical_instrument|music|hifi)$\"];\nnwr(area.a)[\"amenity\"~\"^(music_school|music_venue|studio|concert_hall|theatre|arts_centre|karaoke_box)$\"];\nnwr(area.a)[\"craft\"~\"musical_instrument|piano_tuner|luthier\"];\nnwr(area.a)[\"studio\"];\nnwr(area.a)[\"live_music\"=\"yes\"];\nnwr(area.a)[\"name\"~\"ดนตรี|เพลง|music|guitar|กีตาร์|piano|เปียโน|drum|กลอง|violin|ไวโอลิน|jazz|แจ๊ส|ห้องซ้อม|rehearsal|recording|อัดเสียง|ukulele|อูคูเลเล่|saxophone|แซกโซโฟน|ระนาด|ขิม|orchestra|symphony|ดุริยาง\",i];\nnwr(area.a)[\"name:en\"~\"ดนตรี|เพลง|music|guitar|กีตาร์|piano|เปียโน|drum|กลอง|violin|ไวโอลิน|jazz|แจ๊ส|ห้องซ้อม|rehearsal|recording|อัดเสียง|ukulele|อูคูเลเล่|saxophone|แซกโซโฟน|ระนาด|ขิม|orchestra|symphony|ดุริยาง\",i];\n);out center tags;",
+ "elements": [
+  {
+   "type": "node",
+   "id": 4984910822,
+   "lat": 13.7402804,
+   "lon": 100.4284151,
+   "tags": {
+    "amenity": "restaurant",
+    "name": "แม่กลอง หัวปลาหม้อไฟ",
+    "name:th": "แม่กลอง หัวปลาหม้อไฟ"
+   }
+  },
+  {
+   "type": "way",
+   "id": 376675943,
+   "center": {
+    "lat": 13.71857,
+    "lon": 100.4622406
+   },
+   "tags": {
+    "amenity": "place_of_worship",
+    "denomination": "thai_mahanikaya",
+    "name": "วัดเพลง",
+    "name:en": "Wat Phleng",
+    "name:th": "วัดเพลง",
+    "religion": "buddhist",
+    "wikidata": "Q99441929",
+    "wikimedia_commons": "Category:Wat Phleng, Phasi Charoen, Bangkok",
+    "wikipedia": "th:วัดเพลง (เขตภาษีเจริญ)"
+   }
+  },
+  {
+   "type": "way",
+   "id": 830066310,
+   "center": {
+    "lat": 13.7186361,
+    "lon": 100.4615975
+   },
+   "tags": {
+    "name": "คลองวัดเพลง-วัดนางชี",
+    "name:en": "Khlong Wat Phleng - Wat Nang Chi",
+    "name:th": "คลองวัดเพลง-วัดนางชี",
+    "waterway": "canal"
+   }
+  }
+ ]
+}

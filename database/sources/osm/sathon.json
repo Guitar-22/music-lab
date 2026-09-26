@@ -1,0 +1,76 @@
+{
+ "district": "สาทร",
+ "rel": 3147425,
+ "fetchedAt": "2026-09-25T18:58:27.108Z",
+ "source": "https://overpass-api.de/api/interpreter",
+ "license": "ODbL © OpenStreetMap contributors",
+ "query": "[out:json][timeout:120];area(3603147425)->.a;(\nnwr(area.a)[\"shop\"~\"^(musical_instrument|music|hifi)$\"];\nnwr(area.a)[\"amenity\"~\"^(music_school|music_venue|studio|concert_hall|theatre|arts_centre|karaoke_box)$\"];\nnwr(area.a)[\"craft\"~\"musical_instrument|piano_tuner|luthier\"];\nnwr(area.a)[\"studio\"];\nnwr(area.a)[\"live_music\"=\"yes\"];\nnwr(area.a)[\"name\"~\"ดนตรี|เพลง|music|guitar|กีตาร์|piano|เปียโน|drum|กลอง|violin|ไวโอลิน|jazz|แจ๊ส|ห้องซ้อม|rehearsal|recording|อัดเสียง|ukulele|อูคูเลเล่|saxophone|แซกโซโฟน|ระนาด|ขิม|orchestra|symphony|ดุริยาง\",i];\nnwr(area.a)[\"name:en\"~\"ดนตรี|เพลง|music|guitar|กีตาร์|piano|เปียโน|drum|กลอง|violin|ไวโอลิน|jazz|แจ๊ส|ห้องซ้อม|rehearsal|recording|อัดเสียง|ukulele|อูคูเลเล่|saxophone|แซกโซโฟน|ระนาด|ขิม|orchestra|symphony|ดุริยาง\",i];\n);out center tags;",
+ "elements": [
+  {
+   "type": "way",
+   "id": 1218059138,
+   "center": {
+    "lat": 13.7215301,
+    "lon": 100.5431839
+   },
+   "tags": {
+    "addr:district": "สาทร",
+    "addr:housenumber": "44",
+    "addr:postcode": "10120",
+    "addr:province": "กรุงเทพมหานคร",
+    "addr:street": "ซอยนันทา-โมซาร์ท",
+    "addr:subdistrict": "ทุ่งมหาเมฆ",
+    "amenity": "studio",
+    "building": "house",
+    "name": "จอยลัคคลับ ฟิล์มเฮาส์",
+    "name:en": "Joy Luck Club Film House",
+    "name:th": "จอยลัคคลับ ฟิล์มเฮาส์",
+    "studio": "video"
+   }
+  },
+  {
+   "type": "way",
+   "id": 1219293346,
+   "center": {
+    "lat": 13.7179603,
+    "lon": 100.5388803
+   },
+   "tags": {
+    "addr:housenumber": "588",
+    "addr:street": "ซอยสวนพลู 3",
+    "amenity": "arts_centre",
+    "landuse": "commercial",
+    "name": "SOI SA:M",
+    "tourism": "gallery"
+   }
+  },
+  {
+   "type": "way",
+   "id": 1313224332,
+   "center": {
+    "lat": 13.7239703,
+    "lon": 100.5463205
+   },
+   "tags": {
+    "addr:district": "สาทร",
+    "addr:housenumber": "16/1",
+    "addr:postcode": "10120",
+    "addr:province": "กรุงเทพมหานคร",
+    "addr:street": "ซอยเกอเธ่",
+    "addr:subdistrict": "ทุ่งมหาเมฆ",
+    "alt_name": "บ้านปลูกรัก สาทร",
+    "alt_name:en": "Baan Plook Rak Sathorn",
+    "alt_name:th": "บ้านปลูกรัก สาทร",
+    "amenity": "theatre",
+    "building": "commercial",
+    "contact:facebook": "https://www.facebook.com/baanplookraksathorn/",
+    "email": "kwanchanok.ppr@gmail.com",
+    "name": "บ้านปลูกรัก",
+    "name:en": "Baan Plook Rak",
+    "name:th": "บ้านปลูกรัก",
+    "phone": "+66 95 920 1940",
+    "theatre:type": "concert_hall"
+   }
+  }
+ ]
+}

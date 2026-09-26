@@ -1,0 +1,79 @@
+{
+ "district": "ราชเทวี",
+ "rel": 92064,
+ "fetchedAt": "2026-09-25T18:33:37.860Z",
+ "source": "https://overpass.private.coffee/api/interpreter",
+ "license": "ODbL © OpenStreetMap contributors",
+ "query": "[out:json][timeout:120];area(3600092064)->.a;(\nnwr(area.a)[\"shop\"~\"^(musical_instrument|music|hifi)$\"];\nnwr(area.a)[\"amenity\"~\"^(music_school|music_venue|studio|concert_hall|theatre|arts_centre|karaoke_box)$\"];\nnwr(area.a)[\"craft\"~\"musical_instrument|piano_tuner|luthier\"];\nnwr(area.a)[\"studio\"];\nnwr(area.a)[\"live_music\"=\"yes\"];\nnwr(area.a)[\"name\"~\"ดนตรี|เพลง|music|guitar|กีตาร์|piano|เปียโน|drum|กลอง|violin|ไวโอลิน|jazz|แจ๊ส|ห้องซ้อม|rehearsal|recording|อัดเสียง|ukulele|อูคูเลเล่|saxophone|แซกโซโฟน|ระนาด|ขิม|orchestra|symphony|ดุริยาง\",i];\nnwr(area.a)[\"name:en\"~\"ดนตรี|เพลง|music|guitar|กีตาร์|piano|เปียโน|drum|กลอง|violin|ไวโอลิน|jazz|แจ๊ส|ห้องซ้อม|rehearsal|recording|อัดเสียง|ukulele|อูคูเลเล่|saxophone|แซกโซโฟน|ระนาด|ขิม|orchestra|symphony|ดุริยาง\",i];\n);out center tags;",
+ "elements": [
+  {
+   "type": "node",
+   "id": 2512416405,
+   "lat": 13.7521069,
+   "lon": 100.534583,
+   "tags": {
+    "name": "Music Solution",
+    "shop": "musical_instrument"
+   }
+  },
+  {
+   "type": "node",
+   "id": 2512680832,
+   "lat": 13.75172,
+   "lon": 100.531831,
+   "tags": {
+    "amenity": "pub",
+    "name": "Music Sciety",
+    "source": "Survey"
+   }
+  },
+  {
+   "type": "node",
+   "id": 4411709995,
+   "lat": 13.7612517,
+   "lon": 100.5365117,
+   "tags": {
+    "amenity": "bar",
+    "name": "Sky Train Jazz Bar",
+    "name:de": "sky Train Jazz Club",
+    "name:th": "Sky Train Jazz Bar"
+   }
+  },
+  {
+   "type": "node",
+   "id": 6421035285,
+   "lat": 13.7596377,
+   "lon": 100.537579,
+   "tags": {
+    "amenity": "theatre",
+    "name": "โรงละครอักษรา คิง เพาเวอร์",
+    "name:en": "Aksra Theatre King Power",
+    "name:th": "โรงละครอักษรา คิง เพาเวอร์"
+   }
+  },
+  {
+   "type": "way",
+   "id": 626817132,
+   "center": {
+    "lat": 13.763628,
+    "lon": 100.5380823
+   },
+   "tags": {
+    "addr:city": "ถนนพญาไท",
+    "addr:housenumber": "3/8",
+    "addr:postcode": "10400",
+    "addr:street": "ซอยราชวิถี 11",
+    "amenity": "bar",
+    "brewery": "yes",
+    "building": "yes",
+    "name": "Saxophone Pub and Restaurant",
+    "name:ko": "색소폰바",
+    "opening_hours": "18:00-02:00",
+    "outdoor_seating": "yes",
+    "phone": "022465472",
+    "smoking": "outside",
+    "website": "http://www.saxophonepub.com"
+   }
+  }
+ ]
+}

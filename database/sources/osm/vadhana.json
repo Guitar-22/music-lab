@@ -1,0 +1,89 @@
+{
+ "district": "วัฒนา",
+ "rel": 2938036,
+ "fetchedAt": "2026-09-25T18:35:43.092Z",
+ "source": "https://overpass-api.de/api/interpreter",
+ "license": "ODbL © OpenStreetMap contributors",
+ "query": "[out:json][timeout:120];area(3602938036)->.a;(\nnwr(area.a)[\"shop\"~\"^(musical_instrument|music|hifi)$\"];\nnwr(area.a)[\"amenity\"~\"^(music_school|music_venue|studio|concert_hall|theatre|arts_centre|karaoke_box)$\"];\nnwr(area.a)[\"craft\"~\"musical_instrument|piano_tuner|luthier\"];\nnwr(area.a)[\"studio\"];\nnwr(area.a)[\"live_music\"=\"yes\"];\nnwr(area.a)[\"name\"~\"ดนตรี|เพลง|music|guitar|กีตาร์|piano|เปียโน|drum|กลอง|violin|ไวโอลิน|jazz|แจ๊ส|ห้องซ้อม|rehearsal|recording|อัดเสียง|ukulele|อูคูเลเล่|saxophone|แซกโซโฟน|ระนาด|ขิม|orchestra|symphony|ดุริยาง\",i];\nnwr(area.a)[\"name:en\"~\"ดนตรี|เพลง|music|guitar|กีตาร์|piano|เปียโน|drum|กลอง|violin|ไวโอลิน|jazz|แจ๊ส|ห้องซ้อม|rehearsal|recording|อัดเสียง|ukulele|อูคูเลเล่|saxophone|แซกโซโฟน|ระนาด|ขิม|orchestra|symphony|ดุริยาง\",i];\n);out center tags;",
+ "elements": [
+  {
+   "type": "node",
+   "id": 3301457999,
+   "lat": 13.7237612,
+   "lon": 100.5847581,
+   "tags": {
+    "amenity": "arts_centre",
+    "name": "Good Rich Gallery"
+   }
+  },
+  {
+   "type": "node",
+   "id": 3354527923,
+   "lat": 13.7148357,
+   "lon": 100.5935033,
+   "tags": {
+    "amenity": "arts_centre",
+    "name": "Hof Art Space"
+   }
+  },
+  {
+   "type": "node",
+   "id": 3928970138,
+   "lat": 13.7142008,
+   "lon": 100.5930929,
+   "tags": {
+    "amenity": "arts_centre",
+    "name": "SOL"
+   }
+  },
+  {
+   "type": "node",
+   "id": 4781368623,
+   "lat": 13.7264957,
+   "lon": 100.576349,
+   "tags": {
+    "addr:street": "สุขุมวิท 51",
+    "name": "สุดแรงม้า",
+    "name:de": "ZudRangMa Records",
+    "name:en": "ZudRangMa Records",
+    "name:th": "สุดแรงม้า",
+    "shop": "music",
+    "website": "https://www.zudrangmarecords.com/"
+   }
+  },
+  {
+   "type": "node",
+   "id": 10919481905,
+   "lat": 13.7368508,
+   "lon": 100.5715021,
+   "tags": {
+    "addr:housenumber": "53, 1-2",
+    "addr:postcode": "10110",
+    "addr:province": "กรุงเทพมหานคร",
+    "addr:street": "Soi Sukhumvit 39, Khlong Tan Nuea, Watthana,",
+    "amenity": "bar",
+    "brewery": "yes;singha",
+    "min_age": "20",
+    "name": "The Iron Fairies Music Bar Bangkok",
+    "opening_hours": "Mo-Su 19:00-02:00"
+   }
+  },
+  {
+   "type": "way",
+   "id": 318213848,
+   "center": {
+    "lat": 13.7265682,
+    "lon": 100.5847053
+   },
+   "tags": {
+    "addr:district": "วัฒนา",
+    "addr:postcode": "10110",
+    "addr:province": "กรุงเทพมหานคร",
+    "addr:subdistrict": "คลองตันเหนือ",
+    "amenity": "nightclub",
+    "building": "yes",
+    "name": "Piano Forte"
+   }
+  }
+ ]
+}

@@ -1,0 +1,475 @@
+{
+ "district": "พระนคร",
+ "rel": 92053,
+ "fetchedAt": "2026-09-25T18:33:56.228Z",
+ "source": "https://overpass-api.de/api/interpreter",
+ "license": "ODbL © OpenStreetMap contributors",
+ "query": "[out:json][timeout:120];area(3600092053)->.a;(\nnwr(area.a)[\"shop\"~\"^(musical_instrument|music|hifi)$\"];\nnwr(area.a)[\"amenity\"~\"^(music_school|music_venue|studio|concert_hall|theatre|arts_centre|karaoke_box)$\"];\nnwr(area.a)[\"craft\"~\"musical_instrument|piano_tuner|luthier\"];\nnwr(area.a)[\"studio\"];\nnwr(area.a)[\"live_music\"=\"yes\"];\nnwr(area.a)[\"name\"~\"ดนตรี|เพลง|music|guitar|กีตาร์|piano|เปียโน|drum|กลอง|violin|ไวโอลิน|jazz|แจ๊ส|ห้องซ้อม|rehearsal|recording|อัดเสียง|ukulele|อูคูเลเล่|saxophone|แซกโซโฟน|ระนาด|ขิม|orchestra|symphony|ดุริยาง\",i];\nnwr(area.a)[\"name:en\"~\"ดนตรี|เพลง|music|guitar|กีตาร์|piano|เปียโน|drum|กลอง|violin|ไวโอลิน|jazz|แจ๊ส|ห้องซ้อม|rehearsal|recording|อัดเสียง|ukulele|อูคูเลเล่|saxophone|แซกโซโฟน|ระนาด|ขิม|orchestra|symphony|ดุริยาง\",i];\n);out center tags;",
+ "elements": [
+  {
+   "type": "node",
+   "id": 1097723846,
+   "lat": 13.7620197,
+   "lon": 100.4935959,
+   "tags": {
+    "amenity": "bar",
+    "name": "Jazz Happens"
+   }
+  },
+  {
+   "type": "node",
+   "id": 5304500539,
+   "lat": 13.7591307,
+   "lon": 100.4965571,
+   "tags": {
+    "shop": "musical_instrument"
+   }
+  },
+  {
+   "type": "node",
+   "id": 6141225188,
+   "lat": 13.7583281,
+   "lon": 100.4979376,
+   "tags": {
+    "amenity": "theatre",
+    "name:en": "Khaosan Comedy Club",
+    "opening_hours": "Mo-Su 19:00-00:00"
+   }
+  },
+  {
+   "type": "node",
+   "id": 6570646185,
+   "lat": 13.753007,
+   "lon": 100.4941654,
+   "tags": {
+    "amenity": "theatre",
+    "name:en": "Bangkok City Pillar Shrine Theater",
+    "opening_hours": "Mo-Sa 09:00-15:30; Su 09:00-16:00"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7141437085,
+   "lat": 13.7634171,
+   "lon": 100.4944302,
+   "tags": {
+    "amenity": "theatre",
+    "name:en": "Muay Thai Fighting - for FREE",
+    "opening_hours": "Sa-Su 18:00-21:00"
+   }
+  },
+  {
+   "type": "node",
+   "id": 10942588805,
+   "lat": 13.7547346,
+   "lon": 100.4958548,
+   "tags": {
+    "addr:housenumber": "10",
+    "addr:street": "ถนนบุญศิริ",
+    "name": "ต้นฉบับ",
+    "name:en": "Tonchabab",
+    "name:th": "ต้นฉบับ",
+    "phone": "++66 81 695 2785",
+    "shop": "music"
+   }
+  },
+  {
+   "type": "node",
+   "id": 11558924520,
+   "lat": 13.7565134,
+   "lon": 100.489057,
+   "tags": {
+    "name": "น้อง",
+    "shop": "music"
+   }
+  },
+  {
+   "type": "node",
+   "id": 13359507464,
+   "lat": 13.7525554,
+   "lon": 100.4986861,
+   "tags": {
+    "addr:district": "พระนคร",
+    "addr:housenumber": "391",
+    "addr:postcode": "10200",
+    "addr:province": "กรุงเทพมหานคร",
+    "addr:street": "ถนนตะนาว",
+    "addr:subdistrict": "เสาชิงช้า",
+    "amenity": "arts_centre",
+    "contact:facebook": "https://www.facebook.com/musicalartcentre",
+    "name": "ศูนย์สังคีตศิลป์",
+    "name:th": "ศูนย์สังคีตศิลป์",
+    "operator": "ธนาคารกรุงเทพ",
+    "website": "https://www.bangkokbank.com/th-TH/About-Us/Corporate-Social-Responsibility/Musical-Art-Center"
+   }
+  },
+  {
+   "type": "way",
+   "id": 134106789,
+   "center": {
+    "lat": 13.76011,
+    "lon": 100.4916233
+   },
+   "tags": {
+    "addr:district": "พระนคร",
+    "addr:postcode": "10200",
+    "addr:province": "กรุงเทพมหานคร",
+    "addr:subdistrict": "พระบรมมหาราชวัง",
+    "amenity": "theatre",
+    "building": "yes",
+    "name": "โรงละครวังหน้า",
+    "name:en": "Wangna Theatre",
+    "name:th": "โรงละครวังหน้า"
+   }
+  },
+  {
+   "type": "way",
+   "id": 351091873,
+   "center": {
+    "lat": 13.7530707,
+    "lon": 100.4901202
+   },
+   "tags": {
+    "addr:district": "พระนคร",
+    "addr:postcode": "10200",
+    "addr:province": "กรุงเทพมหานคร",
+    "addr:subdistrict": "พระบรมมหาราชวัง",
+    "building": "university",
+    "name": "ศาลาดนตรี",
+    "name:en": "Music Pavillion",
+    "name:ja": "音楽パビリオン",
+    "name:th": "ศาลาดนตรี"
+   }
+  },
+  {
+   "type": "way",
+   "id": 626692792,
+   "center": {
+    "lat": 13.7619045,
+    "lon": 100.4994105
+   },
+   "tags": {
+    "addr:district": "พระนคร",
+    "addr:postcode": "10200",
+    "addr:province": "กรุงเทพมหานคร",
+    "addr:subdistrict": "ตลาดยอด",
+    "amenity": "karaoke_box",
+    "building": "commercial"
+   }
+  },
+  {
+   "type": "way",
+   "id": 1000481577,
+   "center": {
+    "lat": 13.7461266,
+    "lon": 100.4959395
+   },
+   "tags": {
+    "addr:district": "พระนคร",
+    "addr:postcode": "10200",
+    "addr:province": "กรุงเทพมหานคร",
+    "addr:subdistrict": "พระบรมมหาราชวัง",
+    "amenity": "place_of_worship",
+    "building": "yes",
+    "name": "ศาลเจ้าพ่อหอกลอง",
+    "name:en": "Chao Pho Ho Klong Shrine",
+    "name:th": "ศาลเจ้าพ่อหอกลอง",
+    "religion": "animist"
+   }
+  },
+  {
+   "type": "way",
+   "id": 1265994092,
+   "center": {
+    "lat": 13.7468087,
+    "lon": 100.5000953
+   },
+   "tags": {
+    "addr:district": "พระนคร",
+    "addr:housenumber": "66",
+    "addr:postcode": "10200",
+    "addr:province": "กรุงเทพมหานคร",
+    "addr:street": "ถนนเจริญกรุง",
+    "addr:subdistrict": "วังบูรพาภิรมย์",
+    "alt_name:en": "Sala Chalermkrung",
+    "amenity": "theatre",
+    "area": "yes",
+    "building": "yes",
+    "building:levels": "4",
+    "fax": "+66 2 221 2631",
+    "name": "ศาลาเฉลิมกรุง",
+    "name:en": "Chalerm Krung Royal Theatre",
+    "name:th": "ศาลาเฉลิมกรุง",
+    "opening_hours": "Mo-Su 09:00-18:00; PH open",
+    "phone": "+66 2 224 4499;+66 2 225 8757;+66 2 225 8758;+66 2 623 8148;+66 2 623 8149",
+    "website": "http://www.salachalermkrung.com/",
+    "wikidata": "Q4921773",
+    "wikimedia_commons": "Category:Sala Chaloem Krung",
+    "wikipedia": "th:ศาลาเฉลิมกรุง"
+   }
+  },
+  {
+   "type": "way",
+   "id": 1434802192,
+   "center": {
+    "lat": 13.756103,
+    "lon": 100.502749
+   },
+   "tags": {
+    "addr:district": "พระนคร",
+    "addr:housenumber": "84",
+    "addr:postcode": "10200",
+    "addr:province": "กรุงเทพมหานคร",
+    "addr:street": "ถนนราชดำเนินกลาง",
+    "addr:subdistrict": "บวรนิเวศ",
+    "amenity": "arts_centre",
+    "building": "commercial",
+    "building:levels": "4",
+    "name": "หอศิลป์ร่วมสมัยราชดำเนิน",
+    "name:en": "Ratchadamnoen Art Center",
+    "name:th": "หอศิลป์ร่วมสมัยราชดำเนิน",
+    "website": "https://www.rcac84.com/"
+   }
+  },
+  {
+   "type": "way",
+   "id": 1453910718,
+   "center": {
+    "lat": 13.7530914,
+    "lon": 100.5008768
+   },
+   "tags": {
+    "addr:district": "พระนคร",
+    "addr:housenumber": "216-128",
+    "addr:postcode": "10200",
+    "addr:province": "กรุงเทพมหานคร",
+    "addr:street": "ถนนดินสอ",
+    "addr:subdistrict": "เสาชิงช้า",
+    "building": "commercial",
+    "building:levels": "4",
+    "name": "ดุริยประดิษฐ์",
+    "name:th": "ดุริยประดิษฐ์",
+    "operator": "ห้างหุ้นส่วนจำกัด ดุริยประดิษฐ์",
+    "shop": "musical_instrument"
+   }
+  },
+  {
+   "type": "way",
+   "id": 1504956084,
+   "center": {
+    "lat": 13.7520693,
+    "lon": 100.4964667
+   },
+   "tags": {
+    "addr:district": "พระนคร",
+    "addr:postcode": "10200",
+    "addr:province": "กรุงเทพมหานคร",
+    "addr:street": "ถนนอัษฎางค์",
+    "addr:subdistrict": "ศาลเจ้าพ่อเสือ",
+    "building": "commercial",
+    "building:levels": "5",
+    "name": "จิ้นเฮงหลี",
+    "name:th": "จิ้นเฮงหลี",
+    "shop": "musical_instrument"
+   }
+  },
+  {
+   "type": "way",
+   "id": 1528452364,
+   "center": {
+    "lat": 13.7530334,
+    "lon": 100.496454
+   },
+   "tags": {
+    "addr:district": "พระนคร",
+    "addr:housenumber": "16;18-20",
+    "addr:postcode": "10200",
+    "addr:province": "กรุงเทพมหานคร",
+    "addr:street": "ถนนแพร่งสรรพศาสตร์",
+    "addr:subdistrict": "ศาลเจ้าพ่อเสือ",
+    "building": "house",
+    "building:levels": "3",
+    "house": "terraced",
+    "name": "ฮั่วหลีมิวสิค",
+    "name:en": "Hualee Music",
+    "name:th": "ฮั่วหลีมิวสิค",
+    "shop": "musical_instrument"
+   }
+  },
+  {
+   "type": "way",
+   "id": 1528455248,
+   "center": {
+    "lat": 13.7525123,
+    "lon": 100.4964506
+   },
+   "tags": {
+    "addr:housenumber": "61",
+    "addr:province": "กรุงเทพมหานคร",
+    "addr:street": "ถนนอัษฎางค์",
+    "addr:subdistrict": "ศาลเจ้าพ่อเสือ",
+    "building": "commercial",
+    "building:levels": "6",
+    "name": "ไทยพาณิชย์",
+    "name:th": "ไทยพาณิชย์",
+    "shop": "musical_instrument"
+   }
+  },
+  {
+   "type": "way",
+   "id": 1528455253,
+   "center": {
+    "lat": 13.7526557,
+    "lon": 100.4963472
+   },
+   "tags": {
+    "addr:housenumber": "58",
+    "addr:province": "กรุงเทพมหานคร",
+    "addr:street": "ถนนอัษฎางค์",
+    "addr:subdistrict": "ศาลเจ้าพ่อเสือ",
+    "building": "commercial",
+    "shop": "musical_instrument"
+   }
+  },
+  {
+   "type": "way",
+   "id": 1528542128,
+   "center": {
+    "lat": 13.7531862,
+    "lon": 100.4962553
+   },
+   "tags": {
+    "addr:district": "พระนคร",
+    "addr:housenumber": "44",
+    "addr:postcode": "10200",
+    "addr:province": "กรุงเทพมหานคร",
+    "addr:street": "ถนนอัษฎางค์",
+    "addr:subdistrict": "ศาลเจ้าพ่อเสือ",
+    "building": "commercial",
+    "building:levels": "4",
+    "name": "อัษฎางค์ออดิโอเซ็นเตอร์",
+    "name:en": "Atsadang Audio Center",
+    "name:th": "อัษฎางค์ออดิโอเซ็นเตอร์",
+    "operator": "ห้างหุ้นส่วนจำกัด อัษฎางค์ออดิโอเซ็นเตอร์",
+    "shop": "hifi"
+   }
+  },
+  {
+   "type": "way",
+   "id": 1528542129,
+   "center": {
+    "lat": 13.7532183,
+    "lon": 100.4962488
+   },
+   "tags": {
+    "addr:district": "พระนคร",
+    "addr:housenumber": "43",
+    "addr:postcode": "10200",
+    "addr:province": "กรุงเทพมหานคร",
+    "addr:street": "ถนนอัษฎางค์",
+    "addr:subdistrict": "ศาลเจ้าพ่อเสือ",
+    "building": "commercial",
+    "building:levels": "4",
+    "name": "อ๋องกีต้าร์",
+    "name:en": "Aong",
+    "name:th": "อ๋องกีต้าร์",
+    "shop": "musical_instrument",
+    "website": "https://aongguitar.com"
+   }
+  },
+  {
+   "type": "way",
+   "id": 1533001963,
+   "center": {
+    "lat": 13.7460101,
+    "lon": 100.4945224
+   },
+   "tags": {
+    "building": "yes",
+    "man_made": "tower",
+    "name": "หอกลอง",
+    "name:en": "Drum Tower",
+    "name:th": "หอกลอง",
+    "tower:type": "bell_tower"
+   }
+  },
+  {
+   "type": "way",
+   "id": 1547414682,
+   "center": {
+    "lat": 13.7534768,
+    "lon": 100.4961999
+   },
+   "tags": {
+    "addr:district": "พระนคร",
+    "addr:housenumber": "27",
+    "addr:postcode": "10200",
+    "addr:province": "กรุงเทพมหานคร",
+    "addr:street": "ถนนอัษฎางค์",
+    "addr:subdistrict": "ศาลเจ้าพ่อเสือ",
+    "building": "commercial",
+    "building:levels": "2",
+    "shop": "musical_instrument"
+   }
+  },
+  {
+   "type": "way",
+   "id": 1547414683,
+   "center": {
+    "lat": 13.7535145,
+    "lon": 100.4961914
+   },
+   "tags": {
+    "addr:district": "พระนคร",
+    "addr:housenumber": "26",
+    "addr:postcode": "10200",
+    "addr:province": "กรุงเทพมหานคร",
+    "addr:street": "ถนนอัษฎางค์",
+    "addr:subdistrict": "ศาลเจ้าพ่อเสือ",
+    "building": "commercial",
+    "building:levels": "2",
+    "shop": "musical_instrument"
+   }
+  },
+  {
+   "type": "way",
+   "id": 1547484184,
+   "center": {
+    "lat": 13.7534687,
+    "lon": 100.4963279
+   },
+   "tags": {
+    "addr:district": "พระนคร",
+    "addr:housenumber": "3",
+    "addr:postcode": "10200",
+    "addr:province": "กรุงเทพมหานคร",
+    "addr:street": "ตรอกครุฑ",
+    "addr:subdistrict": "ศาลเจ้าพ่อเสือ",
+    "building": "house",
+    "building:levels": "3",
+    "name": "กีตาร์เฮ้าส์",
+    "name:en": "Guitar House",
+    "name:th": "กีตาร์เฮ้าส์",
+    "shop": "music"
+   }
+  },
+  {
+   "type": "relation",
+   "id": 20505833,
+   "center": {
+    "lat": 13.7588285,
+    "lon": 100.4922655
+   },
+   "tags": {
+    "amenity": "theatre",
+    "name": "โรงละครแห่งชาติ",
+    "name:en": "National Theatre",
+    "name:th": "โรงละครแห่งชาติ",
+    "type": "multipolygon",
+    "wikidata": "Q13026893",
+    "wikimedia_commons": "Category:National Theatre, Bangkok",
+    "wikipedia": "th:โรงละครแห่งชาติ (ประเทศไทย)"
+   }
+  }
+ ]
+}

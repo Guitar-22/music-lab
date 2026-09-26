@@ -1,0 +1,42 @@
+{
+ "district": "หนองแขม",
+ "rel": 2942283,
+ "fetchedAt": "2026-09-26T02:53:45.877Z",
+ "source": "https://overpass-api.de/api/interpreter",
+ "license": "ODbL © OpenStreetMap contributors",
+ "query": "[out:json][timeout:120];area(3602942283)->.a;(\nnwr(area.a)[\"shop\"~\"^(musical_instrument|music|hifi)$\"];\nnwr(area.a)[\"amenity\"~\"^(music_school|music_venue|studio|concert_hall|theatre|arts_centre|karaoke_box)$\"];\nnwr(area.a)[\"craft\"~\"musical_instrument|piano_tuner|luthier\"];\nnwr(area.a)[\"studio\"];\nnwr(area.a)[\"live_music\"=\"yes\"];\nnwr(area.a)[\"name\"~\"ดนตรี|เพลง|music|guitar|กีตาร์|piano|เปียโน|drum|กลอง|violin|ไวโอลิน|jazz|แจ๊ส|ห้องซ้อม|rehearsal|recording|อัดเสียง|ukulele|อูคูเลเล่|saxophone|แซกโซโฟน|ระนาด|ขิม|orchestra|symphony|ดุริยาง\",i];\nnwr(area.a)[\"name:en\"~\"ดนตรี|เพลง|music|guitar|กีตาร์|piano|เปียโน|drum|กลอง|violin|ไวโอลิน|jazz|แจ๊ส|ห้องซ้อม|rehearsal|recording|อัดเสียง|ukulele|อูคูเลเล่|saxophone|แซกโซโฟน|ระนาด|ขิม|orchestra|symphony|ดุริยาง\",i];\n);out center tags;",
+ "elements": [
+  {
+   "type": "node",
+   "id": 6185392487,
+   "lat": 13.6913708,
+   "lon": 100.342251,
+   "tags": {
+    "addr:housenumber": "21/17",
+    "addr:postcode": "10160",
+    "addr:street": "ถนนเพชรเกษม 81 (ถนนมาเจริญ)",
+    "amenity": "school",
+    "name": "โรงเรียนดนตรีปางฝัน",
+    "name:en": "Pangfun School of Music",
+    "opening_hours": "Mo-Su 16:00-20:00",
+    "operator": "Pangfun J.",
+    "phone": "028124878"
+   }
+  },
+  {
+   "type": "way",
+   "id": 1482579414,
+   "center": {
+    "lat": 13.7099356,
+    "lon": 100.3600253
+   },
+   "tags": {
+    "amenity": "studio",
+    "landuse": "commercial",
+    "name": "สถานีวิทยุโทรทัศน์องค์การสื่อสารมวลชนแห่งประเทศไทย",
+    "name:th": "สถานีวิทยุโทรทัศน์องค์การสื่อสารมวลชนแห่งประเทศไทย",
+    "studio": "television"
+   }
+  }
+ ]
+}

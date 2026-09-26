@@ -1,0 +1,71 @@
+{
+ "district": "หลักสี่",
+ "rel": 1639288,
+ "fetchedAt": "2026-09-26T02:37:55.687Z",
+ "source": "https://overpass-api.de/api/interpreter",
+ "license": "ODbL © OpenStreetMap contributors",
+ "query": "[out:json][timeout:120];area(3601639288)->.a;(\nnwr(area.a)[\"shop\"~\"^(musical_instrument|music|hifi)$\"];\nnwr(area.a)[\"amenity\"~\"^(music_school|music_venue|studio|concert_hall|theatre|arts_centre|karaoke_box)$\"];\nnwr(area.a)[\"craft\"~\"musical_instrument|piano_tuner|luthier\"];\nnwr(area.a)[\"studio\"];\nnwr(area.a)[\"live_music\"=\"yes\"];\nnwr(area.a)[\"name\"~\"ดนตรี|เพลง|music|guitar|กีตาร์|piano|เปียโน|drum|กลอง|violin|ไวโอลิน|jazz|แจ๊ส|ห้องซ้อม|rehearsal|recording|อัดเสียง|ukulele|อูคูเลเล่|saxophone|แซกโซโฟน|ระนาด|ขิม|orchestra|symphony|ดุริยาง\",i];\nnwr(area.a)[\"name:en\"~\"ดนตรี|เพลง|music|guitar|กีตาร์|piano|เปียโน|drum|กลอง|violin|ไวโอลิน|jazz|แจ๊ส|ห้องซ้อม|rehearsal|recording|อัดเสียง|ukulele|อูคูเลเล่|saxophone|แซกโซโฟน|ระนาด|ขิม|orchestra|symphony|ดุริยาง\",i];\n);out center tags;",
+ "elements": [
+  {
+   "type": "way",
+   "id": 521700053,
+   "center": {
+    "lat": 13.8804729,
+    "lon": 100.5809087
+   },
+   "tags": {
+    "amenity": "studio",
+    "name": "Thai Public Broadcasting Service",
+    "short_name": "Thai PBS"
+   }
+  },
+  {
+   "type": "way",
+   "id": 1098969606,
+   "center": {
+    "lat": 13.8677421,
+    "lon": 100.5748461
+   },
+   "tags": {
+    "addr:city": "แขวงตลาดบางเขน",
+    "addr:housenumber": "145",
+    "addr:postcode": "10210",
+    "addr:street": "ถนนวิภาวดีรังสิต",
+    "amenity": "studio",
+    "contact:facebook": "https://www.facebook.com/ThaiPBS",
+    "email": "webmaster@thaipbs.or.th",
+    "landuse": "commercial",
+    "name": "องค์การกระจายเสียงและแพร่ภาพสาธารณะแห่งประเทศไทย (ไทยพีบีเอส)",
+    "name:en": "Thai Public Broadcasting Service (Thai PBS)",
+    "name:th": "องค์การกระจายเสียงและแพร่ภาพสาธารณะแห่งประเทศไทย (ไทยพีบีเอส)",
+    "phone": "+66 2 790 2000",
+    "studio": "television",
+    "website": "https://www.thaipbs.or.th"
+   }
+  },
+  {
+   "type": "way",
+   "id": 1464573609,
+   "center": {
+    "lat": 13.8827582,
+    "lon": 100.5666511
+   },
+   "tags": {
+    "amenity": "theatre",
+    "theatre:type": "amphi"
+   }
+  },
+  {
+   "type": "way",
+   "id": 1464573614,
+   "center": {
+    "lat": 13.8831717,
+    "lon": 100.5667834
+   },
+   "tags": {
+    "amenity": "theatre",
+    "theatre:type": "amphi"
+   }
+  }
+ ]
+}

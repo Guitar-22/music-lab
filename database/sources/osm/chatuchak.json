@@ -1,0 +1,209 @@
+{
+ "district": "จตุจักร",
+ "rel": 1639286,
+ "fetchedAt": "2026-09-25T19:12:21.333Z",
+ "source": "https://overpass.kumi.systems/api/interpreter",
+ "license": "ODbL © OpenStreetMap contributors",
+ "query": "[out:json][timeout:120];area(3601639286)->.a;(\nnwr(area.a)[\"shop\"~\"^(musical_instrument|music|hifi)$\"];\nnwr(area.a)[\"amenity\"~\"^(music_school|music_venue|studio|concert_hall|theatre|arts_centre|karaoke_box)$\"];\nnwr(area.a)[\"craft\"~\"musical_instrument|piano_tuner|luthier\"];\nnwr(area.a)[\"studio\"];\nnwr(area.a)[\"live_music\"=\"yes\"];\nnwr(area.a)[\"name\"~\"ดนตรี|เพลง|music|guitar|กีตาร์|piano|เปียโน|drum|กลอง|violin|ไวโอลิน|jazz|แจ๊ส|ห้องซ้อม|rehearsal|recording|อัดเสียง|ukulele|อูคูเลเล่|saxophone|แซกโซโฟน|ระนาด|ขิม|orchestra|symphony|ดุริยาง\",i];\nnwr(area.a)[\"name:en\"~\"ดนตรี|เพลง|music|guitar|กีตาร์|piano|เปียโน|drum|กลอง|violin|ไวโอลิน|jazz|แจ๊ส|ห้องซ้อม|rehearsal|recording|อัดเสียง|ukulele|อูคูเลเล่|saxophone|แซกโซโฟน|ระนาด|ขิม|orchestra|symphony|ดุริยาง\",i];\n);out center tags;",
+ "elements": [
+  {
+   "type": "node",
+   "id": 891277688,
+   "lat": 13.8539169,
+   "lon": 100.5678432,
+   "tags": {
+    "amenity": "theatre",
+    "name": "โรงงานต้นแบบอาหารสัตว์น้ำ"
+   }
+  },
+  {
+   "type": "node",
+   "id": 1374587127,
+   "lat": 13.8550737,
+   "lon": 100.5667384,
+   "tags": {
+    "name": "ชมรมดนตรีคณะประมง",
+    "shop": "music"
+   }
+  },
+  {
+   "type": "node",
+   "id": 1376600745,
+   "lat": 13.849629,
+   "lon": 100.5653237,
+   "tags": {
+    "name": "KU Band",
+    "shop": "music",
+    "wheelchair": "yes"
+   }
+  },
+  {
+   "type": "node",
+   "id": 1597515771,
+   "lat": 13.8433737,
+   "lon": 100.5669401,
+   "tags": {
+    "addr:street": "ซอยงามวงศ์วาน 48",
+    "name": "Fusion Music Shop",
+    "shop": "music"
+   }
+  },
+  {
+   "type": "node",
+   "id": 2072474291,
+   "lat": 13.8283108,
+   "lon": 100.5670149,
+   "tags": {
+    "name": "Hitman Jazz",
+    "shop": "music"
+   }
+  },
+  {
+   "type": "node",
+   "id": 2753755277,
+   "lat": 13.8054489,
+   "lon": 100.5839357,
+   "tags": {
+    "amenity": "music_venue",
+    "name": "Sala Sudasiri Sobha"
+   }
+  },
+  {
+   "type": "node",
+   "id": 4142560544,
+   "lat": 13.8100266,
+   "lon": 100.5668176,
+   "tags": {
+    "addr:city": "กรุงเทพมหานคร",
+    "addr:housenumber": "671/3-4 ซอย ลาดพร้าว 5/1",
+    "addr:postcode": "10900",
+    "addr:street": "ถนนลาดพร้าว",
+    "name": "โปรปลั๊กอิน - ProPlugin",
+    "shop": "musical_instrument"
+   }
+  },
+  {
+   "type": "node",
+   "id": 4802880024,
+   "lat": 13.8032721,
+   "lon": 100.5744811,
+   "tags": {
+    "amenity": "theatre",
+    "name:en": "Playhouse Magical Cabaret Bangkok"
+   }
+  },
+  {
+   "type": "node",
+   "id": 4969530724,
+   "lat": 13.8199327,
+   "lon": 100.5763044,
+   "tags": {
+    "addr:housenumber": "29/1",
+    "addr:postcode": "10900",
+    "addr:street": "ถนนรัชดาภิเษก",
+    "name": "อาคารมานิจ ชุมสาย (ตึกดนตรี)",
+    "office": "government"
+   }
+  },
+  {
+   "type": "node",
+   "id": 5036922521,
+   "lat": 13.799155,
+   "lon": 100.551367,
+   "tags": {
+    "addr:street": "Soi 51",
+    "amenity": "restaurant",
+    "name:en": "Drum Stick Duck"
+   }
+  },
+  {
+   "type": "node",
+   "id": 6476069891,
+   "lat": 13.8160993,
+   "lon": 100.5867035,
+   "tags": {
+    "addr:city": "จันทรเกษม",
+    "addr:housenumber": "339/32",
+    "addr:postcode": "10900",
+    "addr:street": "รัชดาภิเษก 32",
+    "amenity": "studio",
+    "email": "penguinhouse1987@gmail.com",
+    "name": "Penguin House Studio",
+    "phone": "0623292454",
+    "studio": "sound"
+   }
+  },
+  {
+   "type": "way",
+   "id": 259853577,
+   "center": {
+    "lat": 13.8473239,
+    "lon": 100.5644053
+   },
+   "tags": {
+    "leisure": "park",
+    "name": "อุทยานพรรณไม้ในเพลงพระราชนิพนธ์ สมเด็จพระเทพรัตนราชสุดา ฯ สยามบรมราชกุมารี",
+    "name:th": "อุทยานพรรณไม้ในเพลงพระราชนิพนธ์ สมเด็จพระเทพรัตนราชสุดา ฯ สยามบรมราชกุมารี"
+   }
+  },
+  {
+   "type": "way",
+   "id": 389998803,
+   "center": {
+    "lat": 13.8460758,
+    "lon": 100.5659811
+   },
+   "tags": {
+    "building": "yes",
+    "club": "yes",
+    "name": "ชมรมวงดนตรีลูกทุ่งรวมดาวกระจุย",
+    "source": "Bing, knowledge"
+   }
+  },
+  {
+   "type": "way",
+   "id": 1168875153,
+   "center": {
+    "lat": 13.8211381,
+    "lon": 100.5753555
+   },
+   "tags": {
+    "building": "yes",
+    "name": "Rocketsound",
+    "shop": "hifi"
+   }
+  },
+  {
+   "type": "way",
+   "id": 1273631793,
+   "center": {
+    "lat": 13.8037327,
+    "lon": 100.5612599
+   },
+   "tags": {
+    "addr:city": "กรุงเทพมหานคร",
+    "addr:postcode": "10900",
+    "addr:street": "ถนนวิภาวดีรังสิต",
+    "amenity": "studio",
+    "building": "yes",
+    "name": "PPTV Station",
+    "studio": "television"
+   }
+  },
+  {
+   "type": "way",
+   "id": 1444930252,
+   "center": {
+    "lat": 13.8382382,
+    "lon": 100.5722509
+   },
+   "tags": {
+    "amenity": "studio",
+    "building": "yes",
+    "name": "สถานีวิทยุพิทักษ์สันติราษฎร์",
+    "name:th": "สถานีวิทยุพิทักษ์สันติราษฎร์",
+    "studio": "radio"
+   }
+  }
+ ]
+}

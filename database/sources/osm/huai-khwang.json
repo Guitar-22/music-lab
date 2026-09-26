@@ -1,0 +1,156 @@
+{
+ "district": "ห้วยขวาง",
+ "rel": 2938032,
+ "fetchedAt": "2026-09-25T19:02:26.442Z",
+ "source": "https://overpass.private.coffee/api/interpreter",
+ "license": "ODbL © OpenStreetMap contributors",
+ "query": "[out:json][timeout:120];area(3602938032)->.a;(\nnwr(area.a)[\"shop\"~\"^(musical_instrument|music|hifi)$\"];\nnwr(area.a)[\"amenity\"~\"^(music_school|music_venue|studio|concert_hall|theatre|arts_centre|karaoke_box)$\"];\nnwr(area.a)[\"craft\"~\"musical_instrument|piano_tuner|luthier\"];\nnwr(area.a)[\"studio\"];\nnwr(area.a)[\"live_music\"=\"yes\"];\nnwr(area.a)[\"name\"~\"ดนตรี|เพลง|music|guitar|กีตาร์|piano|เปียโน|drum|กลอง|violin|ไวโอลิน|jazz|แจ๊ส|ห้องซ้อม|rehearsal|recording|อัดเสียง|ukulele|อูคูเลเล่|saxophone|แซกโซโฟน|ระนาด|ขิม|orchestra|symphony|ดุริยาง\",i];\nnwr(area.a)[\"name:en\"~\"ดนตรี|เพลง|music|guitar|กีตาร์|piano|เปียโน|drum|กลอง|violin|ไวโอลิน|jazz|แจ๊ส|ห้องซ้อม|rehearsal|recording|อัดเสียง|ukulele|อูคูเลเล่|saxophone|แซกโซโฟน|ระนาด|ขิม|orchestra|symphony|ดุริยาง\",i];\n);out center tags;",
+ "elements": [
+  {
+   "type": "node",
+   "id": 3488544730,
+   "lat": 13.7435505,
+   "lon": 100.5868667,
+   "tags": {
+    "amenity": "theatre",
+    "name": "M Theatre"
+   }
+  },
+  {
+   "type": "node",
+   "id": 4802880025,
+   "lat": 13.750482,
+   "lon": 100.5725411,
+   "tags": {
+    "amenity": "theatre",
+    "name:en": "Ong Bak Live"
+   }
+  },
+  {
+   "type": "node",
+   "id": 4805058721,
+   "lat": 13.7853949,
+   "lon": 100.5774609,
+   "tags": {
+    "amenity": "theatre",
+    "name": "Golden Dome",
+    "name:zh": "金东尼人妖秀"
+   }
+  },
+  {
+   "type": "node",
+   "id": 12900616097,
+   "lat": 13.7862691,
+   "lon": 100.5869568,
+   "tags": {
+    "addr:district": "ห้วยขวาง",
+    "addr:housenumber": "68",
+    "addr:postcode": "10310",
+    "addr:province": "กรุงเทพมหานคร",
+    "addr:street": "ซอย 20 มิถุนา แยก 5",
+    "addr:subdistrict": "สามเสนนอก",
+    "amenity": "studio",
+    "name": "STAR-PRODUCTION FACTORY CO., LTD."
+   }
+  },
+  {
+   "type": "way",
+   "id": 331281086,
+   "center": {
+    "lat": 13.7672028,
+    "lon": 100.5739057
+   },
+   "tags": {
+    "amenity": "theatre",
+    "building": "yes",
+    "name": "หอประชุมเล็ก",
+    "name:en": "Small Hall",
+    "name:th": "หอประชุมเล็ก"
+   }
+  },
+  {
+   "type": "way",
+   "id": 331281095,
+   "center": {
+    "lat": 13.7664476,
+    "lon": 100.5736897
+   },
+   "tags": {
+    "amenity": "theatre",
+    "building": "yes",
+    "name": "หอประชุมใหญ่",
+    "name:en": "Main Hall",
+    "name:th": "หอประชุมใหญ่",
+    "tourism": "yes"
+   }
+  },
+  {
+   "type": "way",
+   "id": 631334160,
+   "center": {
+    "lat": 13.7816419,
+    "lon": 100.5754174
+   },
+   "tags": {
+    "addr:district": "ห้วยขวาง",
+    "addr:housenumber": "353",
+    "addr:postcode": "10310",
+    "addr:province": "กรุงเทพมหานคร",
+    "addr:street": "ซอยรัชดาภิเษก 14",
+    "addr:subdistrict": "ห้วยขวาง",
+    "amenity": "restaurant",
+    "building": "commercial",
+    "building:levels": "6",
+    "cuisine": "korean",
+    "name": "ดรัมบาร์บิคิว",
+    "name:en": "Drum Barbecue",
+    "name:ko": "드럼바베큐",
+    "name:th": "ดรัมบาร์บิคิว"
+   }
+  },
+  {
+   "type": "way",
+   "id": 1270673935,
+   "center": {
+    "lat": 13.7570396,
+    "lon": 100.5697734
+   },
+   "tags": {
+    "addr:district": "ห้วยขวาง",
+    "addr:housenumber": "61/1",
+    "addr:postcode": "10320",
+    "addr:province": "กรุงเทพมหานคร",
+    "addr:street": "ซอยทวีมิตร 2",
+    "addr:subdistrict": "ห้วยขวาง",
+    "amenity": "studio",
+    "building": "yes",
+    "building:levels": "4",
+    "email": "info@fivestarent.com",
+    "fax": "+66 2-246-2105",
+    "name": "ไฟว์สตาร์โปรดักชั่น",
+    "name:en": "Five Star Production",
+    "name:th": "ไฟว์สตาร์โปรดักชั่น",
+    "phone": "+66 2-246-9025-9",
+    "studio": "video",
+    "website": "http://www.fivestarproduction.co.th/",
+    "wikidata": "Q6676470",
+    "wikipedia": "th:ไฟว์สตาร์โปรดักชั่น"
+   }
+  },
+  {
+   "type": "way",
+   "id": 1377401280,
+   "center": {
+    "lat": 13.7622375,
+    "lon": 100.57062
+   },
+   "tags": {
+    "amenity": "studio",
+    "building": "commercial",
+    "name": "บริษัท อสมท จำกัด (มหาชน)",
+    "name:th": "บริษัท อสมท จำกัด (มหาชน)",
+    "studio": "television"
+   }
+  }
+ ]
+}

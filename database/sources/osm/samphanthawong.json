@@ -1,0 +1,87 @@
+{
+ "district": "สัมพันธวงศ์",
+ "rel": 92056,
+ "fetchedAt": "2026-09-25T19:12:36.063Z",
+ "source": "https://overpass-api.de/api/interpreter",
+ "license": "ODbL © OpenStreetMap contributors",
+ "query": "[out:json][timeout:120];area(3600092056)->.a;(\nnwr(area.a)[\"shop\"~\"^(musical_instrument|music|hifi)$\"];\nnwr(area.a)[\"amenity\"~\"^(music_school|music_venue|studio|concert_hall|theatre|arts_centre|karaoke_box)$\"];\nnwr(area.a)[\"craft\"~\"musical_instrument|piano_tuner|luthier\"];\nnwr(area.a)[\"studio\"];\nnwr(area.a)[\"live_music\"=\"yes\"];\nnwr(area.a)[\"name\"~\"ดนตรี|เพลง|music|guitar|กีตาร์|piano|เปียโน|drum|กลอง|violin|ไวโอลิน|jazz|แจ๊ส|ห้องซ้อม|rehearsal|recording|อัดเสียง|ukulele|อูคูเลเล่|saxophone|แซกโซโฟน|ระนาด|ขิม|orchestra|symphony|ดุริยาง\",i];\nnwr(area.a)[\"name:en\"~\"ดนตรี|เพลง|music|guitar|กีตาร์|piano|เปียโน|drum|กลอง|violin|ไวโอลิน|jazz|แจ๊ส|ห้องซ้อม|rehearsal|recording|อัดเสียง|ukulele|อูคูเลเล่|saxophone|แซกโซโฟน|ระนาด|ขิม|orchestra|symphony|ดุริยาง\",i];\n);out center tags;",
+ "elements": [
+  {
+   "type": "node",
+   "id": 4180187292,
+   "lat": 13.7404017,
+   "lon": 100.5100563,
+   "tags": {
+    "addr:housenumber": "489",
+    "addr:street": "yaowarat rd",
+    "amenity": "pub",
+    "name": "cotton jazz club",
+    "opening_hours": "Th-Su"
+   }
+  },
+  {
+   "type": "way",
+   "id": 1234946845,
+   "center": {
+    "lat": 13.7317246,
+    "lon": 100.5149656
+   },
+   "tags": {
+    "addr:district": "สัมพันธวงศ์",
+    "addr:housenumber": "1038/3",
+    "addr:postcode": "10100",
+    "addr:province": "กรุงเทพมหานคร",
+    "addr:street": "ถนนเจริญกรุง",
+    "addr:subdistrict": "ตลาดน้อย",
+    "amenity": "arts_centre",
+    "building": "house",
+    "contact:facebook": "https://www.facebook.com/SpeedyGrandma",
+    "name": "Speedy Grandma",
+    "name:en": "Speedy Grandma",
+    "name:th": "สปีดี้แกรนด์มา",
+    "website": "http://speedygrandma.run"
+   }
+  },
+  {
+   "type": "way",
+   "id": 1241448321,
+   "center": {
+    "lat": 13.7389567,
+    "lon": 100.5128957
+   },
+   "tags": {
+    "addr:district": "สัมพันธวงศ์",
+    "addr:postcode": "10100",
+    "addr:province": "กรุงเทพมหานคร",
+    "addr:subdistrict": "ตลาดน้อย",
+    "amenity": "karaoke_box",
+    "building": "commercial",
+    "building:levels": "6",
+    "name": "นิว ซังซัง",
+    "name:th": "นิว ซังซัง"
+   }
+  },
+  {
+   "type": "way",
+   "id": 1354140755,
+   "center": {
+    "lat": 13.734604,
+    "lon": 100.5141976
+   },
+   "tags": {
+    "addr:district": "สัมพันธวงศ์",
+    "addr:housenumber": "831",
+    "addr:postcode": "10100",
+    "addr:province": "กรุงเทพมหานคร",
+    "addr:street": "ถนนเจริญกรุง",
+    "addr:subdistrict": "ตลาดน้อย",
+    "amenity": "bar",
+    "building": "commercial",
+    "building:levels": "4",
+    "contact:facebook": "https://www.facebook.com/foojohnjazzclub/",
+    "name": "Foo John Jazz club",
+    "name:en": "Foo John Jazz club"
+   }
+  }
+ ]
+}

@@ -1,0 +1,137 @@
+{
+ "district": "ดุสิต",
+ "rel": 92069,
+ "fetchedAt": "2026-09-25T19:08:35.831Z",
+ "source": "https://overpass-api.de/api/interpreter",
+ "license": "ODbL © OpenStreetMap contributors",
+ "query": "[out:json][timeout:120];area(3600092069)->.a;(\nnwr(area.a)[\"shop\"~\"^(musical_instrument|music|hifi)$\"];\nnwr(area.a)[\"amenity\"~\"^(music_school|music_venue|studio|concert_hall|theatre|arts_centre|karaoke_box)$\"];\nnwr(area.a)[\"craft\"~\"musical_instrument|piano_tuner|luthier\"];\nnwr(area.a)[\"studio\"];\nnwr(area.a)[\"live_music\"=\"yes\"];\nnwr(area.a)[\"name\"~\"ดนตรี|เพลง|music|guitar|กีตาร์|piano|เปียโน|drum|กลอง|violin|ไวโอลิน|jazz|แจ๊ส|ห้องซ้อม|rehearsal|recording|อัดเสียง|ukulele|อูคูเลเล่|saxophone|แซกโซโฟน|ระนาด|ขิม|orchestra|symphony|ดุริยาง\",i];\nnwr(area.a)[\"name:en\"~\"ดนตรี|เพลง|music|guitar|กีตาร์|piano|เปียโน|drum|กลอง|violin|ไวโอลิน|jazz|แจ๊ส|ห้องซ้อม|rehearsal|recording|อัดเสียง|ukulele|อูคูเลเล่|saxophone|แซกโซโฟน|ระนาด|ขิม|orchestra|symphony|ดุริยาง\",i];\n);out center tags;",
+ "elements": [
+  {
+   "type": "way",
+   "id": 333233964,
+   "center": {
+    "lat": 13.7731613,
+    "lon": 100.5052219
+   },
+   "tags": {
+    "amenity": "theatre",
+    "building": "civic",
+    "name": "หอวชิราวุธานุสรณ์",
+    "name:th": "หอวชิราวุธานุสรณ์",
+    "start_date": "1981-01-01"
+   }
+  },
+  {
+   "type": "way",
+   "id": 459151311,
+   "center": {
+    "lat": 13.7746534,
+    "lon": 100.5173351
+   },
+   "tags": {
+    "building": "school",
+    "name": "ตึกดนตรี",
+    "name:th": "ตึกดนตรี"
+   }
+  },
+  {
+   "type": "way",
+   "id": 531187841,
+   "center": {
+    "lat": 13.7747484,
+    "lon": 100.5069917
+   },
+   "tags": {
+    "building": "commercial",
+    "name": "สมาคมดนตรีแห่งประเทศไทยในพระบรมราชูปถัมป์",
+    "name:en": "Musical Association of Thailand",
+    "name:th": "สมาคมดนตรีแห่งประเทศไทยในพระบรมราชูปถัมป์",
+    "office": "association",
+    "short_name": "สมาคมดนตรีแห่งประเทศไทย",
+    "short_name:th": "สมาคมดนตรีแห่งประเทศไทย",
+    "website": "http://www.music-associate.org/"
+   }
+  },
+  {
+   "type": "way",
+   "id": 542895020,
+   "center": {
+    "lat": 13.7688855,
+    "lon": 100.5072641
+   },
+   "tags": {
+    "amenity": "studio",
+    "building": "commercial",
+    "frequency": "99.5 MHz",
+    "name": "สถานีวิทยุจราจรเพื่อสังคม",
+    "name:en": "Traffic Radio for Society",
+    "name:th": "สถานีวิทยุจราจรเพื่อสังคม",
+    "phone": "+66 2 288 5050;1255",
+    "short_name:en": "TRS 99.5",
+    "studio": "radio",
+    "website": "https://www.trs995.com/"
+   }
+  },
+  {
+   "type": "way",
+   "id": 542916936,
+   "center": {
+    "lat": 13.7694758,
+    "lon": 100.5079794
+   },
+   "tags": {
+    "amenity": "studio",
+    "building": "commercial",
+    "contact:facebook": "https://www.facebook.com/thongmuanstudio/",
+    "name": "Thongmuan Studio",
+    "name:en": "Thongmuan Studio",
+    "name:th": "ทองม้วนสตูดิโอ",
+    "short_name:th": "ทองม้วน",
+    "studio": "video"
+   }
+  },
+  {
+   "type": "way",
+   "id": 552824459,
+   "center": {
+    "lat": 13.7714905,
+    "lon": 100.5045798
+   },
+   "tags": {
+    "alt_name:th": "หอสมุดดนตรี ทูลกระหม่อมสิรินธร",
+    "building": "civic",
+    "building:levels": "3",
+    "name": "ห้องสมุดดนตรี ทูลกระหม่อมสิรินธร",
+    "name:th": "ห้องสมุดดนตรี ทูลกระหม่อมสิรินธร"
+   }
+  },
+  {
+   "type": "way",
+   "id": 552824460,
+   "center": {
+    "lat": 13.7715645,
+    "lon": 100.5044057
+   },
+   "tags": {
+    "alt_name:th": "ห้องสมุดดนตรี พระบาทสมเด็จพระเจ้าอยู่หัว รัชกาลที่ 9",
+    "building": "civic",
+    "building:levels": "3",
+    "name": "หอสมุดดนตรี พระบาทสมเด็จพระเจ้าอยู่หัว รัชกาลที่ 9",
+    "name:th": "หอสมุดดนตรี พระบาทสมเด็จพระเจ้าอยู่หัว รัชกาลที่ 9"
+   }
+  },
+  {
+   "type": "way",
+   "id": 1371677871,
+   "center": {
+    "lat": 13.7660677,
+    "lon": 100.5140257
+   },
+   "tags": {
+    "building": "temple",
+    "name": "ศาลาสี่สมเด็จ (หอกลอง)",
+    "name:en": "Four Princes Pavilion"
+   }
+  }
+ ]
+}

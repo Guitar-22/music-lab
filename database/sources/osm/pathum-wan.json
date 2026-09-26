@@ -1,0 +1,465 @@
+{
+ "district": "ปทุมวัน",
+ "rel": 92063,
+ "fetchedAt": "2026-09-25T18:26:20.860Z",
+ "source": "https://overpass-api.de/api/interpreter",
+ "license": "ODbL © OpenStreetMap contributors",
+ "query": "[out:json][timeout:120];area(3600092063)->.a;(\nnwr(area.a)[\"shop\"~\"^(musical_instrument|music|hifi)$\"];\nnwr(area.a)[\"amenity\"~\"^(music_school|music_venue|studio|concert_hall|theatre|arts_centre|karaoke_box)$\"];\nnwr(area.a)[\"craft\"~\"musical_instrument|piano_tuner|luthier\"];\nnwr(area.a)[\"studio\"];\nnwr(area.a)[\"live_music\"=\"yes\"];\nnwr(area.a)[\"name\"~\"ดนตรี|เพลง|music|guitar|กีตาร์|piano|เปียโน|drum|กลอง|violin|ไวโอลิน|jazz|แจ๊ส|ห้องซ้อม|rehearsal|recording|อัดเสียง|ukulele|อูคูเลเล่|saxophone|แซกโซโฟน|ระนาด|ขิม|orchestra|symphony|ดุริยาง\",i];\nnwr(area.a)[\"name:en\"~\"ดนตรี|เพลง|music|guitar|กีตาร์|piano|เปียโน|drum|กลอง|violin|ไวโอลิน|jazz|แจ๊ส|ห้องซ้อม|rehearsal|recording|อัดเสียง|ukulele|อูคูเลเล่|saxophone|แซกโซโฟน|ระนาด|ขิม|orchestra|symphony|ดุริยาง\",i];\n);out center tags;",
+ "elements": [
+  {
+   "type": "node",
+   "id": 1756133199,
+   "lat": 13.7448769,
+   "lon": 100.5343626,
+   "tags": {
+    "amenity": "school",
+    "name": "สถาบันดนตรี เคพีเอ็น มิวสิค",
+    "name:en": "KPN Music Academy",
+    "name:th": "สถาบันดนตรี เคพีเอ็น มิวสิค"
+   }
+  },
+  {
+   "type": "node",
+   "id": 2065920181,
+   "lat": 13.7419704,
+   "lon": 100.5438502,
+   "tags": {
+    "amenity": "bar",
+    "image": "http://farm9.staticflickr.com/8353/8382689201_9f70bfc7ed_m.jpg",
+    "level": "0",
+    "name": "Cafe Trio Jazz bar & Art Gallery",
+    "phone": "+6622526572"
+   }
+  },
+  {
+   "type": "node",
+   "id": 2106360383,
+   "lat": 13.738882,
+   "lon": 100.5275236,
+   "tags": {
+    "amenity": "arts_centre",
+    "level": "7",
+    "name": "หอศิลปวิทยนิทรรศน์",
+    "name:en": "Art Center at Center of Academic Resources"
+   }
+  },
+  {
+   "type": "node",
+   "id": 2874223588,
+   "lat": 13.7411779,
+   "lon": 100.5349377,
+   "tags": {
+    "name": "ห้องดนตรีไทย ชั้น 1 ตึก 55"
+   }
+  },
+  {
+   "type": "node",
+   "id": 3915727336,
+   "lat": 13.7295481,
+   "lon": 100.5483638,
+   "tags": {
+    "amenity": "theatre",
+    "check_date": "2025-04-19",
+    "name": "หอประชุมพันธมิตรฝรั่งเศส",
+    "name:fr": "Auditorium de l’alliance française",
+    "name:th": "หอประชุมพันธมิตรฝรั่งเศส",
+    "room": "auditorium"
+   }
+  },
+  {
+   "type": "node",
+   "id": 6248868685,
+   "lat": 13.7467603,
+   "lon": 100.5305219,
+   "tags": {
+    "amenity": "studio",
+    "name": "Goon Studio",
+    "name:en": "Goon Studio"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7058244832,
+   "lat": 13.736027,
+   "lon": 100.5254067,
+   "tags": {
+    "club": "music",
+    "name": "CU Symphony Orchestra"
+   }
+  },
+  {
+   "type": "node",
+   "id": 7058244833,
+   "lat": 13.7360202,
+   "lon": 100.5254973,
+   "tags": {
+    "club": "music",
+    "name": "CU Thai Classical Music"
+   }
+  },
+  {
+   "type": "node",
+   "id": 10581612348,
+   "lat": 13.7342958,
+   "lon": 100.545333,
+   "tags": {
+    "addr:street": "ถนนสารสิน",
+    "amenity": "school",
+    "name": "Royal Symphony Music"
+   }
+  },
+  {
+   "type": "node",
+   "id": 10693793813,
+   "lat": 13.7340024,
+   "lon": 100.5263199,
+   "tags": {
+    "amenity": "theatre",
+    "name": "A Katanyu Comedy Club",
+    "website": "https://www.facebook.com/akatanyu/"
+   }
+  },
+  {
+   "type": "node",
+   "id": 11031843585,
+   "lat": 13.7398738,
+   "lon": 100.5317382,
+   "tags": {
+    "amenity": "theatre",
+    "name": "หอสมุดดนตรี",
+    "name:en": "Thai Music Library",
+    "name:th": "หอสมุดดนตรี"
+   }
+  },
+  {
+   "type": "node",
+   "id": 11139443935,
+   "lat": 13.7451699,
+   "lon": 100.5324766,
+   "tags": {
+    "amenity": "music_venue",
+    "name": "ลิโด้ คอนเนกต์",
+    "name:en": "Lido Connect",
+    "name:th": "ลิโด้ คอนเนกต์"
+   }
+  },
+  {
+   "type": "node",
+   "id": 12092067233,
+   "lat": 13.745034,
+   "lon": 100.5338003,
+   "tags": {
+    "amenity": "theatre",
+    "name": "โรงละครเคแบงก์สยามพิฆเนศ",
+    "name:en": "K-Bank Siam Pic-Ganesha",
+    "name:th": "โรงละครเคแบงก์สยามพิฆเนศ"
+   }
+  },
+  {
+   "type": "node",
+   "id": 12337168365,
+   "lat": 13.7402914,
+   "lon": 100.5503895,
+   "tags": {
+    "addr:district": "ปทุมวัน",
+    "addr:housenumber": "21/19",
+    "addr:postcode": "10330",
+    "addr:province": "กรุงเทพมหานคร",
+    "addr:street": "ซอยร่วมฤดี 1",
+    "addr:subdistrict": "ลุมพินี",
+    "amenity": "music_school",
+    "name": "บ้านฟลูต",
+    "name:en": "Baanflute",
+    "name:th": "บ้านฟลูต",
+    "phone": "+66 2252-9327"
+   }
+  },
+  {
+   "type": "node",
+   "id": 12712926160,
+   "lat": 13.7331927,
+   "lon": 100.5328838,
+   "tags": {
+    "amenity": "theatre",
+    "name:en": "Venom Extraction Show",
+    "theatre:type": "amphi"
+   }
+  },
+  {
+   "type": "way",
+   "id": 48966995,
+   "center": {
+    "lat": 13.7467489,
+    "lon": 100.5302735
+   },
+   "tags": {
+    "addr:district": "ปทุมวัน",
+    "addr:housenumber": "939",
+    "addr:postcode": "10330",
+    "addr:province": "กรุงเทพมหานคร",
+    "addr:street": "ถนนพระราม 1",
+    "addr:subdistrict": "วังใหม่",
+    "alt_name:th": "หอศิลป์กรุงเทพฯ",
+    "amenity": "arts_centre",
+    "building": "yes",
+    "building:colour": "white",
+    "building:levels": "9",
+    "building:levels:underground": "1",
+    "fax": "+66 2 214 6639",
+    "fee": "no",
+    "name": "หอศิลปวัฒนธรรมแห่งกรุงเทพมหานคร",
+    "name:en": "Bangkok Art and Culture Centre",
+    "name:ko": "방콕 예술 문화 센터",
+    "name:th": "หอศิลปวัฒนธรรมแห่งกรุงเทพมหานคร",
+    "name:zh": "曼谷艺术文化中心",
+    "opening_hours": "Tu-Su 10:00-20:00",
+    "phone": "+66 2 214 6630;+66 2 214 6631;+66 2 214 6632;+66 2 214 6633;+66 2 214 6634;+66 2 214 6635;+66 2 214 6636;+66 2 214 6637;+66 2 214 6638",
+    "short_name:en": "BACC",
+    "short_name:th": "หอศิลป์กรุงเทพ",
+    "smoking": "no",
+    "tourism": "gallery",
+    "website": "https://www.bacc.or.th/",
+    "wheelchair": "yes",
+    "wikidata": "Q1130188",
+    "wikimedia_commons": "Category:Bangkok Art and Culture Centre",
+    "wikipedia": "th:หอศิลปวัฒนธรรมแห่งกรุงเทพมหานคร"
+   }
+  },
+  {
+   "type": "way",
+   "id": 157284535,
+   "center": {
+    "lat": 13.7404748,
+    "lon": 100.5319415
+   },
+   "tags": {
+    "addr:district": "ปทุมวัน",
+    "addr:postcode": "10330",
+    "addr:province": "กรุงเทพมหานคร",
+    "addr:subdistrict": "ปทุมวัน",
+    "building": "roof",
+    "building:levels": "1",
+    "height": "6",
+    "name": "ศาลาดนตรีไทย",
+    "name:en": "Thai Musics Pavillion",
+    "name:th": "ศาลาดนตรีไทย",
+    "roof:height": "3",
+    "roof:shape": "gabled"
+   }
+  },
+  {
+   "type": "way",
+   "id": 158060535,
+   "center": {
+    "lat": 13.7415906,
+    "lon": 100.5296454
+   },
+   "tags": {
+    "addr:district": "ปทุมวัน",
+    "addr:postcode": "10330",
+    "addr:province": "กรุงเทพมหานคร",
+    "addr:subdistrict": "วังใหม่",
+    "alt_name": "อาคารจามจุรี 8",
+    "alt_name:en": "Chamchuri 8 Building",
+    "amenity": "arts_centre",
+    "building": "yes",
+    "building:levels": "4",
+    "name": "หอศิลป์จามจุรี",
+    "name:en": "Jamjuree Art Gallery",
+    "name:th": "หอศิลป์จามจุรี",
+    "wikidata": "Q11310084",
+    "wikipedia": "en:Jamjuree Art Gallery"
+   }
+  },
+  {
+   "type": "way",
+   "id": 206832455,
+   "center": {
+    "lat": 13.7471311,
+    "lon": 100.5436558
+   },
+   "tags": {
+    "addr:district": "ปทุมวัน",
+    "addr:housenumber": "22/13;22/14",
+    "addr:postcode": "10330",
+    "addr:province": "กรุงเทพมหานคร",
+    "addr:street": "ถนนชิดลม",
+    "addr:subdistrict": "ลุมพินี",
+    "building": "yes",
+    "name": "บริษัท สหวิทยุ ไฮไฟวิชั่น จำกัด",
+    "name:en": "Saharadio Hifi Vision Co., Ltd.",
+    "name:th": "บริษัท สหวิทยุ ไฮไฟวิชั่น จำกัด",
+    "shop": "hifi"
+   }
+  },
+  {
+   "type": "way",
+   "id": 562209094,
+   "center": {
+    "lat": 13.7490078,
+    "lon": 100.5297261
+   },
+   "tags": {
+    "addr:district": "ปทุมวัน",
+    "addr:housenumber": "20/2",
+    "addr:postcode": "10330",
+    "addr:province": "กรุงเทพมหานคร",
+    "addr:street": "ซอยเกษมสันต์ 1",
+    "addr:subdistrict": "วังใหม่",
+    "amenity": "arts_centre",
+    "building": "yes",
+    "name": "บ้านแสนแสบ",
+    "name:th": "บ้านแสนแสบ",
+    "opening_hours": "We-Mo 11:00-20:00",
+    "shop": "craft",
+    "tourism": "gallery",
+    "website": "https://www.yelohouse.com"
+   }
+  },
+  {
+   "type": "way",
+   "id": 1099311224,
+   "center": {
+    "lat": 13.7364637,
+    "lon": 100.5318437
+   },
+   "tags": {
+    "addr:district": "ปทุมวัน",
+    "addr:postcode": "10330",
+    "addr:province": "กรุงเทพมหานคร",
+    "addr:subdistrict": "ปทุมวัน",
+    "amenity": "theatre",
+    "building": "yes",
+    "theatre:type": "amphi"
+   }
+  },
+  {
+   "type": "way",
+   "id": 1099311225,
+   "center": {
+    "lat": 13.7365125,
+    "lon": 100.5315774
+   },
+   "tags": {
+    "addr:district": "ปทุมวัน",
+    "addr:postcode": "10330",
+    "addr:province": "กรุงเทพมหานคร",
+    "addr:subdistrict": "ปทุมวัน",
+    "amenity": "theatre",
+    "building": "yes",
+    "theatre:type": "amphi"
+   }
+  },
+  {
+   "type": "way",
+   "id": 1173983722,
+   "center": {
+    "lat": 13.7337998,
+    "lon": 100.5451835
+   },
+   "tags": {
+    "addr:district": "ปทุมวัน",
+    "addr:housenumber": "192",
+    "addr:postcode": "10330",
+    "addr:province": "กรุงเทพมหานคร",
+    "addr:street": "ถนนสารสิน",
+    "addr:subdistrict": "ลุมพินี",
+    "amenity": "studio",
+    "building": "yes",
+    "name": "สถานีวิทยุกระจายเสียงกรุงเทพมหานคร",
+    "name:th": "สถานีวิทยุกระจายเสียงกรุงเทพมหานคร",
+    "studio": "radio"
+   }
+  },
+  {
+   "type": "way",
+   "id": 1174282058,
+   "center": {
+    "lat": 13.7404194,
+    "lon": 100.5233051
+   },
+   "tags": {
+    "amenity": "theatre",
+    "theatre:type": "amphi"
+   }
+  },
+  {
+   "type": "way",
+   "id": 1201627784,
+   "center": {
+    "lat": 13.7487558,
+    "lon": 100.5391803
+   },
+   "tags": {
+    "amenity": "theatre",
+    "theatre:type": "amphi"
+   }
+  },
+  {
+   "type": "way",
+   "id": 1201627787,
+   "center": {
+    "lat": 13.7485163,
+    "lon": 100.5401868
+   },
+   "tags": {
+    "amenity": "theatre",
+    "theatre:type": "amphi"
+   }
+  },
+  {
+   "type": "way",
+   "id": 1222436241,
+   "center": {
+    "lat": 13.7349792,
+    "lon": 100.5246506
+   },
+   "tags": {
+    "addr:district": "ปทุมวัน",
+    "addr:housenumber": "355",
+    "addr:postcode": "10330",
+    "addr:province": "กรุงเทพมหานคร",
+    "addr:street": "ซอยจุฬาลงกรณ์ 9",
+    "addr:subdistrict": "วังใหม่",
+    "amenity": "music_school",
+    "building": "commercial",
+    "building:levels": "3",
+    "contact:facebook": "https://www.facebook.com/giftedhousemusic/",
+    "email": "mygiftedhouse@gmail.com",
+    "name": "Gifted House",
+    "name:en": "Gifted House",
+    "phone": "+66 92 249 3291",
+    "website": "https://www.mygiftedhouse.com/"
+   }
+  },
+  {
+   "type": "way",
+   "id": 1292979514,
+   "center": {
+    "lat": 13.7445185,
+    "lon": 100.533832
+   },
+   "tags": {
+    "amenity": "theatre",
+    "name": "ลานอัฒจันทร์",
+    "name:th": "ลานอัฒจันทร์",
+    "operator": "สํานักงานจัดการทรัพย์สินจุฬาลงกรณ์มหาวิทยาลัย",
+    "theatre:type": "amphi"
+   }
+  },
+  {
+   "type": "way",
+   "id": 1373007654,
+   "center": {
+    "lat": 13.7329006,
+    "lon": 100.5326446
+   },
+   "tags": {
+    "amenity": "theatre",
+    "building": "roof",
+    "name:en": "Snake Handling Show",
+    "theatre:type": "amphi"
+   }
+  }
+ ]
+}

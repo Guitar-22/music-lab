@@ -1,0 +1,118 @@
+{
+ "district": "คลองสาน",
+ "rel": 3147280,
+ "fetchedAt": "2026-09-26T02:27:26.221Z",
+ "source": "https://overpass-api.de/api/interpreter",
+ "license": "ODbL © OpenStreetMap contributors",
+ "query": "[out:json][timeout:120];area(3603147280)->.a;(\nnwr(area.a)[\"shop\"~\"^(musical_instrument|music|hifi)$\"];\nnwr(area.a)[\"amenity\"~\"^(music_school|music_venue|studio|concert_hall|theatre|arts_centre|karaoke_box)$\"];\nnwr(area.a)[\"craft\"~\"musical_instrument|piano_tuner|luthier\"];\nnwr(area.a)[\"studio\"];\nnwr(area.a)[\"live_music\"=\"yes\"];\nnwr(area.a)[\"name\"~\"ดนตรี|เพลง|music|guitar|กีตาร์|piano|เปียโน|drum|กลอง|violin|ไวโอลิน|jazz|แจ๊ส|ห้องซ้อม|rehearsal|recording|อัดเสียง|ukulele|อูคูเลเล่|saxophone|แซกโซโฟน|ระนาด|ขิม|orchestra|symphony|ดุริยาง\",i];\nnwr(area.a)[\"name:en\"~\"ดนตรี|เพลง|music|guitar|กีตาร์|piano|เปียโน|drum|กลอง|violin|ไวโอลิน|jazz|แจ๊ส|ห้องซ้อม|rehearsal|recording|อัดเสียง|ukulele|อูคูเลเล่|saxophone|แซกโซโฟน|ระนาด|ขิม|orchestra|symphony|ดุริยาง\",i];\n);out center tags;",
+ "elements": [
+  {
+   "type": "node",
+   "id": 10310397593,
+   "lat": 13.713669,
+   "lon": 100.4997883,
+   "tags": {
+    "amenity": "music_school"
+   }
+  },
+  {
+   "type": "node",
+   "id": 13205344254,
+   "lat": 13.7250947,
+   "lon": 100.5005321,
+   "tags": {
+    "name": "ชุมชนวัดทองเพลง",
+    "name:th": "ชุมชนวัดทองเพลง",
+    "place": "neighbourhood"
+   }
+  },
+  {
+   "type": "way",
+   "id": 156261492,
+   "center": {
+    "lat": 13.7250888,
+    "lon": 100.5051669
+   },
+   "tags": {
+    "name": "คลองวัดทองเพลง",
+    "name:en": "Khlong Wat Thong Phleng",
+    "waterway": "canal"
+   }
+  },
+  {
+   "type": "way",
+   "id": 342384923,
+   "center": {
+    "lat": 13.7239041,
+    "lon": 100.5005522
+   },
+   "tags": {
+    "amenity": "place_of_worship",
+    "denomination": "thai_mahanikaya",
+    "name": "วัดทองเพลง",
+    "name:en": "Wat Thong Phleng",
+    "name:th": "วัดทองเพลง",
+    "religion": "buddhist",
+    "wikidata": "Q99688827",
+    "wikimedia_commons": "Category:Wat Thong Phleng",
+    "wikipedia": "th:วัดทองเพลง"
+   }
+  },
+  {
+   "type": "way",
+   "id": 1193762954,
+   "center": {
+    "lat": 13.7257131,
+    "lon": 100.5109976
+   },
+   "tags": {
+    "name": "คลองวัดทองเพลง",
+    "name:en": "Khlong Wat Thong Phleng",
+    "waterway": "canal"
+   }
+  },
+  {
+   "type": "way",
+   "id": 1193762955,
+   "center": {
+    "lat": 13.7256577,
+    "lon": 100.5091168
+   },
+   "tags": {
+    "layer": "-1",
+    "name": "คลองวัดทองเพลง",
+    "name:en": "Khlong Wat Thong Phleng",
+    "tunnel": "culvert",
+    "waterway": "canal"
+   }
+  },
+  {
+   "type": "way",
+   "id": 1436745631,
+   "center": {
+    "lat": 13.7245809,
+    "lon": 100.5008434
+   },
+   "tags": {
+    "amenity": "school",
+    "name": "โรงเรียนวัดทองเพลง"
+   }
+  },
+  {
+   "type": "relation",
+   "id": 17072818,
+   "center": {
+    "lat": 13.7267886,
+    "lon": 100.5012235
+   },
+   "tags": {
+    "name": "ทางรถไฟสายแม่กลองเก่า",
+    "name:en": "Old Mae Klong Line",
+    "name:th": "ทางรถไฟสายแม่กลองเก่า",
+    "railway": "abandoned",
+    "route": "railway",
+    "type": "route"
+   }
+  }
+ ]
+}

@@ -1,0 +1,107 @@
+{
+ "district": "ดินแดง",
+ "rel": 2938031,
+ "fetchedAt": "2026-09-25T19:08:19.739Z",
+ "source": "https://overpass.kumi.systems/api/interpreter",
+ "license": "ODbL © OpenStreetMap contributors",
+ "query": "[out:json][timeout:120];area(3602938031)->.a;(\nnwr(area.a)[\"shop\"~\"^(musical_instrument|music|hifi)$\"];\nnwr(area.a)[\"amenity\"~\"^(music_school|music_venue|studio|concert_hall|theatre|arts_centre|karaoke_box)$\"];\nnwr(area.a)[\"craft\"~\"musical_instrument|piano_tuner|luthier\"];\nnwr(area.a)[\"studio\"];\nnwr(area.a)[\"live_music\"=\"yes\"];\nnwr(area.a)[\"name\"~\"ดนตรี|เพลง|music|guitar|กีตาร์|piano|เปียโน|drum|กลอง|violin|ไวโอลิน|jazz|แจ๊ส|ห้องซ้อม|rehearsal|recording|อัดเสียง|ukulele|อูคูเลเล่|saxophone|แซกโซโฟน|ระนาด|ขิม|orchestra|symphony|ดุริยาง\",i];\nnwr(area.a)[\"name:en\"~\"ดนตรี|เพลง|music|guitar|กีตาร์|piano|เปียโน|drum|กลอง|violin|ไวโอลิน|jazz|แจ๊ส|ห้องซ้อม|rehearsal|recording|อัดเสียง|ukulele|อูคูเลเล่|saxophone|แซกโซโฟน|ระนาด|ขิม|orchestra|symphony|ดุริยาง\",i];\n);out center tags;",
+ "elements": [
+  {
+   "type": "node",
+   "id": 2761054986,
+   "lat": 13.7601864,
+   "lon": 100.5655586,
+   "tags": {
+    "amenity": "music_venue",
+    "name": "Siam Ratchada Auditorium"
+   }
+  },
+  {
+   "type": "way",
+   "id": 1326472125,
+   "center": {
+    "lat": 13.766801,
+    "lon": 100.5523303
+   },
+   "tags": {
+    "addr:district": "ดินแดง",
+    "addr:postcode": "10400",
+    "addr:province": "กรุงเทพมหานคร",
+    "addr:subdistrict": "ดินแดง",
+    "amenity": "theatre",
+    "building": "yes",
+    "theatre:type": "amphi"
+   }
+  },
+  {
+   "type": "way",
+   "id": 1326472126,
+   "center": {
+    "lat": 13.7665591,
+    "lon": 100.552834
+   },
+   "tags": {
+    "addr:district": "ดินแดง",
+    "addr:postcode": "10400",
+    "addr:province": "กรุงเทพมหานคร",
+    "addr:subdistrict": "ดินแดง",
+    "amenity": "theatre",
+    "building": "yes",
+    "theatre:type": "amphi"
+   }
+  },
+  {
+   "type": "way",
+   "id": 1363858727,
+   "center": {
+    "lat": 13.7821747,
+    "lon": 100.5599806
+   },
+   "tags": {
+    "alt_name": "สถานีวิทยุโทรทัศน์แห่งประเทศไทย",
+    "alt_name:th": "สถานีวิทยุโทรทัศน์แห่งประเทศไทย",
+    "full_name": "ศูนย์ปฏิบัติการแพร่ภาพออกอากาศการกระจายเสียงวิทยุและการให้บริการข้อมูลข่าวสารภาครัฐ",
+    "full_name:th": "ศูนย์ปฏิบัติการแพร่ภาพออกอากาศการกระจายเสียงวิทยุและการให้บริการข้อมูลข่าวสารภาครัฐ",
+    "landuse": "commercial",
+    "name": "ศูนย์ปฏิบัติการแพร่ภาพออกอากาศ ฯ",
+    "name:th": "ศูนย์ปฏิบัติการแพร่ภาพออกอากาศ ฯ",
+    "studio": "television"
+   }
+  },
+  {
+   "type": "way",
+   "id": 1381119429,
+   "center": {
+    "lat": 13.7842947,
+    "lon": 100.5606708
+   },
+   "tags": {
+    "addr:district": "ดินแดง",
+    "addr:housenumber": "36",
+    "addr:postcode": "10400",
+    "addr:province": "กรุงเทพมหานคร",
+    "addr:street": "ซอยวิภาวดีรังสิต 6",
+    "addr:subdistrict": "รัชดาภิเษก",
+    "amenity": "studio",
+    "building": "apartments",
+    "building:levels": "6",
+    "name": "Xcon Studio"
+   }
+  },
+  {
+   "type": "relation",
+   "id": 18186909,
+   "center": {
+    "lat": 13.7672337,
+    "lon": 100.5522833
+   },
+   "tags": {
+    "amenity": "theatre",
+    "name": "ลานหินโค้ง",
+    "name:th": "ลานหินโค้ง",
+    "theatre:type": "amphi",
+    "type": "multipolygon"
+   }
+  }
+ ]
+}

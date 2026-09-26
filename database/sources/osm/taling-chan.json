@@ -1,0 +1,83 @@
+{
+ "district": "ตลิ่งชัน",
+ "rel": 2939954,
+ "fetchedAt": "2026-09-26T02:49:10.562Z",
+ "source": "https://overpass-api.de/api/interpreter",
+ "license": "ODbL © OpenStreetMap contributors",
+ "query": "[out:json][timeout:120];area(3602939954)->.a;(\nnwr(area.a)[\"shop\"~\"^(musical_instrument|music|hifi)$\"];\nnwr(area.a)[\"amenity\"~\"^(music_school|music_venue|studio|concert_hall|theatre|arts_centre|karaoke_box)$\"];\nnwr(area.a)[\"craft\"~\"musical_instrument|piano_tuner|luthier\"];\nnwr(area.a)[\"studio\"];\nnwr(area.a)[\"live_music\"=\"yes\"];\nnwr(area.a)[\"name\"~\"ดนตรี|เพลง|music|guitar|กีตาร์|piano|เปียโน|drum|กลอง|violin|ไวโอลิน|jazz|แจ๊ส|ห้องซ้อม|rehearsal|recording|อัดเสียง|ukulele|อูคูเลเล่|saxophone|แซกโซโฟน|ระนาด|ขิม|orchestra|symphony|ดุริยาง\",i];\nnwr(area.a)[\"name:en\"~\"ดนตรี|เพลง|music|guitar|กีตาร์|piano|เปียโน|drum|กลอง|violin|ไวโอลิน|jazz|แจ๊ส|ห้องซ้อม|rehearsal|recording|อัดเสียง|ukulele|อูคูเลเล่|saxophone|แซกโซโฟน|ระนาด|ขิม|orchestra|symphony|ดุริยาง\",i];\n);out center tags;",
+ "elements": [
+  {
+   "type": "node",
+   "id": 2093204197,
+   "lat": 13.7805342,
+   "lon": 100.4274742,
+   "tags": {
+    "name": "คิวซี คาร์ออดิโอ",
+    "name:en": "QC Car Audio",
+    "name:th": "คิวซี คาร์ออดิโอ",
+    "shop": "hifi"
+   }
+  },
+  {
+   "type": "node",
+   "id": 10660732482,
+   "lat": 13.753824,
+   "lon": 100.440676,
+   "tags": {
+    "name": "บ้านเพลงกลางสวน",
+    "phone": "+66 81 926 8696",
+    "tourism": "apartment"
+   }
+  },
+  {
+   "type": "node",
+   "id": 12408714385,
+   "lat": 13.7710234,
+   "lon": 100.4435084,
+   "tags": {
+    "addr:district": "ตลิ่งชัน",
+    "addr:postcode": "10170",
+    "addr:province": "กรุงเทพมหานคร",
+    "addr:street": "ถนนราชพฤกษ์",
+    "addr:subdistrict": "บางระมาด",
+    "name": "Mirage",
+    "shop": "hifi"
+   }
+  },
+  {
+   "type": "way",
+   "id": 439995760,
+   "center": {
+    "lat": 13.7534872,
+    "lon": 100.4405072
+   },
+   "tags": {
+    "highway": "residential",
+    "lanes": "1",
+    "maxspeed": "30",
+    "name": "ซอยวัดเพลง",
+    "surface": "asphalt",
+    "width:lanes": "1.5"
+   }
+  },
+  {
+   "type": "way",
+   "id": 1143872433,
+   "center": {
+    "lat": 13.7527126,
+    "lon": 100.4409952
+   },
+   "tags": {
+    "amenity": "place_of_worship",
+    "denomination": "thai_mahanikaya",
+    "name": "วัดเพลง (กลางสวน)",
+    "name:en": "Wat Phleng (Klang Suan)",
+    "name:th": "วัดเพลง (กลางสวน)",
+    "religion": "buddhist",
+    "wikidata": "Q100234713",
+    "wikimedia_commons": "Category:Wat Phleng (Klang Suan)",
+    "wikipedia": "th:วัดเพลง (กลางสวน)"
+   }
+  }
+ ]
+}
