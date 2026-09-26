@@ -104,3 +104,17 @@ cd portal; node --test
 - `truncate_text: avoid`: ชื่อแอป คำอธิบาย และบรรทัดข้อมูลในรายการขึ้นบรรทัดใหม่แทนการตัด; ที่ยังตัดมีเพียงชื่อบนแถบนำทาง (ข้อจำกัดของแถบ) และคำอธิบายยาวใน sheet ที่มีปุ่ม "เพิ่มเติม".
 - ข้อ 4 เดิมเรื่อง leading ไทย 1.45 ถูกแทนด้วย leading ตามสเปกนี้.
 - **ภาษาไทย (`:root:lang(th)`)**: ขนาดตัวอักษรตามตารางเดิม แต่เพิ่ม leading เป็น Body/Callout/Subheadline/Footnote 1.6, Headline/Caption 1 1.55, Title 1.35–1.45 เพื่อให้สระบน-ล่างและวรรณยุกต์ไม่อึดอัด; หน้าที่เป็นภาษาอื่นกลับไปใช้ leading ตามสเปก iOS อัตโนมัติ.
+
+## 7. ขยายไปทุกหน้า (26 ก.ย. 2569)
+
+ทุกหน้าของโปรเจกต์ใช้ระบบเดียวกับ Journey app:
+
+| หน้า | วิธี | หมายเหตุ |
+|---|---|---|
+| `portal/ecosystem.html` (แผนที่) | สร้างใหม่ด้วยคอมโพเนนต์ของ `journey.css` + `ecosystem.css` | เป็นแท็บที่ 5 "แผนที่" ของ tab bar เดียวกัน (ค้นหาอยู่ท้ายตาม HIG) · large title, search field, ชั้นเป็น inset grouped list แบบ ✓, รายละเอียดเป็น sheet |
+| `portal/index.html`, `portal/institutions.html` | โหลด `journey.css` (tokens) + `hig-skin.css` ทับ CSS เดิม | ไม่แก้ markup/JS · navbar กระจกแถวเดียว, large title, การ์ดทึบ, ปุ่ม/ช่องกรอกแบบ iOS |
+| `platform/public` (แอป full stack) | `hig-tokens.css` (สร้างจาก `journey.css` ด้วย `platform/tools/sync-hig.cjs`) + `hig.css` | CSP ของ platform ห้ามโหลด CSS ข้ามโฟลเดอร์ จึงคัดลอก tokens · sidebar แบบ iPad, บน iPhone เมนูเป็น segmented เลื่อนแนวนอน, ข้อความแจ้งเป็น HUD |
+
+การตรวจ: `portal/tools/contrast-scan.js` (WCAG AA) — portal 4 หน้า และ platform 27 หน้าจอ (7 persona) ผ่าน 0 จุด ทั้งโหมดสว่างและมืด, ไม่มี scroll แนวนอนที่ 390px, ไม่มี console error. สแกนนี้ข้ามข้อความบนพื้นภาพ/ไล่สี (เช่นการ์ด Today) ซึ่งตรวจด้วย axe-core ตามหัวข้อ 3
+
+เมื่อแก้ tokens ใน `journey.css` ให้รัน `node platform/tools/sync-hig.cjs` เพื่ออัปเดตฝั่ง platform

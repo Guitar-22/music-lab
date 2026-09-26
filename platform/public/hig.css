@@ -1,0 +1,153 @@
+/* Apple HIG skin ของ platform — โหลดหลัง hig-tokens.css และ styles.css; เปลี่ยนเฉพาะหน้าตา ไม่แตะ markup/JavaScript
+   หลักการเดียวกับ portal: 30-apple-hig-design-spec.md */
+
+html body { background: var(--bg); color: var(--label); font-family: var(--font-system); font-size: var(--body-size); line-height: var(--body-leading); }
+body * { font-family: inherit; }
+body a { color: var(--tint); }
+
+/* ───── แถบบน: navbar กระจก ───── */
+.topbar {
+  position: sticky; top: 0; z-index: 30; height: auto; min-height: calc(52px + env(safe-area-inset-top));
+  padding: env(safe-area-inset-top) max(16px, env(safe-area-inset-right)) 0 max(16px, env(safe-area-inset-left));
+  background: var(--glass); -webkit-backdrop-filter: blur(24px) saturate(180%); backdrop-filter: blur(24px) saturate(180%); border: 0; box-shadow: 0 .5px 0 var(--sep);
+}
+.brand { color: var(--label); font-size: var(--headline-size); line-height: var(--headline-leading); font-weight: 600; letter-spacing: 0; min-height: 44px; }
+.brand br { display: none; }
+.brand em { color: var(--label); font-style: normal; }
+.brand-icon { width: 30px; height: 30px; border-radius: 7px; background: var(--tint-solid); color: #fff; font: 600 1rem var(--font-system); }
+.top-caption { color: var(--label-2); font-size: var(--caption1-size); letter-spacing: 0; font-weight: 600; }
+.top-user span { font-size: var(--subheadline-size); font-weight: 600; color: var(--label); }
+.text-btn { display: inline-flex; align-items: center; min-height: 44px; padding: 0 10px; border-radius: 22px; color: var(--tint); font-size: var(--body-size); font-weight: 400; }
+.text-btn:active { opacity: .55; }
+.avatar { background: var(--tint-solid); color: #fff; }
+
+/* ───── หน้าแรก: large title แทนแบนเนอร์ ───── */
+.hero { background: var(--bg-elevated); color: var(--label); border-radius: 12px; min-height: 0; }
+.hero-copy h1, .hero h1 { font-family: var(--font-system); font-size: var(--large-title-size); line-height: var(--large-title-leading); font-weight: 700; letter-spacing: 0; color: var(--label); }
+.hero h1 em { color: var(--tint); }
+.hero p { color: var(--label-2); font-size: var(--callout-size); line-height: var(--callout-leading); }
+.hero-images { background: var(--fill-3); }
+.hero-images img { border-color: var(--bg-elevated); box-shadow: none; }
+.eyebrow { color: var(--label-2); font-size: var(--footnote-size); line-height: var(--footnote-leading); font-weight: 600; letter-spacing: 0; text-transform: uppercase; }
+.section-title, .small-title, .workspace h1 { font-family: var(--font-system); font-size: var(--title2-size); line-height: var(--title2-leading); font-weight: 700; letter-spacing: 0; color: var(--label); }
+.workspace h1 { font-size: var(--large-title-size); line-height: var(--large-title-leading); }
+.section-lead, .lead, .muted, .landing-note { color: var(--label-2); }
+.lead { font-size: var(--callout-size); line-height: var(--callout-leading); }
+.small { font-size: var(--footnote-size); line-height: var(--footnote-leading); }
+h2, h3 { font-family: var(--font-system); letter-spacing: 0; }
+
+/* การ์ดเลือก persona */
+.persona-card { background: var(--bg-elevated); border: 0; border-radius: 12px; box-shadow: none; color: var(--label); }
+.persona-card:hover { transform: none; box-shadow: none; }
+.persona-card:active { background: var(--row-press); }
+.persona-card small { color: var(--label-2); }
+.persona-card .arrow { color: var(--tint); }
+
+/* ───── โครงหลัก: sidebar แบบ iPad ───── */
+.sidebar { background: var(--bg-elevated); border: 0; border-radius: 12px; box-shadow: none; }
+.user-card { border-bottom: .5px solid var(--sep); }
+.user-card b { color: var(--label); }
+.user-card span { color: var(--label-2); font-size: var(--subheadline-size); }
+.nav button { min-height: 44px; border-radius: 10px; color: var(--label); font-size: var(--body-size); line-height: var(--body-leading); font-weight: 400; }
+.nav button:hover { background: var(--fill-3); }
+.nav button.active { background: var(--tint-fill); color: var(--tint); font-weight: 600; }
+
+/* ───── เนื้อหา: การ์ดทึบ มุม 12 ───── */
+.panel, .card, .listing, .place-card, .map-box, .queue-item, .loop-card, .persona-hello, .empty, .opp, .event {
+  background: var(--bg-elevated); color: var(--label); border: 0; border-radius: 12px; box-shadow: none;
+}
+.panel.tint, .tint { background: var(--tint-fill); }
+.loop-card:hover { background: var(--row-press); }
+.divider { border-color: var(--sep); background: var(--sep); }
+.info-list dt, .facts dt { color: var(--label-2); font-weight: 600; }
+.estimate { background: var(--fill-3); color: var(--label); border: 0; border-radius: 10px; }
+.price { color: var(--label); font-weight: 700; }
+.listing img { border-radius: 50%; }
+
+/* ───── ปุ่ม (HIG Buttons): เด่น 1 แบบพื้น tint, รองเป็น fill ───── */
+.button, button.button, a.button {
+  display: inline-flex; align-items: center; justify-content: center; gap: 4px; min-height: 44px; padding: 0 18px;
+  border: 0; border-radius: 999px; background: var(--tint-solid); color: #fff; font-size: var(--body-size); line-height: var(--body-leading); font-weight: 600; box-shadow: none; text-decoration: none;
+}
+.button.outline, .button.secondary { background: var(--fill-3); color: var(--tint); box-shadow: none; }
+.button:active { opacity: .6; }
+.button:disabled { opacity: .4; }
+
+/* ───── ป้าย/ชิป/สถานะ ───── */
+.tag, .chip, .status, .sw { border: 0; border-radius: 6px; background: var(--fill-3); color: var(--label); font-size: var(--caption1-size); line-height: var(--caption1-leading); font-weight: 600; letter-spacing: 0; }
+.tag.dark, .tag.verified { background: var(--tint-solid); color: #fff; }
+.tag.orange, .status.pending, .status.open, .status.osm_only { background: color-mix(in srgb, #ff9500 22%, transparent); color: var(--label); }
+.status.accepted, .status.approved, .status.researched { background: color-mix(in srgb, #34c759 24%, transparent); color: var(--label); }
+.status.rejected { background: color-mix(in srgb, var(--red) 18%, transparent); color: var(--label); }
+.layer-chip { color: #fff; border-radius: 6px; font-size: var(--caption1-size); }
+.l-learn { background: #008932; } .l-gear { background: #c55300; } .l-create { background: #564ade; }
+.l-perform { background: #e7124d; } .l-listen { background: #0a5ad4; } .l-business { background: #956d51; } .l-review { background: #6e6e73; }
+
+/* ───── ฟอร์ม: ช่องกรอกแบบ iOS ───── */
+.field span, .field label, .field > span { color: var(--label-2); font-size: var(--footnote-size); font-weight: 600; }
+html body input:not([type=checkbox]):not([type=radio]), html body select, html body textarea,
+.field input, .field select, .field textarea {
+  min-height: 44px; padding: 10px 12px; border: 0; border-radius: 10px; background-color: var(--fill-3); color: var(--label);
+  font-size: var(--body-size); line-height: var(--body-leading); box-shadow: none;
+}
+input:focus-visible, select:focus-visible, textarea:focus-visible { outline: none; box-shadow: 0 0 0 2px var(--tint); }
+input::placeholder, textarea::placeholder { color: var(--label-2); }
+input[type=checkbox], input[type=radio] { accent-color: var(--tint-solid); width: 20px; height: 20px; }
+.check { min-height: 44px; align-items: center; }
+progress.bar { accent-color: var(--tint-solid); }
+
+/* ───── แถวรายการ (inset grouped) ───── */
+.place-row { background: var(--bg-elevated); border: 0; border-radius: 12px; min-height: 44px; }
+.place-row:hover, .place-row.on { background: var(--row-press); border: 0; }
+.place-row small { color: var(--label-2); }
+.table th { color: var(--label-2); font-weight: 600; font-size: var(--footnote-size); }
+.table th, .table td { border-bottom: .5px solid var(--sep); }
+.fresh { color: var(--label-2); border-top: .5px solid var(--sep); }
+.week .col { background: var(--fill-3); }
+.week .col rect { fill: var(--tint-solid); }
+.week.now b { color: var(--tint); }
+.eco-map .district { stroke: var(--bg-elevated); }
+.eco-map .pin { stroke: var(--bg-elevated); }
+
+/* ───── ข้อความแจ้ง = HUD กระจก ───── */
+.message { background: var(--glass); -webkit-backdrop-filter: blur(24px) saturate(180%); backdrop-filter: blur(24px) saturate(180%); color: var(--label); border: 0; border-radius: 999px; box-shadow: var(--glass-shadow); font-weight: 600; }
+.message.error { color: var(--red); }
+
+footer { background: none; color: var(--label-2); border-top: .5px solid var(--sep); font-size: var(--footnote-size); }
+
+/* ───── ตัวอักษรรองใช้ secondaryLabel ที่ผ่าน 4.5:1 ───── */
+.workspace :is(p, li, small, dd, span):not(button *, a *, .tag, .chip, .status, .layer-chip, .sw, .price) { color: var(--label-2); }
+.workspace :is(h1, h2, h3, b, strong, dt):not(button *, a *) { color: var(--label); }
+.panel.tint :is(p, li, small, span) { color: var(--label); }
+
+/* โหมดตัวใหญ่ (ลุงชาญ) ยังคงขยายตาม Dynamic Type */
+body.large-text { font-size: 1.18rem; }
+
+@media (prefers-color-scheme: dark) {
+  .hero-images { background: var(--fill-2); }
+}
+@media (prefers-reduced-transparency: reduce) {
+  .topbar, .message { -webkit-backdrop-filter: none; backdrop-filter: none; background: var(--bg-elevated); }
+}
+@media (max-width: 860px) {
+  /* iPhone: เมนูเป็นแถบเลื่อนแนวนอนแบบ segmented */
+  .sidebar { border-radius: 12px; padding: 10px; }
+  .nav button { min-height: 36px; padding: 6px 14px; border-radius: 999px; background: var(--fill-3); font-size: var(--subheadline-size); }
+  .nav button.active { background: var(--tint-solid); color: #fff; }
+}
+
+/* ───── ปรับหลังตรวจบนจอ iPhone ───── */
+.brand span:last-child { white-space: nowrap; }
+.brand br + * , .brand em { margin-left: .25em; }
+.text-btn, .top-user span { white-space: nowrap; }
+.nav { scrollbar-width: none; }
+.nav::-webkit-scrollbar { display: none; }
+/* hover ใช้เฉพาะอุปกรณ์ที่มีเมาส์ — บนจอสัมผัสไม่ค้างสีเทา */
+@media (hover: none) { .loop-card:hover, .nav button:hover, .place-row:hover { background: var(--bg-elevated); } .nav button.active:hover { background: var(--tint-solid); } }
+@media (max-width: 600px) {
+  .brand > span:last-child, .top-user > span { display: none; } /* iPhone: เหลือไอคอนแอป + ปุ่ม เหมือน navbar ของ iOS */
+  .topbar { gap: 8px; }
+}
+.avatar, .user-card .avatar, .top-user .avatar { color: #fff !important; background: var(--tint-solid); }
+.workspace :is(.listing-meta, div.small, .muted) { color: var(--label-2) !important; } .workspace .price { color: var(--label) !important; }
+.workspace .panel.tint, .workspace .panel.tint.small { color: var(--label) !important; }

@@ -1,0 +1,129 @@
+/* สร้างอัตโนมัติจาก portal/journey.css หมวด 0–4 โดย platform/tools/sync-hig.cjs — อย่าแก้ไฟล์นี้โดยตรง */
+/* Music Industry Lap — Journey app ตาม Apple Human Interface Guidelines (iOS/iPadOS 26, Liquid Glass)
+   ดูเหตุผลของทุกค่าที่ 30-apple-hig-design-spec.md
+   1rem = Body (17pt ที่ขนาดตัวอักษร Large) — บน iPhone/iPad Safari ขนาดตามการตั้งค่า Dynamic Type ของผู้ใช้ */
+
+
+/* ───────── 0. Typography tokens (iOS Text Styles, Large = ค่าเริ่มต้น) ─────────
+   ขนาด/leading ตามตาราง Dynamic Type ของ Apple: size pt / line-height pt → rem (1rem = 17pt) และ ratio
+   ฟอนต์: SF Pro (system-ui) · Rounded: SF Pro Rounded · Mono: SF Mono · Serif: New York */
+:root {
+  --font-system: system-ui, -apple-system, BlinkMacSystemFont, "Sukhumvit Set", "Noto Sans Thai", sans-serif;
+  --font-rounded: ui-rounded, "SF Pro Rounded", var(--font-system);
+  --font-mono: ui-monospace, "SF Mono", SFMono-Regular, Menlo, monospace;
+  --font-serif: ui-serif, "New York", Georgia, serif;
+  --w-ultralight: 100; --w-thin: 200; --w-light: 300; --w-regular: 400; --w-medium: 500; --w-semibold: 600; --w-bold: 700; --w-heavy: 800; --w-black: 900;
+  --large-title-size: 2rem;      --large-title-leading: 1.2059; /* 34 / 41 */
+  --title1-size: 1.6471rem;      --title1-leading: 1.2143;      /* 28 / 34 */
+  --title2-size: 1.2941rem;      --title2-leading: 1.2727;      /* 22 / 28 */
+  --title3-size: 1.1765rem;      --title3-leading: 1.25;        /* 20 / 25 */
+  --headline-size: 1rem;         --headline-leading: 1.2941;    /* 17 / 22 semibold */
+  --body-size: 1rem;             --body-leading: 1.2941;        /* 17 / 22 */
+  --callout-size: .9412rem;      --callout-leading: 1.3125;     /* 16 / 21 */
+  --subheadline-size: .8824rem;  --subheadline-leading: 1.3333; /* 15 / 20 */
+  --footnote-size: .7647rem;     --footnote-leading: 1.3846;    /* 13 / 18 */
+  --caption1-size: .7059rem;     --caption1-leading: 1.3333;    /* 12 / 16 */
+  --caption2-size: .6471rem;     --caption2-leading: 1.1818;    /* 11 / 13 */
+}
+
+/* ระยะบรรทัดสำหรับภาษาไทย: สระบน-ล่างและวรรณยุกต์ต้องการที่มากกว่าละติน
+   ขนาดตัวอักษรยังเป็นตาม Text Styles เดิม — ปรับเฉพาะ leading (ประมาณ +18–25%) */
+:root:lang(th) {
+  --large-title-leading: 1.35; --title1-leading: 1.38; --title2-leading: 1.42; --title3-leading: 1.45;
+  --headline-leading: 1.55; --body-leading: 1.6; --callout-leading: 1.6; --subheadline-leading: 1.6;
+  --footnote-leading: 1.6; --caption1-leading: 1.55; --caption2-leading: 1.45;
+}
+
+/* ───────── 1. สีระบบ (semantic) — สว่าง / มืด / เพิ่มความคมชัด ───────── */
+:root {
+  color-scheme: light dark;
+  --bg: #f2f2f7;                    /* systemGroupedBackground */
+  --bg-elevated: #ffffff;           /* secondarySystemGroupedBackground */
+  --bg-plain: #ffffff;              /* systemBackground */
+  --label: #000000;
+  --label-2: rgba(60, 60, 67, .75); /* secondaryLabel (ปรับจาก .60 → .75 ให้ผ่าน 4.5:1 บนพื้นเทา) */
+  --label-3: rgba(60, 60, 67, .45);
+  --sep: rgba(60, 60, 67, .29);     /* separator */
+  --fill: rgba(120, 120, 128, .20);
+  --fill-2: rgba(120, 120, 128, .16);
+  --fill-3: rgba(118, 118, 128, .12);
+  --row-press: #d1d1d6;             /* systemGray4 */
+  --tint: #0a5ad4;                  /* systemBlue ปรับเข้มให้ข้อความเล็กผ่าน ≥ 4.8:1 บนพื้นเทาและพื้น fill ทุกแบบ */
+  --tint-solid: #0a5ad4;            /* พื้นปุ่มที่มีตัวอักษรขาว (6.1:1) */
+  --tint-fill: rgba(10, 90, 212, .12);
+  --red: #e9152d;                   /* systemRed (accessible) */
+  --glass: rgba(255, 255, 255, .72);
+  --glass-shadow: 0 8px 32px rgba(0, 0, 0, .12), 0 0 0 .5px rgba(0, 0, 0, .08);
+  --dim: rgba(0, 0, 0, .35);
+  /* สีประจำห้อง (system colors) + ตัวเข้ม (accessible) สำหรับพื้นที่มีตัวอักษรขาว */
+  --playground: #ff8d28; --playground-strong: #c55300;
+  --practice: #00c3d0;   --practice-strong: #008198;
+  --library: #6155f5;    --library-strong: #564ade;
+  --studio: #34c759;     --studio-strong: #008932;
+  --stage: #ff2d55;      --stage-strong: #e7124d;
+  --pathway: #ac7f5e;    --pathway-strong: #956d51;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #000000; --bg-elevated: #1c1c1e; --bg-plain: #000000;
+    --label: #ffffff; --label-2: rgba(235, 235, 245, .62); --label-3: rgba(235, 235, 245, .32);
+    --sep: rgba(84, 84, 88, .65);
+    --fill: rgba(120, 120, 128, .36); --fill-2: rgba(120, 120, 128, .32); --fill-3: rgba(118, 118, 128, .24);
+    --row-press: #3a3a3c;
+    --tint: #4aa8ff; --tint-solid: #0a60e6; --tint-fill: rgba(74, 168, 255, .18); --red: #ff6165;
+    --glass: rgba(30, 30, 32, .66);
+    --glass-shadow: 0 8px 32px rgba(0, 0, 0, .5), 0 0 0 .5px rgba(255, 255, 255, .1);
+    --dim: rgba(0, 0, 0, .55);
+    --playground: #ff9230; --practice: #00d2e0; --library: #6d7cff; --studio: #30d158; --stage: #ff375f; --pathway: #b78a66;
+  }
+  /* sheet ที่ลอยอยู่ใช้พื้น elevated (สว่างกว่าพื้นฐาน) ตามหลัก base/elevated ของ Dark Mode */
+}
+@media (prefers-contrast: more) {
+  :root { --label-2: rgba(60, 60, 67, .9); --sep: #8e8e93; --tint: #0040dd; --tint-solid: #0040dd; --glass: rgba(255, 255, 255, .96); }
+}
+@media (prefers-contrast: more) and (prefers-color-scheme: dark) {
+  :root { --label-2: rgba(235, 235, 245, .85); --sep: #8e8e93; --tint: #6ec0ff; --tint-solid: #0040dd; --glass: rgba(28, 28, 30, .97); }
+}
+
+/* ───────── 2. ตัวอักษร: ฟอนต์ระบบ + Dynamic Type ───────── */
+html { font-size: 106.25%; -webkit-text-size-adjust: 100%; }
+@supports (font: -apple-system-body) { html { font: -apple-system-body; } }
+body {
+  margin: 0; background: var(--bg); color: var(--label);
+  font-family: var(--font-system);
+  font-size: var(--body-size); line-height: var(--body-leading); /* ไทยต้องการ leading มากกว่าละติน (22/17) เพราะสระบน-ล่าง */
+  -webkit-font-smoothing: antialiased; -webkit-tap-highlight-color: transparent;
+}
+h1, h2, h3, p { margin: 0; }
+.t-large { font-size: var(--large-title-size); line-height: var(--large-title-leading); font-weight: 400; }                 /* Large Title 34 */
+.t-title2 { font-size: var(--title2-size); line-height: var(--title2-leading); font-weight: 400; }           /* Title 2 22 */
+.t-headline { font-size: var(--body-size); line-height: var(--body-leading); font-weight: 600; }              /* Headline 17 */
+.t-callout { font-size: var(--callout-size); line-height: var(--callout-leading); }                             /* Callout 16 */
+.t-subhead { font-size: var(--subheadline-size); line-height: var(--subheadline-leading); }                             /* Subhead 15 */
+.t-footnote { font-size: var(--footnote-size); line-height: var(--footnote-leading); }                            /* Footnote 13 */
+
+/* truncate_text: avoid — ข้อความขึ้นบรรทัดใหม่แทนการตัด ยกเว้นคำอธิบายยาวใน sheet (clamp-3 + ปุ่ม "เพิ่มเติม") */
+.clamp-3 { display: -webkit-box; -webkit-box-orient: vertical; overflow: hidden; -webkit-line-clamp: 3; }
+p, li { text-wrap: pretty; }
+
+/* ───────── 3. พื้นฐาน / การเข้าถึง ───────── */
+*, *::before, *::after { box-sizing: border-box; }
+a { color: var(--tint); text-decoration: none; }
+button { font: inherit; color: inherit; background: none; border: 0; padding: 0; cursor: pointer; }
+button:disabled { cursor: default; }
+:focus-visible { outline: 3px solid var(--tint); outline-offset: 2px; border-radius: 10px; }
+[hidden] { display: none !important; }
+main:focus, #flow-q:focus, #sheet-title:focus { outline: none; } /* โฟกัสจากโปรแกรมเพื่อ VoiceOver ไม่ต้องมีกรอบ */
+.sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+.skip { position: fixed; left: 12px; top: -80px; z-index: 100; padding: 10px 14px; border-radius: 12px; background: var(--bg-elevated); box-shadow: var(--glass-shadow); }
+.skip:focus { top: calc(env(safe-area-inset-top) + 8px); }
+svg.sym { width: 1em; height: 1em; flex: none; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+
+/* ───────── 4. Liquid Glass: ใช้กับแถบควบคุมเท่านั้น (navbar, tab bar, ปุ่มลอย) ไม่ใช้ในเนื้อหา ───────── */
+.glass { background: var(--glass); -webkit-backdrop-filter: blur(24px) saturate(180%); backdrop-filter: blur(24px) saturate(180%); box-shadow: var(--glass-shadow); }
+@supports not ((backdrop-filter: blur(1px)) or (-webkit-backdrop-filter: blur(1px))) { :root { --glass: var(--bg-elevated); } }
+@media (prefers-reduced-transparency: reduce) {
+  :root { --glass: var(--bg-elevated); }
+  .glass, .navbar.scrolled, .sheet-bar.scrolled, .circle-btn span, .alert, .story .foot { -webkit-backdrop-filter: none !important; backdrop-filter: none !important; }
+}
+
