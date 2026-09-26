@@ -1,0 +1,69 @@
+{
+  "district": "คลองสาน",
+  "researchedAt": "2026-09-26",
+  "places": [
+    {
+      "id": "cur:kpn-music-academy-iconsiam",
+      "name": "KPN Music Academy สาขาไอคอนสยาม",
+      "name_en": "KPN Music Academy ICONSIAM",
+      "kind": "school",
+      "address": "ไอคอนสยาม ชั้น 5 (ICON Education Zone), 299 ซ.เจริญนคร 5 ถ.เจริญนคร แขวงคลองต้นไทร เขตคลองสาน กรุงเทพฯ 10600",
+      "geocode": "ICONSIAM, Bangkok",
+      "lat": null, "lon": null,
+      "phone": null,
+      "website": "https://www.kpnmusic.com/",
+      "social": ["https://www.facebook.com/KPN.ICONSIAM/"],
+      "hours": null,
+      "offer": ["เปียโน", "ดนตรีคลาสสิกและป๊อป", "ขับร้อง"],
+      "source_url": "https://www.facebook.com/KPN.ICONSIAM/",
+      "evidence": "เพจ KPN ICONSIAM และโพสต์เพจ KPN Music Academy ระบุ 'KPN ICONSIAM อยู่ชั้น 5'; เพจไอคอนสยามโพสต์ 'KPN ICONSIAM เปิดแล้ว' — หน้า iconsiam.com/th/shopping/kpn-music-academy ตอบ not-found ขณะตรวจ (26 ก.ย. 2026) ควรยืนยันว่ายังเปิด",
+      "checked": "2026-09-26"
+    },
+    {
+      "id": "cur:true-icon-hall-iconsiam",
+      "name": "ทรู ไอคอน ฮอลล์ (ไอคอนสยาม ชั้น 7)",
+      "name_en": "TRUE ICON HALL, ICONSIAM",
+      "kind": "performing_arts",
+      "address": "ไอคอนสยาม ชั้น 7, 299 ถ.เจริญนคร แขวงคลองต้นไทร เขตคลองสาน กรุงเทพฯ 10600",
+      "geocode": "ICONSIAM, Bangkok",
+      "lat": null, "lon": null,
+      "phone": null,
+      "website": "https://www.trueiconhall.com/",
+      "social": [],
+      "hours": null,
+      "offer": ["หอประชุม/ฮอลล์คอนเสิร์ตเก็บเสียง จุสูงสุดราว 2,700 คน", "คอนเสิร์ต/งานแสดง"],
+      "source_url": "https://www.trueiconhall.com/en/our-facility",
+      "evidence": "เว็บ True Icon Hall / Siam Piwat venue management: ฮอลล์อเนกประสงค์เก็บเสียงชั้น 7 ไอคอนสยาม จุ 2,700 คน แบ่งเป็น 2 ฮอลล์ได้; ThaiTicketMajor ใช้เป็นสถานที่จัดคอนเสิร์ต",
+      "checked": "2026-09-26"
+    },
+    {
+      "id": "cur:threesixty-jazz-lounge-millennium-hilton",
+      "name": "ThreeSixty Jazz Lounge (มิลเลนเนียม ฮิลตัน กรุงเทพ ชั้น 32)",
+      "name_en": "ThreeSixty Jazz Lounge, Millennium Hilton Bangkok",
+      "kind": "venue",
+      "address": "โรงแรมมิลเลนเนียม ฮิลตัน กรุงเทพ ชั้น 32, 123 ถ.เจริญนคร แขวงคลองต้นไทร เขตคลองสาน กรุงเทพฯ",
+      "geocode": "Millennium Hilton Bangkok",
+      "lat": null, "lon": null,
+      "phone": null,
+      "website": "https://www.hilton.com/en/hotels/bkkhitw-millennium-hilton-bangkok/dining/threesixty-jazz-lounge/",
+      "social": [],
+      "hours": null,
+      "offer": ["ดนตรีแจ๊สสด (ทุกคืน ยกเว้นวันจันทร์)"],
+      "source_url": "https://www.hilton.com/en/hotels/bkkhitw-millennium-hilton-bangkok/dining/threesixty-jazz-lounge/",
+      "evidence": "หน้าโรงแรม Hilton: ThreeSixty Jazz Lounge ชั้น 32 วิวแม่น้ำเจ้าพระยา มีดนตรีแจ๊สสดหกคืนต่อสัปดาห์",
+      "checked": "2026-09-26"
+    }
+  ],
+  "review": {
+    "osm:n13205344254": { "exclude": true, "note": "ชุมชนวัดทองเพลง เป็นชื่อชุมชน (คำว่า 'เพลง' ในชื่อวัด) ไม่เกี่ยวกับดนตรี" },
+    "osm:w342384923": { "exclude": true, "note": "วัดทองเพลง เป็นวัด ไม่ใช่สถานที่ดนตรี" },
+    "osm:w1436745631": { "exclude": true, "note": "โรงเรียนวัดทองเพลง โรงเรียนสามัญ (คำว่า 'เพลง' มาจากชื่อวัด) ไม่ใช่โรงเรียนดนตรี" }
+  },
+  "gaps": [
+    "Yamaha Music School ไอคอนสยาม: มีบทความในเว็บไอคอนสยาม (ICON Education Zone ชั้น 5) แต่ไม่อยู่ในระบบค้นหาโรงเรียนของ Yamaha Thailand (ก.ย. 2026) — อาจปิดแล้ว",
+    "directory ร้านค้าไอคอนสยามโหลดด้วย JS ไล่ร้านเครื่องดนตรี/เครื่องเสียงรายร้านไม่ได้; ยังไม่ยืนยันร้านเครื่องดนตรีในห้าง",
+    "OSM n10310397593 (amenity=music_school ไม่มีชื่อ) ในเขตคลองสาน: ยังระบุไม่ได้ว่าเป็นโรงเรียนใด",
+    "ล้ง 1919 / The Jam Factory / ICONSIAM River Park: จัดงานดนตรีเป็นครั้งคราว ยังไม่พบหน้าเจ้าของที่ยืนยันเวทีดนตรีประจำ",
+    "ห้องซ้อม/ห้องอัด/ร้านซ่อมในย่านเจริญนคร-ลาดหญ้า: ค้นไม่พบรายที่มีหน้าเจ้าของระบุที่อยู่"
+  ]
+}

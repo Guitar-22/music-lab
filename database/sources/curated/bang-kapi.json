@@ -1,0 +1,113 @@
+{
+  "district": "บางกะปิ",
+  "researchedAt": "2026-09-26",
+  "places": [
+    {
+      "id": "cur:peerapong-music-school",
+      "name": "โรงเรียนดนตรีพีรพงศ์",
+      "name_en": "Peerapong Music School",
+      "kind": "school",
+      "address": "49 ซอยรามคำแหง 76 แขวงหัวหมาก เขตบางกะปิ กรุงเทพฯ 10240",
+      "geocode": "ซอยรามคำแหง 76, Bangkok",
+      "lat": null,
+      "lon": null,
+      "phone": "02-376-3872",
+      "website": "https://www.peerapongmusicschool.ac.th/",
+      "social": [
+        "https://www.facebook.com/PeerapongMusicSchool/"
+      ],
+      "hours": null,
+      "offer": [
+        "เปียโน",
+        "ทฤษฎีดนตรี",
+        "คอนเสิร์ตนักเรียน"
+      ],
+      "source_url": "https://www.peerapongmusicschool.ac.th/contactus.html",
+      "evidence": "หน้า Contact Us: 'เลขที่ 49 ซอยรามคำแหง 76 แขวงหัวหมาก เขตบางกะปิ กรุงเทพมหานคร 10240' Tel 02-376-3872",
+      "checked": "2026-09-26"
+    },
+    {
+      "id": "cur:music-master-school-ladprao",
+      "name": "โรงเรียนสอนดนตรี มิวสิคมาสเตอร์",
+      "name_en": "Music Master School",
+      "kind": "school",
+      "address": "ริมถนนลาดพร้าว ใกล้ปากซอยลาดพร้าว 128/4 แขวงคลองจั่น เขตบางกะปิ กรุงเทพฯ 10240",
+      "geocode": null,
+      "lat": null,
+      "lon": null,
+      "phone": "080-492-5626",
+      "website": "https://www.musicmaster2007.com/",
+      "social": [
+        "https://www.facebook.com/musicmaster2007/"
+      ],
+      "hours": null,
+      "offer": [
+        "กีตาร์",
+        "เปียโน",
+        "ไวโอลิน",
+        "กลอง",
+        "ร้องเพลง",
+        "ติวสอบเข้ามหาวิทยาลัยดนตรี"
+      ],
+      "source_url": "https://www.musicmaster2007.com/",
+      "evidence": "หน้า ติดต่อ ของเว็บโรงเรียน (อ่านจากผลค้นหา หน้าเว็บโหลดด้วย JS): 'ริมถนนลาดพร้าว ใกล้ปากซอยลาดพร้าว 128/4 แขวงคลองจั่น เขตบางกะปิ' โทร 080-492-5626; เพจ FB ระบุใกล้สถานีลาดพร้าว 101",
+      "checked": "2026-09-26"
+    },
+    {
+      "id": "cur:ramkhamhaeng-fine-applied-arts",
+      "name": "คณะศิลปกรรมศาสตร์ มหาวิทยาลัยรามคำแหง",
+      "name_en": "Faculty of Fine and Applied Arts, Ramkhamhaeng University",
+      "kind": "higher_ed",
+      "address": "อาคารสุโขทัย (SKB) มหาวิทยาลัยรามคำแหง 282 ถนนรามคำแหง แขวงหัวหมาก เขตบางกะปิ กรุงเทพฯ 10240",
+      "geocode": "มหาวิทยาลัยรามคำแหง",
+      "lat": null,
+      "lon": null,
+      "phone": "02-310-8296",
+      "website": "https://www.fa.ru.ac.th/",
+      "social": [],
+      "hours": "9:00-17:00",
+      "offer": [
+        "ป.ตรี ดนตรีสากล (Popular Music)",
+        "ดนตรีไทย",
+        "นาฏกรรมไทย",
+        "ป.โท ทักษะผู้ประกอบการดนตรีสร้างสรรค์",
+        "ห้องแสดงดนตรีชั้น 17 อาคาร SKB"
+      ],
+      "source_url": "https://www.fa.ru.ac.th/contact/",
+      "evidence": "หน้า Contact ของคณะ: '282 ถนนรามคำแหง หัวหมาก บางกะปิ' โทร 02-310-8296 อาคารสุโขทัย ชั้น 17 ห้องแสดงดนตรี; หน้าหลักสูตรดนตรีสากล B.F.A. (Popular Music) (เว็บเปิดได้ทาง http ใบรับรอง https ไม่ตรงโดเมน)",
+      "checked": "2026-09-26"
+    },
+    {
+      "id": "cur:safehouse-music-recording-studio",
+      "name": "Safehouse Music & Recording Studio",
+      "name_en": "Safehouse Music & Recording Studio",
+      "kind": "studio",
+      "address": "ซอยแฮปปี้แลนด์ 1 แยก 3 แขวงคลองจั่น เขตบางกะปิ กรุงเทพฯ 10240 (lead)",
+      "geocode": null,
+      "lat": null,
+      "lon": null,
+      "phone": null,
+      "website": null,
+      "social": [
+        "https://www.facebook.com/Safehousemusicstudiobkk/"
+      ],
+      "hours": null,
+      "offer": [
+        "ห้องซ้อมดนตรี",
+        "อัดเสียง/มิกซ์",
+        "ผลิตดนตรี"
+      ],
+      "source_url": "https://www.facebook.com/Safehousemusicstudiobkk/",
+      "evidence": "เพจ Facebook ของสตูดิโอ: 'สตูดิโอดนตรี ย่านบางกะปิ บริการห้องซ้อมดนตรี อัดเสียง มิกซ์เสียง' (อ่านจากผลค้นหา); ที่อยู่ ซ.แฮปปี้แลนด์ 1 แยก 3 คลองจั่น จาก harmoniqstudio.com (lead)",
+      "checked": "2026-09-26"
+    }
+  ],
+  "review": {},
+  "gaps": [
+    "Yamaha เดอะมอลล์บางกะปิ, Music Collection/Music Life เดอะมอลล์บางกะปิ, มาร์คาโต้, มิวสิคเลเจนด์, ออดิโอซิตี้ มีอยู่แล้วจาก chain ของ Yamaha (ไม่ลงซ้ำ)",
+    "ห้องซ้อม Music Skills แฮปปี้แลนด์ (111,113 ถ.แฮปปี้แลนด์สาย 1) พบแค่ในเว็บจองห้อง/ประกาศ guitarthai",
+    "ห้องซ้อมดนตรีรามคำแหง (เพจ deemusicband) และห้องซ้อม 24 ชม. รามคำแหง 42 (musicatm webboard) ยังไม่มีที่อยู่จากหน้าเจ้าของ",
+    "m-musicthai (Foursquare ระบุบางกะปิ) ยังไม่ยืนยัน",
+    "ร้านดนตรีสดย่านรามคำแหง/บางกะปิ ร้านแผ่นเสียง ร้านซ่อมกีตาร์ ยังไม่ได้ตรวจ (เครื่องมือค้นเว็บติด rate limit)"
+  ]
+}

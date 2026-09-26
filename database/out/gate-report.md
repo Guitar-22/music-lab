@@ -1,4 +1,4 @@
-# Gate report — 2026-09-26T02:58:58.853Z
+# Gate report — 2026-09-26T09:36:13.765Z
 
 ## ✅ A-source
 
@@ -22,31 +22,31 @@
 
 ```json
 {
-  "places": 341,
-  "rejected": 141,
-  "mapped": 335,
+  "places": 346,
+  "rejected": 145,
+  "mapped": 338,
   "byKind": {
-    "school": 74,
+    "school": 79,
     "venue": 34,
-    "higher_ed": 10,
-    "performing_arts": 44,
+    "higher_ed": 11,
+    "performing_arts": 45,
     "studio": 11,
     "ensemble": 9,
     "archive": 4,
-    "audio_store": 33,
+    "audio_store": 32,
     "broadcast": 10,
     "instrument_store": 53,
     "karaoke": 7,
-    "business": 9,
+    "business": 10,
     "record_store": 23,
     "rehearsal": 5,
     "repair_luthier": 1,
-    "unclassified": 14
+    "unclassified": 12
   },
   "districts": {
     "not_started": 0,
-    "osm_only": 36,
-    "researched": 14
+    "osm_only": 31,
+    "researched": 19
   }
 }
 ```
@@ -54,7 +54,6 @@
 - ⚠️ ปทุมวัน/cur:chula-edu-music-education-cumex "สาขาวิชาดนตรีศึกษา คณะครุศาสตร์ จุฬาฯ / ศูนย์ความเป็นเลิศด้านดนตรีศึกษา (CUMEX)": พิกัดโดยประมาณจากคำค้น "Faculty of Education Chulalongkorn" — ควรระบุ geocode ที่เจาะจงกว่านี้
 - ⚠️ ปทุมวัน/cur:rbso-royal-bangkok-symphony-orchestra "วงดุริยางค์ซิมโฟนีแห่งกรุงเทพ (RBSO)": พิกัดโดยประมาณจากคำค้น "152 Wireless Road" — ควรระบุ geocode ที่เจาะจงกว่านี้
 - ⚠️ ปทุมวัน/cur:siam-record-store "Siam Record Store": พิกัดโดยประมาณจากคำค้น "839 Rama I Road, Wang Mai, Pathum Wan, Bangkok" — ควรระบุ geocode ที่เจาะจงกว่านี้
-- ⚠️ ปทุมวัน/cur:sony-music-thailand-chamchuri-square "บริษัท โซนี่ มิวสิค เอนเตอร์เทนเมนท์ โอเปอเรทติ้ง (ประเทศไทย) จามจุรีสแควร์": ไม่มีพิกัด (geocode ไม่พบ/ยังไม่รัน)
 - ⚠️ ราชเทวี/cur:cassette-shop-victory-monument "Cassette Shop อนุสาวรีย์ชัยฯ": ไม่มีพิกัด (geocode ไม่พบ/ยังไม่รัน)
 - ⚠️ พระนคร/cur:bpi-wang-na-graduate "สถาบันบัณฑิตพัฒนศิลป์ (วังหน้า) โครงการบัณฑิตศึกษา": ไม่มีพิกัด (geocode ไม่พบ/ยังไม่รัน)
 - ⚠️ พระนคร/cur:fad-office-of-performing-arts "สำนักการสังคีต กรมศิลปากร": พิกัดโดยประมาณจากคำค้น "National Theatre, Bangkok" — ควรระบุ geocode ที่เจาะจงกว่านี้
@@ -95,12 +94,15 @@
 - ⚠️ ดุสิต/cur:bma-kiakkai-recreation-centre "ศูนย์นันทนาการเกียกกาย (กรุงเทพมหานคร)": พิกัดโดยประมาณจากคำค้น "ถนนทหาร, Bangkok" — ควรระบุ geocode ที่เจาะจงกว่านี้
 - ⚠️ ป้อมปราบศัตรูพ่าย/cur:hong-seng-music-worachak "ฮงเส็ง มิวสิค สาขาวรจักร": พิกัดโดยประมาณจากคำค้น "195/1 ถนนวรจักร" — ควรระบุ geocode ที่เจาะจงกว่านี้
 - ⚠️ สัมพันธวงศ์/cur:kwang-chiab-sia-yaowarat "กว้างเจียบเซีย เครื่องดนตรีจีนและอุปกรณ์ดนตรีจีน": พิกัดโดยประมาณจากคำค้น "41 ถนนเยาวราช" — ควรระบุ geocode ที่เจาะจงกว่านี้
-- ⚠️ คลองสาน/osm:n13205344254 "ชุมชนวัดทองเพลง": ยังไม่จัดประเภท — ใส่ใน review
-- ⚠️ คลองสาน/osm:w342384923 "วัดทองเพลง": ยังไม่จัดประเภท — ใส่ใน review
 - ⚠️ ธนบุรี/osm:n7069190385 "Music shop": ยังไม่จัดประเภท — ใส่ใน review
 - ⚠️ ธนบุรี/osm:w139367966 "อาคารดนตรีอนุสรณ์": ยังไม่จัดประเภท — ใส่ใน review
 - ⚠️ บางกอกน้อย/osm:n12820346646 "ชุมชนวัดเพลงวิปัสสนา": ยังไม่จัดประเภท — ใส่ใน review
 - ⚠️ บางกอกน้อย/osm:w376296694 "วัดเพลงวิปัสสนา": ยังไม่จัดประเภท — ใส่ใน review
+- ⚠️ ลาดพร้าว/cur:kpn-music-academy-wanghin "สถาบันดนตรีเคพีเอ็น วังหิน": พิกัดโดยประมาณจากคำค้น "ถนนลาดปลาเค้า, Bangkok" — ควรระบุ geocode ที่เจาะจงกว่านี้
+- ⚠️ บางซื่อ/cur:kpn-music-academy-gateway-bangsue "สถาบันดนตรีเคพีเอ็น เกตเวย์ บางซื่อ": ไม่มีพิกัด (geocode ไม่พบ/ยังไม่รัน)
+- ⚠️ บางกะปิ/cur:peerapong-music-school "โรงเรียนดนตรีพีรพงศ์": พิกัดโดยประมาณจากคำค้น "ซอยรามคำแหง 76, Bangkok" — ควรระบุ geocode ที่เจาะจงกว่านี้
+- ⚠️ บางกะปิ/cur:music-master-school-ladprao "โรงเรียนสอนดนตรี มิวสิคมาสเตอร์": ไม่มีพิกัด (ไม่มี geocode)
+- ⚠️ บางกะปิ/cur:safehouse-music-recording-studio "Safehouse Music & Recording Studio": ไม่มีพิกัด (ไม่มี geocode)
 - ⚠️ บางพลัด/osm:n12820001765 "ชุมชนวัดเพลง": ยังไม่จัดประเภท — ใส่ใน review
 - ⚠️ บางพลัด/osm:w376863075 "วัดเพลง": ยังไม่จัดประเภท — ใส่ใน review
 - ⚠️ คันนายาว/osm:w1355621977 "อ่างน้ำพุดนตรี": ยังไม่จัดประเภท — ใส่ใน review
@@ -132,11 +134,11 @@
   "doc_tables": 73,
   "doc_table_rows": 532,
   "doc_links": 362,
-  "places": 341,
-  "place_rejects": 141,
+  "places": 346,
+  "place_rejects": 145,
   "district_progress": 50,
-  "place_social": 92,
-  "place_offer": 581
+  "place_social": 97,
+  "place_offer": 606
 }
 ```
 

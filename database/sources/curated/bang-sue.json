@@ -1,0 +1,43 @@
+{
+  "district": "บางซื่อ",
+  "researchedAt": "2026-09-26",
+  "places": [
+    {
+      "id": "cur:kpn-music-academy-gateway-bangsue",
+      "name": "สถาบันดนตรีเคพีเอ็น เกตเวย์ บางซื่อ",
+      "name_en": "KPN Music Academy Gateway Bangsue",
+      "kind": "school",
+      "address": "ห้างเกตเวย์ แอท บางซื่อ ชั้น 5, 162/1-2,168 ถนนประชาราษฎร์ สาย 2 แขวงบางซื่อ เขตบางซื่อ กรุงเทพฯ 10800",
+      "geocode": "Gateway at Bangsue",
+      "lat": null,
+      "lon": null,
+      "phone": null,
+      "website": "https://www.kpnmusic.com/",
+      "social": [
+        "https://www.facebook.com/KPN.GATEWAYBANGSUE/"
+      ],
+      "hours": null,
+      "offer": [
+        "ดนตรีสากลและไทย ทุกวัย"
+      ],
+      "source_url": "https://www.kpnmusic.com/contactus.html",
+      "evidence": "รายชื่อสาขาในหน้า Contact ของ KPN: 'KPN Music Academy Gateway Bangsue ห้างเกตเวย์ บางซื่อ ชั้น 5 ... ถนน ประชาราษฎร์ สาย 2 แขวง บางซื่อ เขต บางซื่อ'",
+      "checked": "2026-09-26"
+    }
+  ],
+  "review": {
+    "osm:n11235347176": {
+      "kind": "business",
+      "note": "Itim Music Publishing Co., Ltd. บริษัทลิขสิทธิ์/สำนักพิมพ์เพลง (office=company) ซ.ประชานุกูล 1 — ไม่ใช่เวทีดนตรี"
+    },
+    "osm:n13327531976": {
+      "kind": "school",
+      "note": "Keng's Violin Studio สอนไวโอลิน ซ.กรุงเทพ-นนทบุรี 50 ยังไม่พบหน้าเจ้าของ"
+    }
+  },
+  "gaps": [
+    "Yamaha เกทเวย์ แอท บางซื่อ มีอยู่แล้วจาก chain (ไม่ลงซ้ำ)",
+    "ยังไม่ได้ไล่ directory เกตเวย์ แอท บางซื่อ หาร้าน/โรงเรียนดนตรีอื่น",
+    "ห้องซ้อมย่าน MRT เตาปูน และสำนักงานค่ายเพลงย่านประชาราษฎร์ สาย 2 ยังไม่ได้ตรวจ (เครื่องมือค้นเว็บติด rate limit)"
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "district": "ลาดพร้าว",
+  "researchedAt": "2026-09-26",
+  "places": [
+    {
+      "id": "cur:kpn-music-academy-wanghin",
+      "name": "สถาบันดนตรีเคพีเอ็น วังหิน",
+      "name_en": "KPN Music Academy Wanghin",
+      "kind": "school",
+      "address": "186 เสนาเซ็นเตอร์ ถ.ลาดปลาเค้า แขวงจรเข้บัว เขตลาดพร้าว กรุงเทพฯ 10230",
+      "geocode": "ถนนลาดปลาเค้า, Bangkok",
+      "lat": null,
+      "lon": null,
+      "phone": null,
+      "website": "https://www.kpnmusic.com/",
+      "social": [],
+      "hours": null,
+      "offer": [
+        "ดนตรีสากลและไทย ทุกวัย"
+      ],
+      "source_url": "https://www.kpnmusic.com/contactus.html",
+      "evidence": "รายชื่อสาขาในหน้า Contact ของ KPN (ข้อมูลสาขาเขตกรุงเทพฯ): 'KPN Music Academy Wanghin เลขที่ 186 เสนาเซ็นเตอร์ ถ.ลาดปลาเค้า แขวงจรเข้บัว เขตลาดพร้าว'",
+      "checked": "2026-09-26"
+    }
+  ],
+  "review": {
+    "osm:n2068157186": {
+      "kind": "audio_store",
+      "note": "i-studio (shop=hifi) ยังไม่พบหน้าเจ้าของ อาจเป็นร้าน Apple/อุปกรณ์ไอที ควรตรวจซ้ำ"
+    },
+    "osm:n2068157193": {
+      "exclude": true,
+      "note": "ร้านขายโทรศัพท์ ไม่เกี่ยวกับดนตรี (แท็ก shop=hifi ผิด)"
+    },
+    "osm:w375525885": {
+      "kind": "instrument_store",
+      "note": "บ้านกีต้าร์ (Guitar Home) ร้านเครื่องดนตรี; มีเพจ facebook.com/baanguitar แต่ยังไม่ยืนยันว่าเป็นสาขาเดียวกับจุด OSM"
+    }
+  },
+  "gaps": [
+    "Yamaha เซ็นทรัลอีสต์วิลล์/เดอะคริสตัล มีอยู่แล้วจาก chain ของ Yamaha (ไม่ลงซ้ำ)",
+    "ยังไม่ได้ไล่ directory ห้างเซ็นทรัลอีสต์วิลล์/เดอะคริสตัล หาร้าน/โรงเรียนดนตรีอื่น (เครื่องมือค้นเว็บติด rate limit)",
+    "ร้านเครื่องดนตรี/ห้องซ้อมย่านโชคชัย 4 และลาดพร้าว 71-101 ยังไม่ได้ตรวจ"
+  ]
+}

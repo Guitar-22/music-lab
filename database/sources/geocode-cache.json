@@ -879,5 +879,72 @@
   "coarse": true,
   "matched": "ซอยลาดพร้าว 35",
   "approximate": true
+ },
+ "ซอยรามคำแหง 76, Bangkok": {
+  "lat": 13.7689086,
+  "lon": 100.6641509,
+  "display": "ซอยรามคำแหง 76, ปรีชา, แขวงหัวหมาก, เขตบางกะปิ, กรุงเทพมหานคร, 10240, ประเทศไทย",
+  "osm": "way/157427913",
+  "feature": "highway/residential",
+  "coarse": true,
+  "matched": "ซอยรามคำแหง 76, Bangkok",
+  "approximate": true
+ },
+ "มหาวิทยาลัยรามคำแหง": {
+  "lat": 13.7562016,
+  "lon": 100.6174496,
+  "display": "มหาวิทยาลัยรามคำแหง (หัวหมาก), ถนนรามคำแหง, แขวงหัวหมาก, เขตบางกะปิ, กรุงเทพมหานคร, 10241, ประเทศไทย",
+  "osm": "way/301087418",
+  "feature": "amenity/university",
+  "coarse": false,
+  "matched": "มหาวิทยาลัยรามคำแหง",
+  "approximate": false
+ },
+ "Gateway at Bangsue": {
+  "miss": true,
+  "tried": [
+   "Gateway at Bangsue",
+   "Gateway at Bangsue, Bangkok"
+  ]
+ },
+ "ถนนลาดปลาเค้า, Bangkok": {
+  "lat": 13.8419283,
+  "lon": 100.5949329,
+  "display": "ถนนลาดปลาเค้า, แขวงจรเข้บัว, เขตลาดพร้าว, กรุงเทพมหานคร, 10230, ประเทศไทย",
+  "osm": "way/174466242",
+  "feature": "highway/secondary",
+  "coarse": true,
+  "matched": "ถนนลาดปลาเค้า, Bangkok",
+  "approximate": true
+ },
+ "Chamchuri Square": {
+  "lat": 13.7329424,
+  "lon": 100.5307116,
+  "display": "จัตุรัสจามจุรี, ถนนพระรามที่ 4, แขวงปทุมวัน, เขตปทุมวัน, กรุงเทพมหานคร, 10330, ประเทศไทย",
+  "osm": "way/200890474",
+  "feature": "building/yes",
+  "coarse": false,
+  "matched": "Chamchuri Square",
+  "approximate": false
+ },
+ "ICONSIAM, Bangkok": {
+  "lat": 13.7268227,
+  "lon": 100.510294,
+  "display": "ไอคอนสยาม, 168;259;289;299, ถนนเจริญนคร, แขวงคลองต้นไทร, เขตคลองสาน, กรุงเทพมหานคร, 10600, ประเทศไทย",
+  "osm": "way/680735864",
+  "feature": "shop/mall",
+  "coarse": false,
+  "matched": "ICONSIAM, Bangkok",
+  "approximate": false
+ },
+ "Millennium Hilton Bangkok": {
+  "lat": 13.7286821,
+  "lon": 100.5109677,
+  "display": "Millennium Hilton Bangkok, 123, ถนนเจริญนคร, แขวงคลองต้นไทร, เขตคลองสาน, กรุงเทพมหานคร, 10600, ประเทศไทย",
+  "osm": "way/342556929",
+  "feature": "tourism/hotel",
+  "coarse": false,
+  "matched": "Millennium Hilton Bangkok",
+  "approximate": false
  }
 }
