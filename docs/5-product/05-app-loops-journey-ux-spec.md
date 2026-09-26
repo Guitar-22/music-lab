@@ -1,6 +1,6 @@
 # Loop ของแอป · Journey · UX/UI spec · Backlog งาน Dev
 
-26 กันยายน 2026 · มาจาก [10 persona และ use case](26-ten-persona-brainstorm-and-use-cases.md) · ข้อมูลสถานที่จาก [database/](database/README.md) · ต่อยอด [platform/](platform/README.md)
+26 กันยายน 2026 · มาจาก [10 persona และ use case](../4-users/04-personas-and-use-cases.md) · ข้อมูลสถานที่จาก [database/](../../database/README.md) · ต่อยอด [platform/](../../platform/README.md)
 
 ## หลักการ
 

@@ -1,4 +1,4 @@
-# Gate report — 2026-09-26T09:44:50.785Z
+# Gate report — 2026-09-26T10:04:58.651Z
 
 ## ✅ A-source
 
@@ -12,13 +12,13 @@
   "schools": 11,
   "zones": 6,
   "districts": 50,
-  "documents": 32,
-  "docTables": 79,
+  "documents": 29,
+  "docTables": 80,
   "docLinks": 378
 }
 ```
 
-- ⚠️ 30-apple-hig-design-spec.md:17 จำนวนคอลัมน์ 4 ≠ หัวตาราง 3
+- ⚠️ 5-product/07-apple-hig-design-spec.md:17 จำนวนคอลัมน์ 4 ≠ หัวตาราง 3
 
 ## ✅ D-places
 
@@ -145,9 +145,9 @@
   "school_branches": 38,
   "zones": 6,
   "districts": 50,
-  "documents": 32,
-  "doc_tables": 79,
-  "doc_table_rows": 589,
+  "documents": 29,
+  "doc_tables": 80,
+  "doc_table_rows": 592,
   "doc_links": 378,
   "places": 339,
   "place_rejects": 179,

@@ -1,5 +1,5 @@
 // หน้าจอ Ecosystem: แผนที่ดนตรี การ์ดสถานที่ ที่บันทึก แผนซ้อม อุปกรณ์ สถานที่ของฉัน คิวผู้ดูแล ความคืบหน้ารายเขต
-// ใช้บริบทจาก app.js ผ่าน window.MILApp; สเปก: 27-app-loops-journey-ux-spec.md
+// ใช้บริบทจาก app.js ผ่าน window.MILApp; สเปก: docs/5-product/05-app-loops-journey-ux-spec.md
 (function(){
   'use strict';
   const app=()=>window.MILApp;

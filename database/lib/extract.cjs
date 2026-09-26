@@ -57,10 +57,13 @@ function parseMarkdown(file, text) {
 }
 
 function extractDocuments() {
-  return fs.readdirSync(ROOT)
-    .filter(f => /^\d{2}-.*\.md$/.test(f))
+  // เอกสารอยู่ใน docs/<หมวด>/NN-ชื่อ.md — เก็บ path แบบ "หมวด/ไฟล์" เป็นกุญแจ
+  const DOCS = path.join(ROOT, 'docs');
+  return fs.readdirSync(DOCS, { withFileTypes: true })
+    .filter(d => d.isDirectory())
+    .flatMap(d => fs.readdirSync(path.join(DOCS, d.name)).filter(f => /^\d{2}-.*\.md$/.test(f)).map(f => `${d.name}/${f}`))
     .sort()
-    .map(f => parseMarkdown(f, fs.readFileSync(path.join(ROOT, f), 'utf8')));
+    .map(f => parseMarkdown(f, fs.readFileSync(path.join(DOCS, f), 'utf8')));
 }
 
 function extractAll() {

@@ -1,6 +1,6 @@
 # Journey app — สเปกการออกแบบตาม Apple Human Interface Guidelines
 
-อัปเดต 26 กันยายน 2569 · ใช้กับ [portal/journey.html](portal/journey.html) · ต่อจาก [MVP Journey Gate](29-journey-gate-mvp.md)
+อัปเดต 26 กันยายน 2569 · ใช้กับ [portal/journey.html](../../portal/journey.html) · ต่อจาก [MVP Journey Gate](06-journey-gate-mvp.md)
 
 เป้าหมาย: ให้ผู้ใช้ iPhone/iPad รู้สึกว่าเป็นแอปของ Apple — โครงนำทาง ภาษาภาพ พฤติกรรม และการเข้าถึง — แม้จะเป็นเว็บ. ทุกข้อด้านล่างอ้างอิง HIG ฉบับปัจจุบัน (ยุค Liquid Glass, iOS/iPadOS 26) ที่อ่านจาก developer.apple.com เมื่อ 26 ก.ย. 2569.
 
@@ -71,7 +71,7 @@ Tab bar ─┬─ เริ่มต้น   : การ์ด Today "ดนต�
 1. ทดสอบบน iPhone และ iPad จริง: VoiceOver อ่านทุกหน้า, Dynamic Type ขนาด AX5, Increase Contrast, Reduce Transparency, safe area แนวนอน.
 2. รัน `node portal/tools/fetch-app-details.cjs` บนเครื่องที่ออกอินเทอร์เน็ตได้ เพื่อให้ไอคอนจริงและข้อความทางการแสดงแทนอักษรย่อ.
 3. ถ้าจะติดตั้งเป็นแอปบนหน้าจอโฮม (Add to Home Screen) ต้องเพิ่ม `apple-touch-icon` และ web app manifest.
-4. ทดสอบกับผู้ใช้จริงตามแผนใน [29-journey-gate-mvp.md](29-journey-gate-mvp.md).
+4. ทดสอบกับผู้ใช้จริงตามแผนใน [29-journey-gate-mvp.md](06-journey-gate-mvp.md).
 
 การทดสอบซ้ำ:
 

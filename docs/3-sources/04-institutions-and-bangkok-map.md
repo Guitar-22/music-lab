@@ -1,6 +1,6 @@
 # ทะเบียนสถาบันดนตรีไทยและทางค้นโรงเรียนกรุงเทพฯ
 
-ตรวจ 25 กันยายน 2569 · [เปิดหน้าสถาบันและแผนที่](portal/institutions.html) · ชุดข้อมูลที่เว็บใช้จริงอยู่ใน [institutions.js](portal/institutions.js)
+ตรวจ 25 กันยายน 2569 · [เปิดหน้าสถาบันและแผนที่](../../portal/institutions.html) · ชุดข้อมูลที่เว็บใช้จริงอยู่ใน [institutions.js](../../portal/institutions.js)
 
 ## ขอบเขตและวิธีตรวจ
 

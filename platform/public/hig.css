@@ -1,5 +1,5 @@
 /* Apple HIG skin ของ platform — โหลดหลัง hig-tokens.css และ styles.css; เปลี่ยนเฉพาะหน้าตา ไม่แตะ markup/JavaScript
-   หลักการเดียวกับ portal: 30-apple-hig-design-spec.md */
+   หลักการเดียวกับ portal: docs/5-product/07-apple-hig-design-spec.md */
 
 html body { background: var(--bg); color: var(--label); font-family: var(--font-system); font-size: var(--body-size); line-height: var(--body-leading); }
 body * { font-family: inherit; }

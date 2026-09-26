@@ -1,74 +1,87 @@
 # Music Industry Lap
 
-โครงการรวบรวมข้อมูลเพื่อออกแบบสื่อเรียนรู้ดนตรีแบบ **Simulation-based learning** สำหรับทักษะศตวรรษที่ 21
+ทางเข้าการเรียนดนตรีในประเทศไทย: ช่วยคนทุกระดับค้นว่าดนตรีแบบไหนเหมาะกับตน แล้วพาไปยังที่เรียน เครื่องมือ และสถานที่จริงที่ตรวจที่มาแล้ว
 
-**สถานะ:** Phase 1 เป็น [portal นำทางไปยังแหล่งเรียนที่มีอยู่](portal/index.html) (ตรวจสอบแหล่งข้อมูล 25 กันยายน 2026) ยังไม่เปิดบริการสอนหรือ marketplace จริง; `app-demo/` และ `platform/` เป็นการทดลองสำหรับระยะถัดไป
+**สถานะ (26 ก.ย. 2569):** Phase 1 เป็น portal ฟรีที่ลิงก์ไปยังแหล่งที่มีอยู่ · ฐานข้อมูลสถานที่ดนตรีครบ 50 เขตกรุงเทพฯ (339 แห่งที่ผ่าน Gate) · `platform/` และ `app-demo/` เป็นงานทดลองระยะถัดไป ยังไม่เปิดให้ใช้จริง
 
-**เริ่มจาก:** [หน้า portal](portal/index.html) · [สถาบันและแผนที่โรงเรียน](portal/institutions.html) · [แผนที่ Ecosystem รายเขต](portal/ecosystem.html) · [วิธีใช้](portal/README.md) · [กลยุทธ์ Phase 1](22-phase-1-portal-strategy-and-source-ledger.md) · [ทะเบียนเครื่องมือ 35 แหล่ง](23-resource-directory-and-guidance.md)
+## เปิดใช้งาน
 
-## เริ่มอ่าน
+| ส่วน | เปิดอย่างไร | คืออะไร |
+|---|---|---|
+| **Journey app** | `portal/journey.html` | สำรวจตัวตนทางดนตรี 7 คำถาม → ห้องที่ใช่ → แอป/เว็บที่ตรวจแล้ว (Apple HIG) |
+| **แผนที่ Ecosystem** | `portal/ecosystem.html` | สถานที่ดนตรี 50 เขต 6 ชั้น พร้อมแหล่งข้อมูลและวันที่ตรวจ |
+| หน้า portal เดิม | `portal/index.html`, `portal/institutions.html` | ค้นเครื่องมือ 35 แหล่ง · มหาวิทยาลัย 25 แห่ง · โรงเรียนกรุงเทพฯ |
+| แอป full stack (ทดลอง) | `cd platform && npm start` | 10 persona · 10 loop (แผนที่ รายงานข้อมูล เคลมร้าน แผนซ้อม เวที ผู้ปกครอง กิจกรรม) |
+| ฐานข้อมูล | `cd database && npm run build` | รวมทุกแหล่งเป็น SQLite ผ่าน Gate A–D และสร้างข้อมูลให้แผนที่ |
 
-1. [01-current-music-education.md](01-current-music-education.md) — ประเด็นสำคัญของการศึกษาดนตรีปัจจุบันและผลต่อการออกแบบ
-2. [02-us-music-programs.md](02-us-music-programs.md) — ตัวอย่างสาขาจากสถาบันดนตรีสหรัฐฯ 5 แห่ง
-3. [03-simulation-map.md](03-simulation-map.md) — แผนที่โจทย์จำลองรายสายงานและแนวทางประเมิน
-4. [04-sources.md](04-sources.md) — แหล่งหลักสำหรับกรอบสากลและภาพรวมสถาบัน (ลิงก์รายสาขาอยู่ในไฟล์ 05–06)
-5. [05-detailed-curricula.md](05-detailed-curricula.md) — รายละเอียดสิ่งที่เรียนแยกรายสาขาและสถาบัน
-6. [06-source-comparison.md](06-source-comparison.md) — เปรียบเทียบเอกสารและบันทึกความขัดกันของแหล่งข้อมูล
-7. [07-project-context.md](07-project-context.md) — บริบทโครงการและข้อสรุปที่ต้องจำสำหรับงานขั้นต่อไป
+หน้าใน `portal/` ต้องเปิดผ่านเว็บเซิร์ฟเวอร์ เช่น `python -m http.server 8650 --directory portal` · รายละเอียดแต่ละส่วนอยู่ใน README ของโฟลเดอร์นั้น: [portal](portal/README.md) · [platform](platform/README.md) · [database](database/README.md) · [audit](audit/README.md) · [app-demo](app-demo/README.md)
 
-8. [08-thailand-ecosystem.md](08-thailand-ecosystem.md) — แผนที่ระบบนิเวศดนตรีไทย จำนวนที่ตรวจได้ และช่องว่างข้อมูล
+## เอกสาร (จัดตามหมวด)
 
-9. [09-costs-and-income.md](09-costs-and-income.md) — ค่าเรียนรายเครื่องดนตรี ค่าบำรุงรักษา และแบบจำลองรายรับอาชีพ
+### 1 · งานวิจัยการศึกษาดนตรี — [docs/1-research](docs/1-research)
+| เอกสาร | สาระ |
+|---|---|
+| [01 การศึกษาดนตรีปัจจุบัน](docs/1-research/01-current-music-education.md) | ประเด็นสำคัญและผลต่อการออกแบบ |
+| [02 หลักสูตรดนตรีในสหรัฐฯ](docs/1-research/02-us-music-programs.md) | ตัวอย่างสาขาจาก 5 สถาบัน |
+| [03 แผนที่ Simulation](docs/1-research/03-simulation-map.md) | โจทย์จำลองรายสายงานและวิธีประเมิน |
+| [04 รายละเอียดหลักสูตร](docs/1-research/04-detailed-curricula.md) | สิ่งที่เรียนแยกรายสาขาและสถาบัน |
+| [05 เปรียบเทียบหลักสูตร](docs/1-research/05-curricula-comparison.md) | เทียบเอกสารและจุดที่แหล่งขัดกัน |
+| [06 กรณีศึกษา Simulation](docs/1-research/06-simulation-case-studies.md) | ทดลองงานจริงทั่วระบบนิเวศ |
 
-10. [10-market-sizing.md](10-market-sizing.md) — ฉากทัศน์ TAM/SAM/SOM ของค่าเรียนและตัวชี้วัดแพลตฟอร์มช่วงใช้ฟรี
+### 2 · ระบบนิเวศและตลาด — [docs/2-ecosystem](docs/2-ecosystem)
+| เอกสาร | สาระ |
+|---|---|
+| [01 ระบบนิเวศดนตรีไทย](docs/2-ecosystem/01-thailand-ecosystem.md) | ผู้เล่น จำนวนที่ตรวจได้ และช่องว่างข้อมูล |
+| [02 ค่าใช้จ่ายและรายได้](docs/2-ecosystem/02-costs-and-income.md) | ค่าเรียน ค่าอุปกรณ์ รายได้อาชีพ |
+| [03 ขนาดตลาด](docs/2-ecosystem/03-market-sizing.md) | TAM / SAM / SOM |
+| [04 ช่องว่างการเข้าถึง](docs/2-ecosystem/04-access-gaps.md) | ตัวแปรและตัวชี้วัดที่ต้องเก็บ |
+| [05 ออกแบบ Ecosystem](docs/2-ecosystem/05-ecosystem-design.md) | 6 ชั้น และภาพจากข้อมูลรายเขต |
 
-11. [11-source-ledger.md](11-source-ledger.md) — ทะเบียนแหล่งข้อมูล ปี ขอบเขต ข้อห้ามตีความ และข้อมูลที่ยังขาด
+### 3 · ทะเบียนแหล่งข้อมูล — [docs/3-sources](docs/3-sources)
+| เอกสาร | สาระ |
+|---|---|
+| [01 แหล่งข้อมูลและทะเบียนหลักฐาน](docs/3-sources/01-sources-and-evidence-ledger.md) | แหล่งหลัก + ตัวเลขไทย ปี ขอบเขต ข้อห้ามตีความ |
+| [02 ทะเบียนเครื่องมือเรียน](docs/3-sources/02-resource-directory.md) | 35 แอป/เว็บ แยกตามงานที่ผู้เรียนทำ |
+| [03 เครื่องมือมืออาชีพ](docs/3-sources/03-pro-workflows-ranking.md) | หลักฐานและวิธีจัดอันดับตามงาน |
+| [04 สถาบันและแผนที่กรุงเทพฯ](docs/3-sources/04-institutions-and-bangkok-map.md) | มหาวิทยาลัย 25 แห่ง · โรงเรียน 11 กลุ่ม |
 
-12. [12-access-gaps-and-variables.md](12-access-gaps-and-variables.md) — ตัวแปรรอยรั่วการเข้าถึงการเรียนดนตรีและตัวชี้วัดที่ต้องเก็บ
+### 4 · ผู้ใช้ — [docs/4-users](docs/4-users)
+| เอกสาร | สาระ |
+|---|---|
+| [01 Learner journey](docs/4-users/01-learner-journey.md) | จาก "อยากเรียน" ถึงเลือกครูและที่เรียน |
+| [02 วิจัยประกอบแอป](docs/4-users/02-app-research.md) | หลักฐานและผลิตภัณฑ์ที่มีอยู่ |
+| [03 ระดมความคิด 10 รอบ](docs/4-users/03-ten-brainstorm-rounds.md) | ข้อโต้แย้งและวิธีทดสอบ |
+| [04 Persona และ Use case](docs/4-users/04-personas-and-use-cases.md) | **ชุดเดียว**: 10 persona, 24 use case, 10 loop (รวมชุดฝั่ง portal แล้ว) |
+| [05 ตลาดครู](docs/4-users/05-teacher-marketplace.md) | ครูลงบริการสอนและแรงจูงใจสองฝั่ง |
 
-13. [13-ecosystem-case-studies.md](13-ecosystem-case-studies.md) — กรณีศึกษาแบบลงมือทำทั่วระบบนิเวศ พร้อม case นำร่องครบวงจร
+### 5 · ออกแบบผลิตภัณฑ์ — [docs/5-product](docs/5-product)
+| เอกสาร | สาระ |
+|---|---|
+| [01 Journey blueprint](docs/5-product/01-journey-blueprint.md) | หน้าจอหลักและแผนทดสอบ MVP |
+| [02 ต้นแบบหน้าจอ](docs/5-product/02-journey-prototype.html) | ต้นแบบมือถือกดดูได้ (ข้อมูลสมมติ) |
+| [03 ถ่ายทอด UX/UI](docs/5-product/03-design-transfer.md) | เทียบ use case กับ SAMT, Musora, BandLab |
+| [04 Full stack journey](docs/5-product/04-fullstack-journey.md) | หน้าเว็บ ↔ API ↔ สถานะข้อมูล |
+| [05 Loop · UX spec · Backlog](docs/5-product/05-app-loops-journey-ux-spec.md) | 10 loop, หน้าจอตามบทบาท, API, สถานะงาน Dev |
+| [06 Journey Gate MVP](docs/5-product/06-journey-gate-mvp.md) | ประตูสำรวจตัวตน + ห้องที่เชื่อมกัน |
+| [07 สเปก Apple HIG](docs/5-product/07-apple-hig-design-spec.md) | ระบบการออกแบบที่ทุกหน้าใช้ร่วมกัน |
 
-14. [14-learner-journey.md](14-learner-journey.md) — Journey ของคนเริ่มสนใจดนตรี ตั้งแต่ทดลองสายงานจนเลือกครูและที่เรียน
-
-15. [15-app-research.md](15-app-research.md) — หลักฐานและตัวอย่างผลิตภัณฑ์ที่มีอยู่สำหรับโจทย์แอป
-
-16. [16-ten-brainstorm-rounds.md](16-ten-brainstorm-rounds.md) — บันทึกระดมความคิด 10 รอบพร้อมข้อโต้แย้งและวิธีทดสอบ
-
-17. [17-app-user-journey-blueprint.md](17-app-user-journey-blueprint.md) — User Journey หน้าจอหลัก MVP และแผนทดสอบแอป
-
-18. [18-app-journey-prototype.html](18-app-journey-prototype.html) — ต้นแบบหน้าจอมือถือที่กดดูสองเส้นทางได้; ข้อมูลครูและราคาในหน้าเป็นสมมติ
-
-19. [19-design-transfer-and-use-cases.md](19-design-transfer-and-use-cases.md) — การนำ UX/UI งานเดิมมาต่อยอด เทียบ use case กับ SAMT, Musora และ BandLab พร้อมขอบเขตหลักฐาน
-
-20. [app-demo/index.html](app-demo/index.html) — ต้นแบบแอปที่กดใช้งานได้: สำรวจสายงาน ทดลองสถานการณ์ จับคู่ครูตัวอย่าง คำนวณงบ และทำแผน 8 สัปดาห์; [วิธีใช้](app-demo/README.md)
-
-21. [20-teacher-marketplace-use-case-and-incentives.md](20-teacher-marketplace-use-case-and-incentives.md) — Use case ครูลงบริการสอนและแรงจูงใจสองฝั่ง อิง Fastwork, Upwork, Lessonface, Preply, Outschool และ SAMT; [หน้าทดลองฝั่งครู](app-demo/teacher-studio.html)
-
-22. [21-fullstack-journey-and-personas.md](21-fullstack-journey-and-personas.md) — Persona สมมติพร้อมภาพที่สร้างใหม่ และแผนที่ frontend ↔ API ↔ สถานะข้อมูล; [แอป full stack และวิธีเปิด](platform/README.md)
-
-23. [22-phase-1-portal-strategy-and-source-ledger.md](22-phase-1-portal-strategy-and-source-ledger.md) — ขอบเขต portal ที่ใช้จริงในขั้นแรก เส้นทางผู้เรียน และกติกาตรวจลิงก์
-24. [23-resource-directory-and-guidance.md](23-resource-directory-and-guidance.md) — ทะเบียนแหล่ง 35 รายการ แยกงานที่ผู้เรียนจะทำ ลิงก์ต้นทาง เงื่อนไข และช่องว่างที่ต้องสำรวจต่อ
-
-25. [24-pro-workflows-ranking-and-evidence.md](24-pro-workflows-ranking-and-evidence.md) — หลักฐานการใช้เครื่องมือระดับมืออาชีพ วิธีจัดอันดับตามงาน และที่มาภาพผลิตภัณฑ์
-
-26. [25-thailand-music-institutions-and-bangkok-map.md](25-thailand-music-institutions-and-bangkok-map.md) — ทะเบียนสถาบันอุดมศึกษาไทย 25 แห่งกับโรงเรียน/คอร์สกรุงเทพฯ 11 กลุ่ม พร้อมแหล่งอ้างอิงและขอบเขตความครอบคลุม
-
-27. [database/](database/README.md) — ฐานข้อมูล SQLite รวมทุกแหล่ง + สถานที่ดนตรีกรุงเทพฯ รายเขต สร้างผ่าน Gate A/B/C/D (`npm run build`)
-
-28. [26-ten-persona-brainstorm-and-use-cases.md](26-ten-persona-brainstorm-and-use-cases.md) — จำลอง 10 persona ระดมความคิด ได้ use case 24 ข้อ จัดเป็น 10 loop
-
-29. [27-app-loops-journey-ux-spec.md](27-app-loops-journey-ux-spec.md) — Loop · journey · IA/UX ตามบทบาท · สัญญา API · backlog งาน Dev พร้อม Gate
-
-30. [28-thailand-music-ecosystem-design.md](28-thailand-music-ecosystem-design.md) — ชั้นของ ecosystem ดนตรีไทย ภาพจากข้อมูลรายเขต และแผนเก็บข้อมูลต่อ; ลองใช้ใน [platform/](platform/README.md) หน้า "แผนที่ดนตรี"
+### 6 · แผนและสถานะ — [docs/6-plan](docs/6-plan)
+| เอกสาร | สาระ |
+|---|---|
+| [01 บริบทโครงการ](docs/6-plan/01-project-context.md) | ข้อสรุปที่ต้องจำสำหรับงานต่อ |
+| [02 กลยุทธ์ Phase 1](docs/6-plan/02-phase-1-portal-strategy.md) | ขอบเขต portal เส้นทางผู้เรียน กติกาตรวจลิงก์ |
+| [03 Gate และแผนงานคู่ขนาน](docs/6-plan/03-gates-and-workstreams.md) | Gate G0–G5 (ครอบ Gate ข้อมูล A–D) และสายงาน |
 
 ## ขอบเขตและวิธีอ่าน
 
-- เลือก 5 สถาบันที่มีรูปแบบหลักสูตรต่างกันเพื่อดูภาพรวม ไม่ใช่การจัดอันดับหรือสำรวจทุกมหาวิทยาลัยในสหรัฐฯ
-- ชื่อสาขาและระดับปริญญาอ้างอิงเว็บไซต์ทางการ ณ วันที่ตรวจสอบ หลักสูตรและสถานะรับสมัครอาจเปลี่ยนได้
-- ตารางโจทย์จำลองเป็น **ข้อเสนอของโครงการ** ที่สังเคราะห์จากหลักสูตรและกรอบทักษะ ไม่ใช่รายวิชาที่สถาบันเหล่านั้นสอนจริง
-- คำว่า “สาขา” ในแผนที่ simulation หมายถึงกลุ่มทักษะ/สายงานเพื่อออกแบบการเรียนรู้ บางกลุ่มรวมสาขาจากหลายสถาบัน
-- ก่อนสร้างบทเรียนจริง ควรระบุกลุ่มผู้เรียน อายุ ระดับพื้นฐาน เวลาเรียน ทรัพยากร เครื่องมือ และบริบทไทย
+- สถาบันในสหรัฐฯ 5 แห่งเลือกเพื่อดูรูปแบบหลักสูตรที่ต่างกัน ไม่ใช่การจัดอันดับ
+- ชื่อสาขา ระดับปริญญา และสถานะรับสมัครอ้างเว็บไซต์ทางการ ณ วันที่ตรวจ อาจเปลี่ยนได้
+- โจทย์จำลองเป็น **ข้อเสนอของโครงการ** ไม่ใช่รายวิชาที่สถาบันสอนจริง
+- ข้อมูลสถานที่คือ "ชุดที่ตรวจได้" ไม่ใช่ทุกแห่ง — ไม่คัดลอกข้อมูลจาก Google Maps; ธุรกิจที่มีแค่เพจ Facebook บันทึกเป็นช่องว่างของแต่ละเขต
+- Persona ทั้งหมดเป็นตัวละครสมมติ ต้องทดสอบกับผู้ใช้จริงก่อนสรุป
 
-## ผลลัพธ์สำหรับขั้นถัดไป
+## ขั้นถัดไป
 
-เลือกโจทย์นำร่อง 2–3 รายการ กำหนด learning outcomes, branching scenarios, ชิ้นงาน, rubric, ชุดสื่อ และทดลองกับผู้เรียนจริง
+1. ทดสอบกับผู้ใช้จริงตามแผนใน [Persona และ Use case](docs/4-users/04-personas-and-use-cases.md)
+2. สำรวจรอบสองใน 5 เขตที่ข้อมูลบาง (ลาดพร้าว บางซื่อ วังทองหลาง บางกะปิ พระโขนง)
+3. ทดสอบบน iPhone/iPad จริงตาม [สเปก HIG](docs/5-product/07-apple-hig-design-spec.md) หัวข้อ 5

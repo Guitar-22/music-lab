@@ -1,6 +1,6 @@
 /* Apple HIG skin สำหรับหน้าเดิมของ portal (index.html, institutions.html)
    โหลดต่อจาก journey.css (tokens สี/ตัวอักษร/วัสดุ) และ CSS เดิมของหน้า — เปลี่ยนเฉพาะหน้าตา ไม่แตะ markup หรือ JavaScript
-   หลักการ: 30-apple-hig-design-spec.md — พื้น grouped, เนื้อหาบนการ์ดทึบมุม 12, ตัวอักษรตาม Text Styles, สี semantic, พื้นที่แตะ 44pt, กระจกเฉพาะแถบควบคุม */
+   หลักการ: docs/5-product/07-apple-hig-design-spec.md — พื้น grouped, เนื้อหาบนการ์ดทึบมุม 12, ตัวอักษรตาม Text Styles, สี semantic, พื้นที่แตะ 44pt, กระจกเฉพาะแถบควบคุม */
 
 html body { background: var(--bg); color: var(--label); font-family: var(--font-system); font-size: var(--body-size); line-height: var(--body-leading); }
 body * { font-family: inherit; }

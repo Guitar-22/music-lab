@@ -2,7 +2,7 @@ const PERSONAS = Object.freeze({
   learner: { id:'learner', name:'มีน', role:'learner', age:22, subtitle:'ผู้เริ่มต้นที่อยากลองทำเพลง', image:'/assets/persona-learner.png', need:'อยากรู้ว่าจะเรียนอะไร โดยยังไม่มีเครื่องดนตรี', goal:'ลองบทบาท → พบครูที่เข้ากับงบและอุปกรณ์' },
   teacher: { id:'teacher', name:'ครูต้น', role:'teacher', age:36, subtitle:'ครูกีตาร์อิสระ', image:'/assets/persona-teacher.png', need:'อยากได้ผู้เรียนที่เป้าหมายตรงและลดการตอบแชตซ้ำ', goal:'ลงบริการ → ตอบคำขอ → วางแผนคาบแรก' },
   admin: { id:'admin', name:'แพร', role:'admin', age:31, subtitle:'ผู้ดูแลชุมชนดนตรี', image:'/assets/persona-admin.png', need:'ต้องตรวจความครบถ้วนและความสดของรายการก่อนเผยแพร่', goal:'ตรวจรายการ → ขอแก้ไขหรืออนุมัติ' },
-  // persona เพิ่มจาก 26-ten-persona-brainstorm-and-use-cases.md (สมมติทั้งหมด ไม่มีภาพ ใช้อักษรย่อแทน)
+  // persona เพิ่มจาก docs/4-users/04-personas-and-use-cases.md (สมมติทั้งหมด ไม่มีภาพ ใช้อักษรย่อแทน)
   parent: { id:'parent', name:'แม่ปุ๊ก', role:'parent', age:41, subtitle:'ผู้ปกครอง ลูก 8 ขวบ · บางแค', image:'', home:'บางแค', need:'หาที่เรียนใกล้บ้าน ปลอดภัย ลองก่อนได้', goal:'แผนที่ → เปรียบเทียบ → ติดต่อคาบทดลอง' },
   student: { id:'student', name:'บอส', role:'learner', age:16, subtitle:'ม.5 เตรียมสอบคณะดนตรี · ลาดกระบัง', image:'', home:'ลาดกระบัง', need:'รู้ว่าต้องเตรียมอะไรและเหลือเวลาเท่าไร', goal:'แผนซ้อม 8 สัปดาห์ → ติวเฉพาะจุด' },
   senior: { id:'senior', name:'ลุงชาญ', role:'learner', age:58, subtitle:'เกษียณ อยากเรียนระนาด · พระนคร', image:'', home:'พระนคร', largeText:true, need:'เรียนกับกลุ่มใกล้บ้าน ไม่แพง ตัวหนังสือใหญ่', goal:'แผนที่ดนตรีไทย → ส่งต่อ LINE → ติดตามกิจกรรม' },

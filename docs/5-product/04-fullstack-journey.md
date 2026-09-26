@@ -1,8 +1,8 @@
 # User journey ที่เชื่อมหน้าเว็บกับ API และข้อมูลถาวร
 
-**สถานะ:** งานทดลองสำหรับระยะถัดไป หลังผู้สร้างกำหนดให้ [Phase 1 เป็น portal](22-phase-1-portal-strategy-and-source-ledger.md)
+**สถานะ:** งานทดลองสำหรับระยะถัดไป หลังผู้สร้างกำหนดให้ [Phase 1 เป็น portal](../6-plan/02-phase-1-portal-strategy.md)
 
-25 กันยายน 2026 · [เปิดแอป full stack](platform/README.md) · ต่อยอดจาก [use case ตลาดครู](20-teacher-marketplace-use-case-and-incentives.md)
+25 กันยายน 2026 · [เปิดแอป full stack](../../platform/README.md) · ต่อยอดจาก [use case ตลาดครู](../4-users/05-teacher-marketplace.md)
 
 ## Persona สมมติและหน้าที่ของระบบ
 

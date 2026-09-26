@@ -1,6 +1,6 @@
 /* สร้างอัตโนมัติจาก portal/journey.css หมวด 0–4 โดย platform/tools/sync-hig.cjs — อย่าแก้ไฟล์นี้โดยตรง */
 /* Music Industry Lap — Journey app ตาม Apple Human Interface Guidelines (iOS/iPadOS 26, Liquid Glass)
-   ดูเหตุผลของทุกค่าที่ 30-apple-hig-design-spec.md
+   ดูเหตุผลของทุกค่าที่ docs/5-product/07-apple-hig-design-spec.md
    1rem = Body (17pt ที่ขนาดตัวอักษร Large) — บน iPhone/iPad Safari ขนาดตามการตั้งค่า Dynamic Type ของผู้ใช้ */
 
 

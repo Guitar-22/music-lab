@@ -1,5 +1,5 @@
 'use strict';
-// จัดประเภทสถานที่ให้เข้ากับชั้นของ Ecosystem ดนตรี (ดู 26-thailand-music-ecosystem.md)
+// จัดประเภทสถานที่ให้เข้ากับชั้นของ Ecosystem ดนตรี (ดู docs/2-ecosystem/05-ecosystem-design.md)
 const KINDS = {
   school:           { layer: 'learn',   label: 'โรงเรียน/สถาบันสอนดนตรี' },
   higher_ed:        { layer: 'learn',   label: 'คณะ/วิทยาลัยดนตรี' },

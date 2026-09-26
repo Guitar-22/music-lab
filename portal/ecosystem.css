@@ -1,4 +1,4 @@
-/* แท็บ "แผนที่" — ต่อยอด journey.css (Apple HIG) ใส่เฉพาะส่วนที่แผนที่ต้องใช้; ดู 30-apple-hig-design-spec.md */
+/* แท็บ "แผนที่" — ต่อยอด journey.css (Apple HIG) ใส่เฉพาะส่วนที่แผนที่ต้องใช้; ดู docs/5-product/07-apple-hig-design-spec.md */
 
 /* สีชั้นของระบบนิเวศ = system colors ของ iOS; ตัว -strong ใช้กับพื้นที่มีตัวอักษรขาว (≥ 4.5:1) */
 .l-learn    { --room: #34c759; --room-strong: #008932; }

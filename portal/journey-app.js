@@ -1,6 +1,6 @@
 (function () {
   'use strict';
-  // Music Industry Lap — Journey app ตามรูปแบบ Apple (iOS/iPadOS 26) · เหตุผลการออกแบบ: 30-apple-hig-design-spec.md
+  // Music Industry Lap — Journey app ตามรูปแบบ Apple (iOS/iPadOS 26) · เหตุผลการออกแบบ: docs/5-product/07-apple-hig-design-spec.md
   // โครงนำทาง: Tab bar 4 แท็บ → หน้าแบบ push (ปุ่มย้อนกลับ) → Sheet รายละเอียดแอป → Flow สำรวจตัวตนแบบ full-screen modal
   //   #/            เริ่มต้น        #/rooms   ห้อง          #/saved  ที่บันทึกไว้   #/search?q=&cat=  ค้นหา
   //   #/room/<id>   หน้าห้อง       #/you     ตัวตนทางดนตรี  #/discover/<n>[?edit=1]  คำถามข้อ n

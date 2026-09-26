@@ -1,7 +1,7 @@
 'use strict';
 // API ของ Ecosystem ดนตรี: แผนที่/สถานที่ (อ่านจาก database/out/music-lab.db ที่ผ่าน Gate แล้ว)
 // และ loop ที่ผู้ใช้สร้างข้อมูล: รายงานข้อมูลผิด เคลม/แก้สถานที่ บันทึก แผนซ้อม (เก็บใน store.json)
-// อ้างอิง: 27-app-loops-journey-ux-spec.md
+// อ้างอิง: docs/5-product/05-app-loops-journey-ux-spec.md
 const fs = require('node:fs');
 const path = require('node:path');
 const crypto = require('node:crypto');
@@ -59,7 +59,7 @@ function present(p, data) {
     freshness: o.editedAt ? { date: o.editedAt.slice(0, 10), by: 'เจ้าของสถานที่' } : { date: p.checked, by: p.source === 'osm' ? 'OpenStreetMap' : p.source === 'community' ? 'ผู้ใช้เสนอ · ผู้ดูแลตรวจแล้ว' : p.source === 'chain' ? 'รายชื่อตัวแทนทางการของแบรนด์' : 'เว็บเจ้าของ/ห้าง' } };
 }
 
-// คำแนะนำอุปกรณ์ (UC-09) — ยังไม่ซื้อจนกว่าจะมั่นใจ; งบเป็นช่วงคร่าว ๆ จาก 09-costs-and-income.md
+// คำแนะนำอุปกรณ์ (UC-09) — ยังไม่ซื้อจนกว่าจะมั่นใจ; งบเป็นช่วงคร่าว ๆ จาก docs/2-ecosystem/02-costs-and-income.md
 function gearAdvice({ instrument, budget, confidence }) {
   const b = Number(budget) || 0, c = Number(confidence) || 1;
   const options = [

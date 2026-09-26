@@ -44,7 +44,7 @@ npm start
 
 ## Ecosystem: แผนที่ดนตรีและ loop ใหม่ (26 ก.ย. 2569)
 
-ออกแบบจาก [10 persona](../26-ten-persona-brainstorm-and-use-cases.md) → [loop/UX spec](../27-app-loops-journey-ux-spec.md) → [ecosystem](../28-thailand-music-ecosystem-design.md)
+ออกแบบจาก [10 persona](../docs/4-users/04-personas-and-use-cases.md) → [loop/UX spec](../docs/5-product/05-app-loops-journey-ux-spec.md) → [ecosystem](../docs/2-ecosystem/05-ecosystem-design.md)
 
 **ต้อง build ฐานข้อมูลสถานที่ก่อน:** `cd ../database && npm run build` (สร้าง `database/out/music-lab.db`) ถ้ายังไม่มี หน้าแผนที่จะแจ้ง 503 แต่ journey เดิมยังใช้ได้
 

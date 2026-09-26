@@ -1,6 +1,6 @@
 # ชุดกรณีศึกษา Simulation: ทดลองงานจริงในระบบนิเวศดนตรี
 
-ปรับปรุง 25 กันยายน 2026 | **สถานการณ์และตัวเลขใน case เป็นโจทย์สมมติ** | ใช้ร่วมกับ [รอยรั่วและตัวแปร](12-access-gaps-and-variables.md), [แผนที่ simulation เดิม](03-simulation-map.md), [หลักสูตร](05-detailed-curricula.md)
+ปรับปรุง 25 กันยายน 2026 | **สถานการณ์และตัวเลขใน case เป็นโจทย์สมมติ** | ใช้ร่วมกับ [รอยรั่วและตัวแปร](../2-ecosystem/04-access-gaps.md), [แผนที่ simulation เดิม](03-simulation-map.md), [หลักสูตร](04-detailed-curricula.md)
 
 ## โครงสร้างร่วมของทุก case
 
