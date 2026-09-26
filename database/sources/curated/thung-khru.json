@@ -1,0 +1,40 @@
+{
+  "district": "ทุ่งครุ",
+  "researchedAt": "2026-09-26",
+  "places": [
+    {
+      "name_en": "KMUTT Thai Music Club",
+      "address": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี 126 ถ.ประชาอุทิศ แขวงบางมด เขตทุ่งครุ",
+      "geocode": "King Mongkut's University of Technology Thonburi",
+      "lat": null,
+      "lon": null,
+      "phone": null,
+      "website": "https://www.kmutt.ac.th/",
+      "social": [
+        "https://www.instagram.com/thaimusicclub.kmutt/"
+      ],
+      "hours": null,
+      "offer": [
+        "ดนตรีไทย",
+        "นาฏศิลป์",
+        "KMUTT Chorus (ชมรมขับร้องประสานเสียง) ในวิทยาเขตเดียวกัน"
+      ],
+      "checked": "2026-09-26",
+      "id": "cur:kmutt-thai-music-club",
+      "name": "ชมรมดนตรีไทยและนาฏศิลป์ มจธ. (มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี บางมด)",
+      "kind": "ensemble",
+      "source_url": "https://www.kmutt.ac.th/en/current-kmutt-stu/student-community/",
+      "evidence": "หน้า Student Community ของ มจธ. ระบุ Thai Music Club และ KMUTT Chorus ในกลุ่มชมรมศิลปวัฒนธรรม"
+    }
+  ],
+  "review": {
+    "osm:n11993444815": {
+      "exclude": true,
+      "note": "GardenHouseWorkshop — amenity=studio ทั่วไป ไม่พบหลักฐานว่าเป็นสตูดิโอดนตรี"
+    }
+  },
+  "gaps": [
+    "ยังไม่ยืนยันห้องซ้อม/สตูดิโอย่านประชาอุทิศ-บางมด",
+    "ชมรมดนตรีสากล/Entertain Club มจธ. และ MUSIC Workshop KMUTT มีแค่โซเชียล ไม่ได้ลงแยก"
+  ]
+}

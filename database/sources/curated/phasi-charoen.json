@@ -1,0 +1,66 @@
+{
+  "district": "ภาษีเจริญ",
+  "researchedAt": "2026-09-26",
+  "places": [
+    {
+      "name_en": "Music Plant Seacon Bangkae",
+      "address": "ศูนย์การค้าซีคอน บางแค ชั้น 3 ถ.เพชรเกษม",
+      "geocode": "Seacon Bangkae",
+      "lat": null,
+      "lon": null,
+      "phone": "088-0088-018",
+      "website": "https://www.musicplant.co.th/",
+      "social": [
+        "https://www.facebook.com/musicplant.seaconbangkae/"
+      ],
+      "hours": null,
+      "offer": [
+        "กีตาร์",
+        "เบส",
+        "กลอง",
+        "คีย์บอร์ด",
+        "อุปกรณ์ดนตรี"
+      ],
+      "checked": "2026-09-26",
+      "id": "cur:music-plant-seacon-bangkae",
+      "name": "Music Plant สาขาซีคอน บางแค",
+      "kind": "instrument_store",
+      "source_url": "https://www.musicplant.co.th/en/categorycontent/3746/music-plant-%E0%B8%8B%E0%B8%B5%E0%B8%84%E0%B8%AD%E0%B8%99%E0%B8%9A%E0%B8%B2%E0%B8%87%E0%B9%81%E0%B8%84",
+      "evidence": "หน้าสาขาบนเว็บ Music Plant ระบุชั้น 3 ซีคอน บางแค และเบอร์โทร"
+    },
+    {
+      "name_en": "MCGP Music Mahidol Seacon Bangkae",
+      "address": "ห้อง 400 ชั้น 4 ศูนย์การค้าซีคอน บางแค 607 ถ.เพชรเกษม (ข้างทางเข้า EGV)",
+      "geocode": "Seacon Bangkae",
+      "lat": null,
+      "lon": null,
+      "phone": "02-458-2680-81",
+      "website": "https://www.mcgp-music-mahidol.com/",
+      "social": [],
+      "hours": null,
+      "offer": [
+        "หลักสูตรดนตรีสำหรับเด็กและทั่วไป (ศูนย์ของวิทยาลัยดุริยางคศิลป์ ม.มหิดล)"
+      ],
+      "checked": "2026-09-26",
+      "id": "cur:mcgp-music-mahidol-seacon-bangkae",
+      "name": "MCGP Music Mahidol สาขาซีคอน บางแค",
+      "kind": "school",
+      "source_url": "https://www.mcgp-music-mahidol.com/contact-us",
+      "evidence": "หน้า Contact Us ระบุ Room 400, 4th Floor, 607 Seacon Bangkae, Petchkasem Road โทร 02-458-2680-81"
+    }
+  ],
+  "review": {
+    "osm:w376675943": {
+      "exclude": true,
+      "note": "วัดเพลง — วัด ชื่อมีคำว่าเพลง ไม่ใช่สถานที่ดนตรี"
+    },
+    "osm:w830066310": {
+      "exclude": true,
+      "note": "ชื่อคลอง ไม่ใช่สถานที่ดนตรี"
+    }
+  },
+  "gaps": [
+    "Capital Music \"ซีคอนสแควร์\" เป็นสาขาศรีนครินทร์ ไม่ใช่ซีคอน บางแค — ไม่ได้ใส่",
+    "ยังไม่ได้ตรวจ directory ซีคอน บางแค ทั้งหมด"
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "district": "บางขุนเทียน",
+  "researchedAt": "2026-09-26",
+  "places": [
+    {
+      "name_en": "Kawai Music School Central Rama 2",
+      "address": "เซ็นทรัล พระราม 2 ถ.พระราม 2",
+      "geocode": "Central Rama 2",
+      "lat": null,
+      "lon": null,
+      "phone": null,
+      "website": null,
+      "social": [
+        "https://www.facebook.com/p/Kawai-Music-School-Central-Rama2-100085285592778/"
+      ],
+      "hours": null,
+      "offer": [
+        "เปียโน/หลักสูตร Kawai"
+      ],
+      "checked": "2026-09-26",
+      "id": "cur:kawai-music-school-central-rama-2",
+      "name": "Kawai Music School เซ็นทรัล พระราม 2",
+      "kind": "school",
+      "source_url": "https://www.facebook.com/p/Kawai-Music-School-Central-Rama2-100085285592778/",
+      "evidence": "เพจ Facebook ของสาขา Kawai Music School Central Rama2"
+    },
+    {
+      "name_en": "Bang Khun Thian Recreation Center",
+      "address": "88/2527 ถ.พระราม 2 ซอย 69 แขวงแสมดำ เขตบางขุนเทียน",
+      "geocode": null,
+      "lat": null,
+      "lon": null,
+      "phone": "02-416-5739",
+      "website": null,
+      "social": [],
+      "hours": "จ-ศ 10:00-20:00, ส-อา 10:00-18:00",
+      "offer": [
+        "ขิม/ดนตรีไทย",
+        "ดนตรีสากล",
+        "ขับร้อง"
+      ],
+      "checked": "2026-09-26",
+      "id": "cur:bangkok-recreation-center-bang-khun-thian",
+      "name": "ศูนย์นันทนาการบางขุนเทียน",
+      "kind": "school",
+      "source_url": "https://learning.bangkok.go.th/location/loca_0022/",
+      "evidence": "Bangkok Learning City: ศูนย์ฯ เปิดคอร์สดนตรีไทย (ขิม) ดนตรีสากล ขับร้อง ฟรี"
+    }
+  ],
+  "review": {
+    "osm:w1248807034": {
+      "exclude": true,
+      "note": "Guitar Bike — ร้านเช่าจักรยาน"
+    }
+  },
+  "gaps": [
+    "ชั้น/เบอร์ของ Kawai เซ็นทรัลพระราม 2 ยังไม่ยืนยัน",
+    "Yamaha พระราม 2 มีแล้ว (yamaha:SMY0549)"
+  ]
+}

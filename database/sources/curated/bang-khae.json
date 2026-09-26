@@ -1,0 +1,66 @@
+{
+  "district": "บางแค",
+  "researchedAt": "2026-09-26",
+  "places": [
+    {
+      "name_en": "Muse Music Academy The Mall Bangkae",
+      "address": "เดอะมอลล์ไลฟ์สโตร์ บางแค ถ.เพชรเกษม (ใกล้ MRT หลักสอง)",
+      "geocode": "The Mall Bangkae",
+      "lat": null,
+      "lon": null,
+      "phone": "02-227-0682",
+      "website": "https://www.musemusicacademy.com/",
+      "social": [
+        "https://www.facebook.com/MuseTheMall/"
+      ],
+      "hours": null,
+      "offer": [
+        "เปียโน",
+        "กีตาร์",
+        "กลอง",
+        "ร้องเพลง",
+        "เต้น"
+      ],
+      "checked": "2026-09-26",
+      "id": "cur:muse-music-academy-the-mall-bangkae",
+      "name": "Muse Music Academy เดอะมอลล์ บางแค",
+      "kind": "school",
+      "source_url": "https://www.musemusicacademy.com/",
+      "evidence": "เว็บไซต์ของโรงเรียนระบุสาขา The Mall Lifestore Bangkae ใกล้ MRT หลักสอง และคอร์สดนตรี"
+    },
+    {
+      "name_en": "Bang Khae Recreation Center",
+      "address": "81 ซอยกาญจนาภิเษก 003 แขวงหลักสอง เขตบางแค",
+      "geocode": null,
+      "lat": null,
+      "lon": null,
+      "phone": "02-445-6123",
+      "website": null,
+      "social": [],
+      "hours": "จ-ศ 10:00-20:00, ส-อา 10:00-18:00",
+      "offer": [
+        "ดนตรีสากล",
+        "ดนตรีไทย",
+        "ขับร้อง"
+      ],
+      "checked": "2026-09-26",
+      "id": "cur:bangkok-recreation-center-bang-khae",
+      "name": "ศูนย์นันทนาการบางแค (เรืองสอน)",
+      "kind": "school",
+      "source_url": "https://learning.bangkok.go.th/location/loca_0024/",
+      "evidence": "Bangkok Learning City: ศูนย์ฯ ของ กทม. เปิดคอร์สดนตรีสากล ดนตรีไทย ขับร้อง ฟรี"
+    }
+  ],
+  "review": {
+    "osm:w1562005646": {
+      "exclude": true,
+      "note": "อาคารอเล็กซิล มิวสิค — ชื่ออาคารอย่างเดียว ค้นไม่พบกิจการดนตรีที่ยืนยันได้"
+    }
+  },
+  "gaps": [
+    "Music Arms เดอะมอลล์บางแค (ชั้น 1 โซน A) และ BNG Music มีอยู่แล้วจาก yamaha:SMY0368/SMY0340 — ไม่เพิ่มซ้ำ",
+    "Sky Music Bangkae (สอนกีตาร์/อูคูเลเล่/เบส ตรงข้ามเดอะมอลล์) มีแค่เพจ Facebook ไม่มีที่อยู่ชัด — ยังไม่ลง",
+    "ศูนย์นันทนาการบางแค geocode=null (ซอยกาญจนาภิเษก 003 หาใน OSM ไม่ได้)",
+    "อาคารอเล็กซิล มิวสิค (OSM) ยังไม่รู้ว่าเป็นอะไร"
+  ]
+}

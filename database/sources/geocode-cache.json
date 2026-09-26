@@ -1087,5 +1087,45 @@
   "coarse": false,
   "matched": "Seacon Square, Bangkok",
   "approximate": false
+ },
+ "The Mall Bangkae": {
+  "lat": 13.7132484,
+  "lon": 100.4078302,
+  "display": "เดอะมอลล์ บางแค, The Mall Bang Khae, ถนนเพชรเกษม, แขวงบางแค, เขตบางแค, กรุงเทพมหานคร, กระทุ่มล้ม, 10160, ประเทศไทย",
+  "osm": "way/96359391",
+  "feature": "shop/mall",
+  "coarse": false,
+  "matched": "The Mall Bangkae",
+  "approximate": false
+ },
+ "Central Rama 2": {
+  "lat": 13.6629625,
+  "lon": 100.4395618,
+  "display": "เซ็นทรัลพระราม 2, ถนนพระรามที่ 2, แขวงแสมดำ, เขตบางขุนเทียน, กรุงเทพมหานคร, กระทุ่มล้ม, 10150, ประเทศไทย",
+  "osm": "node/1150365608",
+  "feature": "highway/bus_stop",
+  "coarse": true,
+  "matched": "Central Rama 2",
+  "approximate": true
+ },
+ "Seacon Bangkae": {
+  "lat": 13.7115884,
+  "lon": 100.4341077,
+  "display": "ซีคอนบางแค, ถนนเพชรเกษม, ชุมชนตานเรือ, แขวงบางหว้า, เขตภาษีเจริญ, กรุงเทพมหานคร, กระทุ่มล้ม, 10160, ประเทศไทย",
+  "osm": "way/176761917",
+  "feature": "shop/mall",
+  "coarse": false,
+  "matched": "Seacon Bangkae",
+  "approximate": false
+ },
+ "King Mongkut's University of Technology Thonburi": {
+  "lat": 13.6517718,
+  "lon": 100.4944087,
+  "display": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี, ซอยประชาอุทิศ 28, แขวงบางมด, เขตทุ่งครุ, กรุงเทพมหานคร, 10140, ประเทศไทย",
+  "osm": "way/420312611",
+  "feature": "amenity/university",
+  "coarse": false,
+  "matched": "King Mongkut's University of Technology Thonburi",
+  "approximate": false
  }
 }

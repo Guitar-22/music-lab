@@ -1,4 +1,4 @@
-# Gate report — 2026-09-26T09:43:00.541Z
+# Gate report — 2026-09-26T09:44:50.785Z
 
 ## ✅ A-source
 
@@ -24,40 +24,37 @@
 
 ```json
 {
-  "places": 333,
-  "rejected": 178,
-  "mapped": 318,
+  "places": 339,
+  "rejected": 179,
+  "mapped": 322,
   "byKind": {
-    "school": 84,
+    "school": 90,
     "venue": 34,
     "higher_ed": 15,
     "performing_arts": 35,
-    "ensemble": 10,
+    "ensemble": 11,
     "archive": 4,
     "audio_store": 31,
     "broadcast": 9,
-    "instrument_store": 51,
+    "instrument_store": 53,
     "karaoke": 7,
     "business": 11,
     "record_store": 23,
     "rehearsal": 6,
-    "studio": 10,
-    "repair_luthier": 1,
-    "unclassified": 2
+    "studio": 9,
+    "repair_luthier": 1
   },
   "byContext": {
     "lead": 52,
-    "reviewed": 71,
+    "reviewed": 72,
     "tagged": 31,
-    "verified": 175,
-    "generic": 1,
-    "name_only": 3
+    "verified": 184
   },
-  "contextRejected": 3,
+  "contextRejected": 0,
   "districts": {
     "not_started": 0,
-    "osm_only": 10,
-    "researched": 40
+    "osm_only": 0,
+    "researched": 50
   }
 }
 ```
@@ -121,19 +118,14 @@
 - ⚠️ คันนายาว/cur:music-arms-fashion-island "Music Arms สาขาแฟชั่นไอส์แลนด์": พิกัดโดยประมาณจากคำค้น "Fashion Island, Bangkok" — ควรระบุ geocode ที่เจาะจงกว่านี้
 - ⚠️ ประเวศ/cur:music-arms-headq-onnut "Music Arms สาขา HeadQ อ่อนนุช 74": พิกัดโดยประมาณจากคำค้น "Soi On Nut 74, Bangkok" — ควรระบุ geocode ที่เจาะจงกว่านี้
 - ⚠️ มีนบุรี/cur:ip-studio-ramintra-86 "IP Studio ห้องซ้อมดนตรี รามอินทรา": ไม่มีพิกัด (ไม่มี geocode)
-- ⚠️ ทุ่งครุ/osm:n11993444815 "GardenHouseWorkshop": บริบท generic — tag ทั่วไป (amenity=studio) และชื่อไม่มีคำดนตรี — ตัดสินใน review/context-review.json (ไม่แสดงใน portal)
-- ⚠️ บางแค/osm:w1562005646 "อาคารอเล็กซิล มิวสิค": ยังไม่จัดประเภท — ใส่ใน review
-- ⚠️ บางแค/osm:w1562005646 "อาคารอเล็กซิล มิวสิค": ตรวจบริบท — ไม่มี tag ดนตรี ใช้ชื่ออย่างเดียว
-- ⚠️ ตลิ่งชัน/osm:n10660732482 "บ้านเพลงกลางสวน": ยังไม่จัดประเภท — ใส่ใน review
-- ⚠️ ตลิ่งชัน/osm:n10660732482 "บ้านเพลงกลางสวน": ตรวจบริบท — ไม่มี tag ดนตรี ใช้ชื่ออย่างเดียว
-- ⚠️ ทวีวัฒนา/osm:w1535502312 "คณะดุริยางคศาสตร์": บริบท name_only — ไม่มี tag ดนตรี ใช้ชื่ออย่างเดียว — ตัดสินใน review/context-review.json (ไม่แสดงใน portal)
+- ⚠️ บางแค/cur:bangkok-recreation-center-bang-khae "ศูนย์นันทนาการบางแค (เรืองสอน)": ไม่มีพิกัด (ไม่มี geocode)
+- ⚠️ บางขุนเทียน/cur:kawai-music-school-central-rama-2 "Kawai Music School เซ็นทรัล พระราม 2": พิกัดโดยประมาณจากคำค้น "Central Rama 2" — ควรระบุ geocode ที่เจาะจงกว่านี้
+- ⚠️ บางขุนเทียน/cur:bangkok-recreation-center-bang-khun-thian "ศูนย์นันทนาการบางขุนเทียน": ไม่มีพิกัด (ไม่มี geocode)
 - ⚠️ บางกะปิ/yamaha:SMY0338 "บริษัท ออดิโอซิตี้ จำกัด": ตรวจบริบท — ชื่อไม่บอกว่าเป็นร้านดนตรี — ยืนยันจากสายสินค้า (เครื่องเสียงเวที)
 - ⚠️ ดินแดง/yamaha:SMY0425 "พัฒนสิน": ตรวจบริบท — ชื่อไม่บอกว่าเป็นร้านดนตรี — ยืนยันจากสายสินค้า (เครื่องเสียงเวที, เปียโนไฟฟ้า, กีตาร์, คีย์บอร์ด)
 - ⚠️ บางกอกน้อย/yamaha:SMY0450 "บริษัท ธีระมิวสิค จำกัด": พิกัดอยู่ในเขตบางพลัด ห่างเขตที่ระบุ 21 ม.
 - ⚠️ พระนคร/yamaha:SMY0455 "วี.ซี. อีเล็คโทรนิคส์ฯ สาขาบ้านหม้อ": ตรวจบริบท — ชื่อไม่บอกว่าเป็นร้านดนตรี — ยืนยันจากสายสินค้า (เครื่องเสียงเวที)
 - ⚠️ บางกอกน้อย/yamaha:SMY0557 "บริษัท ธนพร เซอร์วิส จำกัด": ตรวจบริบท — ชื่อไม่บอกว่าเป็นร้านดนตรี — ยืนยันจากสายสินค้า (เครื่องเป่า/วงโยธวาทิต, สื่อการสอนดนตรี)
-- ⚠️ ธนบุรี/yamaha:SMY0342: ตัวแทนอยู่ใกล้สถานที่เดิม (cur:music-collection-thapra-flagship) — ตัดสินใน sources/chains/*-review.json
-- ⚠️ ธนบุรี/yamaha:SMY0512: ตัวแทนอยู่ใกล้สถานที่เดิม (cur:music-collection-thapra-flagship) — ตัดสินใน sources/chains/*-review.json
 
 ## ✅ B-database
 
@@ -157,11 +149,11 @@
   "doc_tables": 79,
   "doc_table_rows": 589,
   "doc_links": 378,
-  "places": 333,
-  "place_rejects": 178,
+  "places": 339,
+  "place_rejects": 179,
   "district_progress": 50,
-  "place_social": 105,
-  "place_offer": 627
+  "place_social": 109,
+  "place_offer": 657
 }
 ```
 

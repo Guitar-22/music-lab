@@ -93,6 +93,30 @@
     "SMY0476": {
       "keep": true,
       "note": "โรงเรียนยามาฮ่า แฟชั่นไอส์แลนด์ — คนละกิจการกับร้าน Music Arms ในห้างเดียวกัน"
+    },
+    "SMY0340": {
+      "keep": true,
+      "note": "BNG Music เดอะมอลล์บางแค — คนละกิจการกับ Muse Music Academy"
+    },
+    "SMY0342": {
+      "keep": true,
+      "note": "BNG Music เดอะมอลล์ท่าพระ — คนละกิจการกับ Music Collection"
+    },
+    "SMY0368": {
+      "keep": true,
+      "note": "Music Arms เดอะมอลล์บางแค — คนละกิจการกับ Muse Music Academy"
+    },
+    "SMY0497": {
+      "keep": true,
+      "note": "โรงเรียนยามาฮ่า ซีคอนบางแค — คนละกิจการกับ Music Plant และ MCGP"
+    },
+    "SMY0512": {
+      "keep": true,
+      "note": "โรงเรียนยามาฮ่า เดอะมอลล์ท่าพระ — คนละกิจการกับ Music Collection"
+    },
+    "SMY0549": {
+      "keep": true,
+      "note": "โรงเรียนยามาฮ่า พระราม 2 — คนละโรงเรียนกับ Kawai"
     }
   }
 }
