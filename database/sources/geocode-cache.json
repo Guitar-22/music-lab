@@ -1047,5 +1047,45 @@
    "กองดุริยางค์ทหารอากาศ",
    "กองดุริยางค์ทหารอากาศ, Bangkok"
   ]
+ },
+ "Fashion Island, Bangkok": {
+  "lat": 13.8246234,
+  "lon": 100.6774857,
+  "display": "Fashion Island, ทางบริการด้านนอกของถนนกาญจนาภิเษก, แขวงคันนายาว, เขตคันนายาว, กรุงเทพมหานคร, 10230, ประเทศไทย",
+  "osm": "node/6033943370",
+  "feature": "highway/bus_stop",
+  "coarse": true,
+  "matched": "Fashion Island, Bangkok",
+  "approximate": true
+ },
+ "King Mongkut's Institute of Technology Ladkrabang": {
+  "lat": 13.7299068,
+  "lon": 100.7829827,
+  "display": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง, ถนนฉลองกรุง, แขวงลำปลาทิว, เขตลาดกระบัง, กรุงเทพมหานคร, 10520, ประเทศไทย",
+  "osm": "relation/11817454",
+  "feature": "amenity/university",
+  "coarse": false,
+  "matched": "King Mongkut's Institute of Technology Ladkrabang",
+  "approximate": false
+ },
+ "Soi On Nut 74, Bangkok": {
+  "lat": 13.7129346,
+  "lon": 100.660163,
+  "display": "ซอยอ่อนนุช 74, แขวงประเวศ, เขตประเวศ, กรุงเทพมหานคร, 10250, ประเทศไทย",
+  "osm": "way/156642904",
+  "feature": "highway/residential",
+  "coarse": true,
+  "matched": "Soi On Nut 74, Bangkok",
+  "approximate": true
+ },
+ "Seacon Square, Bangkok": {
+  "lat": 13.6941305,
+  "lon": 100.6481632,
+  "display": "ซีคอนสแควร์, 55, ถนนศรีนครินทร์, แขวงหนองบอน, เขตประเวศ, กรุงเทพมหานคร, 10250, ประเทศไทย",
+  "osm": "way/33434999",
+  "feature": "shop/mall",
+  "coarse": false,
+  "matched": "Seacon Square, Bangkok",
+  "approximate": false
  }
 }

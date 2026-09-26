@@ -1,0 +1,43 @@
+{
+  "district": "คันนายาว",
+  "researchedAt": "2026-09-26",
+  "places": [
+    {
+      "name_en": "Music Arms Fashion Island",
+      "lat": null,
+      "lon": null,
+      "phone": "082-786-5533",
+      "website": "https://www.musicarms.net/",
+      "social": [],
+      "hours": "จ-ศ 10:30-21:00, ส-อา 10:00-21:00",
+      "offer": [
+        "กีตาร์",
+        "เบส",
+        "กลอง",
+        "คีย์บอร์ด"
+      ],
+      "checked": "2026-09-26",
+      "id": "cur:music-arms-fashion-island",
+      "name": "Music Arms สาขาแฟชั่นไอส์แลนด์",
+      "kind": "instrument_store",
+      "address": "ศูนย์การค้าแฟชั่นไอส์แลนด์ ชั้น 3 (โซนฮาร์เบอร์แลนด์) ถ.รามอินทรา",
+      "geocode": "Fashion Island, Bangkok",
+      "source_url": "https://www.musicarms.net/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AA%E0%B8%B2%E0%B8%82%E0%B8%B2/",
+      "evidence": "หน้าสาขาของ Music Arms: แฟชั่นไอส์แลนด์ ชั้น 3 (Harbourland) โทร 082-786-5533"
+    }
+  ],
+  "review": {
+    "osm:w1355621977": {
+      "exclude": true,
+      "note": "อ่างน้ำพุดนตรี (น้ำพุประดับ) ไม่ใช่สถานที่ดนตรี"
+    },
+    "osm:w1355635803": {
+      "kind": "performing_arts",
+      "note": "Dinner Theater ไม่มีข้อมูลเจ้าของ ยังไม่ยืนยันว่ามีดนตรีสด คงไว้เป็นหอแสดง"
+    }
+  },
+  "gaps": [
+    "2U-Studio (91/7 ซ.รามอินทรา 10) แหล่งอื่นระบุเขตบางเขน ไม่ใช่คันนายาว — ไม่ใส่",
+    "yamaha:SMY0457 วีมิวสิค แฟชั่นไอส์แลนด์ ยังไม่พบหน้าเจ้าของยืนยันว่ายังเปิด"
+  ]
+}

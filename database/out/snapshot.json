@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-26T09:41:08.441Z",
+ "generatedAt": "2026-09-26T09:43:00.541Z",
  "categories": [
   {
    "id": "try",
@@ -147,7 +147,7 @@
    "researched_at": "2026-09-26",
    "osm_places": 4,
    "web_places": 9,
-   "chain_places": 1,
+   "chain_places": 0,
    "gaps": "[\"Central Rama 9: directory ของ Central Pattana โหลดด้วย JS ไล่ร้านไม่ได้; 'Music City' ชั้น 4 (ธีรมิวสิค/ตัวแทน Roland) มีโพสต์ 'ลดย้ายร้าน' อาจย้ายแล้ว ยังไม่ยืนยัน\",\"ร้าน/คลับย่าน RCA อื่น (ONYX 'Odyssey Stage', LAX RCA, Guitar Lab RCA ห้องซ้อม Block D, NOMA ที่แทน Cosmic Cafe) ยังไม่ยืนยันสถานะปัจจุบันหรือเป็นคลับดีเจมากกว่าดนตรีสด\",\"ค่ายเพลงย่านพระราม 9: เอกสารกรมทรัพย์สินทางปัญญา (รายชื่อบริษัทจัดเก็บ) ระบุบริษัทจัดการงานดนตรีที่ 21/38 RCA Block C แต่ดาวน์โหลดไม่ได้ (บล็อกบอท) ยังไม่รู้ชื่อบริษัท\",\"สยามนิรมิต (ถ.เทียมร่วมมิตร) ยังไม่ได้ตรวจว่ายังเปิดแสดงหรือไม่\",\"สตูดิโออัดเสียงในเขตห้วยขวาง: ค้นแล้วพบแต่สตูดิโอถ่ายภาพ ยังไม่พบหน้าเจ้าของ\",\"Tero Entertainment ย้ายไปถนนพหลโยธิน เขตจตุจักรแล้ว (teroasia.com) ไม่ใช่เขตนี้\"]"
   },
   {
@@ -406,90 +406,90 @@
   {
    "district": "คันนายาว",
    "wave": 3,
-   "status": "osm_only",
+   "status": "researched",
    "osm_fetched_at": "2026-09-26T02:40:20.341Z",
-   "researched_at": null,
-   "osm_places": 2,
-   "web_places": 0,
+   "researched_at": "2026-09-26",
+   "osm_places": 1,
+   "web_places": 1,
    "chain_places": 2,
-   "gaps": "[]"
+   "gaps": "[\"2U-Studio (91/7 ซ.รามอินทรา 10) แหล่งอื่นระบุเขตบางเขน ไม่ใช่คันนายาว — ไม่ใส่\",\"yamaha:SMY0457 วีมิวสิค แฟชั่นไอส์แลนด์ ยังไม่พบหน้าเจ้าของยืนยันว่ายังเปิด\"]"
   },
   {
    "district": "สะพานสูง",
    "wave": 3,
-   "status": "osm_only",
+   "status": "researched",
    "osm_fetched_at": "2026-09-26T02:40:35.338Z",
-   "researched_at": null,
+   "researched_at": "2026-09-26",
    "osm_places": 0,
    "web_places": 0,
    "chain_places": 2,
-   "gaps": "[]"
+   "gaps": "[\"ยังไม่พบร้านเครื่องดนตรี/ห้องซ้อมอิสระในเขตที่มีหน้าเจ้าของ (มีเฉพาะโรงเรียนยามาฮ่า 2 สาขาจาก locator)\",\"The Paseo Town รามคำแหง: ยังไม่ได้ตรวจ directory ห้างหาร้านดนตรีอื่น\"]"
   },
   {
    "district": "บางนา",
    "wave": 3,
-   "status": "osm_only",
+   "status": "researched",
    "osm_fetched_at": "2026-09-26T02:41:30.696Z",
-   "researched_at": null,
+   "researched_at": "2026-09-26",
    "osm_places": 0,
    "web_places": 0,
    "chain_places": 2,
-   "gaps": "[]"
+   "gaps": "[\"Mega Bangna (Music Store, Cin Guitars, Yamaha school, Music Collection) อยู่ อ.บางพลี สมุทรปราการ — นอกเขต\",\"directory เซ็นทรัลบางนายังไม่ได้ตรวจร้านดนตรีอื่นนอกจาก Music Collection/Yamaha ที่มีแล้ว\"]"
   },
   {
    "district": "ประเวศ",
    "wave": 3,
-   "status": "osm_only",
+   "status": "researched",
    "osm_fetched_at": "2026-09-26T02:41:37.572Z",
-   "researched_at": null,
+   "researched_at": "2026-09-26",
    "osm_places": 1,
-   "web_places": 0,
+   "web_places": 2,
    "chain_places": 3,
-   "gaps": "[]"
+   "gaps": "[\"Music Arms ซีคอน มีแล้วเป็น yamaha:SMY0366 (ยืนยันจากหน้าสาขา Music Arms ชั้น 2 โซน MUNx2)\",\"karaoke_box ไม่มีชื่อ 4 รายการบน OSM ไม่ได้ตรวจ\"]"
   },
   {
    "district": "มีนบุรี",
    "wave": 3,
-   "status": "osm_only",
+   "status": "researched",
    "osm_fetched_at": "2026-09-26T02:41:44.051Z",
-   "researched_at": null,
+   "researched_at": "2026-09-26",
    "osm_places": 0,
-   "web_places": 0,
+   "web_places": 1,
    "chain_places": 2,
-   "gaps": "[]"
+   "gaps": "[\"ห้าง Minburi (Market Village? / Tesco Lotus) ยังไม่พบร้านดนตรีอื่นจาก directory\",\"รามอินทรา 86 ใกล้เส้นแบ่งเขตคันนายาว-มีนบุรี ตั้ง geocode null\"]"
   },
   {
    "district": "คลองสามวา",
    "wave": 3,
-   "status": "osm_only",
+   "status": "researched",
    "osm_fetched_at": "2026-09-26T02:41:50.936Z",
-   "researched_at": null,
+   "researched_at": "2026-09-26",
    "osm_places": 0,
    "web_places": 0,
    "chain_places": 0,
-   "gaps": "[]"
+   "gaps": "[\"ไม่พบสถานที่ดนตรีที่ยืนยันจากหน้าเจ้าของได้\"]"
   },
   {
    "district": "ลาดกระบัง",
    "wave": 3,
-   "status": "osm_only",
+   "status": "researched",
    "osm_fetched_at": "2026-09-26T02:43:46.567Z",
-   "researched_at": null,
+   "researched_at": "2026-09-26",
    "osm_places": 2,
-   "web_places": 0,
+   "web_places": 1,
    "chain_places": 0,
-   "gaps": "[]"
+   "gaps": "[\"ชมรมดนตรีไทย/สากล สจล. ยังไม่ได้แยกรายการ\"]"
   },
   {
    "district": "หนองจอก",
    "wave": 3,
-   "status": "osm_only",
+   "status": "researched",
    "osm_fetched_at": "2026-09-26T02:43:53.746Z",
-   "researched_at": null,
+   "researched_at": "2026-09-26",
    "osm_places": 0,
    "web_places": 0,
    "chain_places": 0,
-   "gaps": "[]"
+   "gaps": "[\"ไม่พบสถานที่ดนตรีที่ยืนยันจากหน้าเจ้าของได้ (เขตชานเมือง)\"]"
   },
   {
    "district": "จอมทอง",
@@ -7749,7 +7749,7 @@
  "gate_runs": [
   {
    "id": 1,
-   "run_at": "2026-09-26T09:41:08.441Z",
+   "run_at": "2026-09-26T09:43:00.541Z",
    "gate": "A-source",
    "pass": 1,
    "errors": "[]",
@@ -7758,25 +7758,25 @@
   },
   {
    "id": 2,
-   "run_at": "2026-09-26T09:41:08.441Z",
+   "run_at": "2026-09-26T09:43:00.541Z",
    "gate": "D-places",
    "pass": 1,
    "errors": "[]",
-   "warnings": "[\"ปทุมวัน/cur:chula-edu-music-education-cumex \\\"สาขาวิชาดนตรีศึกษา คณะครุศาสตร์ จุฬาฯ / ศูนย์ความเป็นเลิศด้านดนตรีศึกษา (CUMEX)\\\": พิกัดโดยประมาณจากคำค้น \\\"Faculty of Education Chulalongkorn\\\" — ควรระบุ geocode ที่เจาะจงกว่านี้\",\"ปทุมวัน/cur:rbso-royal-bangkok-symphony-orchestra \\\"วงดุริยางค์ซิมโฟนีแห่งกรุงเทพ (RBSO)\\\": พิกัดโดยประมาณจากคำค้น \\\"152 Wireless Road\\\" — ควรระบุ geocode ที่เจาะจงกว่านี้\",\"ปทุมวัน/cur:siam-record-store \\\"Siam Record Store\\\": พิกัดโดยประมาณจากคำค้น \\\"839 Rama I Road, Wang Mai, Pathum Wan, Bangkok\\\" — ควรระบุ geocode ที่เจาะจงกว่านี้\",\"ราชเทวี/cur:cassette-shop-victory-monument \\\"Cassette Shop อนุสาวรีย์ชัยฯ\\\": ไม่มีพิกัด (geocode ไม่พบ/ยังไม่รัน)\",\"พระนคร/cur:bpi-wang-na-graduate \\\"สถาบันบัณฑิตพัฒนศิลป์ (วังหน้า) โครงการบัณฑิตศึกษา\\\": ไม่มีพิกัด (geocode ไม่พบ/ยังไม่รัน)\",\"พระนคร/cur:fad-office-of-performing-arts \\\"สำนักการสังคีต กรมศิลปากร\\\": พิกัดโดยประมาณจากคำค้น \\\"National Theatre, Bangkok\\\" — ควรระบุ geocode ที่เจาะจงกว่านี้\",\"พระนคร/cur:phattayakul-school-banglamphu \\\"โรงเรียนพาทยกุลการดนตรีและนาฏศิลป์ (บางลำพู)\\\": พิกัดโดยประมาณจากคำค้น \\\"Wat Sam Phraya, Bangkok\\\" — ควรระบุ geocode ที่เจาะจงกว่านี้\",\"พระนคร/cur:music-collection-atsadang \\\"Music Collection สาขาถนนอัษฎางค์\\\": พิกัดโดยประมาณจากคำค้น \\\"10/5 Atsadang Road, Phra Nakhon, Bangkok\\\" — ควรระบุ geocode ที่เจาะจงกว่านี้\",\"บางรัก/osm:n11228718248 \\\"Conice\\\": พิกัดอยู่ในเขตปทุมวัน ห่างเขตที่ระบุ 1 ม.\",\"บางรัก/cur:bamboo-bar-mandarin-oriental \\\"The Bamboo Bar โรงแรมแมนดาริน โอเรียนเต็ล\\\": พิกัดโดยประมาณจากคำค้น \\\"Mandarin Oriental Bangkok, Bangkok\\\" — ควรระบุ geocode ที่เจาะจงกว่านี้\",\"บางรัก/cur:the-modern-melody-silom \\\"The Modern Melody Music Studio\\\": พิกัดโดยประมาณจากคำค้น \\\"Silom Road, Bangkok\\\" — ควรระบุ geocode ที่เจาะจงกว่านี้\",\"บางรัก/cur:bangkok-opera-foundation \\\"มูลนิธิบางกอกโอเปร่า (Opera Siam)\\\": พิกัดโดยประมาณจากคำค้น \\\"Silom Soi 2, Bangkok\\\" — ควรระบุ geocode ที่เจาะจงกว่านี้\",\"วัฒนา/cur:gmm-grammy-place-hq \\\"จีเอ็มเอ็ม แกรมมี่ (สำนักงานใหญ่ จีเอ็มเอ็ม แกรมมี่ เพลส)\\\": พิกัดโดยประมาณจากคำค้น \\\"GMM Grammy Place, Bangkok\\\" — ควรระบุ geocode ที่เจาะจงกว่านี้\",\"วัฒนา/cur:blkgem-gmm-grammy-place \\\"BLKGEM (เดิม Grammy Vocal Studio) จีเอ็มเอ็ม แกรมมี่ เพลส\\\": พิกัดโดยประมาณจากคำค้น \\\"GMM Grammy Place, Bangkok\\\" — ควรระบุ geocode ที่เจาะจงกว่านี้\",\"วัฒนา/cur:gecco-studio-complex \\\"Gecco Studio Complex\\\": พิกัดโดยประมาณจากคำค้น \\\"32 Soi Sukhumvit 39, Bangkok\\\" — ควรระบุ geocode ที่เจาะจงกว่านี้\",\"วัฒนา/cur:dynamic-recording-studio \\\"ไดนามิค เรคคอร์ดดิ้ง สตูดิโอ\\\": พิกัดโดยประมาณจากคำค้น \\\"35/1 Soi Sukhumvit 49, Bangkok\\\" — ควรระบุ geocode ที่เจาะจงกว่านี้\",\"วัฒนา/cur:piano-academy-of-bangkok \\\"สถาบันเปียโนบางกอก\\\": พิกัดโดยประมาณจากคำค้น \\\"Thonglor, Bangkok\\\" — ควรระบุ geocode ที่เจาะจงกว่านี้\",\"วัฒนา/cur:more-rice-record-store \\\"More Rice Record Store\\\": พิกัดโดยประมาณจากคำค้น \\\"Soi Sukhumvit 31, Bangkok\\\" — ควรระบุ geocode ที่เจาะจงกว่านี้\",\"วัฒนา/cur:bungkumhouse-records \\\"ร้านแผ่นเสียงบึงกุ่มเฮ้าส์\\\": พิกัดโดยประมาณจากคำค้น \\\"Sukhumvit Soi 55 (Thonglor), Bangkok\\\" — ควรระบุ geocode ที่เจาะจงกว่านี้\",\"วัฒนา/cur:sex-record-shop-seenspace \\\"Sex Record Shop\\\": พิกัดโดยประมาณจากคำค้น \\\"Seenspace Thonglor, Bangkok\\\" — ควรระบุ geocode ที่เจาะจงกว่านี้\",\"วัฒนา/cur:studio-lam \\\"Studio Lam\\\": พิกัดโดยประมาณจากคำค้น \\\"3/1 Soi Sukhumvit 51, Bangkok\\\" — ควรระบุ geocode ที่เจาะจงกว่านี้\",\"วัฒนา/cur:alonetogether-bangkok \\\"Alonetogether Bangkok\\\": พิกัดโดยประมาณจากคำค้น \\\"Soi Sukhumvit 31, Bangkok\\\" — ควรระบุ geocode ที่เจาะจงกว่านี้\",\"พญาไท/cur:format-bkk-ari \\\"Format BKK อารีย์\\\": ไม่มีพิกัด (geocode ไม่พบ/ยังไม่รัน)\",\"พญาไท/cur:saki-studio-ari \\\"Saki Studio อารีย์\\\": พิกัดโดยประมาณจากคำค้น \\\"Samsen Nai, Bangkok\\\" — ควรระบุ geocode ที่เจาะจงกว่านี้\",\"สาทร/cur:smalls-bangkok \\\"Smalls (บาร์แจ๊ส ซอยสวนพลู 1)\\\": พิกัดโดยประมาณจากคำค้น \\\"Soi Suan Phlu 1, Bangkok\\\" — ควรระบุ geocode ที่เจาะจงกว่านี้\",\"สาทร/cur:vc-electronics-sathon \\\"วีซี อิเล็คโทรนิคส์ สาทร\\\": พิกัดโดยประมาณจากคำค้น \\\"Soi Chan 16, Bangkok\\\" — ควรระบุ geocode ที่เจาะจงกว่านี้\",\"สาทร/cur:beazy-studio-sathorn \\\"BEAZY Studio (สาทร 11)\\\": พิกัดโดยประมาณจากคำค้น \\\"Soi Sathon 11, Bangkok\\\" — ควรระบุ geocode ที่เจาะจงกว่านี้\",\"คลองเตย/cur:rockademy-sukhumvit-26 \\\"Rockademy (ซอยสุขุมวิท 26)\\\": พิกัดโดยประมาณจากคำค้น \\\"Soi Sukhumvit 26, Bangkok\\\" — ควรระบุ geocode ที่เจาะจงกว่านี้\",\"คลองเตย/cur:queen-bee-sukhumvit-26 \\\"Queen Bee (บาร์ดนตรีสด สุขุมวิท 26)\\\": พิกัดโดยประมาณจากคำค้น \\\"Soi Sukhumvit 26, Bangkok\\\" — ควรระบุ geocode ที่เจาะจงกว่านี้\",\"คลองเตย/cur:otto-bar-sukhumvit-22 \\\"Otto Bar (สุขุมวิท 22)\\\": พิกัดโดยประมาณจากคำค้น \\\"Soi Sukhumvit 22, Bangkok\\\" — ควรระบุ geocode ที่เจาะจงกว่านี้\",\"คลองเตย/cur:eq-studio-soi-chokdee \\\"ห้องซ้อมดนตรี E.Q.Studio (ซอยโชคดี)\\\": พิกัดโดยประมาณจากคำค้น \\\"ซอยโชคดี, Bangkok\\\" — ควรระบุ geocode ที่เจาะจงกว่านี้\",\"ห้วยขวาง/cur:horizon-music-rehearsal \\\"Horizon Music ห้องซ้อมดนตรี 24 ชั่วโมง\\\": พิกัดโดยประมาณจากคำค้น \\\"ซอย 20 มิถุนา, Bangkok\\\" — ควรระบุ geocode ที่เจาะจงกว่านี้\",\"ดินแดง/osm:r18186909 \\\"ลานหินโค้ง\\\": ตรวจบริบท — อัฒจันทร์กลางแจ้ง ไม่ใช่เวทีดนตรีประจำ\",\"ดินแดง/cur:ps-music-prachasongkhro \\\"พี.เอส. มิวสิค (ร้านเครื่องดนตรี ประชาสงเคราะห์)\\\": พิกัดโดยประมาณจากคำค้น \\\"ซอยประชาสงเคราะห์ 12, Bangkok\\\" — ควรระบุ geocode ที่เจาะจงกว่านี้\",\"ดินแดง/cur:ps-music-rehearsal-room \\\"ห้องซ้อมดนตรี P.S. Music (Music Room - PS Music)\\\": พิกัดโดยประมาณจากคำค้น \\\"ซอยประชาสงเคราะห์ 12, Bangkok\\\" — ควรระบุ geocode ที่เจาะจงกว่านี้\",\"ดินแดง/cur:fattys-bar-and-diner \\\"Fatty's Bar & Diner\\\": พิกัดโดยประมาณจากคำค้น \\\"Asok-Din Daeng Road, Bangkok\\\" — ควรระบุ geocode ที่เจาะจงกว่านี้\",\"จตุจักร/cur:taodang-music-chatuchak \\\"เต่าแดง มิวสิค ช้อป (สาขา Flagship จตุจักร)\\\": พิกัดโดยประมาณจากคำค้น \\\"ซอยพหลโยธิน 18/1\\\" — ควรระบุ geocode ที่เจาะจงกว่านี้\",\"จตุจักร/cur:sak54-guitar-repair-vibhavadi \\\"Sak'54 ช่างศักดิ์ ซ่อมกีตาร์\\\": พิกัดโดยประมาณจากคำค้น \\\"ซอยวิภาวดีรังสิต 32\\\" — ควรระบุ geocode ที่เจาะจงกว่านี้\",\"จตุจักร/cur:nat-studio-music-school \\\"นัท สตูดิโอ โรงเรียนดนตรี (Nat Studio)\\\": พิกัดโดยประมาณจากคำค้น \\\"ซอยลาดพร้าว 35\\\" — ควรระบุ geocode ที่เจาะจงกว่านี้\",\"จตุจักร/cur:bma-chatuchak-recreation-centre \\\"ศูนย์นันทนาการจตุจักร (กรุงเทพมหานคร)\\\": ไม่มีพิกัด (ไม่มี geocode)\",\"จตุจักร/cur:rs-group-head-office \\\"บริษัท อาร์เอส จำกัด (มหาชน) / RS Music\\\": ไม่มีพิกัด (ไม่มี geocode)\",\"ดุสิต/cur:bma-kiakkai-recreation-centre \\\"ศูนย์นันทนาการเกียกกาย (กรุงเทพมหานคร)\\\": พิกัดโดยประมาณจากคำค้น \\\"ถนนทหาร, Bangkok\\\" — ควรระบุ geocode ที่เจาะจงกว่านี้\",\"ป้อมปราบศัตรูพ่าย/cur:hong-seng-music-worachak \\\"ฮงเส็ง มิวสิค สาขาวรจักร\\\": พิกัดโดยประมาณจากคำค้น \\\"195/1 ถนนวรจักร\\\" — ควรระบุ geocode ที่เจาะจงกว่านี้\",\"สัมพันธวงศ์/cur:kwang-chiab-sia-yaowarat \\\"กว้างเจียบเซีย เครื่องดนตรีจีนและอุปกรณ์ดนตรีจีน\\\": พิกัดโดยประมาณจากคำค้น \\\"41 ถนนเยาวราช\\\" — ควรระบุ geocode ที่เจาะจงกว่านี้\",\"บางกอกน้อย/cur:bma-amphawa-recreation-centre \\\"ศูนย์นันทนาการอัมพวา (กรุงเทพมหานคร)\\\": ไม่มีพิกัด (ไม่มี geocode)\",\"บางกอกใหญ่/cur:bma-bangkok-yai-recreation-centre \\\"ศูนย์นันทนาการบางกอกใหญ่ (กรุงเทพมหานคร)\\\": พิกัดโดยประมาณจากคำค้น \\\"ซอยจรัญสนิทวงศ์ 2, Bangkok\\\" — ควรระบุ geocode ที่เจาะจงกว่านี้\",\"ลาดพร้าว/cur:kpn-music-academy-wanghin \\\"สถาบันดนตรีเคพีเอ็น วังหิน\\\": พิกัดโดยประมาณจากคำค้น \\\"ถนนลาดปลาเค้า, Bangkok\\\" — ควรระบุ geocode ที่เจาะจงกว่านี้\",\"บางซื่อ/cur:kpn-music-academy-gateway-bangsue \\\"สถาบันดนตรีเคพีเอ็น เกตเวย์ บางซื่อ\\\": ไม่มีพิกัด (geocode ไม่พบ/ยังไม่รัน)\",\"บางกะปิ/cur:peerapong-music-school \\\"โรงเรียนดนตรีพีรพงศ์\\\": พิกัดโดยประมาณจากคำค้น \\\"ซอยรามคำแหง 76, Bangkok\\\" — ควรระบุ geocode ที่เจาะจงกว่านี้\",\"บางกะปิ/cur:music-master-school-ladprao \\\"โรงเรียนสอนดนตรี มิวสิคมาสเตอร์\\\": ไม่มีพิกัด (ไม่มี geocode)\",\"บางกะปิ/cur:safehouse-music-recording-studio \\\"Safehouse Music & Recording Studio\\\": ไม่มีพิกัด (ไม่มี geocode)\",\"ยานนาวา/cur:melodyplus-lotus-rama-3 \\\"โรงเรียนดนตรีเมโลดี้พลัส สาขาโลตัส พระราม 3\\\": ไม่มีพิกัด (ไม่มี geocode)\",\"บางพลัด/cur:kamonwan-music-school-bang-phlat \\\"โรงเรียนดนตรีกมลวรรณ\\\": ไม่มีพิกัด (ไม่มี geocode)\",\"ดอนเมือง/cur:rtaf-band-don-mueang \\\"กองดุริยางค์ทหารอากาศ\\\": ไม่มีพิกัด (geocode ไม่พบ/ยังไม่รัน)\",\"ดอนเมือง/cur:moai-studio-don-mueang \\\"Moai Studio ห้องอัดเสียง ห้องซ้อมดนตรี ดอนเมือง\\\": ไม่มีพิกัด (ไม่มี geocode)\",\"สายไหม/cur:terminal-solution-audiocity-sai-mai \\\"บริษัท เทอร์มินอลโซลูชั่น จำกัด (Audio City 2U)\\\": ไม่มีพิกัด (ไม่มี geocode)\",\"คันนายาว/osm:w1355621977 \\\"อ่างน้ำพุดนตรี\\\": ยังไม่จัดประเภท — ใส่ใน review\",\"คันนายาว/osm:w1355621977 \\\"อ่างน้ำพุดนตรี\\\": ตรวจบริบท — ไม่มี tag ดนตรี ใช้ชื่ออย่างเดียว\",\"คันนายาว/osm:w1355635803 \\\"Dinner Theater\\\": บริบท generic — tag ทั่วไป (amenity=theatre) และชื่อไม่มีคำดนตรี — ตัดสินใน review/context-review.json (ไม่แสดงใน portal)\",\"ลาดกระบัง/osm:w1086030182 \\\"Society Music&Bar\\\": บริบท name_only — ไม่มี tag ดนตรี ใช้ชื่ออย่างเดียว — ตัดสินใน review/context-review.json (ไม่แสดงใน portal)\",\"ทุ่งครุ/osm:n11993444815 \\\"GardenHouseWorkshop\\\": บริบท generic — tag ทั่วไป (amenity=studio) และชื่อไม่มีคำดนตรี — ตัดสินใน review/context-review.json (ไม่แสดงใน portal)\",\"บางแค/osm:w1562005646 \\\"อาคารอเล็กซิล มิวสิค\\\": ยังไม่จัดประเภท — ใส่ใน review\",\"บางแค/osm:w1562005646 \\\"อาคารอเล็กซิล มิวสิค\\\": ตรวจบริบท — ไม่มี tag ดนตรี ใช้ชื่ออย่างเดียว\",\"ตลิ่งชัน/osm:n10660732482 \\\"บ้านเพลงกลางสวน\\\": ยังไม่จัดประเภท — ใส่ใน review\",\"ตลิ่งชัน/osm:n10660732482 \\\"บ้านเพลงกลางสวน\\\": ตรวจบริบท — ไม่มี tag ดนตรี ใช้ชื่ออย่างเดียว\",\"ทวีวัฒนา/osm:w1535502312 \\\"คณะดุริยางคศาสตร์\\\": บริบท name_only — ไม่มี tag ดนตรี ใช้ชื่ออย่างเดียว — ตัดสินใน review/context-review.json (ไม่แสดงใน portal)\",\"บางกะปิ/yamaha:SMY0338 \\\"บริษัท ออดิโอซิตี้ จำกัด\\\": ตรวจบริบท — ชื่อไม่บอกว่าเป็นร้านดนตรี — ยืนยันจากสายสินค้า (เครื่องเสียงเวที)\",\"ดินแดง/yamaha:SMY0425 \\\"พัฒนสิน\\\": ตรวจบริบท — ชื่อไม่บอกว่าเป็นร้านดนตรี — ยืนยันจากสายสินค้า (เครื่องเสียงเวที, เปียโนไฟฟ้า, กีตาร์, คีย์บอร์ด)\",\"บางกอกน้อย/yamaha:SMY0450 \\\"บริษัท ธีระมิวสิค จำกัด\\\": พิกัดอยู่ในเขตบางพลัด ห่างเขตที่ระบุ 21 ม.\",\"พระนคร/yamaha:SMY0455 \\\"วี.ซี. อีเล็คโทรนิคส์ฯ สาขาบ้านหม้อ\\\": ตรวจบริบท — ชื่อไม่บอกว่าเป็นร้านดนตรี — ยืนยันจากสายสินค้า (เครื่องเสียงเวที)\",\"ห้วยขวาง/yamaha:SMY0468 \\\"โรงเรียนดนตรียามาฮ่า เซ็นทรัลพลาซา แกรนด์ พระราม 9\\\": ตรวจบริบท — ที่อยู่/ห้างระบุเขตห้วยขวาง แต่พิกัดต้นทางตกเขตบางนา — ถอดหมุดจนกว่าจะหาพิกัดใหม่\",\"ห้วยขวาง/yamaha:SMY0468 \\\"โรงเรียนดนตรียามาฮ่า เซ็นทรัลพลาซา แกรนด์ พระราม 9\\\": ไม่มีพิกัด (ไม่มี geocode)\",\"บางกอกน้อย/yamaha:SMY0557 \\\"บริษัท ธนพร เซอร์วิส จำกัด\\\": ตรวจบริบท — ชื่อไม่บอกว่าเป็นร้านดนตรี — ยืนยันจากสายสินค้า (เครื่องเป่า/วงโยธวาทิต, สื่อการสอนดนตรี)\",\"ธนบุรี/yamaha:SMY0342: ตัวแทนอยู่ใกล้สถานที่เดิม (cur:music-collection-thapra-flagship) — ตัดสินใน sources/chains/*-review.json\",\"ธนบุรี/yamaha:SMY0512: ตัวแทนอยู่ใกล้สถานที่เดิม (cur:music-collection-thapra-flagship) — ตัดสินใน sources/chains/*-review.json\"]",
-   "stats": "{\"places\":330,\"rejected\":176,\"mapped\":315,\"byKind\":{\"school\":84,\"venue\":34,\"higher_ed\":14,\"performing_arts\":35,\"ensemble\":10,\"archive\":4,\"audio_store\":31,\"broadcast\":9,\"instrument_store\":49,\"karaoke\":7,\"business\":11,\"record_store\":23,\"rehearsal\":5,\"studio\":10,\"repair_luthier\":1,\"unclassified\":3},\"byContext\":{\"lead\":51,\"reviewed\":69,\"tagged\":32,\"verified\":171,\"name_only\":5,\"generic\":2},\"contextRejected\":3,\"districts\":{\"not_started\":0,\"osm_only\":18,\"researched\":32}}"
+   "warnings": "[\"ปทุมวัน/cur:chula-edu-music-education-cumex \\\"สาขาวิชาดนตรีศึกษา คณะครุศาสตร์ จุฬาฯ / ศูนย์ความเป็นเลิศด้านดนตรีศึกษา (CUMEX)\\\": พิกัดโดยประมาณจากคำค้น \\\"Faculty of Education Chulalongkorn\\\" — ควรระบุ geocode ที่เจาะจงกว่านี้\",\"ปทุมวัน/cur:rbso-royal-bangkok-symphony-orchestra \\\"วงดุริยางค์ซิมโฟนีแห่งกรุงเทพ (RBSO)\\\": พิกัดโดยประมาณจากคำค้น \\\"152 Wireless Road\\\" — ควรระบุ geocode ที่เจาะจงกว่านี้\",\"ปทุมวัน/cur:siam-record-store \\\"Siam Record Store\\\": พิกัดโดยประมาณจากคำค้น \\\"839 Rama I Road, Wang Mai, Pathum Wan, Bangkok\\\" — ควรระบุ geocode ที่เจาะจงกว่านี้\",\"ราชเทวี/cur:cassette-shop-victory-monument \\\"Cassette Shop อนุสาวรีย์ชัยฯ\\\": ไม่มีพิกัด (geocode ไม่พบ/ยังไม่รัน)\",\"พระนคร/cur:bpi-wang-na-graduate \\\"สถาบันบัณฑิตพัฒนศิลป์ (วังหน้า) โครงการบัณฑิตศึกษา\\\": ไม่มีพิกัด (geocode ไม่พบ/ยังไม่รัน)\",\"พระนคร/cur:fad-office-of-performing-arts \\\"สำนักการสังคีต กรมศิลปากร\\\": พิกัดโดยประมาณจากคำค้น \\\"National Theatre, Bangkok\\\" — ควรระบุ geocode ที่เจาะจงกว่านี้\",\"พระนคร/cur:phattayakul-school-banglamphu \\\"โรงเรียนพาทยกุลการดนตรีและนาฏศิลป์ (บางลำพู)\\\": พิกัดโดยประมาณจากคำค้น \\\"Wat Sam Phraya, Bangkok\\\" — ควรระบุ geocode ที่เจาะจงกว่านี้\",\"พระนคร/cur:music-collection-atsadang \\\"Music Collection สาขาถนนอัษฎางค์\\\": พิกัดโดยประมาณจากคำค้น \\\"10/5 Atsadang Road, Phra Nakhon, Bangkok\\\" — ควรระบุ geocode ที่เจาะจงกว่านี้\",\"บางรัก/osm:n11228718248 \\\"Conice\\\": พิกัดอยู่ในเขตปทุมวัน ห่างเขตที่ระบุ 1 ม.\",\"บางรัก/cur:bamboo-bar-mandarin-oriental \\\"The Bamboo Bar โรงแรมแมนดาริน โอเรียนเต็ล\\\": พิกัดโดยประมาณจากคำค้น \\\"Mandarin Oriental Bangkok, Bangkok\\\" — ควรระบุ geocode ที่เจาะจงกว่านี้\",\"บางรัก/cur:the-modern-melody-silom \\\"The Modern Melody Music Studio\\\": พิกัดโดยประมาณจากคำค้น \\\"Silom Road, Bangkok\\\" — ควรระบุ geocode ที่เจาะจงกว่านี้\",\"บางรัก/cur:bangkok-opera-foundation \\\"มูลนิธิบางกอกโอเปร่า (Opera Siam)\\\": พิกัดโดยประมาณจากคำค้น \\\"Silom Soi 2, Bangkok\\\" — ควรระบุ geocode ที่เจาะจงกว่านี้\",\"วัฒนา/cur:gmm-grammy-place-hq \\\"จีเอ็มเอ็ม แกรมมี่ (สำนักงานใหญ่ จีเอ็มเอ็ม แกรมมี่ เพลส)\\\": พิกัดโดยประมาณจากคำค้น \\\"GMM Grammy Place, Bangkok\\\" — ควรระบุ geocode ที่เจาะจงกว่านี้\",\"วัฒนา/cur:blkgem-gmm-grammy-place \\\"BLKGEM (เดิม Grammy Vocal Studio) จีเอ็มเอ็ม แกรมมี่ เพลส\\\": พิกัดโดยประมาณจากคำค้น \\\"GMM Grammy Place, Bangkok\\\" — ควรระบุ geocode ที่เจาะจงกว่านี้\",\"วัฒนา/cur:gecco-studio-complex \\\"Gecco Studio Complex\\\": พิกัดโดยประมาณจากคำค้น \\\"32 Soi Sukhumvit 39, Bangkok\\\" — ควรระบุ geocode ที่เจาะจงกว่านี้\",\"วัฒนา/cur:dynamic-recording-studio \\\"ไดนามิค เรคคอร์ดดิ้ง สตูดิโอ\\\": พิกัดโดยประมาณจากคำค้น \\\"35/1 Soi Sukhumvit 49, Bangkok\\\" — ควรระบุ geocode ที่เจาะจงกว่านี้\",\"วัฒนา/cur:piano-academy-of-bangkok \\\"สถาบันเปียโนบางกอก\\\": พิกัดโดยประมาณจากคำค้น \\\"Thonglor, Bangkok\\\" — ควรระบุ geocode ที่เจาะจงกว่านี้\",\"วัฒนา/cur:more-rice-record-store \\\"More Rice Record Store\\\": พิกัดโดยประมาณจากคำค้น \\\"Soi Sukhumvit 31, Bangkok\\\" — ควรระบุ geocode ที่เจาะจงกว่านี้\",\"วัฒนา/cur:bungkumhouse-records \\\"ร้านแผ่นเสียงบึงกุ่มเฮ้าส์\\\": พิกัดโดยประมาณจากคำค้น \\\"Sukhumvit Soi 55 (Thonglor), Bangkok\\\" — ควรระบุ geocode ที่เจาะจงกว่านี้\",\"วัฒนา/cur:sex-record-shop-seenspace \\\"Sex Record Shop\\\": พิกัดโดยประมาณจากคำค้น \\\"Seenspace Thonglor, Bangkok\\\" — ควรระบุ geocode ที่เจาะจงกว่านี้\",\"วัฒนา/cur:studio-lam \\\"Studio Lam\\\": พิกัดโดยประมาณจากคำค้น \\\"3/1 Soi Sukhumvit 51, Bangkok\\\" — ควรระบุ geocode ที่เจาะจงกว่านี้\",\"วัฒนา/cur:alonetogether-bangkok \\\"Alonetogether Bangkok\\\": พิกัดโดยประมาณจากคำค้น \\\"Soi Sukhumvit 31, Bangkok\\\" — ควรระบุ geocode ที่เจาะจงกว่านี้\",\"พญาไท/cur:format-bkk-ari \\\"Format BKK อารีย์\\\": ไม่มีพิกัด (geocode ไม่พบ/ยังไม่รัน)\",\"พญาไท/cur:saki-studio-ari \\\"Saki Studio อารีย์\\\": พิกัดโดยประมาณจากคำค้น \\\"Samsen Nai, Bangkok\\\" — ควรระบุ geocode ที่เจาะจงกว่านี้\",\"สาทร/cur:smalls-bangkok \\\"Smalls (บาร์แจ๊ส ซอยสวนพลู 1)\\\": พิกัดโดยประมาณจากคำค้น \\\"Soi Suan Phlu 1, Bangkok\\\" — ควรระบุ geocode ที่เจาะจงกว่านี้\",\"สาทร/cur:vc-electronics-sathon \\\"วีซี อิเล็คโทรนิคส์ สาทร\\\": พิกัดโดยประมาณจากคำค้น \\\"Soi Chan 16, Bangkok\\\" — ควรระบุ geocode ที่เจาะจงกว่านี้\",\"สาทร/cur:beazy-studio-sathorn \\\"BEAZY Studio (สาทร 11)\\\": พิกัดโดยประมาณจากคำค้น \\\"Soi Sathon 11, Bangkok\\\" — ควรระบุ geocode ที่เจาะจงกว่านี้\",\"คลองเตย/cur:rockademy-sukhumvit-26 \\\"Rockademy (ซอยสุขุมวิท 26)\\\": พิกัดโดยประมาณจากคำค้น \\\"Soi Sukhumvit 26, Bangkok\\\" — ควรระบุ geocode ที่เจาะจงกว่านี้\",\"คลองเตย/cur:queen-bee-sukhumvit-26 \\\"Queen Bee (บาร์ดนตรีสด สุขุมวิท 26)\\\": พิกัดโดยประมาณจากคำค้น \\\"Soi Sukhumvit 26, Bangkok\\\" — ควรระบุ geocode ที่เจาะจงกว่านี้\",\"คลองเตย/cur:otto-bar-sukhumvit-22 \\\"Otto Bar (สุขุมวิท 22)\\\": พิกัดโดยประมาณจากคำค้น \\\"Soi Sukhumvit 22, Bangkok\\\" — ควรระบุ geocode ที่เจาะจงกว่านี้\",\"คลองเตย/cur:eq-studio-soi-chokdee \\\"ห้องซ้อมดนตรี E.Q.Studio (ซอยโชคดี)\\\": พิกัดโดยประมาณจากคำค้น \\\"ซอยโชคดี, Bangkok\\\" — ควรระบุ geocode ที่เจาะจงกว่านี้\",\"ห้วยขวาง/cur:horizon-music-rehearsal \\\"Horizon Music ห้องซ้อมดนตรี 24 ชั่วโมง\\\": พิกัดโดยประมาณจากคำค้น \\\"ซอย 20 มิถุนา, Bangkok\\\" — ควรระบุ geocode ที่เจาะจงกว่านี้\",\"ดินแดง/osm:r18186909 \\\"ลานหินโค้ง\\\": ตรวจบริบท — อัฒจันทร์กลางแจ้ง ไม่ใช่เวทีดนตรีประจำ\",\"ดินแดง/cur:ps-music-prachasongkhro \\\"พี.เอส. มิวสิค (ร้านเครื่องดนตรี ประชาสงเคราะห์)\\\": พิกัดโดยประมาณจากคำค้น \\\"ซอยประชาสงเคราะห์ 12, Bangkok\\\" — ควรระบุ geocode ที่เจาะจงกว่านี้\",\"ดินแดง/cur:ps-music-rehearsal-room \\\"ห้องซ้อมดนตรี P.S. Music (Music Room - PS Music)\\\": พิกัดโดยประมาณจากคำค้น \\\"ซอยประชาสงเคราะห์ 12, Bangkok\\\" — ควรระบุ geocode ที่เจาะจงกว่านี้\",\"ดินแดง/cur:fattys-bar-and-diner \\\"Fatty's Bar & Diner\\\": พิกัดโดยประมาณจากคำค้น \\\"Asok-Din Daeng Road, Bangkok\\\" — ควรระบุ geocode ที่เจาะจงกว่านี้\",\"จตุจักร/cur:taodang-music-chatuchak \\\"เต่าแดง มิวสิค ช้อป (สาขา Flagship จตุจักร)\\\": พิกัดโดยประมาณจากคำค้น \\\"ซอยพหลโยธิน 18/1\\\" — ควรระบุ geocode ที่เจาะจงกว่านี้\",\"จตุจักร/cur:sak54-guitar-repair-vibhavadi \\\"Sak'54 ช่างศักดิ์ ซ่อมกีตาร์\\\": พิกัดโดยประมาณจากคำค้น \\\"ซอยวิภาวดีรังสิต 32\\\" — ควรระบุ geocode ที่เจาะจงกว่านี้\",\"จตุจักร/cur:nat-studio-music-school \\\"นัท สตูดิโอ โรงเรียนดนตรี (Nat Studio)\\\": พิกัดโดยประมาณจากคำค้น \\\"ซอยลาดพร้าว 35\\\" — ควรระบุ geocode ที่เจาะจงกว่านี้\",\"จตุจักร/cur:bma-chatuchak-recreation-centre \\\"ศูนย์นันทนาการจตุจักร (กรุงเทพมหานคร)\\\": ไม่มีพิกัด (ไม่มี geocode)\",\"จตุจักร/cur:rs-group-head-office \\\"บริษัท อาร์เอส จำกัด (มหาชน) / RS Music\\\": ไม่มีพิกัด (ไม่มี geocode)\",\"ดุสิต/cur:bma-kiakkai-recreation-centre \\\"ศูนย์นันทนาการเกียกกาย (กรุงเทพมหานคร)\\\": พิกัดโดยประมาณจากคำค้น \\\"ถนนทหาร, Bangkok\\\" — ควรระบุ geocode ที่เจาะจงกว่านี้\",\"ป้อมปราบศัตรูพ่าย/cur:hong-seng-music-worachak \\\"ฮงเส็ง มิวสิค สาขาวรจักร\\\": พิกัดโดยประมาณจากคำค้น \\\"195/1 ถนนวรจักร\\\" — ควรระบุ geocode ที่เจาะจงกว่านี้\",\"สัมพันธวงศ์/cur:kwang-chiab-sia-yaowarat \\\"กว้างเจียบเซีย เครื่องดนตรีจีนและอุปกรณ์ดนตรีจีน\\\": พิกัดโดยประมาณจากคำค้น \\\"41 ถนนเยาวราช\\\" — ควรระบุ geocode ที่เจาะจงกว่านี้\",\"บางกอกน้อย/cur:bma-amphawa-recreation-centre \\\"ศูนย์นันทนาการอัมพวา (กรุงเทพมหานคร)\\\": ไม่มีพิกัด (ไม่มี geocode)\",\"บางกอกใหญ่/cur:bma-bangkok-yai-recreation-centre \\\"ศูนย์นันทนาการบางกอกใหญ่ (กรุงเทพมหานคร)\\\": พิกัดโดยประมาณจากคำค้น \\\"ซอยจรัญสนิทวงศ์ 2, Bangkok\\\" — ควรระบุ geocode ที่เจาะจงกว่านี้\",\"ลาดพร้าว/cur:kpn-music-academy-wanghin \\\"สถาบันดนตรีเคพีเอ็น วังหิน\\\": พิกัดโดยประมาณจากคำค้น \\\"ถนนลาดปลาเค้า, Bangkok\\\" — ควรระบุ geocode ที่เจาะจงกว่านี้\",\"บางซื่อ/cur:kpn-music-academy-gateway-bangsue \\\"สถาบันดนตรีเคพีเอ็น เกตเวย์ บางซื่อ\\\": ไม่มีพิกัด (geocode ไม่พบ/ยังไม่รัน)\",\"บางกะปิ/cur:peerapong-music-school \\\"โรงเรียนดนตรีพีรพงศ์\\\": พิกัดโดยประมาณจากคำค้น \\\"ซอยรามคำแหง 76, Bangkok\\\" — ควรระบุ geocode ที่เจาะจงกว่านี้\",\"บางกะปิ/cur:music-master-school-ladprao \\\"โรงเรียนสอนดนตรี มิวสิคมาสเตอร์\\\": ไม่มีพิกัด (ไม่มี geocode)\",\"บางกะปิ/cur:safehouse-music-recording-studio \\\"Safehouse Music & Recording Studio\\\": ไม่มีพิกัด (ไม่มี geocode)\",\"ยานนาวา/cur:melodyplus-lotus-rama-3 \\\"โรงเรียนดนตรีเมโลดี้พลัส สาขาโลตัส พระราม 3\\\": ไม่มีพิกัด (ไม่มี geocode)\",\"บางพลัด/cur:kamonwan-music-school-bang-phlat \\\"โรงเรียนดนตรีกมลวรรณ\\\": ไม่มีพิกัด (ไม่มี geocode)\",\"ดอนเมือง/cur:rtaf-band-don-mueang \\\"กองดุริยางค์ทหารอากาศ\\\": ไม่มีพิกัด (geocode ไม่พบ/ยังไม่รัน)\",\"ดอนเมือง/cur:moai-studio-don-mueang \\\"Moai Studio ห้องอัดเสียง ห้องซ้อมดนตรี ดอนเมือง\\\": ไม่มีพิกัด (ไม่มี geocode)\",\"สายไหม/cur:terminal-solution-audiocity-sai-mai \\\"บริษัท เทอร์มินอลโซลูชั่น จำกัด (Audio City 2U)\\\": ไม่มีพิกัด (ไม่มี geocode)\",\"คันนายาว/cur:music-arms-fashion-island \\\"Music Arms สาขาแฟชั่นไอส์แลนด์\\\": พิกัดโดยประมาณจากคำค้น \\\"Fashion Island, Bangkok\\\" — ควรระบุ geocode ที่เจาะจงกว่านี้\",\"ประเวศ/cur:music-arms-headq-onnut \\\"Music Arms สาขา HeadQ อ่อนนุช 74\\\": พิกัดโดยประมาณจากคำค้น \\\"Soi On Nut 74, Bangkok\\\" — ควรระบุ geocode ที่เจาะจงกว่านี้\",\"มีนบุรี/cur:ip-studio-ramintra-86 \\\"IP Studio ห้องซ้อมดนตรี รามอินทรา\\\": ไม่มีพิกัด (ไม่มี geocode)\",\"ทุ่งครุ/osm:n11993444815 \\\"GardenHouseWorkshop\\\": บริบท generic — tag ทั่วไป (amenity=studio) และชื่อไม่มีคำดนตรี — ตัดสินใน review/context-review.json (ไม่แสดงใน portal)\",\"บางแค/osm:w1562005646 \\\"อาคารอเล็กซิล มิวสิค\\\": ยังไม่จัดประเภท — ใส่ใน review\",\"บางแค/osm:w1562005646 \\\"อาคารอเล็กซิล มิวสิค\\\": ตรวจบริบท — ไม่มี tag ดนตรี ใช้ชื่ออย่างเดียว\",\"ตลิ่งชัน/osm:n10660732482 \\\"บ้านเพลงกลางสวน\\\": ยังไม่จัดประเภท — ใส่ใน review\",\"ตลิ่งชัน/osm:n10660732482 \\\"บ้านเพลงกลางสวน\\\": ตรวจบริบท — ไม่มี tag ดนตรี ใช้ชื่ออย่างเดียว\",\"ทวีวัฒนา/osm:w1535502312 \\\"คณะดุริยางคศาสตร์\\\": บริบท name_only — ไม่มี tag ดนตรี ใช้ชื่ออย่างเดียว — ตัดสินใน review/context-review.json (ไม่แสดงใน portal)\",\"บางกะปิ/yamaha:SMY0338 \\\"บริษัท ออดิโอซิตี้ จำกัด\\\": ตรวจบริบท — ชื่อไม่บอกว่าเป็นร้านดนตรี — ยืนยันจากสายสินค้า (เครื่องเสียงเวที)\",\"ดินแดง/yamaha:SMY0425 \\\"พัฒนสิน\\\": ตรวจบริบท — ชื่อไม่บอกว่าเป็นร้านดนตรี — ยืนยันจากสายสินค้า (เครื่องเสียงเวที, เปียโนไฟฟ้า, กีตาร์, คีย์บอร์ด)\",\"บางกอกน้อย/yamaha:SMY0450 \\\"บริษัท ธีระมิวสิค จำกัด\\\": พิกัดอยู่ในเขตบางพลัด ห่างเขตที่ระบุ 21 ม.\",\"พระนคร/yamaha:SMY0455 \\\"วี.ซี. อีเล็คโทรนิคส์ฯ สาขาบ้านหม้อ\\\": ตรวจบริบท — ชื่อไม่บอกว่าเป็นร้านดนตรี — ยืนยันจากสายสินค้า (เครื่องเสียงเวที)\",\"บางกอกน้อย/yamaha:SMY0557 \\\"บริษัท ธนพร เซอร์วิส จำกัด\\\": ตรวจบริบท — ชื่อไม่บอกว่าเป็นร้านดนตรี — ยืนยันจากสายสินค้า (เครื่องเป่า/วงโยธวาทิต, สื่อการสอนดนตรี)\",\"ธนบุรี/yamaha:SMY0342: ตัวแทนอยู่ใกล้สถานที่เดิม (cur:music-collection-thapra-flagship) — ตัดสินใน sources/chains/*-review.json\",\"ธนบุรี/yamaha:SMY0512: ตัวแทนอยู่ใกล้สถานที่เดิม (cur:music-collection-thapra-flagship) — ตัดสินใน sources/chains/*-review.json\"]",
+   "stats": "{\"places\":333,\"rejected\":178,\"mapped\":318,\"byKind\":{\"school\":84,\"venue\":34,\"higher_ed\":15,\"performing_arts\":35,\"ensemble\":10,\"archive\":4,\"audio_store\":31,\"broadcast\":9,\"instrument_store\":51,\"karaoke\":7,\"business\":11,\"record_store\":23,\"rehearsal\":6,\"studio\":10,\"repair_luthier\":1,\"unclassified\":2},\"byContext\":{\"lead\":52,\"reviewed\":71,\"tagged\":31,\"verified\":175,\"generic\":1,\"name_only\":3},\"contextRejected\":3,\"districts\":{\"not_started\":0,\"osm_only\":10,\"researched\":40}}"
   },
   {
    "id": 3,
-   "run_at": "2026-09-26T09:41:08.441Z",
+   "run_at": "2026-09-26T09:43:00.541Z",
    "gate": "B-database",
    "pass": 1,
    "errors": "[]",
    "warnings": "[]",
-   "stats": "{\"categories\":12,\"resources\":35,\"resource_guide_steps\":105,\"resource_alternates\":3,\"resource_previews\":21,\"rankings\":3,\"ranking_picks\":9,\"universities\":25,\"university_majors\":56,\"school_groups\":11,\"school_genres\":36,\"school_branches\":38,\"zones\":6,\"districts\":50,\"documents\":32,\"doc_tables\":79,\"doc_table_rows\":589,\"doc_links\":378,\"places\":330,\"place_rejects\":176,\"district_progress\":50,\"place_social\":103,\"place_offer\":618}"
+   "stats": "{\"categories\":12,\"resources\":35,\"resource_guide_steps\":105,\"resource_alternates\":3,\"resource_previews\":21,\"rankings\":3,\"ranking_picks\":9,\"universities\":25,\"university_majors\":56,\"school_groups\":11,\"school_genres\":36,\"school_branches\":38,\"zones\":6,\"districts\":50,\"documents\":32,\"doc_tables\":79,\"doc_table_rows\":589,\"doc_links\":378,\"places\":333,\"place_rejects\":178,\"district_progress\":50,\"place_social\":105,\"place_offer\":627}"
   },
   {
    "id": 4,
-   "run_at": "2026-09-26T09:41:08.441Z",
+   "run_at": "2026-09-26T09:43:00.541Z",
    "gate": "C-audit-drift",
    "pass": 1,
    "errors": "[]",
@@ -9414,6 +9414,66 @@
    "item": "เครื่องเสียง PA (Yamaha)"
   },
   {
+   "place_id": "cur:music-arms-fashion-island",
+   "item": "กีตาร์"
+  },
+  {
+   "place_id": "cur:music-arms-fashion-island",
+   "item": "เบส"
+  },
+  {
+   "place_id": "cur:music-arms-fashion-island",
+   "item": "กลอง"
+  },
+  {
+   "place_id": "cur:music-arms-fashion-island",
+   "item": "คีย์บอร์ด"
+  },
+  {
+   "place_id": "cur:music-arms-headq-onnut",
+   "item": "เปียโน"
+  },
+  {
+   "place_id": "cur:music-arms-headq-onnut",
+   "item": "กีตาร์"
+  },
+  {
+   "place_id": "cur:music-arms-headq-onnut",
+   "item": "กลอง"
+  },
+  {
+   "place_id": "cur:music-arms-headq-onnut",
+   "item": "Pro audio"
+  },
+  {
+   "place_id": "cur:music-arms-headq-onnut",
+   "item": "อุปกรณ์บันทึกเสียง"
+  },
+  {
+   "place_id": "cur:mcgp-mahidol-seacon",
+   "item": "หลักสูตรดนตรีบุคคลทั่วไป"
+  },
+  {
+   "place_id": "cur:ip-studio-ramintra-86",
+   "item": "ห้องซ้อม 2 ห้อง"
+  },
+  {
+   "place_id": "cur:ip-studio-ramintra-86",
+   "item": "บันทึกเสียง"
+  },
+  {
+   "place_id": "cur:ip-studio-ramintra-86",
+   "item": "สอนกีตาร์/อูคูเลเล่"
+  },
+  {
+   "place_id": "cur:kmitl-imse",
+   "item": "วิศวกรรมดนตรีและสื่อประสม"
+  },
+  {
+   "place_id": "cur:kmitl-imse",
+   "item": "วง KMITL BAND"
+  },
+  {
    "place_id": "yamaha:SMY0338",
    "item": "เครื่องเสียงเวที"
   },
@@ -9703,30 +9763,6 @@
   },
   {
    "place_id": "yamaha:SMY0464",
-   "item": "โรงเรียนดนตรี"
-  },
-  {
-   "place_id": "yamaha:SMY0468",
-   "item": "เปียโนอะคูสติก"
-  },
-  {
-   "place_id": "yamaha:SMY0468",
-   "item": "เปียโนไฟฟ้า"
-  },
-  {
-   "place_id": "yamaha:SMY0468",
-   "item": "อิเล็กโทน"
-  },
-  {
-   "place_id": "yamaha:SMY0468",
-   "item": "กีตาร์"
-  },
-  {
-   "place_id": "yamaha:SMY0468",
-   "item": "คีย์บอร์ด"
-  },
-  {
-   "place_id": "yamaha:SMY0468",
    "item": "โรงเรียนดนตรี"
   },
   {
@@ -10842,6 +10878,12 @@
    "note": null
   },
   {
+   "id": "osm:w1355621977",
+   "district": "คันนายาว",
+   "reason": "excluded",
+   "note": "อ่างน้ำพุดนตรี (น้ำพุประดับ) ไม่ใช่สถานที่ดนตรี"
+  },
+  {
    "id": "osm:n5365267523",
    "district": "สะพานสูง",
    "reason": "no_name",
@@ -10851,7 +10893,7 @@
    "id": "osm:w605773027",
    "district": "บางนา",
    "reason": "excluded",
-   "note": "Montessori Academy Bangkok — โรงเรียนแนวมอนเตสซอรี tag amenity=music_school ขัดกับชื่อ ไม่พบสัญญาณว่าเป็นโรงเรียนดนตรี"
+   "note": "Montessori Academy Bangkok โรงเรียนอนุบาล/ประถม ไม่ใช่โรงเรียนดนตรี (แท็ก music_school น่าจะผิด)"
   },
   {
    "id": "osm:n4580278794",
@@ -11260,6 +11302,12 @@
    "district": "ทวีวัฒนา",
    "reason": "duplicate_of",
    "note": "cur:yamaha-music-school-central-pinklao"
+  },
+  {
+   "id": "yamaha:SMY0468",
+   "district": "บางนา",
+   "reason": "duplicate_of",
+   "note": "cur:yamaha-music-school-central-rama-9"
   },
   {
    "id": "yamaha:SMY0474",
@@ -11728,6 +11776,14 @@
   {
    "place_id": "cur:terminal-solution-audiocity-sai-mai",
    "url": "https://www.facebook.com/AudioCity2U/"
+  },
+  {
+   "place_id": "cur:music-arms-headq-onnut",
+   "url": "https://www.facebook.com/MusicArmss"
+  },
+  {
+   "place_id": "cur:kmitl-imse",
+   "url": "https://www.facebook.com/imsekmitl/"
   }
  ],
  "places": [
@@ -17850,29 +17906,6 @@
    "context_note": null
   },
   {
-   "id": "osm:w1355621977",
-   "name": "อ่างน้ำพุดนตรี",
-   "name_en": null,
-   "kind": "unclassified",
-   "layer": "review",
-   "district": "คันนายาว",
-   "lat": 13.820816,
-   "lon": 100.6769245,
-   "address": null,
-   "geocode": null,
-   "phone": null,
-   "website": null,
-   "hours": null,
-   "source": "osm",
-   "source_url": "https://www.openstreetmap.org/way/1355621977",
-   "license": "ODbL",
-   "evidence": null,
-   "checked": "2026-09-26",
-   "review_note": null,
-   "context": "name_only",
-   "context_note": "ไม่มี tag ดนตรี ใช้ชื่ออย่างเดียว"
-  },
-  {
    "id": "osm:w1355635803",
    "name": "Dinner Theater",
    "name_en": "Dinner Theater",
@@ -17891,9 +17924,32 @@
    "license": "ODbL",
    "evidence": null,
    "checked": "2026-09-26",
+   "review_note": "Dinner Theater ไม่มีข้อมูลเจ้าของ ยังไม่ยืนยันว่ามีดนตรีสด คงไว้เป็นหอแสดง",
+   "context": "lead",
+   "context_note": null
+  },
+  {
+   "id": "cur:music-arms-fashion-island",
+   "name": "Music Arms สาขาแฟชั่นไอส์แลนด์",
+   "name_en": "Music Arms Fashion Island",
+   "kind": "instrument_store",
+   "layer": "gear",
+   "district": "คันนายาว",
+   "lat": 13.8246234,
+   "lon": 100.6774857,
+   "address": "ศูนย์การค้าแฟชั่นไอส์แลนด์ ชั้น 3 (โซนฮาร์เบอร์แลนด์) ถ.รามอินทรา",
+   "geocode": "Fashion Island, Bangkok",
+   "phone": "082-786-5533",
+   "website": "https://www.musicarms.net/",
+   "hours": "จ-ศ 10:30-21:00, ส-อา 10:00-21:00",
+   "source": "web",
+   "source_url": "https://www.musicarms.net/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AA%E0%B8%B2%E0%B8%82%E0%B8%B2/",
+   "license": null,
+   "evidence": "หน้าสาขาของ Music Arms: แฟชั่นไอส์แลนด์ ชั้น 3 (Harbourland) โทร 082-786-5533",
+   "checked": "2026-09-26",
    "review_note": null,
-   "context": "generic",
-   "context_note": "tag ทั่วไป (amenity=theatre) และชื่อไม่มีคำดนตรี"
+   "context": "verified",
+   "context_note": null
   },
   {
    "id": "osm:w609650919",
@@ -17919,6 +17975,75 @@
    "context_note": null
   },
   {
+   "id": "cur:music-arms-headq-onnut",
+   "name": "Music Arms สาขา HeadQ อ่อนนุช 74",
+   "name_en": "Music Arms HeadQ On Nut",
+   "kind": "instrument_store",
+   "layer": "gear",
+   "district": "ประเวศ",
+   "lat": 13.7129346,
+   "lon": 100.660163,
+   "address": "ปากซอยอ่อนนุช 74 ถ.อ่อนนุช",
+   "geocode": "Soi On Nut 74, Bangkok",
+   "phone": "062-624-2093",
+   "website": "https://www.musicarms.net/",
+   "hours": "จ-ศ 10:30-21:00, ส-อา/นักขัตฯ 10:00-21:00",
+   "source": "web",
+   "source_url": "https://www.musicarms.net/%E0%B8%A3%E0%B9%89%E0%B8%B2%E0%B8%99-music-arms-%E0%B8%AA%E0%B8%B2%E0%B8%82%E0%B8%B2-head-q-%E0%B8%AD%E0%B9%88%E0%B8%AD%E0%B8%99%E0%B8%99%E0%B8%B8%E0%B8%8A-74/",
+   "license": null,
+   "evidence": "หน้าสาขาของ Music Arms: โชว์รูม 3 ชั้น อ่อนนุช 74 โทร 062-624-2093",
+   "checked": "2026-09-26",
+   "review_note": null,
+   "context": "verified",
+   "context_note": null
+  },
+  {
+   "id": "cur:mcgp-mahidol-seacon",
+   "name": "ศูนย์ศึกษาดนตรีสำหรับบุคคลทั่วไป วิทยาลัยดุริยางคศิลป์ ม.มหิดล สาขาซีคอนสแควร์",
+   "name_en": "MCGP Music Mahidol Seacon Square",
+   "kind": "school",
+   "layer": "learn",
+   "district": "ประเวศ",
+   "lat": 13.6941305,
+   "lon": 100.6481632,
+   "address": "ศูนย์การค้าซีคอนสแควร์ ชั้น 4 ห้อง 4047 ถ.ศรีนครินทร์ แขวงหนองบอน เขตประเวศ 10250",
+   "geocode": "Seacon Square, Bangkok",
+   "phone": null,
+   "website": "https://www.mcgp-music-mahidol.com/seacon-square",
+   "hours": null,
+   "source": "web",
+   "source_url": "https://www.mcgp-mahidol.com/seacon/program/",
+   "license": null,
+   "evidence": "เว็บ MCGP: สาขาซีคอนสแควร์ ชั้น 4 ห้อง 4047 แขวงหนองบอน เขตประเวศ",
+   "checked": "2026-09-26",
+   "review_note": null,
+   "context": "verified",
+   "context_note": null
+  },
+  {
+   "id": "cur:ip-studio-ramintra-86",
+   "name": "IP Studio ห้องซ้อมดนตรี รามอินทรา",
+   "name_en": "IP Studio",
+   "kind": "rehearsal",
+   "layer": "create",
+   "district": "มีนบุรี",
+   "lat": null,
+   "lon": null,
+   "address": "83 ซ.รามอินทรา 86 แยก 10 มีนบุรี กรุงเทพฯ 10510",
+   "geocode": null,
+   "phone": null,
+   "website": "https://ipstudio55.com/",
+   "hours": "07:00-20:00 ทุกวัน",
+   "source": "web",
+   "source_url": "https://ipstudio55.com/rehearsal-recording/",
+   "license": null,
+   "evidence": "เว็บไซต์ร้าน: 83 รามอินทรา 86 ซอย 10 มีนบุรี 10510 ห้องซ้อม 250-290 บาท/ชม. (รหัส 10510 = เขตมีนบุรี/คันนายาว ตำแหน่งไม่ปักหมุด)",
+   "checked": "2026-09-26",
+   "review_note": null,
+   "context": "verified",
+   "context_note": null
+  },
+  {
    "id": "osm:n7850405763",
    "name": "Aesthetica Records",
    "name_en": null,
@@ -17937,8 +18062,8 @@
    "license": "ODbL",
    "evidence": null,
    "checked": "2026-09-26",
-   "review_note": null,
-   "context": "tagged",
+   "review_note": "Aesthetica Records ยังไม่พบหน้าเจ้าของ คงตาม OSM",
+   "context": "reviewed",
    "context_note": null
   },
   {
@@ -17960,9 +18085,32 @@
    "license": "ODbL",
    "evidence": null,
    "checked": "2026-09-26",
+   "review_note": "Society Music&Bar ยังไม่พบหน้าเจ้าของ คงตาม OSM",
+   "context": "reviewed",
+   "context_note": null
+  },
+  {
+   "id": "cur:kmitl-imse",
+   "name": "วิทยาลัยวิศวกรรมสังคีต (IMSE) สจล.",
+   "name_en": "Institute of Music Science and Engineering, KMITL",
+   "kind": "higher_ed",
+   "layer": "learn",
+   "district": "ลาดกระบัง",
+   "lat": 13.7299068,
+   "lon": 100.7829827,
+   "address": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง ถ.ฉลองกรุง ลาดกระบัง 10520",
+   "geocode": "King Mongkut's Institute of Technology Ladkrabang",
+   "phone": null,
+   "website": "https://imse.kmitl.ac.th/",
+   "hours": null,
+   "source": "web",
+   "source_url": "https://imse.kmitl.ac.th/en/",
+   "license": null,
+   "evidence": "เว็บ IMSE: Institute of Music Science and Engineering KMITL ถ.ฉลองกรุง ลาดกระบัง; โพสต์ KMITL MUSIC in the Garden วง KMITL BAND",
+   "checked": "2026-09-26",
    "review_note": null,
-   "context": "name_only",
-   "context_note": "ไม่มี tag ดนตรี ใช้ชื่ออย่างเดียว"
+   "context": "verified",
+   "context_note": null
   },
   {
    "id": "osm:n13247061974",
@@ -18747,29 +18895,6 @@
    "context_note": null
   },
   {
-   "id": "yamaha:SMY0468",
-   "name": "โรงเรียนดนตรียามาฮ่า เซ็นทรัลพลาซา แกรนด์ พระราม 9",
-   "name_en": null,
-   "kind": "school",
-   "layer": "learn",
-   "district": "ห้วยขวาง",
-   "lat": null,
-   "lon": null,
-   "address": "9/9 ศูนย์การค้าเซ็นทรัลพลาซา แกรนด์ พระราม 9 เลขที่ 1105-1106 ถ.พระราม 9 แขวงห้วยขวาง เขตห้วยขวาง กรุงเทพมหานคร",
-   "geocode": null,
-   "phone": "0864688091",
-   "website": "https://www.facebook.com/YamahaRama9/",
-   "hours": null,
-   "source": "chain",
-   "source_url": "https://th.yamaha.com/th/api/dealer/dealers/",
-   "license": null,
-   "evidence": "ตัวแทนจำหน่ายทางการ: Siam Music Yamaha (ตัวแทนจำหน่ายทางการ)",
-   "checked": "2026-09-26",
-   "review_note": null,
-   "context": "verified",
-   "context_note": "ที่อยู่/ห้างระบุเขตห้วยขวาง แต่พิกัดต้นทางตกเขตบางนา — ถอดหมุดจนกว่าจะหาพิกัดใหม่"
-  },
-  {
    "id": "yamaha:SMY0473",
    "name": "โรงเรียนดนตรียามาฮ่า แจ้งวัฒนะ",
    "name_en": null,
@@ -18809,9 +18934,9 @@
    "source": "chain",
    "source_url": "https://th.yamaha.com/th/api/dealer/dealers/",
    "license": null,
-   "evidence": "ตัวแทนจำหน่ายทางการ: Siam Music Yamaha (ตัวแทนจำหน่ายทางการ)",
+   "evidence": "ตัวแทนจำหน่ายทางการ: Siam Music Yamaha (ตัวแทนจำหน่ายทางการ) · โรงเรียนยามาฮ่า แฟชั่นไอส์แลนด์ — คนละกิจการกับร้าน Music Arms ในห้างเดียวกัน",
    "checked": "2026-09-26",
-   "review_note": null,
+   "review_note": "โรงเรียนยามาฮ่า แฟชั่นไอส์แลนด์ — คนละกิจการกับร้าน Music Arms ในห้างเดียวกัน",
    "context": "verified",
    "context_note": null
   },

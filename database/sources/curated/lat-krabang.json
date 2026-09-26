@@ -1,0 +1,42 @@
+{
+  "district": "ลาดกระบัง",
+  "researchedAt": "2026-09-26",
+  "places": [
+    {
+      "name_en": "Institute of Music Science and Engineering, KMITL",
+      "lat": null,
+      "lon": null,
+      "phone": null,
+      "website": "https://imse.kmitl.ac.th/",
+      "social": [
+        "https://www.facebook.com/imsekmitl/"
+      ],
+      "hours": null,
+      "offer": [
+        "วิศวกรรมดนตรีและสื่อประสม",
+        "วง KMITL BAND"
+      ],
+      "checked": "2026-09-26",
+      "id": "cur:kmitl-imse",
+      "name": "วิทยาลัยวิศวกรรมสังคีต (IMSE) สจล.",
+      "kind": "higher_ed",
+      "address": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง ถ.ฉลองกรุง ลาดกระบัง 10520",
+      "geocode": "King Mongkut's Institute of Technology Ladkrabang",
+      "source_url": "https://imse.kmitl.ac.th/en/",
+      "evidence": "เว็บ IMSE: Institute of Music Science and Engineering KMITL ถ.ฉลองกรุง ลาดกระบัง; โพสต์ KMITL MUSIC in the Garden วง KMITL BAND"
+    }
+  ],
+  "review": {
+    "osm:n7850405763": {
+      "kind": "studio",
+      "note": "Aesthetica Records ยังไม่พบหน้าเจ้าของ คงตาม OSM"
+    },
+    "osm:w1086030182": {
+      "kind": "venue",
+      "note": "Society Music&Bar ยังไม่พบหน้าเจ้าของ คงตาม OSM"
+    }
+  },
+  "gaps": [
+    "ชมรมดนตรีไทย/สากล สจล. ยังไม่ได้แยกรายการ"
+  ]
+}

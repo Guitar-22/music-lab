@@ -1,4 +1,4 @@
-# Gate report — 2026-09-26T09:41:08.441Z
+# Gate report — 2026-09-26T09:43:00.541Z
 
 ## ✅ A-source
 
@@ -24,40 +24,40 @@
 
 ```json
 {
-  "places": 330,
-  "rejected": 176,
-  "mapped": 315,
+  "places": 333,
+  "rejected": 178,
+  "mapped": 318,
   "byKind": {
     "school": 84,
     "venue": 34,
-    "higher_ed": 14,
+    "higher_ed": 15,
     "performing_arts": 35,
     "ensemble": 10,
     "archive": 4,
     "audio_store": 31,
     "broadcast": 9,
-    "instrument_store": 49,
+    "instrument_store": 51,
     "karaoke": 7,
     "business": 11,
     "record_store": 23,
-    "rehearsal": 5,
+    "rehearsal": 6,
     "studio": 10,
     "repair_luthier": 1,
-    "unclassified": 3
+    "unclassified": 2
   },
   "byContext": {
-    "lead": 51,
-    "reviewed": 69,
-    "tagged": 32,
-    "verified": 171,
-    "name_only": 5,
-    "generic": 2
+    "lead": 52,
+    "reviewed": 71,
+    "tagged": 31,
+    "verified": 175,
+    "generic": 1,
+    "name_only": 3
   },
   "contextRejected": 3,
   "districts": {
     "not_started": 0,
-    "osm_only": 18,
-    "researched": 32
+    "osm_only": 10,
+    "researched": 40
   }
 }
 ```
@@ -118,10 +118,9 @@
 - ⚠️ ดอนเมือง/cur:rtaf-band-don-mueang "กองดุริยางค์ทหารอากาศ": ไม่มีพิกัด (geocode ไม่พบ/ยังไม่รัน)
 - ⚠️ ดอนเมือง/cur:moai-studio-don-mueang "Moai Studio ห้องอัดเสียง ห้องซ้อมดนตรี ดอนเมือง": ไม่มีพิกัด (ไม่มี geocode)
 - ⚠️ สายไหม/cur:terminal-solution-audiocity-sai-mai "บริษัท เทอร์มินอลโซลูชั่น จำกัด (Audio City 2U)": ไม่มีพิกัด (ไม่มี geocode)
-- ⚠️ คันนายาว/osm:w1355621977 "อ่างน้ำพุดนตรี": ยังไม่จัดประเภท — ใส่ใน review
-- ⚠️ คันนายาว/osm:w1355621977 "อ่างน้ำพุดนตรี": ตรวจบริบท — ไม่มี tag ดนตรี ใช้ชื่ออย่างเดียว
-- ⚠️ คันนายาว/osm:w1355635803 "Dinner Theater": บริบท generic — tag ทั่วไป (amenity=theatre) และชื่อไม่มีคำดนตรี — ตัดสินใน review/context-review.json (ไม่แสดงใน portal)
-- ⚠️ ลาดกระบัง/osm:w1086030182 "Society Music&Bar": บริบท name_only — ไม่มี tag ดนตรี ใช้ชื่ออย่างเดียว — ตัดสินใน review/context-review.json (ไม่แสดงใน portal)
+- ⚠️ คันนายาว/cur:music-arms-fashion-island "Music Arms สาขาแฟชั่นไอส์แลนด์": พิกัดโดยประมาณจากคำค้น "Fashion Island, Bangkok" — ควรระบุ geocode ที่เจาะจงกว่านี้
+- ⚠️ ประเวศ/cur:music-arms-headq-onnut "Music Arms สาขา HeadQ อ่อนนุช 74": พิกัดโดยประมาณจากคำค้น "Soi On Nut 74, Bangkok" — ควรระบุ geocode ที่เจาะจงกว่านี้
+- ⚠️ มีนบุรี/cur:ip-studio-ramintra-86 "IP Studio ห้องซ้อมดนตรี รามอินทรา": ไม่มีพิกัด (ไม่มี geocode)
 - ⚠️ ทุ่งครุ/osm:n11993444815 "GardenHouseWorkshop": บริบท generic — tag ทั่วไป (amenity=studio) และชื่อไม่มีคำดนตรี — ตัดสินใน review/context-review.json (ไม่แสดงใน portal)
 - ⚠️ บางแค/osm:w1562005646 "อาคารอเล็กซิล มิวสิค": ยังไม่จัดประเภท — ใส่ใน review
 - ⚠️ บางแค/osm:w1562005646 "อาคารอเล็กซิล มิวสิค": ตรวจบริบท — ไม่มี tag ดนตรี ใช้ชื่ออย่างเดียว
@@ -132,8 +131,6 @@
 - ⚠️ ดินแดง/yamaha:SMY0425 "พัฒนสิน": ตรวจบริบท — ชื่อไม่บอกว่าเป็นร้านดนตรี — ยืนยันจากสายสินค้า (เครื่องเสียงเวที, เปียโนไฟฟ้า, กีตาร์, คีย์บอร์ด)
 - ⚠️ บางกอกน้อย/yamaha:SMY0450 "บริษัท ธีระมิวสิค จำกัด": พิกัดอยู่ในเขตบางพลัด ห่างเขตที่ระบุ 21 ม.
 - ⚠️ พระนคร/yamaha:SMY0455 "วี.ซี. อีเล็คโทรนิคส์ฯ สาขาบ้านหม้อ": ตรวจบริบท — ชื่อไม่บอกว่าเป็นร้านดนตรี — ยืนยันจากสายสินค้า (เครื่องเสียงเวที)
-- ⚠️ ห้วยขวาง/yamaha:SMY0468 "โรงเรียนดนตรียามาฮ่า เซ็นทรัลพลาซา แกรนด์ พระราม 9": ตรวจบริบท — ที่อยู่/ห้างระบุเขตห้วยขวาง แต่พิกัดต้นทางตกเขตบางนา — ถอดหมุดจนกว่าจะหาพิกัดใหม่
-- ⚠️ ห้วยขวาง/yamaha:SMY0468 "โรงเรียนดนตรียามาฮ่า เซ็นทรัลพลาซา แกรนด์ พระราม 9": ไม่มีพิกัด (ไม่มี geocode)
 - ⚠️ บางกอกน้อย/yamaha:SMY0557 "บริษัท ธนพร เซอร์วิส จำกัด": ตรวจบริบท — ชื่อไม่บอกว่าเป็นร้านดนตรี — ยืนยันจากสายสินค้า (เครื่องเป่า/วงโยธวาทิต, สื่อการสอนดนตรี)
 - ⚠️ ธนบุรี/yamaha:SMY0342: ตัวแทนอยู่ใกล้สถานที่เดิม (cur:music-collection-thapra-flagship) — ตัดสินใน sources/chains/*-review.json
 - ⚠️ ธนบุรี/yamaha:SMY0512: ตัวแทนอยู่ใกล้สถานที่เดิม (cur:music-collection-thapra-flagship) — ตัดสินใน sources/chains/*-review.json
@@ -160,11 +157,11 @@
   "doc_tables": 79,
   "doc_table_rows": 589,
   "doc_links": 378,
-  "places": 330,
-  "place_rejects": 176,
+  "places": 333,
+  "place_rejects": 178,
   "district_progress": 50,
-  "place_social": 103,
-  "place_offer": 618
+  "place_social": 105,
+  "place_offer": 627
 }
 ```
 

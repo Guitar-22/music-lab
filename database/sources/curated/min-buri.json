@@ -1,0 +1,33 @@
+{
+  "district": "มีนบุรี",
+  "researchedAt": "2026-09-26",
+  "places": [
+    {
+      "name_en": "IP Studio",
+      "lat": null,
+      "lon": null,
+      "phone": null,
+      "website": "https://ipstudio55.com/",
+      "social": [],
+      "hours": "07:00-20:00 ทุกวัน",
+      "offer": [
+        "ห้องซ้อม 2 ห้อง",
+        "บันทึกเสียง",
+        "สอนกีตาร์/อูคูเลเล่"
+      ],
+      "checked": "2026-09-26",
+      "id": "cur:ip-studio-ramintra-86",
+      "name": "IP Studio ห้องซ้อมดนตรี รามอินทรา",
+      "kind": "rehearsal",
+      "address": "83 ซ.รามอินทรา 86 แยก 10 มีนบุรี กรุงเทพฯ 10510",
+      "geocode": null,
+      "source_url": "https://ipstudio55.com/rehearsal-recording/",
+      "evidence": "เว็บไซต์ร้าน: 83 รามอินทรา 86 ซอย 10 มีนบุรี 10510 ห้องซ้อม 250-290 บาท/ชม. (รหัส 10510 = เขตมีนบุรี/คันนายาว ตำแหน่งไม่ปักหมุด)"
+    }
+  ],
+  "review": {},
+  "gaps": [
+    "ห้าง Minburi (Market Village? / Tesco Lotus) ยังไม่พบร้านดนตรีอื่นจาก directory",
+    "รามอินทรา 86 ใกล้เส้นแบ่งเขตคันนายาว-มีนบุรี ตั้ง geocode null"
+  ]
+}

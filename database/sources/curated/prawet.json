@@ -1,0 +1,62 @@
+{
+  "district": "ประเวศ",
+  "researchedAt": "2026-09-26",
+  "places": [
+    {
+      "name_en": "Music Arms HeadQ On Nut",
+      "lat": null,
+      "lon": null,
+      "phone": "062-624-2093",
+      "website": "https://www.musicarms.net/",
+      "social": [
+        "https://www.facebook.com/MusicArmss"
+      ],
+      "hours": "จ-ศ 10:30-21:00, ส-อา/นักขัตฯ 10:00-21:00",
+      "offer": [
+        "เปียโน",
+        "กีตาร์",
+        "กลอง",
+        "Pro audio",
+        "อุปกรณ์บันทึกเสียง"
+      ],
+      "checked": "2026-09-26",
+      "id": "cur:music-arms-headq-onnut",
+      "name": "Music Arms สาขา HeadQ อ่อนนุช 74",
+      "kind": "instrument_store",
+      "address": "ปากซอยอ่อนนุช 74 ถ.อ่อนนุช",
+      "geocode": "Soi On Nut 74, Bangkok",
+      "source_url": "https://www.musicarms.net/%E0%B8%A3%E0%B9%89%E0%B8%B2%E0%B8%99-music-arms-%E0%B8%AA%E0%B8%B2%E0%B8%82%E0%B8%B2-head-q-%E0%B8%AD%E0%B9%88%E0%B8%AD%E0%B8%99%E0%B8%99%E0%B8%B8%E0%B8%8A-74/",
+      "evidence": "หน้าสาขาของ Music Arms: โชว์รูม 3 ชั้น อ่อนนุช 74 โทร 062-624-2093"
+    },
+    {
+      "name_en": "MCGP Music Mahidol Seacon Square",
+      "lat": null,
+      "lon": null,
+      "phone": null,
+      "website": "https://www.mcgp-music-mahidol.com/seacon-square",
+      "social": [],
+      "hours": null,
+      "offer": [
+        "หลักสูตรดนตรีบุคคลทั่วไป"
+      ],
+      "checked": "2026-09-26",
+      "id": "cur:mcgp-mahidol-seacon",
+      "name": "ศูนย์ศึกษาดนตรีสำหรับบุคคลทั่วไป วิทยาลัยดุริยางคศิลป์ ม.มหิดล สาขาซีคอนสแควร์",
+      "kind": "school",
+      "address": "ศูนย์การค้าซีคอนสแควร์ ชั้น 4 ห้อง 4047 ถ.ศรีนครินทร์ แขวงหนองบอน เขตประเวศ 10250",
+      "geocode": "Seacon Square, Bangkok",
+      "source_url": "https://www.mcgp-mahidol.com/seacon/program/",
+      "evidence": "เว็บ MCGP: สาขาซีคอนสแควร์ ชั้น 4 ห้อง 4047 แขวงหนองบอน เขตประเวศ"
+    }
+  ],
+  "review": {
+    "osm:n4580278794": {
+      "exclude": true,
+      "note": "theatre ไม่มีชื่อบน OSM ยืนยันไม่ได้ว่าเกี่ยวกับดนตรี"
+    }
+  },
+  "gaps": [
+    "Music Arms ซีคอน มีแล้วเป็น yamaha:SMY0366 (ยืนยันจากหน้าสาขา Music Arms ชั้น 2 โซน MUNx2)",
+    "karaoke_box ไม่มีชื่อ 4 รายการบน OSM ไม่ได้ตรวจ"
+  ]
+}

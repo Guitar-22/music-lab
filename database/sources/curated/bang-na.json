@@ -1,0 +1,15 @@
+{
+  "district": "บางนา",
+  "researchedAt": "2026-09-26",
+  "places": [],
+  "review": {
+    "osm:w605773027": {
+      "exclude": true,
+      "note": "Montessori Academy Bangkok โรงเรียนอนุบาล/ประถม ไม่ใช่โรงเรียนดนตรี (แท็ก music_school น่าจะผิด)"
+    }
+  },
+  "gaps": [
+    "Mega Bangna (Music Store, Cin Guitars, Yamaha school, Music Collection) อยู่ อ.บางพลี สมุทรปราการ — นอกเขต",
+    "directory เซ็นทรัลบางนายังไม่ได้ตรวจร้านดนตรีอื่นนอกจาก Music Collection/Yamaha ที่มีแล้ว"
+  ]
+}
