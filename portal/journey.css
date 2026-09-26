@@ -25,6 +25,14 @@
   --caption2-size: .6471rem;     --caption2-leading: 1.1818;    /* 11 / 13 */
 }
 
+/* ระยะบรรทัดสำหรับภาษาไทย: สระบน-ล่างและวรรณยุกต์ต้องการที่มากกว่าละติน
+   ขนาดตัวอักษรยังเป็นตาม Text Styles เดิม — ปรับเฉพาะ leading (ประมาณ +18–25%) */
+:root:lang(th) {
+  --large-title-leading: 1.35; --title1-leading: 1.38; --title2-leading: 1.42; --title3-leading: 1.45;
+  --headline-leading: 1.55; --body-leading: 1.6; --callout-leading: 1.6; --subheadline-leading: 1.6;
+  --footnote-leading: 1.6; --caption1-leading: 1.55; --caption2-leading: 1.45;
+}
+
 /* ───────── 1. สีระบบ (semantic) — สว่าง / มืด / เพิ่มความคมชัด ───────── */
 :root {
   color-scheme: light dark;
