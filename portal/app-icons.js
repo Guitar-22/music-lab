@@ -90,9 +90,12 @@
     box.appendChild(mono);
     box.dataset.iconFrom = 'อักษรย่อ — ยังไม่พบไอคอนที่ตรวจได้';
     const list = candidates(resource, detail);
+    // ระหว่างโหลดแสดงช่องเทาว่าง (placeholder แบบ App Store); หมดทางเลือกหรือช้าเกิน 4 วินาทีจึงแสดงอักษรย่อ
+    const giveUp = () => { if (!box.classList.contains('loaded')) box.classList.add('fallback'); };
+    const slow = setTimeout(giveUp, 4000);
     const tryNext = async index => {
       const c = list[index];
-      if (!c) return;
+      if (!c) { clearTimeout(slow); return giveUp(); }
       const url = c.lazy ? await c.lazy() : c.url;
       if (!url) return tryNext(index + 1);
       const img = new Image();
@@ -101,7 +104,9 @@
       img.referrerPolicy = 'no-referrer';
       img.onload = () => {
         if (img.naturalWidth < c.min) return tryNext(index + 1);
+        clearTimeout(slow);
         img.className = 'app-icon-img';
+        box.classList.remove('fallback');
         box.replaceChildren(img);
         box.dataset.iconFrom = c.from;
         box.classList.add('loaded');
