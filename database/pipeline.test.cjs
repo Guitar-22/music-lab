@@ -112,8 +112,10 @@ test('ขั้นตรวจบริบท: ชื่อเกี่ยวก
   const pd = extractPlaces();
   const ids = new Set(pd.places.map(p => p.id));
   for (const id of ['osm:w376863075', 'osm:w1248807034', 'osm:w605773027', 'osm:n4840964126', 'yamaha:SMY0460']) assert.ok(!ids.has(id), `${id} ต้องถูกคัดออก`);
-  const r9 = pd.places.find(p => p.id === 'yamaha:SMY0468');
-  assert.equal(r9.district, 'ห้วยขวาง'); assert.equal(r9.lat, null, 'พิกัดตกบางนา ~10 กม. ต้องถอดหมุด');
+  // หมุดของแบรนด์ตกบางนา ~10 กม.: ผู้ตรวจยืนยันว่าเป็นรายการเดียวกับที่มีในห้วยขวาง จึงไม่ต้องมีหมุดผิดบนแผนที่
+  assert.ok(!pd.places.some(p => p.id === 'yamaha:SMY0468'));
+  assert.equal(pd.rejects.find(r => r.id === 'yamaha:SMY0468')?.note, 'cur:yamaha-music-school-central-rama-9');
+  assert.ok(pd.places.some(p => p.id === 'cur:yamaha-music-school-central-rama-9' && p.district === 'ห้วยขวาง'));
   assert.ok(pd.places.every(p => p.context), 'ทุกรายการผ่านขั้นตรวจบริบท');
   assert.match(gatePlaces({ ...pd, places: [...pd.places, { ...pd.places.find(p => p.source === 'osm'), id: 'osm:n2', district: 'บางรัก', context: 'generic', context_reasons: ['x'] }] }).errors.join(), /บริบท generic/);
 });
