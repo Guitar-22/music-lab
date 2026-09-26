@@ -118,6 +118,11 @@ test('ขั้นตรวจบริบท: ชื่อเกี่ยวก
   assert.match(gatePlaces({ ...pd, places: [...pd.places, { ...pd.places.find(p => p.source === 'osm'), id: 'osm:n2', district: 'บางรัก', context: 'generic', context_reasons: ['x'] }] }).errors.join(), /บริบท generic/);
 });
 
+test('classify: คาเฟ่/บาร์ดนตรีที่มี é หรืออยู่ท้ายชื่อยังเป็นเวที แต่ Publishing ไม่ใช่ pub', () => {
+  for (const name of ['Blues Café', 'Rock Café Bangkok', 'Vinyl Café', 'Jazz Bar', 'Music Club']) assert.equal(classify({ name }), 'venue', name);
+  assert.notEqual(classify({ name: 'Itim Music Publishing Co., Ltd.' }), 'venue');
+});
+
 test('classify: แยกร้าน โรงเรียน เวที และคัดสิ่งที่ไม่เกี่ยวออก', () => {
   assert.equal(classify({ shop: 'musical_instrument', name: 'x' }), 'instrument_store');
   assert.equal(classify({ name: 'สถาบันดนตรี เคพีเอ็น มิวสิค' }), 'school');

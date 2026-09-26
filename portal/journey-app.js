@@ -318,6 +318,7 @@
 
   // ───────── Flow สำรวจตัวตน (full-screen modal, ใช้ประวัติเบราว์เซอร์รายการเดียว) ─────────
   let flowReturn = '#/';
+  let flowSnapshot = null; // คำตอบก่อนเข้า flow — กด "ยกเลิก" แล้วคืนค่าเดิม
   let flowPushed = false;
   function renderFlow(n, query) {
     const edit = new URLSearchParams(query).get('edit') === '1';
@@ -327,12 +328,14 @@
     const last = n === J.QUESTIONS.length;
     const step = to => go(`#/discover/${to}`, { replace: true });
     const leave = () => {
+      if (flowSnapshot) { state.answers = flowSnapshot.answers; state.done = flowSnapshot.done; persist(); }
+      flowSnapshot = null;
       document.body.classList.remove('modal-flow');
       if (flowPushed) { forceBack = true; history.back(); } else go(edit ? '#/you' : flowReturn, { replace: true, back: true });
     };
     const finish = () => {
-      if (edit) return leave();
-      if (last) { state.done = true; persist(); return go('#/you?new=1', { replace: true }); }
+      if (edit) { flowSnapshot = null; return leave(); }
+      if (last) { flowSnapshot = null; state.done = true; persist(); return go('#/you?new=1', { replace: true }); }
       step(n + 1);
     };
     const primary = h('button', { class: 'btn-prominent', type: 'button', onclick: finish, disabled: !q.multi && !picked.size }, edit ? 'บันทึก' : last ? 'ดูผลลัพธ์' : 'ดำเนินการต่อ');
@@ -548,7 +551,7 @@
     const r = parse(location.hash);
     if (r.parts[0] === 'discover') {
       if (sheet.open) { sheet.close(); sheetPushed = false; }
-      if (!document.body.classList.contains('modal-flow')) { flowPushed = !replacing && current.base != null; if (current.base) flowReturn = current.base; }
+      if (!document.body.classList.contains('modal-flow')) { flowSnapshot = { answers: JSON.parse(JSON.stringify(state.answers)), done: state.done }; flowPushed = !replacing && current.base != null; if (current.base) flowReturn = current.base; }
       current = { ...current, base: r.base };
       return renderFlow(Math.max(1, parseInt(r.parts[1], 10) || 1), r.query);
     }
@@ -580,6 +583,8 @@
     if (r.appId) showSheet(r.appId);
   }
   window.addEventListener('hashchange', route);
+  // ลิงก์ข้ามไปเนื้อหา: ย้ายโฟกัสโดยไม่เปลี่ยน hash (hash ใช้เป็นเส้นทางของแอป)
+  document.querySelector('.skip')?.addEventListener('click', e => { e.preventDefault(); view.focus(); });
   document.addEventListener('keydown', e => {
     if (e.key === 'Escape' && document.body.classList.contains('modal-flow') && !alertBox.open) renderFlow.escape?.();
   });

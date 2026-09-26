@@ -124,6 +124,21 @@ const DEVICES = [
     await page.waitForTimeout(450);
     const deep = await page.evaluate(() => ({ hash: location.hash, open: document.getElementById('sheet').open }));
     if (deep.open || deep.hash !== '#/room/studio') fail(`${tag}: deep link ปิดแล้วไม่กลับหน้าห้อง ${JSON.stringify(deep)}`);
+    // ยกเลิกการแก้คำตอบต้องคืนค่าเดิม
+    const before = await page.evaluate(() => JSON.parse(localStorage.getItem('mil-journey-v1')).answers.listen);
+    await page.goto(`${BASE}/journey.html#/you`);
+    await page.click('.list .row:has-text("เวลาฟังเพลงที่ชอบ")');
+    await page.click('.flow .row:has-text("เนื้อเพลงและเรื่องราว")');
+    await page.click('.flow-bar button:has-text("ยกเลิก")');
+    await page.waitForTimeout(300);
+    const after = await page.evaluate(() => JSON.parse(localStorage.getItem('mil-journey-v1')).answers.listen);
+    if (before !== after) fail(`${tag}: ยกเลิกแล้วคำตอบเปลี่ยน ${before} → ${after}`);
+    // ลิงก์ข้ามไปเนื้อหาต้องไม่เปลี่ยนหน้า
+    await page.goto(`${BASE}/journey.html#/search?q=จูน`);
+    await page.waitForSelector('.search-field');
+    await page.focus('.skip'); await page.keyboard.press('Enter'); await page.waitForTimeout(200);
+    const skipHash = decodeURI(await page.evaluate(() => location.hash));
+    if (skipHash !== '#/search?q=จูน') fail(`${tag}: ลิงก์ข้ามไปเนื้อหาเปลี่ยนหน้าเป็น ${skipHash}`);
     // ล้างข้อมูล (alert ยืนยัน)
     await page.goto(`${BASE}/journey.html#/you`);
     await page.click('.row.destructive');
