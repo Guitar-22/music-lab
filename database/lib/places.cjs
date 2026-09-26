@@ -100,7 +100,7 @@ function extractPlaces() {
     const existing = places.slice();
     for (const d of src.dealers || []) {
       if (d.lat == null || d.lon == null) continue;
-      const district = inDistrict(d);
+      const district = (decisions[d.accountCode] || {}).district || inDistrict(d); // review แก้เขตได้เมื่อหมุดของแบรนด์คลาดเส้นแบ่งเขต
       if (!district) continue; // นอกกรุงเทพฯ: เก็บไว้ในไฟล์ต้นทาง ยังไม่อยู่ในขอบเขต
       const id = `${brand}:${d.accountCode}`;
       const products = d.products || [];

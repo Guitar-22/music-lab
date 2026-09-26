@@ -1020,5 +1020,32 @@
    "Tesco Lotus Rama 3",
    "Tesco Lotus Rama 3, Bangkok"
   ]
+ },
+ "Phranakhon Rajabhat University": {
+  "lat": 13.8764744,
+  "lon": 100.5898564,
+  "display": "มหาวิทยาลัยราชภัฏพระนคร, ถนนพหลโยธิน, แขวงอนุสาวรีย์, เขตบางเขน, กรุงเทพมหานคร, 10010, ประเทศไทย",
+  "osm": "way/334736777",
+  "feature": "amenity/university",
+  "coarse": false,
+  "matched": "Phranakhon Rajabhat University",
+  "approximate": false
+ },
+ "Soi Ram Inthra 10, Bangkok": {
+  "lat": 13.8449429,
+  "lon": 100.6531009,
+  "display": "ซอยรามอินทรา 67, แขวงรามอินทรา, เขตคันนายาว, กรุงเทพมหานคร, 10230, ประเทศไทย",
+  "osm": "way/855326929",
+  "feature": "highway/residential",
+  "coarse": true,
+  "matched": "Soi Ram Inthra 10, Bangkok",
+  "approximate": true
+ },
+ "กองดุริยางค์ทหารอากาศ": {
+  "miss": true,
+  "tried": [
+   "กองดุริยางค์ทหารอากาศ",
+   "กองดุริยางค์ทหารอากาศ, Bangkok"
+  ]
  }
 }

@@ -1,0 +1,32 @@
+{
+  "district": "บางเขน",
+  "researchedAt": "2026-09-26",
+  "places": [
+    {
+      "id": "cur:pnru-music-education",
+      "name": "สาขาวิชาดนตรีศึกษา วิทยาลัยการฝึกหัดครู มหาวิทยาลัยราชภัฏพระนคร",
+      "name_en": "Music Education, Phranakhon Rajabhat University",
+      "kind": "higher_ed",
+      "address": "9 ถนนแจ้งวัฒนะ แขวงอนุสาวรีย์ เขตบางเขน กรุงเทพฯ 10220",
+      "geocode": "Phranakhon Rajabhat University",
+      "lat": null,
+      "lon": null,
+      "phone": "02-544-8456",
+      "website": "https://cte.pnru.ac.th/music",
+      "social": [],
+      "hours": null,
+      "offer": [
+        "ปริญญาตรีดนตรีศึกษา (ครูดนตรี)"
+      ],
+      "source_url": "https://cte.pnru.ac.th/music",
+      "evidence": "หน้าสาขาวิชาดนตรีศึกษา มรภ.พระนคร ระบุที่อยู่ เลขที่ 9 แจ้งวัฒนะ แขวงอนุสาวรีย์ เขตบางเขน โทร 02-544-8456",
+      "checked": "2026-09-26"
+    }
+  ],
+  "review": {},
+  "gaps": [
+    "โรงเรียนดนตรียามาฮ่า เซ็นทรัลรามอินทรา: ข่าว PR ปี 2022 (thaipr.net) ประกาศเปิดสาขาที่ 84 แต่ไม่อยู่ในรายชื่อตัวแทน Yamaha ปัจจุบัน สถานะยังไม่ยืนยัน",
+    "Fashion Island (Music Arms, Yamaha) อยู่เขตคันนายาว: ข้าม",
+    "2U-Studio ห้องซ้อมรามอินทรา 10 (2u-studio.com, 095-580-1414): geocode ซอยรามอินทรา 10 ตกในเขตคันนายาว ห่างเขตบางเขน 234 ม. จึงยังไม่ใส่ ต้องยืนยันเขต"
+  ]
+}

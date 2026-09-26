@@ -1,0 +1,10 @@
+{
+  "district": "บึงกุ่ม",
+  "researchedAt": "2026-09-26",
+  "places": [],
+  "review": {
+    "osm:w1125766529": { "kind": "school", "note": "รร.ดนตรียามาฮ่า เทสโก้โลตัส นวมินทร์ มีเพจ facebook.com/NawaminYamahaMusic" },
+    "osm:w1474042986": { "exclude": true, "note": "เดอะซิมโฟนี่: หมู่บ้าน (landuse=residential)" }
+  },
+  "gaps": ["วงโยธวาทิต/ดนตรีในโรงเรียนย่านนวมินทร์ยังไม่ค้น", "Fashion Island อยู่คันนายาว (ข้าม)"]
+}

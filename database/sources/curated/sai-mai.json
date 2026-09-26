@@ -1,0 +1,27 @@
+{
+  "district": "สายไหม",
+  "researchedAt": "2026-09-26",
+  "places": [
+    {
+      "id": "cur:terminal-solution-audiocity-sai-mai",
+      "name": "บริษัท เทอร์มินอลโซลูชั่น จำกัด (Audio City 2U)",
+      "name_en": "Terminal Solution (Audio City)",
+      "kind": "audio_store",
+      "address": "100/85 สายไหมริมชล-1 ซอยสายไหม 85 แขวงสายไหม เขตสายไหม กรุงเทพฯ 10220",
+      "geocode": null,
+      "lat": null, "lon": null,
+      "phone": "02-991-8600",
+      "website": null,
+      "social": ["https://www.facebook.com/AudioCity2U/"],
+      "hours": null,
+      "offer": ["เครื่องเสียง PA (Yamaha)"],
+      "source_url": "https://th.yamaha.com/th/dealers/",
+      "evidence": "รายชื่อตัวแทน Yamaha (SMY0447) ระบุที่อยู่ซอยสายไหม 85 เขตสายไหม สินค้า PA; รายการ chain ไม่ขึ้นในเขตเพราะพิกัดเดิมตกนอก กทม.",
+      "checked": "2026-09-26"
+    }
+  ],
+  "review": {
+    "osm:w1347904661": { "note": "อาคารโรงละครกลางแจ้งไม่มีชื่อ ยังไม่ทราบเจ้าของ" }
+  },
+  "gaps": ["ไม่พบโรงเรียนดนตรี/ร้านเครื่องดนตรีในห้างย่านสายไหมจากหน้าเจ้าของ"]
+}
