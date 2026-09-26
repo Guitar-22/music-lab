@@ -1,0 +1,158 @@
+/* Apple HIG skin สำหรับหน้าเดิมของ portal (index.html, institutions.html)
+   โหลดต่อจาก journey.css (tokens สี/ตัวอักษร/วัสดุ) และ CSS เดิมของหน้า — เปลี่ยนเฉพาะหน้าตา ไม่แตะ markup หรือ JavaScript
+   หลักการ: 30-apple-hig-design-spec.md — พื้น grouped, เนื้อหาบนการ์ดทึบมุม 12, ตัวอักษรตาม Text Styles, สี semantic, พื้นที่แตะ 44pt, กระจกเฉพาะแถบควบคุม */
+
+html body { background: var(--bg); color: var(--label); font-family: var(--font-system); font-size: var(--body-size); line-height: var(--body-leading); }
+body * { font-family: inherit; }
+body a { color: var(--tint); }
+body p, body li, body dd { color: inherit; }
+
+/* ───── แถบบน = navbar กระจก (ชั้นควบคุม) ───── */
+body > header.top, header.top {
+  position: sticky; top: 0; z-index: 30; display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: nowrap;
+  min-height: calc(52px + env(safe-area-inset-top)); height: auto; margin: 0; padding: env(safe-area-inset-top) max(16px, env(safe-area-inset-right)) 0 max(16px, env(safe-area-inset-left));
+  background: var(--glass); -webkit-backdrop-filter: blur(24px) saturate(180%); backdrop-filter: blur(24px) saturate(180%); box-shadow: 0 .5px 0 var(--sep); border: 0; color: var(--label);
+}
+header.top .brand, header.top .brand-link { color: var(--label); font-size: var(--headline-size); line-height: var(--headline-leading); font-weight: 600; letter-spacing: 0; text-decoration: none; min-height: 44px; display: inline-flex; align-items: center; gap: 8px; }
+header.top .brand b { font-weight: 600; color: var(--label); }
+header.top .brand-icon { width: 30px; height: 30px; border-radius: 7px; background: var(--tint-solid); color: #fff; font-size: 1rem; display: grid; place-items: center; font-family: var(--font-system); }
+header.top .brand br { display: none; }
+header.top .brand span:last-child { display: inline-flex; gap: .3em; }
+header.top .top-tag { display: none; }
+.top-nav { display: flex; flex-wrap: wrap; gap: 0; }
+.top-nav a { display: inline-flex; align-items: center; min-height: 44px; padding: 0 10px; border-radius: 22px; color: var(--tint); font-size: var(--body-size); line-height: var(--body-leading); font-weight: 400; text-decoration: none; }
+.top-nav a:active { opacity: .55; }
+.top-nav a[aria-current="page"] { font-weight: 600; }
+
+/* ───── หัวหน้า = Large Title บนพื้น grouped (ไม่ใช่แบนเนอร์สีทึบ) ───── */
+.hero, .directory-hero { max-width: 980px; margin: 0 auto; padding: 18px 20px 6px; border-radius: 0; background: none; color: var(--label); display: block; min-height: 0; box-shadow: none; }
+.hero .hero-photo, .hero-proof, .photo-caption { display: none; }
+.hero h1, .directory-hero h1 { font-family: var(--font-system); font-size: var(--large-title-size); line-height: var(--large-title-leading); font-weight: 700; letter-spacing: 0; margin: 4px 0 8px; color: var(--label); }
+.hero h1 em, .directory-hero h1 em { font-style: normal; color: var(--label); }
+.hero p, .directory-hero > p:not(.eyebrow), .hero-copy p { color: var(--label-2); font-size: var(--callout-size); line-height: var(--callout-leading); max-width: 680px; }
+.eyebrow, .directory-hero .eyebrow, .card-kicker { color: var(--label-2) !important; font-size: var(--footnote-size); line-height: var(--footnote-leading); font-weight: 600; letter-spacing: 0; text-transform: uppercase; }
+
+/* ปุ่ม: ปุ่มเด่นเป็นพื้น tint, ที่เหลือเป็น fill (HIG Buttons) */
+.hero-links { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 16px; }
+.hero-links a, .primary, button.primary, a.primary, .details-button, .rank-actions a, .guide-actions a {
+  display: inline-flex; align-items: center; justify-content: center; gap: 4px; min-height: 44px; padding: 0 18px; border: 0; border-radius: 999px;
+  background: var(--tint-solid); color: #fff; font-size: var(--body-size); line-height: var(--body-leading); font-weight: 600; text-decoration: none; box-shadow: none;
+}
+.hero-links a + a, .primary.secondary, .details-button, .rank-actions a + a, .guide-actions a + a { background: var(--fill-3); color: var(--tint); }
+.hero-links a:active, .primary:active, .details-button:active { opacity: .6; }
+
+/* ───── section ───── */
+main { padding-bottom: 40px; }
+.directory-section, .explore, .pro-section, .guide-section, .intro, .steps, .closing { max-width: 980px; margin: 0 auto; padding: 28px 16px 8px; background: none; color: var(--label); border: 0; box-shadow: none; }
+.section-head h2, .directory-section h2, .explore h2, .pro-section h2, .intro h2, .closing h2 { font-family: var(--font-system); font-size: var(--title2-size); line-height: var(--title2-leading); font-weight: 700; letter-spacing: 0; color: var(--label); }
+.section-head p, .directory-section .section-head p { color: var(--label-2); font-size: var(--subheadline-size); line-height: var(--subheadline-leading); }
+
+/* หมายเหตุขอบเขต = footer ของ section แบบ inset */
+.scope { max-width: 948px; margin: 12px auto 0; padding: 12px 16px; border: 0; border-radius: 12px; background: var(--bg-elevated); }
+.scope b { font-size: var(--footnote-size); color: var(--label); }
+.scope p { font-size: var(--footnote-size); line-height: var(--footnote-leading); color: var(--label-2); }
+
+/* ───── ตัวควบคุม: search field / picker ตาม iOS ───── */
+.directory-controls, .zone-controls, .filters, .filter-panel, .search { gap: 10px; background: none; border: 0; box-shadow: none; padding: 0; }
+.directory-controls label, .zone-controls label, .filter-panel label { color: var(--label-2); font-size: var(--footnote-size); line-height: var(--footnote-leading); font-weight: 600; text-transform: none; letter-spacing: 0; }
+body input:not([type=checkbox]):not([type=radio]), body select {
+  min-height: 44px; height: auto; padding: 8px 12px; border: 0; border-radius: 10px; background: var(--fill-3); color: var(--label);
+  font-size: var(--body-size); line-height: var(--body-leading); box-shadow: none; appearance: none;
+}
+body select { background-image: linear-gradient(45deg, transparent 50%, var(--label-2) 50%), linear-gradient(135deg, var(--label-2) 50%, transparent 50%); background-position: calc(100% - 18px) 55%, calc(100% - 13px) 55%; background-size: 5px 5px; background-repeat: no-repeat; padding-right: 32px; }
+body input:focus-visible, body select:focus-visible { outline: none; box-shadow: 0 0 0 2px var(--tint); }
+body input::placeholder { color: var(--label-2); }
+
+/* ตัวเลือกแบบ toggle/หมวด → segmented/chips บนพื้น fill */
+.toggle, .category-row button, .genre-buttons button, .rank-tabs button {
+  min-height: 36px; padding: 6px 14px; border: 0; border-radius: 999px; background: var(--fill-3); color: var(--label);
+  font-size: var(--subheadline-size); line-height: var(--subheadline-leading); font-weight: 500; box-shadow: none;
+}
+.toggle { display: inline-flex; align-items: center; gap: 8px; }
+.category-row button[aria-pressed="true"], .genre-buttons button[aria-pressed="true"], .rank-tabs button[aria-selected="true"], .rank-tabs button[aria-pressed="true"],
+.category-row .active, .genre-buttons .active, .rank-tabs .active { background: var(--tint-solid); color: #fff; }
+.category-row, .genre-buttons, .rank-tabs { gap: 8px; }
+
+/* ───── การ์ดเนื้อหา = พื้นทึบ elevated มุม 12 ไม่มีเส้นกรอบ/เงา ───── */
+.directory-card, .resource, .rank-card, .map-panel, .steps li, .guide-facts, .results-top, .empty {
+  background: var(--bg-elevated); color: var(--label); border: 0; border-radius: 12px; box-shadow: none;
+}
+.directory-grid, .results, .rank-grid { gap: 12px; }
+.directory-card h3, .resource h3, .rank-card h3 { font-family: var(--font-system); font-size: var(--headline-size); line-height: var(--headline-leading); font-weight: 600; letter-spacing: 0; color: var(--label); }
+.faculty, .owner, .goal, .note, .rank-reason, .rank-method, .rank-audience, .meta, .directory-card p, .resource p { color: var(--label-2); font-size: var(--subheadline-size); line-height: var(--subheadline-leading); }
+.kind, .rank-number { background: var(--fill-3); color: var(--label); border-radius: 6px; font-size: var(--caption1-size); font-weight: 600; }
+.branch-list { border-top: .5px solid var(--sep); }
+.branch-list summary, .branch-list a { color: var(--tint); font-size: var(--subheadline-size); font-weight: 400; }
+.checked { color: var(--label-2); font-size: var(--footnote-size); }
+.directory-card a, .resource a { color: var(--tint); }
+
+/* แผนที่ฝังในหน้าเป็นเนื้อหา มุม 12 */
+.map-frame, .map-frame iframe { border: 0; border-radius: 12px; }
+.map-note, .map-help, .more-map { color: var(--label-2); font-size: var(--footnote-size); line-height: var(--footnote-leading); }
+
+/* ───── dialog รายละเอียด = form sheet ───── */
+.guide-dialog { border: 0; border-radius: 26px; background: var(--bg); color: var(--label); box-shadow: 0 30px 80px rgba(0, 0, 0, .35); }
+.guide-dialog::backdrop { background: var(--dim); }
+.guide-close { min-width: 44px; min-height: 44px; border-radius: 50%; background: var(--fill-3); color: var(--label); border: 0; }
+
+/* ───── footer = หมายเหตุตัวเล็ก ───── */
+body > footer { background: none; color: var(--label-2); border-top: .5px solid var(--sep); font-size: var(--footnote-size); line-height: var(--footnote-leading); }
+body > footer b { color: var(--label); }
+
+/* พื้นที่แตะอย่างน้อย 44pt สำหรับลิงก์ในเนื้อหาที่เป็นปุ่ม */
+.directory-card a, .resource-bottom a { display: inline-flex; align-items: center; min-height: 44px; }
+
+@media (prefers-color-scheme: dark) {
+  .hero-links a:not(:first-child), .primary.secondary { background: var(--fill-2); }
+}
+@media (prefers-reduced-transparency: reduce) { header.top { -webkit-backdrop-filter: none; backdrop-filter: none; background: var(--bg-elevated); } }
+
+/* ───── ปรับเพิ่มหลังตรวจบนจอ iPhone ───── */
+/* แถบบน: ชื่อ 1 บรรทัด + ลิงก์เลื่อนแนวนอน ไม่ให้แถบสูงหลายบรรทัด */
+header.top { flex-wrap: nowrap; }
+.top-nav { flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; min-width: 0; }
+.top-nav::-webkit-scrollbar { display: none; }
+.top-nav a { white-space: nowrap; flex: none; }
+@media (max-width: 600px) { header.top .brand span:last-child { display: none; } }
+/* ป้ายแนวเพลง/สาขา และปุ่มในการ์ด */
+.directory-tags span, .directory-tags li { background: var(--fill-3); color: var(--label); border: 0; border-radius: 6px; font-size: var(--caption1-size); line-height: var(--caption1-leading); font-weight: 500; }
+.card-label { color: var(--label-2); font-size: var(--footnote-size); font-weight: 600; }
+.card-note, .source { color: var(--label-2); font-size: var(--footnote-size); line-height: var(--footnote-leading); }
+.card-actions { gap: 8px; }
+.card-actions a, .visit { display: inline-flex; align-items: center; justify-content: center; min-height: 44px; padding: 0 16px; border-radius: 999px; background: var(--fill-3); color: var(--tint); font-weight: 600; text-decoration: none; border: 0; }
+.card-actions a.visit, .visit { background: var(--tint-solid); color: #fff; }
+.genre-buttons .active { background: var(--tint-solid); color: #fff; }
+header.top { flex-direction: row; align-items: center; }
+html body input:not([type=checkbox]):not([type=radio]), html body select { background-color: var(--fill-3); border: 0; }
+body .directory-controls input, body .directory-controls select, body .zone-controls select, body .filters input, body .filters select, body .search input { background-color: var(--fill-3); border: 0; height: auto; min-height: 44px; border-radius: 10px; color: var(--label); }
+/* หน้าแรกเดิม: ตัวเลือกที่เจาะจงกว่าของ styles.css */
+.hero-copy > p:not(.eyebrow) { color: var(--label-2); font-size: var(--callout-size); line-height: var(--callout-leading); }
+.hero-copy .primary + .primary { margin-top: 10px; }
+.steps span { color: var(--tint); font-family: var(--font-system); font-size: var(--title2-size); line-height: var(--title2-leading); font-weight: 700; }
+.steps li, .steps > div > div { border-top: 0; }
+.cost { border-radius: 6px; font-size: var(--caption1-size); font-weight: 600; background: var(--fill-3); color: var(--label); border: 0; }
+.cost.free { background: color-mix(in srgb, #34c759 20%, transparent); }
+.product-preview { border-radius: 12px; }
+.rank-actions .visit, .rank-actions a, .resource-bottom a { font-size: var(--subheadline-size); line-height: var(--subheadline-leading); font-weight: 600; }
+/* สีตัวอักษรรองทั้งหมดใช้ secondaryLabel ที่ปรับให้ผ่าน 4.5:1 (ทับสีเดิมที่คอนทราสต์ไม่พอ) — ยกเว้นในปุ่ม/ลิงก์/ตัวเลือกที่เลือกอยู่ */
+main :is(p, li, span, small, dd, dt, label, figcaption):not(a *, button *, .active *, .active, .cost, .kind, .rank-number) { color: var(--label-2) !important; }
+main :is(h1, h2, h3, h4, b, strong):not(a *, button *) { color: var(--label) !important; }
+main .eyebrow { color: var(--label-2) !important; }
+a.visit, .visit { background: var(--tint-solid) !important; color: #fff !important; }
+main .toggle, main .toggle span { color: var(--label) !important; }
+
+/* ───── กล่องย่อยภายในการ์ด (callout) ใช้ fill ของระบบในทั้งสองโหมด ───── */
+.first, .rank-proof, .more-map, .guide-facts, .map-note, .photo-caption { background-color: var(--fill-3) !important; border: 0 !important; border-radius: 10px; }
+main button:not(.primary):not(.details-button):not(.toggle):not(.active):not([aria-pressed="true"]) { background-color: var(--fill-3); color: var(--tint); border: 0; border-radius: 999px; min-height: 44px; }
+
+/* ───── Dark Mode: ล้างพื้นสว่างที่ฝังไว้ใน CSS เดิม (ตัวอักษรจะกลายเป็นสีอ่อนตามระบบ) ───── */
+@media (prefers-color-scheme: dark) {
+  main :is(div, section, article, p, span, b, strong, li, ul, figure, figcaption, a, dl, dd, dt, details, summary, label, h2, h3):not(.primary, .visit, .cost, .kind, .rank-number, .active, [aria-pressed="true"], .directory-card, .resource, .rank-card, .map-panel, .results-top, .empty, .scope, .toggle, .first, .rank-proof, .more-map, .guide-facts, .map-note, .photo-caption, .product-preview) { background-color: transparent !important; }
+  main .map-frame span { background-color: var(--bg-elevated) !important; }
+  .cost.free { background: color-mix(in srgb, #30d158 28%, transparent) !important; color: var(--label) !important; }
+}
+.product-preview { background-color: var(--fill-3) !important; }
+/* ลิงก์ในเนื้อหาใช้สี tint ของระบบ (ทับสีเขียวเดิม) ยกเว้นปุ่มพื้นทึบ */
+main a:not(.primary, .visit, .details-button, .hero-links a, .card-actions a) { color: var(--tint) !important; }
+/* ตัวอักษรในกล่อง callout (พื้น fill) ใช้ label หลัก เพราะ secondaryLabel บนพื้นเทาซ้อนได้ต่ำกว่า 4.5:1 */
+main :is(.first, .rank-proof, .more-map, .guide-facts, .map-note, .photo-caption, .product-preview, .map-frame) :is(p, span, small, li, b) { color: var(--label) !important; }
