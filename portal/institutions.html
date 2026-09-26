@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="th">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="ค้นหาหลักสูตรดนตรีในมหาวิทยาลัยไทย พร้อมลิงก์ต้นทาง และค้นโรงเรียนดนตรีกรุงเทพฯ บนแผนที่ตามแนวเพลง">
+  <title>สถาบันดนตรีไทยและโรงเรียนกรุงเทพฯ · Music Industry Lap</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@400;500;600;700;800;900&family=Noto+Serif+Thai:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="institutions.css">
+  <script src="institutions.js" defer></script>
+  <script src="zones.js" defer></script>
+  <script src="institutions-app.js" defer></script>
+</head>
+<body>
+  <header class="top"><a class="brand brand-link" href="index.html"><span class="brand-icon">♫</span><span>MUSIC<br><b>INDUSTRY LAP</b></span></a><nav class="top-nav" aria-label="เมนูหลัก"><a href="index.html">เครื่องมือเรียนดนตรี</a><a href="#universities">มหาวิทยาลัย</a><a href="#schools">โรงเรียนในกรุงเทพฯ</a><a href="ecosystem.html">แผนที่ Ecosystem</a></nav></header>
+  <main>
+    <section class="directory-hero"><p class="eyebrow">THAILAND MUSIC LEARNING DIRECTORY</p><h1>เรียนดนตรีที่ไหน<br><em>และเลือกสาขาอะไร?</em></h1><p>เปรียบเทียบหลักสูตรจากเว็บไซต์มหาวิทยาลัยโดยตรง แล้วค้นโรงเรียนดนตรีในกรุงเทพฯ บนแผนที่ ตั้งแต่ดนตรีไทยและคลาสสิกถึงแจ๊ส ป๊อป และร็อก</p><div class="hero-links"><a href="#universities">ดูหลักสูตรมหาวิทยาลัย ↓</a><a href="#schools">ค้นโรงเรียนบนแผนที่ ↓</a></div></section>
+    <div class="scope"><b>ขอบเขตข้อมูล</b><p>รายชื่อด้านล่างเป็นชุดที่ตรวจแหล่งต้นทางได้ ณ 25 ก.ย. 2569 ยังไม่ใช่ทะเบียนครบทุกสถาบันหรือทุกสาขาในไทย แผนที่เป็นผลค้นหาแบบสดจาก Google Maps ซึ่งอาจมีรายการซ้ำ ปิดกิจการ หรืออยู่นอกเขตกรุงเทพฯ โปรดตรวจที่อยู่และสถานะจากเจ้าของสถานที่ก่อนเดินทาง</p></div>
+    <section class="directory-section" id="universities"><div class="section-head"><div><p class="eyebrow">HIGHER EDUCATION · SOURCE LEDGER</p><h2>มหาวิทยาลัยและสาขาดนตรี</h2><p>ชื่อสาขาตามหน้าหลักสูตรหรือเอกสารของสถาบัน คลิกอ่านรายละเอียดและเงื่อนไขรับสมัครปีล่าสุดที่ต้นทาง</p></div><span class="checked" id="university-count"></span></div><div class="directory-controls"><label>ค้นชื่อหรือสาขา<input id="university-query" type="search" placeholder="เช่น แจ๊ส ดนตรีไทย ธุรกิจดนตรี"></label><label>พื้นที่<select id="region"><option value="all">ทุกพื้นที่</option><option value="bangkok">กรุงเทพฯ</option><option value="central">ปริมณฑล / ภาคกลาง</option><option value="east">ภาคตะวันออก</option><option value="north">ภาคเหนือ</option><option value="northeast">ภาคอีสาน</option><option value="south">ภาคใต้</option></select></label></div><div class="directory-grid" id="university-results"></div></section>
+    <section class="directory-section schools-section" id="schools"><div class="section-head"><div><p class="eyebrow">BANGKOK MUSIC SCHOOLS · LIVE MAP</p><h2>โรงเรียนดนตรีในกรุงเทพฯ</h2><p>เลือกโซน เขต และแนวเพลงเพื่อค้นบนแผนที่ แล้วเปิดหน้าโรงเรียนที่มีแหล่งข้อมูลยืนยันด้านล่าง</p></div><span class="checked" id="school-count"></span></div><div class="map-panel"><div class="zone-controls"><label>กลุ่มเขต<select id="map-zone"><option value="all">ทั่วกรุงเทพฯ</option></select></label><label>เขต<select id="map-district"><option value="all">ทุกเขตในโซน</option></select></label></div><div class="genre-buttons" id="genre-buttons" role="group" aria-label="ค้นแผนที่ตามแนวเพลง"></div><div class="map-frame"><iframe id="map-frame" title="แผนที่ค้นหาโรงเรียนดนตรีในกรุงเทพฯ" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe><div class="map-note"><span id="map-label"></span><a id="map-open" target="_blank" rel="noopener noreferrer">เปิดผลทั้งหมดใน Google Maps ↗</a></div></div><p class="map-help">แผนที่ฝังอาจแสดงผลไม่ครบในบางเบราว์เซอร์ ใช้ปุ่ม “เปิดผลทั้งหมด” เพื่อค้นหาโดยตรง รายการบนแผนที่ไม่ได้ผ่านการยืนยันทีละแห่ง</p></div><div class="directory-controls"><label>ค้นโรงเรียนหรือย่าน<input id="school-query" type="search" placeholder="เช่น ทองหล่อ เปียโน พระราม 2"></label></div><div class="directory-grid" id="school-results"></div><div class="more-map"><h3>ยังไม่พบที่ตรงใจ?</h3><p>ค้นด้วยเครื่องดนตรี เขต หรือชื่อสถานีรถไฟฟ้าในแผนที่ และดูตัวค้นหาสาขาของเครือข่ายโดยตรง</p><a href="https://th.yamaha.com/th/education/school-locator/music-school-new.html" target="_blank" rel="noopener noreferrer">ค้นสาขา Yamaha ↗</a><a href="https://www.google.com/maps/search/?api=1&amp;query=%E0%B9%82%E0%B8%A3%E0%B8%87%E0%B9%80%E0%B8%A3%E0%B8%B5%E0%B8%A2%E0%B8%99%E0%B8%94%E0%B8%99%E0%B8%95%E0%B8%A3%E0%B8%B5+%E0%B8%81%E0%B8%A3%E0%B8%B8%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%9E" target="_blank" rel="noopener noreferrer">ค้นใน Google Maps ↗</a></div></section>
+  </main>
+  <footer><div><b>MUSIC INDUSTRY LAP</b><p>ทางเชื่อมไปยังแหล่งเรียนดนตรีที่ตรวจสอบที่มาได้</p></div><div><b>หมายเหตุด้านข้อมูล</b><p>หลักสูตรและสถานที่อาจเปลี่ยนแปลง โปรดใช้หน้าต้นทางเพื่อยืนยันก่อนสมัครหรือเดินทาง</p></div></footer>
+</body>
+</html>

@@ -1,0 +1,11 @@
+{
+  "name": "music-industry-lap-platform-demo",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Local full-stack journey prototype for music learners, teachers, and moderators",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test"
+  },
+  "engines": {"node": ">=20"}
+}
