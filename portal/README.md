@@ -6,6 +6,16 @@
 
 หน้าเว็บไม่เก็บข้อมูลหรือส่งคำค้นของผู้เรียนไปที่เซิร์ฟเวอร์ Music Industry Lap เมื่อคลิกลิงก์ เว็บไซต์ปลายทางจะใช้นโยบายของเจ้าของเว็บนั้นเอง
 
+## Journey Gate — สำรวจตัวตนทางดนตรี (26 ก.ย. 2569)
+
+[journey.html](journey.html) คือทางเข้าหลักสำหรับคนที่ยังไม่รู้ว่าจะเริ่มตรงไหน: ตอบ 7 คำถาม → ได้ตัวตนทางดนตรี + เส้นทาง 3 ห้อง + 3 แหล่งที่ควรลองก่อน แล้วเดินผ่าน 6 ห้องที่เชื่อมกัน. รายละเอียดแอปอยู่ใน [app-details.js](app-details.js), ตรรกะอยู่ใน [journey-engine.js](journey-engine.js), ไอคอนจริงใช้ [app-icons.js](app-icons.js). อ่านนิยาม MVP และผลตรวจที่ [29-journey-gate-mvp.md](../29-journey-gate-mvp.md) · หน้าตาและพฤติกรรมออกแบบตาม Apple Human Interface Guidelines (tab bar, large title, sheet, โหมดมืด, Dynamic Type) — ดู [30-apple-hig-design-spec.md](../30-apple-hig-design-spec.md)
+
+```powershell
+node portal/tools/fetch-app-details.cjs     # ดึงข้อความทางการ + ไอคอนจริง (ต้องออกอินเทอร์เน็ตได้) → app-store-data.js, assets/icons/
+cd portal; node --test                       # unit test
+node portal/tools/journey-smoke.cjs <url> <โฟลเดอร์ภาพ> <axe.min.js>   # เดิน flow 3 ขนาดจอ × สว่าง/มืด + ตรวจ axe (ต้องเปิด http.server, มี playwright และ axe-core)
+```
+
 ## แผนที่ Ecosystem (26 ก.ย. 2569)
 
 [ecosystem.html](ecosystem.html) แสดง 6 ชั้นของระบบนิเวศดนตรี แผนที่ 50 เขต สถานที่ที่ผ่าน Gate และความคืบหน้าการเก็บข้อมูลรายเขต ข้อมูลมาจาก `places-data.js` ซึ่ง **สร้างอัตโนมัติ** เมื่อรัน `npm run build` ในโฟลเดอร์ [database](../database/README.md) — อย่าแก้ไฟล์นั้นเอง

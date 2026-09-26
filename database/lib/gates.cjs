@@ -158,7 +158,8 @@ function gateAuditDrift(extracted, audits) {
 }
 
 // Gate D — สถานที่รายเขต (OSM + ค้นเว็บ) ก่อนเขียนลงฐานข้อมูล
-function gatePlaces({ places, rejects, progress, reviewKeys }) {
+function gatePlaces({ places, rejects, progress, reviewKeys, brandDupes = [] }) {
+  const { LEVELS } = require('./context.cjs');
   const { KINDS } = require('./classify.cjs');
   const { districtOf, inBangkok, distance, distanceToRings, loadDistricts } = require('./geo.cjs');
   const { DISTRICTS } = require('./districts.cjs');
@@ -170,6 +171,8 @@ function gatePlaces({ places, rejects, progress, reviewKeys }) {
       places: places.length, rejected: rejects.length,
       mapped: places.filter(p => p.lat != null).length,
       byKind: places.reduce((m, p) => ({ ...m, [p.kind]: (m[p.kind] || 0) + 1 }), {}),
+      byContext: places.reduce((m, p) => ({ ...m, [p.context || 'unknown']: (m[p.context || 'unknown'] || 0) + 1 }), {}),
+      contextRejected: rejects.filter(r => r.reason === 'context_mismatch').length,
       districts: Object.fromEntries(['not_started', 'osm_only', 'researched'].map(s => [s, progress.filter(p => p.status === s).length])),
     });
     for (const d of dupes(places.map(p => p.id))) err(`id สถานที่ซ้ำ: ${d}`);
@@ -180,6 +183,10 @@ function gatePlaces({ places, rejects, progress, reviewKeys }) {
       if (!names.has(p.district)) err(`${tag}: เขต ${p.district} ไม่รู้จัก`);
       if (!KINDS[p.kind] || p.kind === 'excluded') err(`${tag}: kind ${p.kind} ไม่ถูกต้อง`);
       if (p.kind === 'unclassified') (researched.has(p.district) ? err : warn)(`${tag} "${p.name}": ยังไม่จัดประเภท — ใส่ใน review`);
+      // ขั้นกรองบริบท: ชื่อเกี่ยวกับดนตรีไม่พอ ต้องมี tag/หลักฐานที่สอดคล้อง (ดู lib/context.cjs)
+      if (!LEVELS[p.context]) err(`${tag}: ไม่ได้ผ่านขั้นตรวจบริบท`);
+      else if (!LEVELS[p.context].pass && p.kind !== 'unclassified') (researched.has(p.district) && p.source === 'osm' ? err : warn)(`${tag} "${p.name}": บริบท ${p.context} — ${p.context_reasons.join('; ')} — ตัดสินใน review/context-review.json (ไม่แสดงใน portal)`);
+      else if (p.context_reasons?.length) warn(`${tag} "${p.name}": ตรวจบริบท — ${p.context_reasons.join('; ')}`);
       if (p.source === 'web') {
         if (!/^cur:[a-z0-9-]+$/.test(p.id)) err(`${tag}: id ต้องเป็น cur:ตัวพิมพ์เล็ก-ขีด`);
         if (!/^https:\/\//.test(p.source_url || '')) err(`${tag}: source_url ต้องเป็น https`);
@@ -210,6 +217,7 @@ function gatePlaces({ places, rejects, progress, reviewKeys }) {
       const same = [a.name, a.name_en].some(x => x && [b.name, b.name_en].some(y => y && norm(x) === norm(y)));
       if (same && distance(a, b) < 150) err(`ซ้ำ: ${a.id} กับ ${b.id} "${a.name}" ห่าง ${Math.round(distance(a, b))} ม.`);
     }
+    for (const { a, b, d } of brandDupes) warn(`น่าจะร้านเดียวกัน: ${a.id} "${a.name}" กับ ${b.id} "${b.name}" ห่าง ${Math.round(d)} ม. — ใส่ duplicateOf ใน sources/chains/*-review.json`);
     for (const r of rejects.filter(x => x.reason === 'chain_needs_review')) warn(`${r.district}/${r.id}: ตัวแทนอยู่ใกล้สถานที่เดิม (${r.note}) — ตัดสินใน sources/chains/*-review.json`);
     const known = new Set([...places.map(p => p.id), ...rejects.map(r => r.id)]);
     for (const r of reviewKeys) if (!known.has(r.id)) warn(`${r.file}: review ${r.id} ไม่มีในข้อมูล OSM ของเขตนี้`);

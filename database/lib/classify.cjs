@@ -20,7 +20,7 @@ const KINDS = {
   unclassified:     { layer: 'review',  label: 'รอจัดประเภท' },
 };
 
-const MUSIC = /ดนตรี|เพลง|music|musik|guitar|กีตาร์|piano|เปียโน|drum|กลอง|violin|ไวโอลิน|jazz|แจ๊ส|ukulele|อูคูเลเล่|saxophone|แซกโซโฟน|ระนาด|ขิม|vocal|ร้องเพลง|band|วงดนตรี|orchestra|ออร์เคสตรา|symphony|ซิมโฟนี/i;
+const MUSIC = /ดนตรี|เพลง|มิวสิ[คก]|music|musik|guitar|กีตาร์|piano|เปียโน|drum|กลอง|violin|ไวโอลิน|jazz|แจ๊ส|ukulele|อูคูเลเล่|saxophone|แซกโซโฟน|ระนาด|ขิม|vocal|ร้องเพลง|band|วงดนตรี|orchestra|ออร์เคสตรา|symphony|ซิมโฟนี/i;
 const LEARN = /school|academy|institute|โรงเรียน|สถาบัน|สอน|เรียน|lesson|class|คอร์ส|conservatory/i;
 
 function classify(tags = {}) {
@@ -39,8 +39,8 @@ function classify(tags = {}) {
   if (/^(audio|music|recording)$/.test(t('studio')) || /recording|อัดเสียง|record studio|sound studio/i.test(name)) return 'studio';
   if (/orchestra|ออร์เคสตรา|symphony orchestra|วงดุริยางค์|ensemble/i.test(name)) return 'ensemble';
   if (/^(music_venue|concert_hall)$/.test(t('amenity')) || t('live_music') === 'yes' || /live (music|house)|jazz (bar|club)|แจ๊ส/i.test(name)) return 'venue';
-  // บาร์/ผับ/คาเฟ่ที่ชื่อบอกว่าเป็นดนตรี เช่น "Music Bar", "Jazz & Vinyl Bar", "Saxophone Pub"
-  if (/(music|jazz|vinyl|saxophone|blues|rock).{0,20}(bar|pub|cafe|café|club|lounge)|(bar|pub|cafe|club).{0,12}(music|jazz)/i.test(name)) return 'venue';
+  // บาร์/ผับ/คาเฟ่ที่ชื่อบอกว่าเป็นดนตรี (ขอบคำแบบรองรับ é — กัน "Music Publishing" ติดเป็น pub แต่ยังจับ "Blues Café") เช่น "Music Bar", "Jazz & Vinyl Bar", "Saxophone Pub"
+  if (/(music|jazz|vinyl|saxophone|blues|rock).{0,20}(?<![a-zà-ÿ])(bar|pub|cafe|café|club|lounge)(?![a-zà-ÿ])|(?<![a-zà-ÿ])(bar|pub|cafe|café|club)(?![a-zà-ÿ]).{0,12}(music|jazz)/i.test(name)) return 'venue';
   if (/^(theatre|arts_centre)$/.test(t('amenity'))) return 'performing_arts';
   if (t('amenity') === 'karaoke_box' || /karaoke|คาราโอเกะ/i.test(name)) return 'karaoke';
   if (/records|label|ค่ายเพลง|publishing|ลิขสิทธิ์เพลง/i.test(name) && MUSIC.test(name + ' ' + t('office'))) return 'business';
