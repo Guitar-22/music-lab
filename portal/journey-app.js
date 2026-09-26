@@ -110,9 +110,9 @@
     const main = h('button', { class: 'row-main', type: 'button', onclick: () => openApp(r.id) },
       icon(r, d, { size: 60, tone: `var(--${room.id}-strong)` }),
       h('span', { class: 'row-body' },
-        h('span', { class: 'row-title clamp-1' }, r.name),
-        h('span', { class: 'row-sub clamp-2' }, r.goal),
-        h('span', { class: 'row-meta clamp-1' }, meta)));
+        h('span', { class: 'row-title' }, r.name),
+        h('span', { class: 'row-sub' }, r.goal),
+        h('span', { class: 'row-meta' }, meta)));
     const trailing = editing
       ? h('button', { class: 'get', type: 'button', style: 'color:var(--red)', onclick: onRemove, 'aria-label': `นำ ${r.name} ออก` }, 'นำออก')
       : h('a', { class: 'get', href: r.url, target: '_blank', rel: 'noopener noreferrer', 'aria-label': `เปิด ${r.name} ที่เว็บไซต์ทางการ (แท็บใหม่)` }, 'เปิด', sym('out'));
@@ -410,7 +410,7 @@
       h('div', { class: 'product' }, ico, h('div', { class: 'meta' },
         h('h1', { id: 'sheet-title', tabindex: '-1' }, r.name), h('span', { class: 'secondary t-subhead' }, r.owner), h('span', { class: 'secondary t-footnote' }, r.goal),
         h('div', { class: 'actions' }, h('a', { class: 'get', href: r.url, target: '_blank', rel: 'noopener noreferrer', 'aria-label': `เปิด ${r.name} ที่เว็บไซต์ทางการ (แท็บใหม่)` }, 'เปิด', sym('out')), saveBtn))),
-      h('div', { class: 'info-strip', role: 'list', 'aria-label': 'ข้อมูลสรุป (เลื่อนแนวนอนได้)', tabindex: '0' }, strip.map(([k, v, s]) => h('div', { role: 'listitem' }, h('small', {}, k), h('b', {}, v), h('span', { class: 'clamp-2' }, s)))),
+      h('div', { class: 'info-strip', role: 'list', 'aria-label': 'ข้อมูลสรุป (เลื่อนแนวนอนได้)', tabindex: '0' }, strip.map(([k, v, s]) => h('div', { role: 'listitem' }, h('small', {}, k), h('b', {}, v), h('span', {}, s)))),
       f ? h('section', { class: `for-you${f.ok ? '' : ' no'}` }, h('h2', {}, f.ok ? `ทำไมเหมาะกับ${J.ARCHETYPES[p.archetype].name}` : 'ข้อควรรู้สำหรับคุณ'),
         h('ul', {}, (f.ok ? f.reasons : f.blockers).map(x => h('li', {}, sym(f.ok ? 'check' : 'alert'), h('span', {}, x))))) : null,
       h('div', { class: 'prose' },

@@ -80,3 +80,26 @@ python -m http.server 8650 --directory portal
 node portal/tools/journey-smoke.cjs http://127.0.0.1:8650 <โฟลเดอร์ภาพ> <path>/axe-core/axe.min.js   # npm i axe-core playwright
 cd portal; node --test
 ```
+
+## 6. Typography tokens (อัปเดตตามสเปกทีม)
+
+ทุกข้อความใน `portal/journey.css` ใช้ตัวแปรจากตาราง Text Styles ของ iOS (ขนาด Large) — ห้ามใส่ขนาดตัวอักษรเป็นตัวเลขโดยตรง:
+
+| Style | pt / leading | ตัวแปร | น้ำหนัก |
+|---|---|---|---|
+| Large Title | 34 / 41 | `--large-title-size` `--large-title-leading` | Regular |
+| Title 1 | 28 / 34 | `--title1-*` | Regular |
+| Title 2 | 22 / 28 | `--title2-*` | Regular |
+| Title 3 | 20 / 25 | `--title3-*` | Regular |
+| Headline | 17 / 22 | `--headline-*` | Semibold |
+| Body | 17 / 22 | `--body-*` | Regular |
+| Callout | 16 / 21 | `--callout-*` | Regular |
+| Subheadline | 15 / 20 | `--subheadline-*` | Regular |
+| Footnote | 13 / 18 | `--footnote-*` | Regular |
+| Caption 1 | 12 / 16 | `--caption1-*` | Regular |
+| Caption 2 | 11 / 13 | `--caption2-*` | Regular |
+
+- ฟอนต์: `--font-system` (SF Pro ผ่าน `system-ui, -apple-system, BlinkMacSystemFont`), `--font-rounded` (SF Pro Rounded), `--font-mono` (SF Mono), `--font-serif` (New York); น้ำหนัก `--w-ultralight` … `--w-black` (100–900).
+- ขนาดเป็น rem (1rem = Body 17pt) และ `html { font: -apple-system-body }` บน Safari จึงปรับตาม Dynamic Type/ขนาดสำหรับการเข้าถึงทั้งระบบ.
+- `truncate_text: avoid`: ชื่อแอป คำอธิบาย และบรรทัดข้อมูลในรายการขึ้นบรรทัดใหม่แทนการตัด; ที่ยังตัดมีเพียงชื่อบนแถบนำทาง (ข้อจำกัดของแถบ) และคำอธิบายยาวใน sheet ที่มีปุ่ม "เพิ่มเติม".
+- ข้อ 4 เดิมเรื่อง leading ไทย 1.45 ถูกแทนด้วย leading ตามสเปกนี้.
