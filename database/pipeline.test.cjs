@@ -76,7 +76,7 @@ test('Gate D: จับพิกัดผิดเขต แหล่ง Google 
   assert.equal(new Set(pd.places.map(p => p.id)).size, pd.places.length, 'วัตถุคร่อมเขตต้องเหลือหนึ่งรายการ');
   const base = { id: 'cur:test-shop', name: 'ร้านทดสอบ', name_en: null, kind: 'instrument_store', excluded: false, district: 'ปทุมวัน',
     lat: 13.7462, lon: 100.5347, address: null, geocode: null, phone: null, website: null, social: [], hours: null, offer: [],
-    source: 'web', source_url: 'https://example.com/shop', license: null, evidence: 'หน้าเจ้าของ', checked: '2026-09-26', review_note: null };
+    source: 'web', source_url: 'https://example.com/shop', license: null, evidence: 'หน้าเจ้าของ', checked: '2026-09-26', review_note: null, context: 'verified', context_reasons: [] };
   const run = extra => gatePlaces({ ...pd, places: [...pd.places, ...extra] });
   assert.equal(run([base]).pass, true);
   assert.match(run([{ ...base, lat: 13.8026, lon: 100.5535 }]).errors.join(), /พิกัดอยู่ในเขตจตุจักร/);
@@ -86,6 +86,36 @@ test('Gate D: จับพิกัดผิดเขต แหล่ง Google 
   const researched = { ...pd, progress: pd.progress.map(p => p.district === 'ปทุมวัน' ? { ...p, status: 'researched' } : p),
     places: [...pd.places, { ...base, id: 'osm:n1', source: 'osm', kind: 'unclassified' }] };
   assert.match(gatePlaces(researched).errors.join(), /ยังไม่จัดประเภท/);
+});
+
+test('ขั้นตรวจบริบท: ชื่อเกี่ยวกับดนตรีแต่บริบทไม่ใช่ ถูกคัดออกหรือกันไม่ให้แสดง', () => {
+  const { assessContext, locationConflict, addressDistrict } = require('./lib/context.cjs');
+  const osm = (name, tags, extra = {}) => assessContext({ source: 'osm', name, kind: 'school', reviewed: false, ...extra }, { name, ...tags });
+  // tag หลักเป็นอย่างอื่น → คัดออกอัตโนมัติ
+  assert.equal(osm('วัดเพลง', { amenity: 'place_of_worship', religion: 'buddhist' }).autoReject, true);
+  assert.equal(osm('ชุมชนวัดเพลง', { place: 'neighbourhood' }).autoReject, true);
+  assert.equal(osm('Guitar Bike', { amenity: 'bicycle_rental' }).autoReject, true);
+  // tag ดนตรีแต่ชื่อขัด / อัฒจันทร์ / ไม่มีสัญญาณดนตรี → ไม่แสดงจนกว่าจะตรวจ
+  assert.equal(osm('Montessori Academy Bangkok', { amenity: 'music_school' }).level, 'conflict');
+  assert.equal(osm('อัฒจันทร์ริมน้ำ', { amenity: 'theatre', 'theatre:type': 'amphi' }).level, 'conflict');
+  assert.equal(osm('ATT 19', { amenity: 'arts_centre' }).level, 'generic');
+  assert.equal(osm('Itim Music Publishing Co., Ltd.', { office: 'company' }).level, 'name_only');
+  // สัญญาณสอดคล้อง → ผ่าน
+  assert.equal(osm('เส้นเสียง', { shop: 'musical_instrument' }).level, 'tagged');
+  assert.equal(osm('โรงเรียนดนตรี ป๊อปอัพ', { amenity: 'school' }).level, 'tagged');
+  assert.equal(classify({ name: 'Itim Music Publishing Co., Ltd.', office: 'company' }), 'business', 'Publishing ไม่ใช่ pub');
+  // ที่อยู่/ห้างบอกเขต ขัดกับเขตของพิกัด
+  assert.equal(addressDistrict('ถ.พระราม 9 แขวงห้วยขวาง เขตห้วยขวาง กรุงเทพมหานคร'), 'ห้วยขวาง');
+  assert.equal(locationConflict({ name: 'โรงเรียนดนตรียามาฮ่า เซ็นทรัลพลาซา แกรนด์ พระราม 9', address: null, district: 'บางนา' }), 'ห้วยขวาง');
+  assert.equal(locationConflict({ name: 'Music Collection สาขาสยามพารากอน', address: null, district: 'ปทุมวัน' }), null);
+
+  const pd = extractPlaces();
+  const ids = new Set(pd.places.map(p => p.id));
+  for (const id of ['osm:w376863075', 'osm:w1248807034', 'osm:w605773027', 'osm:n4840964126', 'yamaha:SMY0460']) assert.ok(!ids.has(id), `${id} ต้องถูกคัดออก`);
+  const r9 = pd.places.find(p => p.id === 'yamaha:SMY0468');
+  assert.equal(r9.district, 'ห้วยขวาง'); assert.equal(r9.lat, null, 'พิกัดตกบางนา ~10 กม. ต้องถอดหมุด');
+  assert.ok(pd.places.every(p => p.context), 'ทุกรายการผ่านขั้นตรวจบริบท');
+  assert.match(gatePlaces({ ...pd, places: [...pd.places, { ...pd.places.find(p => p.source === 'osm'), id: 'osm:n2', district: 'บางรัก', context: 'generic', context_reasons: ['x'] }] }).errors.join(), /บริบท generic/);
 });
 
 test('classify: แยกร้าน โรงเรียน เวที และคัดสิ่งที่ไม่เกี่ยวออก', () => {

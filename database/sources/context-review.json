@@ -1,0 +1,14 @@
+{
+  "reviewedAt": "2026-09-26",
+  "rule": "ผลตัดสินของขั้นตรวจบริบท (lib/context.cjs) สำหรับรายการ OSM ในเขตที่ยังไม่มีไฟล์ curated — ชื่อที่มีคำดนตรีต้องมี tag/หลักฐานที่สอดคล้องจึงแสดงใน portal; ถ้าเขตนั้นมีไฟล์ curated แล้ว ให้ย้ายผลตัดสินไปไว้ใน review ของเขตนั้น",
+  "decisions": {
+    "osm:n11235347176": { "kind": "business", "note": "Itim Music Publishing — office=company เป็นบริษัทจัดพิมพ์/ลิขสิทธิ์เพลง ไม่ใช่เวที (เดิมจัดผิดเพราะคำว่า Publishing มี 'pub')" },
+    "osm:n13327531976": { "kind": "school", "note": "Keng's Violin Studio — description ใน OSM ระบุสอนไวโอลินตั้งแต่ระดับเริ่มต้น ไม่ใช่สตูดิโออัดเสียง" },
+    "osm:n5598909322": { "kind": "rehearsal", "note": "ชื่อระบุห้องซ้อมดนตรีและช่างซ่อมกีตาร์ แม้ tag เป็น shop=electronics — ยังไม่ยืนยันจากหน้าเจ้าของ" },
+    "osm:n2156863362": { "kind": "performing_arts", "note": "Calypso Cabaret มีเว็บไซต์ของโรงละคร — เป็นโชว์คาบาเรต์ ไม่ใช่เวทีดนตรีสด" },
+    "osm:w605773027": { "exclude": true, "note": "Montessori Academy Bangkok — โรงเรียนแนวมอนเตสซอรี tag amenity=music_school ขัดกับชื่อ ไม่พบสัญญาณว่าเป็นโรงเรียนดนตรี" },
+    "osm:w1370480467": { "exclude": true, "note": "อัฒจันทร์ริมน้ำ (theatre:type=amphi) อัฒจันทร์ในพื้นที่สาธารณะ ไม่ใช่เวทีดนตรีประจำ" },
+    "osm:w1370480476": { "exclude": true, "note": "อัฒจันทร์เนินที่ 5 (theatre:type=amphi) อัฒจันทร์ในพื้นที่สาธารณะ ไม่ใช่เวทีดนตรีประจำ" },
+    "osm:w1370480483": { "exclude": true, "note": "อัฒจันทร์ริมน้ำ (theatre:type=amphi) อัฒจันทร์ในพื้นที่สาธารณะ ไม่ใช่เวทีดนตรีประจำ" }
+  }
+}

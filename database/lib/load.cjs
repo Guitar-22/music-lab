@@ -100,12 +100,13 @@ function loadPlaces(db, { places, rejects, progress }, shapes) {
     for (const p of progress) prog.run(p.district, p.wave, p.status, p.osm_fetched_at, p.researched_at, p.osm_places, p.web_places, p.chain_places || 0, JSON.stringify(p.gaps));
     const shape = db.prepare('INSERT INTO district_shapes VALUES (?,?,?)');
     for (const s of shapes) shape.run(s.name, s.rel, JSON.stringify(s.rings));
-    const ins = db.prepare(`INSERT INTO places VALUES (${Array(19).fill('?').join(',')})`);
+    const ins = db.prepare(`INSERT INTO places VALUES (${Array(21).fill('?').join(',')})`);
     const soc = db.prepare('INSERT OR IGNORE INTO place_social VALUES (?,?)');
     const off = db.prepare('INSERT OR IGNORE INTO place_offer VALUES (?,?)');
     for (const p of places) {
       ins.run(p.id, p.name, p.name_en, p.kind, KINDS[p.kind].layer, p.district, p.lat, p.lon, p.address, p.geocode,
-        p.phone, p.website, p.hours, p.source, p.source_url, p.license, p.evidence, p.checked, p.review_note);
+        p.phone, p.website, p.hours, p.source, p.source_url, p.license, p.evidence, p.checked, p.review_note,
+        p.context, p.context_reasons?.length ? p.context_reasons.join('; ') : null);
       for (const s of p.social) soc.run(p.id, s);
       for (const o of p.offer) off.run(p.id, o);
     }
